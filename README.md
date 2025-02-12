@@ -5,15 +5,20 @@ This module was designed to fill in the holes of the 5e SRD that's included with
 
 A special thanks goes to my friends that have helped get this compendium to where it is, and also a big thank you to [Zhell](https://github.com/krbz999?tab=repositories) for helping with the macros.
 
+Midas: I have forked the original 5e-complete compendium as it was no longer working with the current Version of FoundryVTT. 
+The module.json is now updated to the latest specification and has been modified with Folders and Subfolders.
+I will continue to support this Fork for the foreseeable future, as i use it weekly. 
+Have fun and please remember to "only use content you own"...
+
 ## Disclaimers
-- Please only utilize the resources in this module that you personally own. Treat this as you would downloading a video game ROM and respect the copyright of Wizards of the Coast and other 3rd parties whose homebrew content has been imported (homebrew sources have an asterisk at the end *)
+- Please only utilize the resources in this module that you personally own. Treat this as you would downloading a video game ROM and respect the copyright of Wizards of the Coast and other 3rd parties whose homebrew content has been imported
 - This is a work in progress; many class features, spells, races, backgrounds, and feats are still missing.
 - The creatures have image references that you won't have, and I can't think of a way around that. Sorry.
 
 ## Installation
 For copyright reasons, 5e Complete will not be published on official platforms. Please install using the `module.zip` or the following manifest:
 
-```https://github.com/btbias/5e-complete/releases/latest/download/module.json```
+```https://github.com/xImidasIx/5e-complete-V11/releases/download/release/module.json```
 
 ## Recommended Modules
 5e Complete has been designed utilizing the following modules and are recommended (but not required):
