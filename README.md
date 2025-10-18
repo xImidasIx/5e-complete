@@ -1,14 +1,24 @@
 # 5e Complete
 The full D&amp;D 5th Edition compendium for Foundry VTT.
 
+Midas:
+
+I have forked the original 5e-complete compendium as it was no longer working with the current Version of FoundryVTT.
+
+The module.json is now updated to the latest specification and has been modified with Folders and Subfolders.
+
+I will continue to support this Fork for the foreseeable future, as i use it weekly.
+
+Have fun and please remember to "only use content you own"...
+
+---
+
+Original:
+
 This module was designed to fill in the holes of the 5e SRD that's included with Foundry, including all of the official classes and their subclasses, spells, races, and so on.
 
 A special thanks goes to my friends that have helped get this compendium to where it is, and also a big thank you to [Zhell](https://github.com/krbz999?tab=repositories) for helping with the macros.
 
-Midas: I have forked the original 5e-complete compendium as it was no longer working with the current Version of FoundryVTT. 
-The module.json is now updated to the latest specification and has been modified with Folders and Subfolders.
-I will continue to support this Fork for the foreseeable future, as i use it weekly. 
-Have fun and please remember to "only use content you own"...
 
 ## Disclaimers
 - Please only utilize the resources in this module that you personally own. Treat this as you would downloading a video game ROM and respect the copyright of Wizards of the Coast and other 3rd parties whose homebrew content has been imported
