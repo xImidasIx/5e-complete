@@ -29,10 +29,10 @@ A special thanks goes to my friends that have helped get this compendium to wher
 You can find the latest release here: [Click](https://github.com/xImidasIx/5e-complete/releases/latest) **|Current: V13 - Stable|**
 
 For copyright reasons, 5e Complete will not be published on official platforms. Please install using the `5e-complete-V12.zip` from the [latest release](https://github.com/xImidasIx/5e-complete/releases/download/release/5e-complete-V12.zip) or "possibly" by copying the link address/ URL to module.json and pasting it into FoundryVTT (Untested):
-
-[V13 module.json | XI_Midas_IX | VTT 13.350 compatible](https://github.com/xImidasIx/5e-complete/releases/download/release-V13/module.json)
-[V12 module.json | XI_Midas_IX | VTT 12.343 compatible](https://github.com/xImidasIx/5e-complete/releases/download/release/module.json)
-
+| Major Version | Minor Version | Link |
+|--------------|---------------|------|
+| V13 module.json | 13.350 | [module.json](https://github.com/xImidasIx/5e-complete/releases/download/release-V13/module.json) |
+| V12 module.json | 12.343 | [module.json](https://github.com/xImidasIx/5e-complete/releases/download/release/module.json) |
 
 ## Recommended Modules
 5e Complete has been designed utilizing the following modules and are recommended (but not required):
@@ -45,4 +45,4 @@ For copyright reasons, 5e Complete will not be published on official platforms. 
 - [Wild Magic Surge 5e](https://github.com/johnnolan/wild-magic-surge-5e)
 
 ### Final Remarks
-Thank you for trying out my module! Please provide feedback on what might be broken or missing. A massive task that I could use help with is automation and creating macros, so should you ever download this module and create your own macros I'd love to import them!
+Thank you for trying out this module! Please provide feedback on what might be broken or missing. A massive task that needs attention is automation and creating macros, so should you ever download this module and create your own macros the project would love to import them! Same with updated databases!
