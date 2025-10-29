@@ -26,11 +26,11 @@ A special thanks goes to my friends that have helped get this compendium to wher
 - The creatures have image references that you won't have, and I can't think of a way around that. Sorry.
 
 ## Installation
-You can find the latest release here: [Click](https://github.com/xImidasIx/5e-complete-V12/releases/tag/release)
+You can find the latest release here: [Click](https://github.com/xImidasIx/5e-complete/releases/tag/release)
 
-For copyright reasons, 5e Complete will not be published on official platforms. Please install using the `5e-complete-V12.zip` from the [latest release](https://github.com/xImidasIx/5e-complete-V12/releases/download/release/5e-complete-V12.zip) or "possibly" by copying the link address/ URL to module.json and pasting it into FoundryVTT (Untested):
+For copyright reasons, 5e Complete will not be published on official platforms. Please install using the `5e-complete-V12.zip` from the [latest release](https://github.com/xImidasIx/5e-complete/releases/download/release/5e-complete-V12.zip) or "possibly" by copying the link address/ URL to module.json and pasting it into FoundryVTT (Untested):
 
-[module.json | XI_Midas_IX | VTT 12.331 compatible](https://github.com/xImidasIx/5e-complete-V12/releases/download/release/module.json)
+[module.json | XI_Midas_IX | VTT 12.331 compatible](https://github.com/xImidasIx/5e-complete/releases/download/release/module.json)
 
 
 ## Recommended Modules
