@@ -1,29 +1,32 @@
 {
     "id": "completecompendium",
     "title": "5e Complete Compendium",
-    "description": "This module adds classes, subclasses, and other items missing from the D&D 5e SRD",
-    "version": "0.3.7",
+    "description": "This module adds classes, subclasses, and other missing items from the D&D 5e SRD",
+    "license": "The Unlicense",
+    "version": "0.4.0",
     "authors": [
         {
             "name": "btbias",
             "url": "https://github.com/btbias",
-            "discord": "btbias#9324",
-            "flags": {}
+            "discord": "btbias#9324"
         },
         {
             "name": "Midas",
-            "url": "https://github.com/xImidasIx",
-            "flags": {}
+            "url": "https://github.com/xImidasIx"
         }
     ],
     "compatibility": {
-        "minimum": "10",
-        "verified": "12.343",
-        "maximum": "12"
+        "minimum": "11",
+        "verified": "13.350",
+        "maximum": "13"
     },
-    "url": "https://github.com/xImidasIx/5e-complete-V12",
-    "manifest": "https://github.com/xImidasIx/5e-complete-V12/releases/download/release/module.json",
-    "download": "https://github.com/xImidasIx/5e-complete-V12/releases/download/release/5e-complete-V12.zip",
+    "url": "https://github.com/xImidasIx/5e-complete",
+    "bugs": "https://github.com/xImidasIx/5e-complete/issues",
+    "flags": {},
+    "manifest": "https://github.com/xImidasIx/5e-complete/releases/download/release/module.json",
+    "download": "https://github.com/xImidasIx/5e-complete/releases/download/release/5e-complete-V12.zip",
+    "protected": false,
+    "coreTranslation": false,
     "packs": [
         {
             "name": "5e-creatures",
