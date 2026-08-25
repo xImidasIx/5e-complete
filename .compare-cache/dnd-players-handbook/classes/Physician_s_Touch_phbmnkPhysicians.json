@@ -1,0 +1,254 @@
+{
+  "_id": "phbmnkPhysicians",
+  "name": "Physician's Touch",
+  "type": "feat",
+  "folder": "4DkNWlWv2hEdULoc",
+  "img": "icons/consumables/potions/bottle-conical-corked-labeled-skull-poison-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your Hand of Harm and Hand of Healing improve, as detailed below.</p><p><strong>Hand of Harm.</strong> When you use Hand of Harm on a creature, you can also give that creature the Poisoned condition until the end of your next turn.</p><p><strong>Hand of Healing.</strong> When you use Hand of Healing, you can also end one of the following conditions on the creature you heal: Blinded, Deafened, Paralyzed, Poisoned, or Stunned.</p><section id=\"secret-0OzKGSx4PSkIO5se\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can use the <strong>Hand of Harm</strong> and <strong>Hand of Healing</strong> activities on this feature going forward. <strong>Hand of Harm</strong> includes an Active Effect which will apply the Poisoned status.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "ki"
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "BW0d7xkRsDuv075E": {
+        "type": "damage",
+        "name": "Hand of Harm",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "Once per turn when you hit a creature with an Unarmed Strike and deal damage"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbmnkMonksFocus"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "dIu3zagzFThdumuj"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.monk.die + @abilities.wis.mod"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ]
+            }
+          ]
+        },
+        "_id": "BW0d7xkRsDuv075E",
+        "img": "",
+        "appliedEffects": []
+      },
+      "stWL2fvcxsh0HFw2": {
+        "type": "heal",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbmnkMonksFocus",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "healing": {
+          "number": null,
+          "denomination": 0,
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "@scale.monk.die + @abilities.wis.mod"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "name": "Healing Hand",
+        "_id": "stWL2fvcxsh0HFw2"
+      }
+    },
+    "enchant": {},
+    "identifier": "physicians-touch"
+  },
+  "effects": [
+    {
+      "name": "Physician's Touch: Hand of Harm",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbmnkPhysicians",
+      "transfer": false,
+      "_id": "dIu3zagzFThdumuj",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724792885000,
+        "modifiedTime": 1724792904375,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbmnkPhysicians.dIu3zagzFThdumuj"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425979389,
+    "modifiedTime": 1726075578934,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbmnkPhysicians"
+}

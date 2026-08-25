@@ -1,0 +1,120 @@
+{
+  "_id": "dmgGloomShroud00",
+  "name": "Gloom Shroud",
+  "type": "feat",
+  "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
+  "system": {
+    "activities": {
+      "HTJL6IVrLZRskYR1": {
+        "type": "utility",
+        "name": "Emanation Template",
+        "_id": "HTJL6IVrLZRskYR1",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "20",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>Imperceptible energy channeled from the Shadowfell extends from the [[lookup @name]] in a 20-foot Emanation. Other creatures in that area have Disadvantage on Charisma checks and Charisma saving throws.</p>",
+      "chat": ""
+    },
+    "identifier": "gloom-shroud",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "wF8TLOhNZ4ro1xGj",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1732224943360,
+    "modifiedTime": 1732224957948,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgGloomShroud00"
+}

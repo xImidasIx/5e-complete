@@ -1,0 +1,75 @@
+{
+  "_id": "dmgTeleportation",
+  "name": "Teleportation Circle",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-04.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 9 Bastion Facility</em></p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Recruit</p><p>Inscribed on the floor of this room is a permanent teleportation circle created by the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleportat]{Teleportation Circle} spell.</p><p><em><strong>Recruit: Spellcaster.</strong></em> Each time you issue the Recruit order to this facility, its hireling extends an invitation to a Friendly NPC spellcaster. Roll any die ([[/r 1d2]]). If the number rolled is odd, the invitee declines the invitation, and you gain no benefit from having issued the order. If the number rolled is even, the invitee accepts the invitation and arrives in your Bastion via your Teleportation Circle.</p><p>While you are in your Bastion, you can ask the spellcaster to cast one Wizard spell of level 4 or lower; if you are level 17+, the spell’s maximum level increases to 8. The spellcaster is assumed to have the spell prepared. If the spell has one or more Material components that cost money, you must pay for them before the spell can be cast.</p><p>The spellcaster stays for 14 days or until they cast a spell for you. The spellcaster won’t defend your Bastion and departs immediately if the Bastion is attacked (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgBastions00000.JournalEntryPage.KiujX8sthhH791vM]{Bastion Events}).</p>",
+      "chat": ""
+    },
+    "identifier": "teleportation-circle",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "recruit",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "teleportationCircle"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgTeleportation"
+}

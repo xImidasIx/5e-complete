@@ -1,0 +1,145 @@
+{
+  "_id": "mmWateryRebuke00",
+  "name": "Watery Rebuke",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "nCfH0YgOhJR2wIKd": {
+        "type": "save",
+        "_id": "nCfH0YgOhJR2wIKd",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "On Failure: Target pushed 30 ft. away from creature."
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "",
+            "size": "",
+            "width": "",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "enemy",
+            "count": "1",
+            "special": "enters a space"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": "6",
+              "bonus": "",
+              "types": [
+                "cold"
+              ]
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": "15"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Trigger:</em> An enemy the [[lookup @name lowercase]] can see [[lookup @target.affects.special activity=nCfH0YgOhJR2wIKd]] within [[lookup @range.value activity=nCfH0YgOhJR2wIKd]] feet of the [[lookup @name lowercase]]. <em>Response—Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=nCfH0YgOhJR2wIKd]], the triggering enemy. <em>Failure:</em> [[/damage average]] damage. If the target is Large or smaller, it is pushed up to 30 feet straight away from the [[lookup @name lowercase]] by conjured water.</p>",
+      "chat": ""
+    },
+    "identifier": "watery-rebuke",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/water/pseudopod-swirl-blue.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737515542020,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 24000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmWateryRebuke00"
+}

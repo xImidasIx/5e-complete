@@ -1,0 +1,172 @@
+{
+  "name": "Charlatan",
+  "system": {
+    "description": {
+      "value": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Skilled}</p><p><strong>Skill Proficiencies:</strong> Deception and Sleight of Hand</p><p><strong>Tool Proficiency:</strong> Forgery Kit</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulForgeryKit]{Forgery Kit}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costume}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, 15 GP; or (B) 50 GP</p><p>Once you were old enough to order an ale, you soon had a favorite stool in every tavern within ten miles of where you were born. As you traveled the circuit from public house to watering hole, you learned to prey on unfortunates who were in the market for a comforting lie or two—perhaps a sham potion or forged ancestry records.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "a6C7cG3EhaZepaXh",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbtulForgeryKit",
+        "requiresProficiency": false,
+        "_id": "Ow9UvBjzvUH8kQAC",
+        "group": "a6C7cG3EhaZepaXh",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000",
+        "requiresProficiency": false,
+        "_id": "14k7xHAd7YCtTaDK",
+        "group": "a6C7cG3EhaZepaXh",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine",
+        "requiresProficiency": false,
+        "_id": "uFtnUQ8lvOb3D9V4",
+        "group": "a6C7cG3EhaZepaXh",
+        "sort": 400000
+      }
+    ],
+    "identifier": "charlatan",
+    "advancement": [
+      {
+        "_id": "ozyZYuICa8mqTjA0",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "int",
+            "wis"
+          ],
+          "points": 3,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "Background Ability Score Improvement",
+        "hint": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+      },
+      {
+        "_id": "O7OAEMhJm2ecXudR",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:forg",
+            "skills:dec",
+            "skills:slt"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Background Proficiencies",
+        "hint": "Your background grants you proficiency in Deception and Sleight of Hand. It also grants you proficiency in Forgery Kit."
+      },
+      {
+        "_id": "lTp2YYNaBEwG774d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Background Feat",
+        "hint": "Your background grants you the Skilled feat."
+      },
+      {
+        "_id": "pLGiyOjTP7nwuwTl",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Choose Languages",
+        "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+      }
+    ],
+    "wealth": "50"
+  },
+  "_id": "phbbgCharlatan00",
+  "type": "background",
+  "img": "modules/dnd-players-handbook/assets/icons/backgrounds/charlatan.webp",
+  "effects": [],
+  "folder": "ysJSs3cbEBOMC1zV",
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425890177,
+    "modifiedTime": 1760154005431,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbbgCharlatan00"
+}

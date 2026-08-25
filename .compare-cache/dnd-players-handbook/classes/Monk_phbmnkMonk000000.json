@@ -1,0 +1,775 @@
+{
+  "_id": "phbmnkMonk000000",
+  "name": "Monk",
+  "type": "class",
+  "folder": "Dq7BWtsgu2yi7Ld2",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/monk.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>A Martial Artist of Supernatural Focus</p></blockquote><h3>Core Monk Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope=\"row\"><p>Hit Point Die</p></th><td><p>D8 per Monk level</p></td></tr><tr><th scope=\"row\"><p>Saving Throw Proficiencies</p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope=\"row\"><p>Skill Proficiencies</p></th><td><p><em>Choose 2:</em> Acrobatics, Athletics, History, Insight, Religion, or Stealth</p></td></tr><tr><th scope=\"row\"><p>Weapon Proficiencies</p></th><td><p>Simple weapons and Martial weapons that have the Light property</p></td></tr><tr><th scope=\"row\"><p>Tool Proficiencies</p></th><td><p><em>Choose one type of Artisan's Tools or Musical Instrument</em></p></td></tr><tr><th scope=\"row\"><p>Armor Training</p></th><td><p>None</p></td></tr><tr><th scope=\"row\"><p>Starting Equipment</p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Spear}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers}, Artisan's Tools or Musical Instrument chosen for the tool proficiency above, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 11GP]]; or (B) [[/award 50GP]]</p></td></tr></tbody></table><p>Monks use rigorous combat training and mental discipline to align themselves with the multiverse and focus their internal reservoirs of power. Different Monks conceptualize this power in various ways: as breath, energy, life force, essence, or self, for example. Whether channeled as a striking display of martial prowess or as a subtler manifestation of defense and speed, this power infuses all that a Monk does.</p><p>Monks focus their internal power to create extraordinary, even supernatural, effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In a Monk's hands, even the most basic weapons can become sophisticated implements of combat mastery.</p><p>Many Monks find that a structured life of ascetic withdrawal helps them cultivate the physical and mental focus they need to harness their power. Other Monks believe that immersing themselves in the vibrant confusion of life helps to fuel their determination and discipline.</p><p>Monks generally view adventures as tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to turn themselves into living weapons.</p><h2>Becoming a Monk …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Monk Traits table.</li><li>Gain the Monk's level 1 features, which are listed in the Monk Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the Hit Point Die trait from the Core Monk Traits table.</li><li>Gain the Monk's level 1 features, which are listed in the Monk Features table.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "z3xcULs5Q70zNQ2D",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000",
+        "requiresProficiency": false,
+        "_id": "O0MjTQnMYC8Xq3AM",
+        "group": "z3xcULs5Q70zNQ2D",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": 5,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000",
+        "requiresProficiency": false,
+        "_id": "0ZcOXGUX7x39CPpk",
+        "group": "z3xcULs5Q70zNQ2D",
+        "sort": 300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "ncjqhMc9uV04Fsot",
+        "group": "z3xcULs5Q70zNQ2D",
+        "sort": 400000
+      },
+      {
+        "type": "tool",
+        "count": null,
+        "key": "art",
+        "requiresProficiency": false,
+        "_id": "OXoYOVMKJDenBZFc",
+        "group": "ncjqhMc9uV04Fsot",
+        "sort": 500000
+      },
+      {
+        "type": "tool",
+        "count": null,
+        "key": "music",
+        "requiresProficiency": false,
+        "_id": "RF2oOqFXh93aM6dA",
+        "group": "ncjqhMc9uV04Fsot",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa",
+        "requiresProficiency": false,
+        "_id": "YZ87ItdbDaRpBDQ2",
+        "group": "z3xcULs5Q70zNQ2D",
+        "sort": 700000
+      }
+    ],
+    "identifier": "monk",
+    "levels": 1,
+    "hitDice": "d8",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "LfwDqrjK9TQZpwDU",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "IeCvD9wvP0cOa6kt",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkMartialArt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkUnarmoredD",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkUnarmedStr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "Class Features"
+      },
+      {
+        "_id": "mrRoW8wNhjYbeqH1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkMonksFocus",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkUnarmoredM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkUncannyMet",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "Class Features"
+      },
+      {
+        "_id": "ms2HaCjkdW9DV3KG",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkDeflectAtt",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Class Features"
+      },
+      {
+        "_id": "8tQG3hCcquAKQaPI",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkSlowFall00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 4,
+        "title": "Class Features"
+      },
+      {
+        "_id": "W4pBCGfpgL3LjHT0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkExtraAttac"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkStunningSt"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "Class Features"
+      },
+      {
+        "_id": "TIzNw6t61wYmtj6V",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkEmpoweredS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Class Features"
+      },
+      {
+        "_id": "Rfq6ZXQhdFm3Zmjx",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkEvasion000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Class Features"
+      },
+      {
+        "_id": "26AlznyWcDuaFTCY",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkAcrobaticM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Class Features"
+      },
+      {
+        "_id": "H32KYn1ozuG9jgYH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkHeightened",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkSelfrestor",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "Class Features"
+      },
+      {
+        "_id": "p4M4GK8yYVPY4Nsc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkDeflectEne"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "Class Features"
+      },
+      {
+        "_id": "l5WJg41iXSVd88sd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkDiscipline",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Class Features"
+      },
+      {
+        "_id": "9EzbkaZcskpZqLAv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkPerfectFoc",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Class Features"
+      },
+      {
+        "_id": "BJBdi5OYKS2pvCeV",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkSuperiorDe",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "Class Features"
+      },
+      {
+        "_id": "DOmTqz4RzFr3Scvj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnkBodyAndMin",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "Class Features"
+      },
+      {
+        "_id": "bwCLOdauuzoHofil",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": ""
+      },
+      {
+        "_id": "mRSh9oUVjLU33e7p",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": ""
+      },
+      {
+        "_id": "mhZh3LfLMa15tXee",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": ""
+      },
+      {
+        "_id": "FOf5CkGnSs0OlppY",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": ""
+      },
+      {
+        "_id": "ddtuQmULKmXOQU4i",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "die",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "number": null,
+              "faces": 6,
+              "modifiers": []
+            },
+            "5": {
+              "number": null,
+              "faces": 8,
+              "modifiers": []
+            },
+            "11": {
+              "number": null,
+              "faces": 10,
+              "modifiers": []
+            },
+            "17": {
+              "number": null,
+              "faces": 12,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "Martial Arts Die",
+        "hint": ""
+      },
+      {
+        "_id": "wMwMS7RC49lh1hp2",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "distance",
+          "distance": {
+            "units": "ft"
+          },
+          "scale": {
+            "2": {
+              "value": 10
+            },
+            "6": {
+              "value": 15
+            },
+            "10": {
+              "value": 20
+            },
+            "14": {
+              "value": 25
+            },
+            "18": {
+              "value": 30
+            }
+          }
+        },
+        "value": {},
+        "title": "Unarmored Movement",
+        "hint": ""
+      },
+      {
+        "_id": "wOFoztcLEFPTTmK7",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:con",
+            "saves:int",
+            "saves:wis",
+            "saves:cha"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 14,
+        "title": "Disciplined Survivor",
+        "hint": ""
+      },
+      {
+        "_id": "OGo9kMbx7cFuGx00",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "Sz3XH2IWUeXzTNib",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:str",
+            "saves:dex"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Saving Throw Proficiencies",
+        "hint": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "LD3eEVw9tmZUHaXO",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:acr",
+                "skills:ath",
+                "skills:his",
+                "skills:ins",
+                "skills:rel",
+                "skills:ste"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Skill Proficiencies",
+        "hint": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "iohrMAJkjQtDeSXa",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim",
+            "weapon:mar:handcrossbow",
+            "weapon:mar:scimitar",
+            "weapon:mar:shortsword"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Weapon Proficiencies",
+        "hint": ""
+      },
+      {
+        "_id": "XoLzEcH6CBYyK9qz",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*",
+                "tool:music:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Tool Proficiencies",
+        "hint": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "lWLJqkOpz8hzx5Vo",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "focus",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 1
+            },
+            "2": {
+              "value": 2
+            },
+            "3": {
+              "value": 3
+            },
+            "4": {
+              "value": 4
+            },
+            "5": {
+              "value": 5
+            },
+            "6": {
+              "value": 6
+            },
+            "7": {
+              "value": 7
+            },
+            "8": {
+              "value": 8
+            },
+            "9": {
+              "value": 9
+            },
+            "10": {
+              "value": 10
+            },
+            "11": {
+              "value": 11
+            },
+            "12": {
+              "value": 12
+            },
+            "13": {
+              "value": 13
+            },
+            "14": {
+              "value": 14
+            },
+            "15": {
+              "value": 15
+            },
+            "16": {
+              "value": 16
+            },
+            "17": {
+              "value": 17
+            },
+            "18": {
+              "value": 18
+            },
+            "19": {
+              "value": 19
+            },
+            "20": {
+              "value": 20
+            }
+          }
+        },
+        "value": {},
+        "title": "Focus Points",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "title": "Epic Boon",
+        "_id": "29Ufd0MpG7PBckVs",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 2,
+          "recommendation": "Compendium.dnd-players-handbook.feats.Item.phbBoonofIrresis",
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    },
+    "wealth": "50",
+    "primaryAbility": {
+      "value": [
+        "dex",
+        "wis"
+      ],
+      "all": true
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.3",
+    "createdTime": 1724425979255,
+    "modifiedTime": 1756322063903,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbmnkMonk000000"
+}

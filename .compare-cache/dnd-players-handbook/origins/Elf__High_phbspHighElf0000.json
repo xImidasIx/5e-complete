@@ -1,0 +1,218 @@
+{
+  "_id": "phbspHighElf0000",
+  "name": "Elf, High",
+  "type": "race",
+  "img": "modules/dnd-players-handbook/assets/icons/species/elf-high.webp",
+  "system": {
+    "description": {
+      "value": "<p>Created by the god Corellon, the first elves could change their forms at will. They lost this ability when Corellon cursed them for plotting with the deity Lolth, who tried and failed to usurp Corellon’s dominion. When Lolth was cast into the Abyss, most elves renounced her and earned Corellon’s forgiveness, but that which Corellon had taken from them was lost forever.</p><p>No longer able to shape-shift at will, the elves retreated to the Feywild, where their sorrow was deepened by that plane’s influence. Over time, curiosity led many of them to explore other planes of existence, including worlds in the Material Plane.</p><p>Elves have pointed ears and lack facial and body hair. They live for around 750 years, and they don’t sleep but instead enter a trance when they need to rest. In that state, they remain aware of their surroundings while immersing themselves in memories and meditations.</p><p>An environment subtly transforms elves after they inhabit it for a millennium or more, and it grants them certain kinds of magic. Drow, high elves, and wood elves are examples of elves who have been transformed thus.</p><h3 data-anchor=\"high-elves\">High Elves</h3><p>High elves have been infused with the magic of crossings between the Feywild and the Material Plane. On some worlds, high elves refer to themselves by other names. For example, they call themselves sun or moon elves in the Forgotten Realms setting, Silvanesti and Qualinesti in the Dragonlance setting, and Aereni in the Eberron setting.</p><h3 data-anchor=\"elf-traits\">Elf Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 5–6 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As an Elf, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Elven Lineage. </strong>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>High Elf Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitation} cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard spell list}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}</td></tr></tbody></table><p><strong>Fey Ancestry.</strong> You have Advantage on saving throws you make to avoid or end the Charmed condition.</p><p><strong>Keen Senses.</strong> You have proficiency in the Insight, Perception, or Survival skill.</p><p><strong>Trance.</strong> You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>",
+      "chat": ""
+    },
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [
+      {
+        "_id": "5w2FaHXRKiN7v1rE",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "Medium (about 5–6 feet tall)",
+        "value": {}
+      },
+      {
+        "_id": "boHzoT53gYPvJ9o2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.origins.Item.phbsptFeyAncestr"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.origins.Item.phbsptKeenSenses"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.origins.Item.phbsptTrance0000"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.origins.Item.phbsptHighElfLin"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Elf Traits",
+        "hint": ""
+      },
+      {
+        "_id": "wyzOrBj4qIVsCKc7",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:ins",
+                "skills:prc",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Keen Senses",
+        "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+      },
+      {
+        "_id": "hraql8YRB41ssDA6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "High Elf Traits",
+        "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+      },
+      {
+        "_id": "iztB4GPENKXiA72M",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "High Elf Traits",
+        "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+      },
+      {
+        "_id": "1LZlC6uInez1oV7n",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "High Elf Traits",
+        "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Elf"
+    },
+    "identifier": "elf-high"
+  },
+  "effects": [],
+  "folder": "Ulvo8nbygUegLa59",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1725656961220,
+    "modifiedTime": 1726459528923,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbspHighElf0000"
+}

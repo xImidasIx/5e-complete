@@ -1,0 +1,253 @@
+{
+  "_id": "mmCurseOfTheRidd",
+  "name": "Curse of the Riddle",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "RbCvwBYpqZFD3jac": {
+        "type": "save",
+        "_id": "RbCvwBYpqZFD3jac",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "o3kMU2qdbpxqwgk3",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 6,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "int"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "o3kMU2qdbpxqwgk3"
+        ]
+      },
+      "SomVPHxaqNLokyGr": {
+        "type": "check",
+        "_id": "SomVPHxaqNLokyGr",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "check": {
+          "associated": [],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          },
+          "ability": "int"
+        },
+        "name": "Study Check",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Intelligence Saving Throw:</em> DC [[lookup @save.dc.value activity=RbCvwBYpqZFD3jac]], [[lookup @target.affects.labels.statblock activity=RbCvwBYpqZFD3jac]] the [[lookup @name lowercase]] can see within [[lookup @range.value activity=RbCvwBYpqZFD3jac]] feet.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target is cursed with a riddle. The cursed target has Disadvantage on ability checks and attack rolls. In addition, if it takes the Magic action, it must succeed on a DC 15 Intelligence saving throw or that action is wasted.</p><p class=\"feature\">The cursed target can take a &amp;Reference[Study] action to make a [[/check dc=15 ability=int format=long]], solving the riddle and ending the curse on a success. The curse ends early if the [[lookup @name lowercase]] curses another target.</p>",
+      "chat": ""
+    },
+    "identifier": "curse-of-the-riddle",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "effects": [
+    {
+      "name": "Cursed",
+      "img": "systems/dnd5e/icons/svg/statuses/cursed.svg",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmCurseOfTheRidd",
+      "_id": "o3kMU2qdbpxqwgk3",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target is cursed with a riddle. The cursed target has Disadvantage on ability checks and attack rolls.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "cursed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735678225868,
+        "modifiedTime": 1736047192912,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmCurseOfTheRidd.o3kMU2qdbpxqwgk3"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1736050246639,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 5200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmCurseOfTheRidd"
+}

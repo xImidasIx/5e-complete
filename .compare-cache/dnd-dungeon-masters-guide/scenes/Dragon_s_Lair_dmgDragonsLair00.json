@@ -1,0 +1,8681 @@
+{
+  "_id": "dmgDragonsLair00",
+  "name": "Dragon's Lair",
+  "navigation": false,
+  "navName": "",
+  "background": {
+    "src": "modules/dnd-dungeon-masters-guide/assets/scenes/dragons-lair.webp",
+    "anchorX": 0,
+    "anchorY": 0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "fit": "fill",
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "tint": "#ffffff",
+    "alphaThreshold": 0
+  },
+  "foreground": null,
+  "foregroundElevation": 20,
+  "thumb": "modules/dnd-dungeon-masters-guide/assets/scenes/thumbs/dmgDragonsLair00-thumb.webp",
+  "width": 5160,
+  "height": 6600,
+  "padding": 0.25,
+  "initial": {
+    "x": 3900,
+    "y": 4980,
+    "scale": 0.19564660931336791
+  },
+  "backgroundColor": "#706661",
+  "grid": {
+    "type": 1,
+    "size": 120,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true,
+    "overlay": "modules/dnd-dungeon-masters-guide/assets/scenes/fog-of-war.webp",
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": true,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 0.1
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "regions": [
+    {
+      "name": "Level 1",
+      "color": "#28cc2b",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 4560,
+          "y": 3240,
+          "width": 120,
+          "height": 240,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "_id": "10Bn1jU7ehksqet7",
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "name": "Teleport Token",
+          "type": "teleportToken",
+          "_id": "S1gy1sxIPMGO4zqv",
+          "system": {
+            "destination": "Scene.dmgDragonsLair00.Region.uwTi3oBn8BRGCAgU",
+            "choice": true
+          },
+          "disabled": false,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.1.1",
+            "createdTime": null,
+            "modifiedTime": 1732225466240,
+            "lastModifiedBy": "16VfIpXxBgUtNgjR",
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!dmgDragonsLair00.10Bn1jU7ehksqet7.S1gy1sxIPMGO4zqv"
+        }
+      ],
+      "visibility": 0,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!dmgDragonsLair00.10Bn1jU7ehksqet7"
+    },
+    {
+      "name": "Level 2 (from 1)",
+      "color": "#cc2828",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1440,
+          "y": 5280,
+          "width": 120,
+          "height": 240,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "_id": "uwTi3oBn8BRGCAgU",
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "name": "Teleport Token",
+          "type": "teleportToken",
+          "_id": "LW3lGiATTV6zvd27",
+          "system": {
+            "destination": "Scene.dmgDragonsLair00.Region.10Bn1jU7ehksqet7",
+            "choice": true
+          },
+          "disabled": false,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.1.1",
+            "createdTime": null,
+            "modifiedTime": 1732225466961,
+            "lastModifiedBy": "16VfIpXxBgUtNgjR",
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!dmgDragonsLair00.uwTi3oBn8BRGCAgU.LW3lGiATTV6zvd27"
+        }
+      ],
+      "visibility": 0,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!dmgDragonsLair00.uwTi3oBn8BRGCAgU"
+    },
+    {
+      "name": "Level 2 (from 3)",
+      "color": "#28b2cc",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1440,
+          "y": 5760,
+          "width": 120,
+          "height": 360,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "_id": "cid2bYlENnGMwbEA",
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "name": "Teleport Token",
+          "type": "teleportToken",
+          "_id": "qTUap1omLKL62OXJ",
+          "system": {
+            "destination": "Scene.dmgDragonsLair00.Region.7uNujAnJ7GnuWWpG",
+            "choice": true
+          },
+          "disabled": false,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.1.1",
+            "createdTime": null,
+            "modifiedTime": 1732225493395,
+            "lastModifiedBy": "16VfIpXxBgUtNgjR",
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!dmgDragonsLair00.cid2bYlENnGMwbEA.qTUap1omLKL62OXJ"
+        }
+      ],
+      "visibility": 0,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!dmgDragonsLair00.cid2bYlENnGMwbEA"
+    },
+    {
+      "name": "Level 3",
+      "color": "#cc7828",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 6240,
+          "y": 7200,
+          "width": 120,
+          "height": 360,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "_id": "7uNujAnJ7GnuWWpG",
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "name": "Teleport Token",
+          "type": "teleportToken",
+          "_id": "Qxc6wqheUVOnktMn",
+          "system": {
+            "destination": "Scene.dmgDragonsLair00.Region.cid2bYlENnGMwbEA",
+            "choice": true
+          },
+          "disabled": false,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.1.1",
+            "createdTime": null,
+            "modifiedTime": 1732225491611,
+            "lastModifiedBy": "16VfIpXxBgUtNgjR",
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!dmgDragonsLair00.7uNujAnJ7GnuWWpG.Qxc6wqheUVOnktMn"
+        }
+      ],
+      "visibility": 0,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!dmgDragonsLair00.7uNujAnJ7GnuWWpG"
+    },
+    {
+      "name": "Remove Global Illumination",
+      "color": "#6928cc",
+      "shapes": [
+        {
+          "type": "polygon",
+          "points": [
+            5040,
+            5280,
+            4440,
+            5040,
+            3600,
+            4800,
+            1320,
+            4800,
+            1320,
+            6960,
+            3240,
+            6960,
+            4200,
+            6360,
+            5040,
+            6000
+          ],
+          "hole": false
+        }
+      ],
+      "_id": "eaBk1pAZtoiJ0cWE",
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "name": "Adjust Darkness Level",
+          "type": "adjustDarknessLevel",
+          "_id": "VCD0e8ugTAXT149s",
+          "system": {
+            "mode": 0,
+            "modifier": 0.2
+          },
+          "disabled": false,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.1.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!dmgDragonsLair00.eaBk1pAZtoiJ0cWE.VCD0e8ugTAXT149s"
+        }
+      ],
+      "visibility": 0,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!dmgDragonsLair00.eaBk1pAZtoiJ0cWE"
+    }
+  ],
+  "templates": [],
+  "tiles": [],
+  "walls": [
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3870,
+        2790,
+        4575,
+        2790
+      ],
+      "_id": "B12IGAGQUi48XOp2",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.B12IGAGQUi48XOp2"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4575,
+        2790,
+        4695,
+        2670
+      ],
+      "_id": "4NCW4QjKcYs1RBD2",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.4NCW4QjKcYs1RBD2"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4695,
+        2670,
+        5340,
+        2670
+      ],
+      "_id": "THLn3a5dTgsaCnUp",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.THLn3a5dTgsaCnUp"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5340,
+        2670,
+        5415,
+        2700
+      ],
+      "_id": "ExkZOyV6fJAlo2WT",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ExkZOyV6fJAlo2WT"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5415,
+        2700,
+        5520,
+        2655
+      ],
+      "_id": "kkMo4lqYZolEMBMF",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.kkMo4lqYZolEMBMF"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5415,
+        2700,
+        5340,
+        2700
+      ],
+      "_id": "lqzRZ6Da1TIIPAdS",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.lqzRZ6Da1TIIPAdS"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5340,
+        2700,
+        5295,
+        2730
+      ],
+      "_id": "cm4biR4sWhjp2zCB",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.cm4biR4sWhjp2zCB"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5295,
+        2730,
+        5130,
+        2730
+      ],
+      "_id": "1YN5b1lnIYLiBngo",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.1YN5b1lnIYLiBngo"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5130,
+        2730,
+        5130,
+        2970
+      ],
+      "_id": "E04SY5bZeJQVbkSO",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.E04SY5bZeJQVbkSO"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5130,
+        2970,
+        5070,
+        2970
+      ],
+      "_id": "lJUg6a8GqLCy6uxn",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.lJUg6a8GqLCy6uxn"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5070,
+        2970,
+        5070,
+        2730
+      ],
+      "_id": "DO6FNjyEKwklG1Q7",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.DO6FNjyEKwklG1Q7"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5070,
+        2730,
+        4770,
+        2730
+      ],
+      "_id": "4bfEjgIkbw1rKFoB",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.4bfEjgIkbw1rKFoB"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4770,
+        2730,
+        4770,
+        2850
+      ],
+      "_id": "BtolxdP13XBvnNny",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.BtolxdP13XBvnNny"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4770,
+        2850,
+        3870,
+        2850
+      ],
+      "_id": "OjDbvuGv9V4DLGOk",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.OjDbvuGv9V4DLGOk"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3870,
+        2850,
+        3870,
+        2790
+      ],
+      "_id": "rNMj0zmJJrtg3mhn",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.rNMj0zmJJrtg3mhn"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5055,
+        3120,
+        5055,
+        3600
+      ],
+      "_id": "g9axmpHWoeiMuwtA",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.g9axmpHWoeiMuwtA"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5145,
+        3135,
+        5055,
+        3135
+      ],
+      "_id": "5Obuo4Yvwo8vaJfl",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.5Obuo4Yvwo8vaJfl"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5145,
+        3135,
+        5145,
+        3255
+      ],
+      "_id": "mFv3eFwfqpgFrody",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.mFv3eFwfqpgFrody"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5145,
+        3255,
+        5535,
+        3255
+      ],
+      "_id": "BmEWqYukp1NJhQcB",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.BmEWqYukp1NJhQcB"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5535,
+        3255,
+        5520,
+        3300
+      ],
+      "_id": "IKuXFgrDYDkc38Rl",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.IKuXFgrDYDkc38Rl"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5520,
+        3300,
+        5475,
+        3300
+      ],
+      "_id": "qJywL1KGttdHaTEE",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.qJywL1KGttdHaTEE"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5475,
+        3300,
+        5475,
+        3405
+      ],
+      "_id": "oYeyvAVzzL958IWh",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.oYeyvAVzzL958IWh"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5460,
+        3450,
+        5145,
+        3450
+      ],
+      "_id": "YBL7xZYX1oUjSQwC",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.YBL7xZYX1oUjSQwC"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5145,
+        3450,
+        5145,
+        3570
+      ],
+      "_id": "MAPdpRaqbvQlFu76",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.MAPdpRaqbvQlFu76"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5145,
+        3570,
+        5055,
+        3570
+      ],
+      "_id": "7LXUeNDRFQcKUOVi",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.7LXUeNDRFQcKUOVi"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5055,
+        3720,
+        5055,
+        3975
+      ],
+      "_id": "nl1EFHcmi6p1a6fY",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.nl1EFHcmi6p1a6fY"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5055,
+        3975,
+        4770,
+        3975
+      ],
+      "_id": "aLrJlgZdlCjNkjbP",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.aLrJlgZdlCjNkjbP"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4770,
+        3975,
+        4770,
+        3855
+      ],
+      "_id": "5NN2nDRyCFp3yhZn",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.5NN2nDRyCFp3yhZn"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4770,
+        3855,
+        3885,
+        3855
+      ],
+      "_id": "8r8JttIbwWgSxWwf",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.8r8JttIbwWgSxWwf"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3885,
+        3855,
+        3885,
+        3945
+      ],
+      "_id": "4UxAm1sP6gJXuokb",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.4UxAm1sP6gJXuokb"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3885,
+        3945,
+        4515,
+        3945
+      ],
+      "_id": "UU5qdrJGLUDz8zEM",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.UU5qdrJGLUDz8zEM"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4515,
+        3945,
+        4530,
+        3900
+      ],
+      "_id": "EhKFcj4v8ud3VUCD",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.EhKFcj4v8ud3VUCD"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4530,
+        3900,
+        4605,
+        3885
+      ],
+      "_id": "msTeoUcMIqPiqViC",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.msTeoUcMIqPiqViC"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4605,
+        3885,
+        4695,
+        3930
+      ],
+      "_id": "gfhtV8mNT1cgsozL",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.gfhtV8mNT1cgsozL"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4695,
+        3930,
+        4695,
+        3975
+      ],
+      "_id": "1o0hzOUIm976Zvej",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.1o0hzOUIm976Zvej"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4695,
+        3975,
+        4800,
+        4020
+      ],
+      "_id": "11jVSrwWeRaHtJis",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.11jVSrwWeRaHtJis"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4800,
+        4020,
+        4860,
+        4050
+      ],
+      "_id": "2kfOKC43A1HKqYM4",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2kfOKC43A1HKqYM4"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4860,
+        4050,
+        4965,
+        4020
+      ],
+      "_id": "VphZGCkRd5kTGRvK",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.VphZGCkRd5kTGRvK"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4965,
+        4020,
+        5205,
+        4035
+      ],
+      "_id": "moOgwssZ49PqNbZI",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.moOgwssZ49PqNbZI"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5205,
+        4035,
+        5340,
+        4035
+      ],
+      "_id": "Wy4ZGRpBGGmAg14v",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Wy4ZGRpBGGmAg14v"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5340,
+        4035,
+        5445,
+        4050
+      ],
+      "_id": "D8l5k49P3UEfYlWM",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.D8l5k49P3UEfYlWM"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5445,
+        4050,
+        5535,
+        4035
+      ],
+      "_id": "zdcvgaIDJtmMizhr",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.zdcvgaIDJtmMizhr"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5535,
+        4035,
+        5565,
+        4005
+      ],
+      "_id": "2Vryd5jcFgIcrcRP",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2Vryd5jcFgIcrcRP"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5565,
+        4005,
+        5505,
+        3990
+      ],
+      "_id": "2oRg8sVZtKQTIKcA",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2oRg8sVZtKQTIKcA"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5505,
+        3990,
+        5160,
+        4005
+      ],
+      "_id": "ixfpW2BfwRjzdumr",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ixfpW2BfwRjzdumr"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5160,
+        4005,
+        5130,
+        3975
+      ],
+      "_id": "vsVm0gjmmZpLxSRn",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.vsVm0gjmmZpLxSRn"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5130,
+        3975,
+        5130,
+        3735
+      ],
+      "_id": "vUkztJ00uiRN3XH7",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.vUkztJ00uiRN3XH7"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5130,
+        3735,
+        5055,
+        3735
+      ],
+      "_id": "eOz0KWKIBcG24qzF",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.eOz0KWKIBcG24qzF"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "door": 1,
+      "c": [
+        5055,
+        3600,
+        5055,
+        3720
+      ],
+      "_id": "dkOgzzHQtD0eTpAq",
+      "dir": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "doorSound": "stoneBasic",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.dkOgzzHQtD0eTpAq"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "door": 1,
+      "c": [
+        5055,
+        3120,
+        5055,
+        3000
+      ],
+      "_id": "YrY4xl6oGDFELNnj",
+      "dir": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "doorSound": "stoneBasic",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.YrY4xl6oGDFELNnj"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5055,
+        3000,
+        5070,
+        2970
+      ],
+      "_id": "PzoHAXfBRa1zM1Ms",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.PzoHAXfBRa1zM1Ms"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1320,
+        5535,
+        2220,
+        5535
+      ],
+      "_id": "wkxlYNsqXEnyBrp0",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.wkxlYNsqXEnyBrp0"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2220,
+        5535,
+        2250,
+        5565
+      ],
+      "_id": "m9JkIK0MebnHrsqs",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.m9JkIK0MebnHrsqs"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2250,
+        5565,
+        2250,
+        5700
+      ],
+      "_id": "9jknW3PuwBE5JaqQ",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.9jknW3PuwBE5JaqQ"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2250,
+        5700,
+        2235,
+        5730
+      ],
+      "_id": "kM2J7PJ46MQ2BU99",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.kM2J7PJ46MQ2BU99"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2235,
+        5730,
+        1320,
+        5745
+      ],
+      "_id": "CtaiE9UWqdrZIOM9",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.CtaiE9UWqdrZIOM9"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2145,
+        5250,
+        1320,
+        5250
+      ],
+      "_id": "Uy4PKIiplG3VkOuC",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Uy4PKIiplG3VkOuC"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1320,
+        5250,
+        1320,
+        6165
+      ],
+      "_id": "BtYcnij03GGDyR7J",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.BtYcnij03GGDyR7J"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1320,
+        6165,
+        2235,
+        6150
+      ],
+      "_id": "bp36OVrtzkxvGqyn",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.bp36OVrtzkxvGqyn"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2235,
+        6150,
+        2235,
+        6315
+      ],
+      "_id": "88HawfIiWljWfxbN",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.88HawfIiWljWfxbN"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2235,
+        6315,
+        2190,
+        6315
+      ],
+      "_id": "rslSIQkgTVsoLtZk",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.rslSIQkgTVsoLtZk"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2190,
+        6315,
+        2190,
+        6210
+      ],
+      "_id": "ttlYQq2DY0sdB2cu",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ttlYQq2DY0sdB2cu"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2190,
+        6210,
+        2010,
+        6210
+      ],
+      "_id": "yJiBWXjpzkVqgGdI",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.yJiBWXjpzkVqgGdI"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2010,
+        6210,
+        2010,
+        6330
+      ],
+      "_id": "WoQdmkAtHm7noxM7",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.WoQdmkAtHm7noxM7"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2010,
+        6330,
+        1950,
+        6330
+      ],
+      "_id": "VrE8UZNxHbzNLgbf",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.VrE8UZNxHbzNLgbf"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1950,
+        6330,
+        1950,
+        6210
+      ],
+      "_id": "31i2cx8AoG6Td4hA",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.31i2cx8AoG6Td4hA"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1950,
+        6210,
+        1770,
+        6210
+      ],
+      "_id": "E3bqXgCQrKzdMOSX",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.E3bqXgCQrKzdMOSX"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1770,
+        6210,
+        1770,
+        6330
+      ],
+      "_id": "WNCUJAiLVKVxAKdT",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.WNCUJAiLVKVxAKdT"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1770,
+        6330,
+        1650,
+        6330
+      ],
+      "_id": "2TLWEAP0RMecSDKj",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2TLWEAP0RMecSDKj"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1650,
+        6330,
+        1650,
+        6630
+      ],
+      "_id": "kB2dmI4YMBRFnueG",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.kB2dmI4YMBRFnueG"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1650,
+        6630,
+        1770,
+        6630
+      ],
+      "_id": "rqR42amZdxbgsERt",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.rqR42amZdxbgsERt"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1770,
+        6630,
+        1770,
+        6750
+      ],
+      "_id": "tv6r8gLgaLO5wY5z",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.tv6r8gLgaLO5wY5z"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1770,
+        6750,
+        1950,
+        6750
+      ],
+      "_id": "5OIwSNCOmkmZythg",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.5OIwSNCOmkmZythg"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1950,
+        6750,
+        1950,
+        6630
+      ],
+      "_id": "4Gw1aEsKAi0JXIFo",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.4Gw1aEsKAi0JXIFo"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1950,
+        6630,
+        2010,
+        6630
+      ],
+      "_id": "wBTzZAV5P1GzaJ2o",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.wBTzZAV5P1GzaJ2o"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2010,
+        6630,
+        2010,
+        6750
+      ],
+      "_id": "BqgKEpGiW7QyEis5",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.BqgKEpGiW7QyEis5"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2010,
+        6750,
+        2190,
+        6750
+      ],
+      "_id": "VY27Zq7c03OWZnbV",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.VY27Zq7c03OWZnbV"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2190,
+        6750,
+        2190,
+        6630
+      ],
+      "_id": "jnj2llA7cmquCxec",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.jnj2llA7cmquCxec"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2190,
+        6630,
+        2490,
+        6630
+      ],
+      "_id": "XnJj1R7ccNOhM7ce",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.XnJj1R7ccNOhM7ce"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2490,
+        6630,
+        2565,
+        6570
+      ],
+      "_id": "u0uUjppofnt00cuy",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.u0uUjppofnt00cuy"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2565,
+        6570,
+        2565,
+        6165
+      ],
+      "_id": "WG1d6euBd1gVXv0J",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.WG1d6euBd1gVXv0J"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2565,
+        6165,
+        3075,
+        6165
+      ],
+      "_id": "4pFiL21qoIF1lvsX",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.4pFiL21qoIF1lvsX"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3075,
+        6165,
+        3075,
+        6210
+      ],
+      "_id": "My9PRBV8VTwvUOj3",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.My9PRBV8VTwvUOj3"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3075,
+        6210,
+        2715,
+        6210
+      ],
+      "_id": "wMXuOrsyc8seX9aR",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.wMXuOrsyc8seX9aR"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2715,
+        6210,
+        2715,
+        6690
+      ],
+      "_id": "pO6KRTownZkKmAt8",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.pO6KRTownZkKmAt8"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2715,
+        6690,
+        2760,
+        6735
+      ],
+      "_id": "HZPXgN9BiT2vdRcf",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.HZPXgN9BiT2vdRcf"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2760,
+        6735,
+        3210,
+        6735
+      ],
+      "_id": "YOIUdXvKeoKuuRNm",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.YOIUdXvKeoKuuRNm"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3210,
+        6735,
+        3255,
+        6690
+      ],
+      "_id": "k6upXb8sFpKbFD3T",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.k6upXb8sFpKbFD3T"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3255,
+        6690,
+        3300,
+        6615
+      ],
+      "_id": "nnTn0cJwF9IvLOUr",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.nnTn0cJwF9IvLOUr"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3300,
+        6615,
+        3600,
+        6615
+      ],
+      "_id": "bUSi09Qiisy38nK7",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.bUSi09Qiisy38nK7"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3600,
+        6615,
+        3630,
+        6525
+      ],
+      "_id": "AdG0LknqI5ockPD1",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.AdG0LknqI5ockPD1"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3630,
+        6525,
+        3630,
+        6210
+      ],
+      "_id": "A10eUUYEAAlUfE21",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.A10eUUYEAAlUfE21"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3630,
+        6210,
+        3510,
+        6210
+      ],
+      "_id": "MIPCToddK1Fk0jNL",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.MIPCToddK1Fk0jNL"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3510,
+        6210,
+        3510,
+        6150
+      ],
+      "_id": "vug5brRcyPBCDL4U",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.vug5brRcyPBCDL4U"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3510,
+        6150,
+        3600,
+        6150
+      ],
+      "_id": "oVm31ypMoaKWsmhS",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.oVm31ypMoaKWsmhS"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3600,
+        6150,
+        3630,
+        6060
+      ],
+      "_id": "TgahzAqK2s8o0qWc",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.TgahzAqK2s8o0qWc"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3630,
+        6060,
+        3690,
+        6030
+      ],
+      "_id": "lrYiMn4XGJB6MjuI",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.lrYiMn4XGJB6MjuI"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3690,
+        6030,
+        3780,
+        6045
+      ],
+      "_id": "RK31wdBPFZSUBG2i",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.RK31wdBPFZSUBG2i"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3780,
+        6045,
+        3840,
+        6120
+      ],
+      "_id": "bkx85tPUy8UL21N7",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.bkx85tPUy8UL21N7"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3840,
+        6120,
+        3945,
+        6090
+      ],
+      "_id": "Bx8qnvZMrZ0pU5bi",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Bx8qnvZMrZ0pU5bi"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3945,
+        6090,
+        4005,
+        5940
+      ],
+      "_id": "spYqKhirN9tdbDme",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.spYqKhirN9tdbDme"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4005,
+        5940,
+        3960,
+        5820
+      ],
+      "_id": "PbpTDFO2AIedzlhe",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.PbpTDFO2AIedzlhe"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3960,
+        5820,
+        3885,
+        5835
+      ],
+      "_id": "CskIT9WO7qeovksv",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.CskIT9WO7qeovksv"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3885,
+        5835,
+        3870,
+        5790
+      ],
+      "_id": "7417cM1LDQw7zumZ",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.7417cM1LDQw7zumZ"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3870,
+        5790,
+        3915,
+        5685
+      ],
+      "_id": "u5bAc5fTgvupMaZ8",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.u5bAc5fTgvupMaZ8"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3915,
+        5685,
+        3840,
+        5640
+      ],
+      "_id": "2LOChGtmTitvLp0G",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2LOChGtmTitvLp0G"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3840,
+        5640,
+        3780,
+        5565
+      ],
+      "_id": "dnydLoRmhClxFtRo",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.dnydLoRmhClxFtRo"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3780,
+        5565,
+        3720,
+        5520
+      ],
+      "_id": "IoVHoA6C6LT8Z7cX",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.IoVHoA6C6LT8Z7cX"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3720,
+        5520,
+        3615,
+        5535
+      ],
+      "_id": "ZuLAKOxleZ7wuv53",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ZuLAKOxleZ7wuv53"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3615,
+        5535,
+        3525,
+        5550
+      ],
+      "_id": "tVhLytcm0nartZid",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.tVhLytcm0nartZid"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3525,
+        5550,
+        3495,
+        5595
+      ],
+      "_id": "VYR6SNYAjzZdfbZm",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.VYR6SNYAjzZdfbZm"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3495,
+        5595,
+        3585,
+        5625
+      ],
+      "_id": "8ENSsu5kOSa1Spzc",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.8ENSsu5kOSa1Spzc"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3585,
+        5625,
+        3630,
+        5670
+      ],
+      "_id": "LSBPbf6RlHKexWYj",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.LSBPbf6RlHKexWYj"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3630,
+        5670,
+        3630,
+        5715
+      ],
+      "_id": "TZfatg8ffRy091XD",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.TZfatg8ffRy091XD"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3630,
+        5715,
+        3690,
+        5715
+      ],
+      "_id": "SQpCZbSZk5Be4OUs",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.SQpCZbSZk5Be4OUs"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3690,
+        5715,
+        3675,
+        5625
+      ],
+      "_id": "8z9guWCJxsrlT7g7",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.8z9guWCJxsrlT7g7"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3675,
+        5625,
+        3780,
+        5565
+      ],
+      "_id": "WDWnX9ijxyPbRqEn",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.WDWnX9ijxyPbRqEn"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3915,
+        5685,
+        3960,
+        5640
+      ],
+      "_id": "IluApeK1amlK02GT",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.IluApeK1amlK02GT"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3960,
+        5640,
+        4035,
+        5670
+      ],
+      "_id": "G0vnsbQ4zynWMXQk",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.G0vnsbQ4zynWMXQk"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4035,
+        5670,
+        4050,
+        5730
+      ],
+      "_id": "lWwE4LVeYknuvpBD",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.lWwE4LVeYknuvpBD"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4050,
+        5730,
+        4020,
+        5835
+      ],
+      "_id": "17EKZFo5ee1wYx3W",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.17EKZFo5ee1wYx3W"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4020,
+        5835,
+        4080,
+        5910
+      ],
+      "_id": "DOYcCaFqTdwy4hgK",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.DOYcCaFqTdwy4hgK"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4080,
+        5910,
+        4305,
+        6030
+      ],
+      "_id": "QXFTcrChXkXrxqVk",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.QXFTcrChXkXrxqVk"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4305,
+        6030,
+        4470,
+        6000
+      ],
+      "_id": "n4Yqd5JHYNBmDNnG",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.n4Yqd5JHYNBmDNnG"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4470,
+        6000,
+        4590,
+        5940
+      ],
+      "_id": "l3igNrhbAPfOI626",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.l3igNrhbAPfOI626"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4590,
+        5940,
+        4695,
+        5850
+      ],
+      "_id": "WyhhrMX1z1ay1cYv",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.WyhhrMX1z1ay1cYv"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4695,
+        5850,
+        4830,
+        5805
+      ],
+      "_id": "k4wRJO5G669vcTow",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.k4wRJO5G669vcTow"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4830,
+        5805,
+        4830,
+        5370
+      ],
+      "_id": "kYLqGTwjoHL8rTFN",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.kYLqGTwjoHL8rTFN"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4830,
+        5370,
+        4710,
+        5370
+      ],
+      "_id": "ELQbPCWiohpH0IZy",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ELQbPCWiohpH0IZy"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4710,
+        5370,
+        4710,
+        5265
+      ],
+      "_id": "SnNSngzBsoV5dolt",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.SnNSngzBsoV5dolt"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4710,
+        5265,
+        4665,
+        5235
+      ],
+      "_id": "27GnzcF9I6hY3Sxi",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.27GnzcF9I6hY3Sxi"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4665,
+        5235,
+        4560,
+        5235
+      ],
+      "_id": "TkUqO9hBh8HX6BCP",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.TkUqO9hBh8HX6BCP"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4560,
+        5235,
+        4455,
+        5145
+      ],
+      "_id": "fvuSVGsxFs18H5lF",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.fvuSVGsxFs18H5lF"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4455,
+        5145,
+        4290,
+        5145
+      ],
+      "_id": "OMTEBUiyVsGS0P21",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.OMTEBUiyVsGS0P21"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4290,
+        5145,
+        4290,
+        5205
+      ],
+      "_id": "fqTXmm148o92sbjO",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.fqTXmm148o92sbjO"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4290,
+        5205,
+        4110,
+        5205
+      ],
+      "_id": "YoTx80NEQdJcvbfJ",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.YoTx80NEQdJcvbfJ"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4110,
+        5205,
+        4110,
+        5145
+      ],
+      "_id": "dpCON66ehmlWKCw3",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.dpCON66ehmlWKCw3"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4110,
+        5145,
+        4065,
+        5130
+      ],
+      "_id": "2bUPIzcSddTY8dyK",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2bUPIzcSddTY8dyK"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4065,
+        5130,
+        4020,
+        5025
+      ],
+      "_id": "5b6BLV06UanL34p1",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.5b6BLV06UanL34p1"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4020,
+        5025,
+        3900,
+        4995
+      ],
+      "_id": "KC69sEqehsagR276",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.KC69sEqehsagR276"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3900,
+        4995,
+        3825,
+        5025
+      ],
+      "_id": "6AofD280afThFHWL",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.6AofD280afThFHWL"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3825,
+        5025,
+        3630,
+        4965
+      ],
+      "_id": "RJ9QC6w7HIpjIgZ3",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.RJ9QC6w7HIpjIgZ3"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3630,
+        4965,
+        3435,
+        5055
+      ],
+      "_id": "FxxJ0pizXif9LIcl",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.FxxJ0pizXif9LIcl"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3435,
+        5055,
+        3405,
+        5130
+      ],
+      "_id": "7CiQyXZ1DKIhHL37",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.7CiQyXZ1DKIhHL37"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3405,
+        5130,
+        3405,
+        5205
+      ],
+      "_id": "KD09DHJ93sQ8qCDi",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.KD09DHJ93sQ8qCDi"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3405,
+        5205,
+        3375,
+        5235
+      ],
+      "_id": "A3T0yDaCeUnBK3Ao",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.A3T0yDaCeUnBK3Ao"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3375,
+        5235,
+        3315,
+        5250
+      ],
+      "_id": "vk8YrM6z6k9dIrgm",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.vk8YrM6z6k9dIrgm"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3315,
+        5250,
+        3255,
+        5220
+      ],
+      "_id": "CpmzObCZasKqHDIB",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.CpmzObCZasKqHDIB"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3255,
+        5220,
+        3195,
+        5115
+      ],
+      "_id": "OkUeVXS1JrlN6R6r",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.OkUeVXS1JrlN6R6r"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3195,
+        5115,
+        2145,
+        5130
+      ],
+      "_id": "jDrUYLPAnJ8sf4yY",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.jDrUYLPAnJ8sf4yY"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2145,
+        5130,
+        2145,
+        5250
+      ],
+      "_id": "bOXY9gQqymRF3mxe",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.bOXY9gQqymRF3mxe"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2535,
+        5535,
+        2730,
+        5535
+      ],
+      "_id": "2qiMPXHaa75y3rEG",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2qiMPXHaa75y3rEG"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2730,
+        5535,
+        2730,
+        5730
+      ],
+      "_id": "Yc7DxmCx2zKJE0yT",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Yc7DxmCx2zKJE0yT"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2730,
+        5730,
+        2535,
+        5730
+      ],
+      "_id": "SzjY3ggcA9KkNJS0",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.SzjY3ggcA9KkNJS0"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2535,
+        5730,
+        2535,
+        5535
+      ],
+      "_id": "H14flEUVvm0m4OLS",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.H14flEUVvm0m4OLS"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3030,
+        5535,
+        3030,
+        5730
+      ],
+      "_id": "uKlBeRDvV8Ygfvqn",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.uKlBeRDvV8Ygfvqn"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3030,
+        5535,
+        3090,
+        5535
+      ],
+      "_id": "tmiTo5LXdBEOH4Vf",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.tmiTo5LXdBEOH4Vf"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3090,
+        5535,
+        3090,
+        5730
+      ],
+      "_id": "RUKHuzMl0NTnC5v2",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.RUKHuzMl0NTnC5v2"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3090,
+        5730,
+        3030,
+        5730
+      ],
+      "_id": "MScDrUi0cyEGAnAO",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.MScDrUi0cyEGAnAO"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        6480,
+        7560,
+        6210,
+        7590
+      ],
+      "_id": "6K25JuHU0kyMgW6I",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.6K25JuHU0kyMgW6I"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        6210,
+        7590,
+        6060,
+        7575
+      ],
+      "_id": "CiCQwgkePPROmTpN",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.CiCQwgkePPROmTpN"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        6060,
+        7575,
+        5925,
+        7590
+      ],
+      "_id": "yAqj8BRwqXyxRymo",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.yAqj8BRwqXyxRymo"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5925,
+        7590,
+        5910,
+        7680
+      ],
+      "_id": "Y0d3fSTtHgtdTCdP",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Y0d3fSTtHgtdTCdP"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5910,
+        7680,
+        5835,
+        7695
+      ],
+      "_id": "7vGjn2jWMwjr0HZl",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.7vGjn2jWMwjr0HZl"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5835,
+        7695,
+        5790,
+        7665
+      ],
+      "_id": "QOlvwaTmfUKAZ6IM",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.QOlvwaTmfUKAZ6IM"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5790,
+        7665,
+        5685,
+        7770
+      ],
+      "_id": "lZvigNVKesND4lEx",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.lZvigNVKesND4lEx"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5685,
+        7770,
+        5580,
+        7755
+      ],
+      "_id": "0F34iW14cnfMWYRU",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.0F34iW14cnfMWYRU"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5580,
+        7755,
+        5520,
+        7710
+      ],
+      "_id": "TyIcND4SBCy9OoG3",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.TyIcND4SBCy9OoG3"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5520,
+        7710,
+        4575,
+        7710
+      ],
+      "_id": "B9wCwJAx1EufsaZ7",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.B9wCwJAx1EufsaZ7"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4575,
+        7710,
+        4470,
+        7680
+      ],
+      "_id": "QTB7yciattJrckOq",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.QTB7yciattJrckOq"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4470,
+        7680,
+        4395,
+        7740
+      ],
+      "_id": "cg9VgvkX6CzfLL0b",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.cg9VgvkX6CzfLL0b"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4395,
+        7740,
+        4365,
+        7800
+      ],
+      "_id": "LC3mIdlLSardHWVa",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.LC3mIdlLSardHWVa"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4365,
+        7800,
+        4440,
+        7830
+      ],
+      "_id": "vvYQE1oqDcO4Eb6f",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.vvYQE1oqDcO4Eb6f"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4440,
+        7830,
+        4455,
+        7890
+      ],
+      "_id": "oRqAoD74Eh3KGGFd",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.oRqAoD74Eh3KGGFd"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4455,
+        7890,
+        4530,
+        7875
+      ],
+      "_id": "Bk8WJ4RT7RTRqG9P",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Bk8WJ4RT7RTRqG9P"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4530,
+        7875,
+        4635,
+        7965
+      ],
+      "_id": "9K8KtRLEfIYmOXno",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.9K8KtRLEfIYmOXno"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4635,
+        7965,
+        4920,
+        7995
+      ],
+      "_id": "Advd3KpSdDf2BnYN",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Advd3KpSdDf2BnYN"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4920,
+        7995,
+        4995,
+        7950
+      ],
+      "_id": "gdRJuyQs0H0tcPNo",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.gdRJuyQs0H0tcPNo"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4995,
+        7950,
+        5100,
+        7980
+      ],
+      "_id": "jX3U1T0CYJRjKQ4f",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.jX3U1T0CYJRjKQ4f"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5100,
+        7980,
+        5220,
+        8055
+      ],
+      "_id": "xEX01puq933i4lep",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.xEX01puq933i4lep"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5220,
+        8055,
+        5325,
+        8025
+      ],
+      "_id": "0xGOxVmb22050ikV",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.0xGOxVmb22050ikV"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4455,
+        6690,
+        4530,
+        6690
+      ],
+      "_id": "mfIKPZul6ro4MOgI",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.mfIKPZul6ro4MOgI"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4530,
+        6690,
+        4545,
+        6600
+      ],
+      "_id": "xubFlpkVf091Daie",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.xubFlpkVf091Daie"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4545,
+        6600,
+        4485,
+        6555
+      ],
+      "_id": "5sqmy7zWcPaFGtai",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.5sqmy7zWcPaFGtai"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4485,
+        6555,
+        4335,
+        6555
+      ],
+      "_id": "VRYNrkwGEimf7QjC",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.VRYNrkwGEimf7QjC"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4335,
+        6555,
+        4215,
+        6555
+      ],
+      "_id": "uIGGokVtmrZ2IUo4",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.uIGGokVtmrZ2IUo4"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4215,
+        6555,
+        4095,
+        6630
+      ],
+      "_id": "rcmgsmIuFYb2oK36",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.rcmgsmIuFYb2oK36"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4095,
+        6630,
+        4035,
+        6690
+      ],
+      "_id": "IG5Q5EjkhDJZNfM6",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.IG5Q5EjkhDJZNfM6"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4035,
+        6690,
+        3945,
+        6690
+      ],
+      "_id": "BsLrQRE9W4Ay9yzm",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.BsLrQRE9W4Ay9yzm"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3945,
+        6690,
+        3795,
+        6765
+      ],
+      "_id": "3INEcAiKphxqPoCr",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.3INEcAiKphxqPoCr"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3795,
+        6765,
+        3690,
+        6825
+      ],
+      "_id": "UWfxM30ALsbnIv1H",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.UWfxM30ALsbnIv1H"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3690,
+        6825,
+        3615,
+        6855
+      ],
+      "_id": "tmhl5j1cfHwdBqVs",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.tmhl5j1cfHwdBqVs"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3615,
+        6855,
+        3570,
+        6945
+      ],
+      "_id": "UKMhdWZCu9rw3wE6",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.UKMhdWZCu9rw3wE6"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3570,
+        6945,
+        3510,
+        6990
+      ],
+      "_id": "N9Lvqn0EfZiuXbDP",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.N9Lvqn0EfZiuXbDP"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3510,
+        6990,
+        3540,
+        7080
+      ],
+      "_id": "Ga1ziavh2VYFSmHX",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Ga1ziavh2VYFSmHX"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3540,
+        7080,
+        3585,
+        7155
+      ],
+      "_id": "sFLxXGN0LGqNlibF",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.sFLxXGN0LGqNlibF"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3585,
+        7155,
+        3645,
+        7125
+      ],
+      "_id": "dGrR9ESZDhSHsZNh",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.dGrR9ESZDhSHsZNh"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3645,
+        7125,
+        3705,
+        7095
+      ],
+      "_id": "YcCyivtRqpkQBTYS",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.YcCyivtRqpkQBTYS"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3705,
+        7095,
+        3705,
+        6945
+      ],
+      "_id": "bJk9d24KWNZUtIiS",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.bJk9d24KWNZUtIiS"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3705,
+        6945,
+        3780,
+        6825
+      ],
+      "_id": "Wjiv2KHGIO9eBnCa",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Wjiv2KHGIO9eBnCa"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3780,
+        6825,
+        3900,
+        6765
+      ],
+      "_id": "QnBdz5OVYnzkrDCn",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.QnBdz5OVYnzkrDCn"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3900,
+        6765,
+        3975,
+        6810
+      ],
+      "_id": "fwAMB4hM86w5ZrD6",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.fwAMB4hM86w5ZrD6"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3975,
+        6810,
+        4050,
+        6780
+      ],
+      "_id": "ZeJ8EvSJMCPVkk5e",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ZeJ8EvSJMCPVkk5e"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4050,
+        6780,
+        4050,
+        6735
+      ],
+      "_id": "bCMTDlqgs4CW04ul",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.bCMTDlqgs4CW04ul"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4050,
+        6735,
+        4110,
+        6690
+      ],
+      "_id": "WdCRhozVyjenxBFl",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.WdCRhozVyjenxBFl"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4110,
+        6690,
+        4200,
+        6660
+      ],
+      "_id": "bX7IAKJhc7XTj2Ep",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.bX7IAKJhc7XTj2Ep"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4200,
+        6660,
+        4290,
+        6690
+      ],
+      "_id": "JDlC7uGSPp8mJsp8",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.JDlC7uGSPp8mJsp8"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4290,
+        6690,
+        4365,
+        6690
+      ],
+      "_id": "IpXCnryiUaTZ42RF",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.IpXCnryiUaTZ42RF"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4365,
+        6690,
+        4410,
+        6660
+      ],
+      "_id": "2Yfg0U1AL9B1XRGm",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2Yfg0U1AL9B1XRGm"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4410,
+        6660,
+        4455,
+        6660
+      ],
+      "_id": "Rm2TT567srmardSW",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Rm2TT567srmardSW"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4455,
+        6660,
+        4455,
+        6690
+      ],
+      "_id": "T26vXrIU31GYTZH4",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.T26vXrIU31GYTZH4"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3990,
+        7215,
+        4005,
+        7290
+      ],
+      "_id": "JKqYP7j0DwkfW9lT",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.JKqYP7j0DwkfW9lT"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4005,
+        7290,
+        4065,
+        7305
+      ],
+      "_id": "ZnDmJwoxXbkWK4w3",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ZnDmJwoxXbkWK4w3"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4065,
+        7305,
+        4065,
+        7215
+      ],
+      "_id": "kSV3KRRpJoOFjGfP",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.kSV3KRRpJoOFjGfP"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4065,
+        7215,
+        3990,
+        7215
+      ],
+      "_id": "1SzNYxrkn4he74Qs",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.1SzNYxrkn4he74Qs"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4440,
+        7200,
+        4545,
+        7200
+      ],
+      "_id": "jgj9hxS7bQYtM8Lj",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.jgj9hxS7bQYtM8Lj"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4545,
+        7200,
+        4545,
+        7305
+      ],
+      "_id": "kM0D9d4TNoic3rGn",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.kM0D9d4TNoic3rGn"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4545,
+        7305,
+        4440,
+        7305
+      ],
+      "_id": "LK99VjRhNhcPJL2w",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.LK99VjRhNhcPJL2w"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4440,
+        7305,
+        4440,
+        7200
+      ],
+      "_id": "V7aLyxjLg03W3Je0",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.V7aLyxjLg03W3Je0"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4920,
+        7200,
+        4920,
+        7320
+      ],
+      "_id": "YZJrwzuvUa07lbAd",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.YZJrwzuvUa07lbAd"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4920,
+        7320,
+        5040,
+        7320
+      ],
+      "_id": "hGN7S8nHjgQwNVkF",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.hGN7S8nHjgQwNVkF"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5040,
+        7320,
+        5040,
+        7200
+      ],
+      "_id": "2eTjVJVhBxbONxTE",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2eTjVJVhBxbONxTE"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5040,
+        7200,
+        4920,
+        7200
+      ],
+      "_id": "W4quOipdfdMdnNuJ",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.W4quOipdfdMdnNuJ"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4920,
+        6615,
+        4920,
+        6720
+      ],
+      "_id": "4VNxj0zO3rnOHGLy",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.4VNxj0zO3rnOHGLy"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4920,
+        6720,
+        5040,
+        6720
+      ],
+      "_id": "xR8UvyIHo8iVEDpf",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.xR8UvyIHo8iVEDpf"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5040,
+        6720,
+        5040,
+        6615
+      ],
+      "_id": "pjSpnUcnb2ezR8eP",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.pjSpnUcnb2ezR8eP"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5040,
+        6615,
+        4920,
+        6615
+      ],
+      "_id": "CIB3dGocDn84QsZU",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.CIB3dGocDn84QsZU"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5400,
+        7200,
+        5400,
+        7320
+      ],
+      "_id": "E7nNcC1fO6sunCZa",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.E7nNcC1fO6sunCZa"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5400,
+        7320,
+        5505,
+        7320
+      ],
+      "_id": "dhFIZCMxGdNb3aGr",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.dhFIZCMxGdNb3aGr"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5505,
+        7320,
+        5505,
+        7200
+      ],
+      "_id": "GyXgIbJE625YlbZ2",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.GyXgIbJE625YlbZ2"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5505,
+        7200,
+        5400,
+        7200
+      ],
+      "_id": "2EjOwhKyMEO3HQQm",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2EjOwhKyMEO3HQQm"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5400,
+        6600,
+        5400,
+        6720
+      ],
+      "_id": "rVouCZoe7qxRGwdb",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.rVouCZoe7qxRGwdb"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5400,
+        6720,
+        5520,
+        6720
+      ],
+      "_id": "MdOs5lDzWvfgR9Wy",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.MdOs5lDzWvfgR9Wy"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5520,
+        6720,
+        5520,
+        6600
+      ],
+      "_id": "TvBKsLHHbu8dWHRm",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.TvBKsLHHbu8dWHRm"
+    },
+    {
+      "light": 0,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        5520,
+        6600,
+        5400,
+        6600
+      ],
+      "_id": "2fGGf7WwZ6z0MqR6",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2fGGf7WwZ6z0MqR6"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4665,
+        6405,
+        4710,
+        6345
+      ],
+      "_id": "Uh27KzZwGDdZQMee",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Uh27KzZwGDdZQMee"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4710,
+        6345,
+        4770,
+        6345
+      ],
+      "_id": "8Fw5Lv9PF4cvAzps",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.8Fw5Lv9PF4cvAzps"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4770,
+        6345,
+        4800,
+        6405
+      ],
+      "_id": "P45r4KjpirhAtyTU",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.P45r4KjpirhAtyTU"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4800,
+        6405,
+        4785,
+        6465
+      ],
+      "_id": "8fyz0hJS3pQmdmLu",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.8fyz0hJS3pQmdmLu"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4785,
+        6465,
+        4695,
+        6480
+      ],
+      "_id": "Juwj58CsF3rhRNNM",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Juwj58CsF3rhRNNM"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4695,
+        6480,
+        4665,
+        6405
+      ],
+      "_id": "KB3pF2HntnoFssY9",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.KB3pF2HntnoFssY9"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        6480,
+        7185,
+        5910,
+        7185
+      ],
+      "_id": "lGwoXnZKg8nauhCo",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.lGwoXnZKg8nauhCo"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5910,
+        7185,
+        5910,
+        7065
+      ],
+      "_id": "M2peuAjhsJqwuEJt",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.M2peuAjhsJqwuEJt"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5910,
+        7065,
+        5235,
+        7065
+      ],
+      "_id": "eYB2oZF6Ts4yo7QE",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.eYB2oZF6Ts4yo7QE"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5235,
+        7065,
+        5235,
+        6945
+      ],
+      "_id": "VgW376mP3bcBAoyo",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.VgW376mP3bcBAoyo"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5235,
+        6945,
+        5190,
+        6945
+      ],
+      "_id": "lQ1ka1rtDQx9TAFF",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.lQ1ka1rtDQx9TAFF"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5190,
+        6945,
+        5190,
+        6870
+      ],
+      "_id": "Tmv6SIAhGT9baFnK",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.Tmv6SIAhGT9baFnK"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5190,
+        6870,
+        5910,
+        6870
+      ],
+      "_id": "teP4AtfqUSr67vxP",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.teP4AtfqUSr67vxP"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5910,
+        6870,
+        5910,
+        6465
+      ],
+      "_id": "9dzmd8fH509QpxpA",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.9dzmd8fH509QpxpA"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5910,
+        6465,
+        5790,
+        6465
+      ],
+      "_id": "m25WHVyWRBWAlVxf",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.m25WHVyWRBWAlVxf"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5790,
+        6465,
+        5790,
+        6375
+      ],
+      "_id": "WLUS2PetM9C3Speq",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.WLUS2PetM9C3Speq"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5790,
+        6375,
+        5910,
+        6375
+      ],
+      "_id": "dDO6UPx8MDgoL32z",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.dDO6UPx8MDgoL32z"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5910,
+        6375,
+        5910,
+        6210
+      ],
+      "_id": "eGyC8F1Go5fre9cm",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.eGyC8F1Go5fre9cm"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5910,
+        6210,
+        5490,
+        6210
+      ],
+      "_id": "3qf8nW5MNHGgcQbM",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.3qf8nW5MNHGgcQbM"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5490,
+        6210,
+        5490,
+        6330
+      ],
+      "_id": "gWqq99rJ0DYR92UJ",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.gWqq99rJ0DYR92UJ"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5490,
+        6330,
+        5430,
+        6330
+      ],
+      "_id": "rDpZtDbU5lmX0uv5",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.rDpZtDbU5lmX0uv5"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5430,
+        6330,
+        5430,
+        6210
+      ],
+      "_id": "sZqvrxYmsYQLBDAn",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.sZqvrxYmsYQLBDAn"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5430,
+        6210,
+        5025,
+        6210
+      ],
+      "_id": "AopHR9kLkMSNocB5",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.AopHR9kLkMSNocB5"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5025,
+        6210,
+        5025,
+        6330
+      ],
+      "_id": "og0MEtASmTXlWBVS",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.og0MEtASmTXlWBVS"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5025,
+        6330,
+        4950,
+        6330
+      ],
+      "_id": "U9NQCtiewV9zoRSR",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.U9NQCtiewV9zoRSR"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4950,
+        6330,
+        4920,
+        6270
+      ],
+      "_id": "PJh7sAZiAtr1C87P",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.PJh7sAZiAtr1C87P"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4920,
+        6270,
+        4965,
+        6225
+      ],
+      "_id": "5Sp5rwH35dXpIcgE",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.5Sp5rwH35dXpIcgE"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4965,
+        6225,
+        5025,
+        6150
+      ],
+      "_id": "LZud5fk6OO0zgi8G",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.LZud5fk6OO0zgi8G"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5025,
+        6150,
+        5295,
+        6150
+      ],
+      "_id": "aPbnzOjotJhXipg6",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.aPbnzOjotJhXipg6"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5295,
+        6150,
+        5370,
+        6075
+      ],
+      "_id": "AkEYku0aJsDD7DtU",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.AkEYku0aJsDD7DtU"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5370,
+        6075,
+        5445,
+        5985
+      ],
+      "_id": "AesL9tpGdZ4PzWls",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.AesL9tpGdZ4PzWls"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5445,
+        5985,
+        5910,
+        6210
+      ],
+      "_id": "wMpxLNh9duqEYFHH",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.wMpxLNh9duqEYFHH"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3405,
+        6870,
+        3405,
+        8160
+      ],
+      "_id": "ch8yfBdQXzQtFuE1",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ch8yfBdQXzQtFuE1"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3405,
+        8160,
+        4920,
+        8160
+      ],
+      "_id": "bADD5CK0QGigvRXU",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.bADD5CK0QGigvRXU"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4920,
+        8160,
+        4920,
+        7995
+      ],
+      "_id": "SooTfjtNXXYJttuJ",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.SooTfjtNXXYJttuJ"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3405,
+        6870,
+        3615,
+        6870
+      ],
+      "_id": "ePACpanvlfuQoiDF",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ePACpanvlfuQoiDF"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4215,
+        6555,
+        3960,
+        6495
+      ],
+      "_id": "jULE991ECXt9EyBI",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.jULE991ECXt9EyBI"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3960,
+        6495,
+        4935,
+        6045
+      ],
+      "_id": "NEgo7rljaynlzlmY",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.NEgo7rljaynlzlmY"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4935,
+        6045,
+        5025,
+        6150
+      ],
+      "_id": "buuTu894KdEKWAv2",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.buuTu894KdEKWAv2"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        6480,
+        7560,
+        6480,
+        7185
+      ],
+      "_id": "poYEj6DMKL8VdTvH",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.poYEj6DMKL8VdTvH"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        6480,
+        5040,
+        4800,
+        5055
+      ],
+      "_id": "ci0NAivRZV98LrK1",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ci0NAivRZV98LrK1"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4800,
+        5055,
+        4470,
+        4995
+      ],
+      "_id": "vO4aEHkbHDeflyai",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.vO4aEHkbHDeflyai"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        4470,
+        4995,
+        3360,
+        4560
+      ],
+      "_id": "JigBoc7EEVAYGVgC",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.JigBoc7EEVAYGVgC"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3360,
+        4560,
+        1320,
+        4560
+      ],
+      "_id": "xIuoobClevkLxs3g",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.xIuoobClevkLxs3g"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1320,
+        4560,
+        1320,
+        2640
+      ],
+      "_id": "zQTwTFHgtPIOfboz",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.zQTwTFHgtPIOfboz"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        1320,
+        2640,
+        2040,
+        2640
+      ],
+      "_id": "trOgaDNa11bTgEHY",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.trOgaDNa11bTgEHY"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        2040,
+        2640,
+        3120,
+        2280
+      ],
+      "_id": "nJscDJi4XV3CmZLj",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.nJscDJi4XV3CmZLj"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3240,
+        2160,
+        3240,
+        1680
+      ],
+      "_id": "12OZdbCIOHH3vKWq",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.12OZdbCIOHH3vKWq"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        3240,
+        2160,
+        3120,
+        2280
+      ],
+      "_id": "mu55gjKlBtqznsIQ",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.mu55gjKlBtqznsIQ"
+    },
+    {
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "c": [
+        5460,
+        3450,
+        5475,
+        3405
+      ],
+      "_id": "qifHufCxqO4MXxtO",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.qifHufCxqO4MXxtO"
+    },
+    {
+      "light": 0,
+      "sight": 0,
+      "sound": 0,
+      "move": 20,
+      "c": [
+        4200,
+        3240,
+        4680,
+        3240
+      ],
+      "_id": "C8jKAMfJcn34uHwi",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.C8jKAMfJcn34uHwi"
+    },
+    {
+      "light": 0,
+      "sight": 0,
+      "sound": 0,
+      "move": 20,
+      "c": [
+        4680,
+        3240,
+        4680,
+        3480
+      ],
+      "_id": "prX8S0n4ErTdkybV",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.prX8S0n4ErTdkybV"
+    },
+    {
+      "light": 0,
+      "sight": 0,
+      "sound": 0,
+      "move": 20,
+      "c": [
+        4680,
+        3480,
+        4200,
+        3480
+      ],
+      "_id": "uhX6bHTvkiddZFFY",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.uhX6bHTvkiddZFFY"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3270,
+        3660,
+        3315,
+        3615
+      ],
+      "_id": "CpVjyzV7gixZiYgf",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.CpVjyzV7gixZiYgf"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3315,
+        3615,
+        3360,
+        3660
+      ],
+      "_id": "TXlCjgB2ZOS18kZl",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.TXlCjgB2ZOS18kZl"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3360,
+        3660,
+        3315,
+        3705
+      ],
+      "_id": "XWvqbVTVZEBQYLf5",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.XWvqbVTVZEBQYLf5"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3315,
+        3705,
+        3270,
+        3660
+      ],
+      "_id": "NkgsAmcqbcec1kRz",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.NkgsAmcqbcec1kRz"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3735,
+        3660,
+        3780,
+        3615
+      ],
+      "_id": "9JUN68jsYqniUQ50",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.9JUN68jsYqniUQ50"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3780,
+        3615,
+        3825,
+        3660
+      ],
+      "_id": "OiiPDY3C3iT234Wa",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.OiiPDY3C3iT234Wa"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3825,
+        3660,
+        3780,
+        3705
+      ],
+      "_id": "hyb8a0EaqIDOz4tT",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.hyb8a0EaqIDOz4tT"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3780,
+        3705,
+        3735,
+        3660
+      ],
+      "_id": "drWj92DVXC4JT55l",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.drWj92DVXC4JT55l"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2820,
+        3615,
+        2775,
+        3660
+      ],
+      "_id": "AKg9BeEe3Icj8Thb",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.AKg9BeEe3Icj8Thb"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2775,
+        3660,
+        2820,
+        3705
+      ],
+      "_id": "vN3Eccpbx6BU9giq",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.vN3Eccpbx6BU9giq"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2820,
+        3705,
+        2865,
+        3660
+      ],
+      "_id": "iepodPuWNRYKf42I",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.iepodPuWNRYKf42I"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2865,
+        3660,
+        2820,
+        3615
+      ],
+      "_id": "HiyNHeTz0PMAmTEf",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.HiyNHeTz0PMAmTEf"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4215,
+        3660,
+        4260,
+        3615
+      ],
+      "_id": "vtWtLdiUiy9Jr9Sk",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.vtWtLdiUiy9Jr9Sk"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4260,
+        3615,
+        4305,
+        3660
+      ],
+      "_id": "laV3b9RfaXtFW1Ph",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.laV3b9RfaXtFW1Ph"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4305,
+        3660,
+        4260,
+        3705
+      ],
+      "_id": "NTWcsqUygzWGqsSY",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.NTWcsqUygzWGqsSY"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4260,
+        3705,
+        4215,
+        3660
+      ],
+      "_id": "GyzdgaiHx9GaOEbB",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.GyzdgaiHx9GaOEbB"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4695,
+        3660,
+        4740,
+        3615
+      ],
+      "_id": "VsCHdwczX8Q9Gcdk",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.VsCHdwczX8Q9Gcdk"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4740,
+        3615,
+        4785,
+        3660
+      ],
+      "_id": "BA81CSE7enaHpS41",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.BA81CSE7enaHpS41"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4785,
+        3660,
+        4740,
+        3705
+      ],
+      "_id": "hcjWmDKLojO1e4Bz",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.hcjWmDKLojO1e4Bz"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4740,
+        3705,
+        4695,
+        3660
+      ],
+      "_id": "85ncooZOucO8f6tN",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.85ncooZOucO8f6tN"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4680,
+        3060,
+        4770,
+        3105
+      ],
+      "_id": "dVOx6h7MOoeCiQGT",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.dVOx6h7MOoeCiQGT"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4770,
+        3105,
+        4785,
+        3060
+      ],
+      "_id": "HJHwLynGjTNWE4MI",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.HJHwLynGjTNWE4MI"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4785,
+        3060,
+        4740,
+        3015
+      ],
+      "_id": "1Ph8D1g7IrhIWoO7",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.1Ph8D1g7IrhIWoO7"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4740,
+        3015,
+        4680,
+        3060
+      ],
+      "_id": "yEJqx1kOVawGCdXM",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.yEJqx1kOVawGCdXM"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3735,
+        3060,
+        3780,
+        3105
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "ZOrUnsXCi3MuEOkl",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.ZOrUnsXCi3MuEOkl"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3780,
+        3105,
+        3825,
+        3060
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "q2vDOiu2GJCX9jLQ",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.q2vDOiu2GJCX9jLQ"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3825,
+        3060,
+        3780,
+        3015
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "kyTeEhieniFMnYcT",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.kyTeEhieniFMnYcT"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3780,
+        3015,
+        3735,
+        3060
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "lGszbrQu2aFLhFFP",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.lGszbrQu2aFLhFFP"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4215,
+        3060,
+        4260,
+        3105
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "3CMKzcz4eKAs2gay",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.3CMKzcz4eKAs2gay"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4260,
+        3105,
+        4305,
+        3060
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "XDvUSVDOYhcBq6GE",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.XDvUSVDOYhcBq6GE"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4305,
+        3060,
+        4260,
+        3015
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "y5ImdTcE4rEN7mpt",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.y5ImdTcE4rEN7mpt"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        4260,
+        3015,
+        4215,
+        3060
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "zyhCuIP4U2MhYlvu",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.zyhCuIP4U2MhYlvu"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3255,
+        3060,
+        3300,
+        3105
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "LbiYzWOBNIZaVijV",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.LbiYzWOBNIZaVijV"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3300,
+        3105,
+        3345,
+        3060
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "YXwjiJMZFd0qULpb",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.YXwjiJMZFd0qULpb"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3345,
+        3060,
+        3300,
+        3015
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "knICrhHZUuK9lCP4",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.knICrhHZUuK9lCP4"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        3300,
+        3015,
+        3255,
+        3060
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "RF3pFL4FfNWGH0Tz",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.RF3pFL4FfNWGH0Tz"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2775,
+        3060,
+        2820,
+        3105
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "H2BaI682SSdA87uW",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.H2BaI682SSdA87uW"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2820,
+        3105,
+        2865,
+        3060
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "5fltGW9ma7K2RpkY",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.5fltGW9ma7K2RpkY"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2865,
+        3060,
+        2820,
+        3015
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "A07cDXc79dUMU2Oq",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.A07cDXc79dUMU2Oq"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2820,
+        3015,
+        2775,
+        3060
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "TUTvLSKZNnoeEvfG",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.TUTvLSKZNnoeEvfG"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2295,
+        3660,
+        2340,
+        3705
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "hV1uQFmD348w9cbB",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.hV1uQFmD348w9cbB"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2340,
+        3705,
+        2385,
+        3660
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "2X5cTpRSnSdy2lIS",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.2X5cTpRSnSdy2lIS"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2385,
+        3660,
+        2340,
+        3615
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "u0ByEdFZkDXrpHE2",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.u0ByEdFZkDXrpHE2"
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 10,
+      "move": 20,
+      "c": [
+        2340,
+        3615,
+        2295,
+        3660
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "_id": "jY5wtzG8ajxlCI4f",
+      "animation": null,
+      "_key": "!scenes.walls!dmgDragonsLair00.jY5wtzG8ajxlCI4f"
+    }
+  ],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "journalEntryPage": null,
+  "weather": "",
+  "folder": "6fqUFq5PtD28l5aN",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.dnd-dungeon-masters-guide.scenes.Scene.dmgDragonsLair00",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1731339577101,
+    "modifiedTime": 1732645252287,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "active": false,
+  "navOrder": 0,
+  "sort": -50000,
+  "_key": "!scenes!dmgDragonsLair00",
+  "levels": []
+}

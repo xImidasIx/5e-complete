@@ -1,0 +1,210 @@
+{
+    "id": "dnd-dungeon-masters-guide",
+    "title": "Dungeons & Dragons Dungeon Master's Guide",
+    "description": "Create thrilling adventures with this revised and expanded Dungeon Master's Guide. Inside this essential guide is everything new and experienced Dungeon Masters need to weave epic tales, build fantastical worlds, and inspire memorable moments for your party.",
+    "authors": [
+        {
+            "name": "Andrew Clayton",
+            "discord": "Atropos",
+            "url": "https://foundryvtt.com"
+        },
+        {
+            "name": "Kim Mantas",
+            "discord": "fyorl",
+            "url": "https://foundryvtt.com"
+        },
+        {
+            "name": "Jeff Hitchcock"
+        },
+        {
+            "name": "Matt Haentschke"
+        },
+        {
+            "name": "Matt Ryan",
+            "discord": "mattexdee",
+            "url": "https://foundryvtt.com"
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "url": "modules/dnd-dungeon-masters-guide/assets/journal-art/dmg-setup-cover.webp",
+            "loop": false,
+            "flags": {}
+        }
+    ],
+    "version": "2.0.0",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "esmodules": [
+        "scripts/dnd-dungeon-masters-guide.mjs"
+    ],
+    "styles": [
+        "styles/dnd-dungeon-masters-guide.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "5.1.0"
+                }
+            }
+        ]
+    },
+    "packs": [
+        {
+            "name": "content",
+            "label": "Dungeon Master's Guide",
+            "path": "packs/content",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "display": "table-of-contents"
+            }
+        },
+        {
+            "name": "equipment",
+            "label": "Equipment",
+            "path": "packs/equipment",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "types": [
+                        "weapon",
+                        "equipment",
+                        "consumable",
+                        "tool",
+                        "loot",
+                        "feat",
+                        "container"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "features",
+            "label": "Features",
+            "path": "packs/features",
+            "type": "Item",
+            "ownership": {
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "types": [
+                        "feat"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "bastions",
+            "label": "Bastions",
+            "path": "packs/bastions",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "types": [
+                        "facility"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "tables",
+            "label": "Roll Tables",
+            "path": "packs/tables",
+            "type": "RollTable",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e"
+        },
+        {
+            "name": "actors",
+            "label": "Actors",
+            "path": "packs/actors",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "types": [
+                        "npc"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "scenes",
+            "label": "Scenes",
+            "path": "packs/scenes",
+            "type": "Scene",
+            "ownership": {
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Dungeon Master's Guide",
+            "color": "#1e72cc",
+            "sorting": "m",
+            "packs": [
+                "content",
+                "equipment",
+                "features",
+                "bastions",
+                "tables",
+                "actors",
+                "scenes"
+            ]
+        }
+    ],
+    "url": "https://foundryvtt.com/packages/dnd-dungeon-masters-guide",
+    "manifest": "",
+    "protected": false,
+    "changelog": "https://github.com/foundryvtt/foundryvtt-premium-content/discussions?discussions_q=label%3Adnd-dungeon-masters-guide",
+    "flags": {
+        "hotReload": false,
+        "tokenRingSubjectMappings": {
+            "modules/dnd-dungeon-masters-guide/assets/tokens/": "modules/dnd-dungeon-masters-guide/assets/subjects/"
+        },
+        "dnd5e": {
+            "sourceBooks": {
+                "DMG 2024": "SOURCE.BOOK.DMG2024"
+            }
+        }
+    }
+}

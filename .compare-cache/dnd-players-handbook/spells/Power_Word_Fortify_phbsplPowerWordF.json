@@ -1,0 +1,160 @@
+{
+  "name": "Power Word Fortify",
+  "system": {
+    "description": {
+      "value": "<p>You fortify up to six creatures you can see within range. The spell bestows 120 Temporary Hit Points, which you divide among the spell’s recipients.</p><details><summary><strong>Temporary HP Shortcuts</strong></summary><p>[[/healing 20 type=temphp]]</p><p>[[/healing 30 type=temphp]]</p><p>[[/healing 40 type=temphp]]</p><p>[[/healing 60 type=temphp]]</p><p>[[/healing 120 type=temphp]]</p></details>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "6",
+        "type": "creature",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "uses": {
+      "max": "120",
+      "spent": 120,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "loseAll"
+        }
+      ]
+    },
+    "level": 7,
+    "school": "enc",
+    "properties": [
+      "vocal"
+    ],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {
+      "oO64rspBY5SjIDPF": {
+        "type": "utility",
+        "_id": "oO64rspBY5SjIDPF",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-120",
+              "target": "",
+              "scaling": {
+                "mode": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 100000,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "power-word-fortify"
+  },
+  "_id": "phbsplPowerWordF",
+  "type": "spell",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "effects": [],
+  "folder": "EdAGMG8IF26PLkD3",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425966512,
+    "modifiedTime": 1740686186894,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbsplPowerWordF"
+}

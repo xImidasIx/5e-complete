@@ -1,0 +1,81 @@
+{
+  "name": "Musician",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Instrument Training.</strong> You gain proficiency with three Musical Instruments of your choice.</p><p><strong>Encouraging Song.</strong> As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus (currently [[lookup @prof]]).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "musician",
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "vqXV4AFAJErhI7NA",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "tool:music:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Instrument Training",
+        "hint": "You gain proficiency with three Musical Instruments of your choice.",
+        "value": {}
+      }
+    ]
+  },
+  "_id": "phbftMusician000",
+  "type": "feat",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "effects": [],
+  "folder": "d5jrO8A6QpjEV9rn",
+  "sort": 106250,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425894713,
+    "modifiedTime": 1760154393811,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftMusician000"
+}

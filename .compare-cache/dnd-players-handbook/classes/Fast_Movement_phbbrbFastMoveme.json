@@ -1,0 +1,99 @@
+{
+  "_id": "phbbrbFastMoveme",
+  "name": "Fast Movement",
+  "type": "feat",
+  "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your speed increases by 10 feet while you aren't wearing Heavy armor.</p><section id=\"secret-6cmMiIJhUk5cpOGz\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will automatically increase your movement speed. Disable the Fast Movement Active Effect if you're wearing Heavy armor.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 5
+    },
+    "properties": [],
+    "requirements": "Barbarian",
+    "activities": {},
+    "enchant": {},
+    "identifier": "fast-movement"
+  },
+  "effects": [
+    {
+      "_id": "Ln2upWfCALSwthX1",
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbbrbFastMoveme",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "name": "Fast Movement",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e.classfeatures.Item.Kl6zifJ5OmdHlOi2.ActiveEffect.TIBmPKKnAAiWYuN4",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!phbbrbFastMoveme.Ln2upWfCALSwthX1"
+    }
+  ],
+  "folder": "p6WDpW0gzmKfhGad",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425957333,
+    "modifiedTime": 1726075571979,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrbFastMoveme"
+}

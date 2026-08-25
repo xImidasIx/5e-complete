@@ -1,0 +1,206 @@
+{
+  "_id": "mmMindBlast00000",
+  "name": "Mind Blast",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "lHIQgEzz6hc3hjWx": {
+        "type": "save",
+        "_id": "lHIQgEzz6hc3hjWx",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Qe2dtffqrJTpcuih",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "cone",
+            "size": "60",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 6,
+              "denomination": 8,
+              "bonus": "@abilities.int.mod",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "int"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "Qe2dtffqrJTpcuih"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "recharge",
+          "formula": "5",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Intelligence Saving Throw:</em> DC [[lookup @save.dc.value activity=lHIQgEzz6hc3hjWx]], each [[lookup @target.affects.type activity=lHIQgEzz6hc3hjWx]] in a [[lookup @target.template.size activity=lHIQgEzz6hc3hjWx]]-foot. [[lookup @target.template.type capitalize activity=lHIQgEzz6hc3hjWx]]. <em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Stunned apply=false] condition until the end of the [[lookup @name lowercase]]’s next turn. <em>Success:</em> Half damage only.</p>",
+      "chat": ""
+    },
+    "identifier": "mind-blast",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
+  "effects": [
+    {
+      "name": "Stunned",
+      "img": "systems/dnd5e/icons/svg/statuses/stunned.svg",
+      "origin": "Item.mmMindBlast00000",
+      "_id": "Qe2dtffqrJTpcuih",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target has the &amp;Reference[Stunned apply=false] condition until the end of the attacking creature's next turn.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "stunned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1736072414275,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmMindBlast00000.Qe2dtffqrJTpcuih"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1738097949084,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 14400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmMindBlast00000"
+}

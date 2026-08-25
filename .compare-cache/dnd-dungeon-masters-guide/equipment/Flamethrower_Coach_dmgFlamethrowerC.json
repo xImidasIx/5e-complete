@@ -1,0 +1,245 @@
+{
+  "_id": "dmgFlamethrowerC",
+  "name": "Flamethrower Coach",
+  "type": "weapon",
+  "img": "icons/weapons/artillery/catapult-white.webp",
+  "system": {
+    "activities": {
+      "nebfgxFbyMpinTd8": {
+        "type": "save",
+        "name": "Flamethrower",
+        "_id": "nebfgxFbyMpinTd8",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "rwuBBMgVXgKEjJbc",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "line",
+            "size": "60",
+            "count": "",
+            "width": "5"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "fire"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": "dex",
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Large Object</em></p><p><strong>Armor Class:</strong> 19 <strong>Hit Points:</strong> 100</p><p><em><strong>Flamethrower.</strong></em> <em>Dexterity Saving Throw:</em> DC 15, each creature in a 60-foot-long, 5-foot-wide Line. <em>Failure:</em> 14 (4d6) Fire damage, and the creature starts burning. <em>Success:</em> Half damage only.</p><p>Powered by magic, this iron coach has a flamethrower turret mounted atop it.</p><p>The coach can accommodate up to two Medium creatures. An iron hatch in the vehicle’s underbelly grants access. Narrow slits in the front, sides, and back of the coach allow its occupants to see outside. A creature in the coach has Three-Quarters Cover against attacks and other effects that originate outside it.</p><p>The coach is designed for a crew of two: a driver and a gunner. The driver can take the Utilize action to move and turn the coach, which has a Speed of 30 feet, using levers and pedals inside. The gunner can use the Flamethrower action to aim and fire it.</p>",
+      "chat": ""
+    },
+    "identifier": "flamethrower-coach",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": 19
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": 100,
+      "max": 100,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": ""
+    },
+    "mastery": ""
+  },
+  "effects": [
+    {
+      "name": "Burning",
+      "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
+      "origin": "Item.dmgFlamethrowerC",
+      "transfer": false,
+      "_id": "rwuBBMgVXgKEjJbc",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "burning"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgFlamethrowerC.rwuBBMgVXgKEjJbc"
+    }
+  ],
+  "folder": "0O0R2DaHzUoslB7X",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730821573434,
+    "modifiedTime": 1730823987138,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgFlamethrowerC"
+}

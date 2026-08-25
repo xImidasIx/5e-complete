@@ -1,0 +1,133 @@
+{
+  "name": "Moderately Armored",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Armor Training.</strong> You gain training with Medium armor.</p><section class=\"secret\" id=\"secret-Q1Odcq8OF5Y3cNci\"><p><strong>Foundry Note</strong></p><p>This feature automatically grants training with Medium armor.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "Light Armor Training",
+    "activities": {},
+    "enchant": {},
+    "identifier": "moderately-armored",
+    "advancement": [
+      {
+        "_id": "T3PXUtupR4ZX2Ftz",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbftModeratelyA",
+  "type": "feat",
+  "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
+  "effects": [
+    {
+      "name": "Moderately Armored",
+      "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
+      "_id": "SFR7SBMBqoNRmOjI",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.armorProf.value",
+          "mode": 2,
+          "value": "med",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbftModeratelyA",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.hCs5Fz3BSQjzpB8E.ActiveEffect.GPZfTyqsYaNTAMNm",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725555558479,
+        "modifiedTime": 1725555596879,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbftModeratelyA.SFR7SBMBqoNRmOjI"
+    }
+  ],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425894657,
+    "modifiedTime": 1740697795746,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftModeratelyA"
+}

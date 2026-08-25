@@ -1,0 +1,192 @@
+{
+  "_id": "mmChangelog00000",
+  "name": "Monster Manual Changelog",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "1.0.0",
+      "type": "text",
+      "_id": "PqyxfW0KeaFfGNuU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Initial release.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "nz2MP9ZyYHJtyLHc": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mmChangelog00000.PqyxfW0KeaFfGNuU"
+    },
+    {
+      "sort": 200000,
+      "name": "1.1.0",
+      "type": "text",
+      "_id": "C5L3epPZFoX29sHA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Bug Fixes</h2><ul><li><p>All uses of deprecated attributes like \"attributes.spelldc\" have been updated to use \"attributes.spell.dc\".</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmEarthElemental]{Earth Elemental} now has darkvision and tremorsense.</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmPerformer00000]{Performer}'s wildcard path has been updated to no longer include Performer Legend tokens which are scaled differently. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1028\">#1028</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmBaboon00000000]{Baboon}'s token image has been corrected to include a ring.</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmBeholder000000]{Beholder} token now uses the modern 2024 art.</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmFireElemental0]{Fire Elemental}'s token now uses the modern 2024 art. The subject was correct and has not been changed.</p></li><li><p>Many tokens now correctly use the wildcard to refer to their variants. Review the issue for a list of all creatures. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/984\">[#984]</a></p></li><li><p>Corrected some spacing issues in the @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAssassin000000]{Assasin}'s Multiattack description.</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmVampire0000000]{Vampire} now uses the correct tokens.</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAboleth0000000]{Aboleth}'s Tentacle attack now correctly deals 2d6 damage.</p></li><li><p>All \"Small\" sized creatures now have the correct token scaling of 1 as the system will automatically scale dynamic tokens to the correct size.</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmFlameskull0000]{Flameskull}'s token now emanates light as described in its Illumination feature.</p></li><li><p>Added a missing 'n' in nalfeshnee in the @UUID[Compendium.dnd-monster-manual.content.JournalEntry.mmMonstersAtoZ00]{hezrou}'s description. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1013\">#1013</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmMindFlayer0000]{Mind Flayer}'s tentacles now correctly includes the Grappled condition and related description. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1011\">#1011</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmPriestAcolyte0]{Priest Acolyte}'s mace additional damage is now typed as \"Radiant\". [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1008\">#1018</a>, <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/991\">#991</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmOchreJelly0000]{Ochre Jelly} now correctly summons Ochre Jelly's and not Black Puddings. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1007\">#1007</a>, <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/992\">#992</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmCockatrice0000]{Cockatrice}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmDarkmantle0000]{Darkmantle}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmEagle000000000]{Eagle}, and @UUID[Compendium.dnd-monster-manual.actors.Actor.mmSpinedDevil000]{Spined Devil} now have the correct token scaling.</p></li><li><p>Added missing text to the @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAnkheg00000000]{Ankheg}'s Bite description. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/994\">#994</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.features.Item.mmFireRay0000000]{Fire Ray} template feature no longer includes a +1. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/993\">#993</a>]</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmFlyingSnake000]{Flying Snake}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGiantCentipede]{Giant Centipede}, and @UUID[Compendium.dnd-monster-manual.actors.Actor.mmBloodHawk00000]{Blood Hawk} have had their scale corrected. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/988\">#988</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmHalfdragon0000]{Half-Dragon}'s @UUID[Compendium.dnd-monster-manual.features.Item.mmDraconicOrigin]{Draconic Origin} feature and the template item have both been updated to include a lightning resistance Active Effect and icon updates. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/985\">#985</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGladiator00000]{Gladiator}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGoblinBoss0000]{Goblin Boss}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGuard000000000]{Guard}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGuardCaptain00]{Guard Captain}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmHelmedHorror00]{Helmed Horror}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmHobgoblinWarlo]{Hobgoblin Warlord}, and @UUID[Compendium.dnd-monster-manual.actors.Actor.mmHobgoblinWarri]{Hobgoblin Warrior} now have their AC correctly reflected with their shields.</p></li><li><p>Removed the empty and unnecessary \"Monster Traits\" folder from the Roll Tables pack. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/976\">#976</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmHobgoblinWarri]{Hobgoblin Warrior}'s token scaling is now correct. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/977\">#977</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.features.Item.mmAnimateTrees00]{Animate Trees}, @UUID[Compendium.dnd-monster-manual.features.Item.mmAnimatingSpore]{Animating Spores}, and @UUID[Compendium.dnd-monster-manual.features.Item.mmNeedles0000000]{Needles} features have been created and added to their actors (@UUID[Compendium.dnd-monster-manual.actors.Actor.mmTreant00000000]{Treant}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmMyconidSoverei]{Myconid Sovereign}, and @UUID[Compendium.dnd-monster-manual.actors.Actor.mmNeedleBlight00]{Needle Blight} respectively) .</p></li><li><p>The following creatures have had their Biographies updated: @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientGreenDr]{Ancient Green Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultGreenDrag]{Adult Green Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultBlackDrag]{Adult Black Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientBlackDr]{Ancient Black Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultBlueDrago]{Adult Blue Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientBlueDra]{Ancient Blue Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultBrassDrag]{Adult Brass Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientBrassDr]{Ancient Brass Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultBronzeDra]{Adult Bronze Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientBronzeD]{Ancient Bronze Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultCopperDra]{Adult Copper Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientCopperD]{Ancient Copper Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultGoldDrago]{Adult Gold Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientGoldDra]{Ancient Gold Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultRedDragon]{Adult Red Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientRedDrag]{Ancient Red Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultSilverDra]{Adult Silver Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientSilverD]{Ancient Silver Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmSphinxOfValor0]{Sphinx of Valor}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmSphinxOfLore00]{Sphinx of Lore}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmVampire0000000]{Vampire}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmVampireUmbralL]{Vampire Umbral Lord}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultWhiteDrag]{Adult White Dragon}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientWhiteDr]{Ancient White Dragon}</p></li><li><p>A variety of fixes [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/991\">#991</a>]:</p><ul><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAboleth0000000]{Aboleth}'s tentacle attack has had its damage corrected.</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmModronDuodrone]{Modron Duodrone}'s items have updated icons and the Clockwork Blade's attack/damage is now correct.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultBlueDrago]{Adult Blue Dragon}'s Rend and Lightning Breath attacks now deal the correct amount of damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientBlackDr]{Ancient Black Dragon}'s Rend attack now deals the correct damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientGreenDr]{Ancient Green Dragon}'s Rend and Poison Breath now deal the correct damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmYoungRedDragon]{Young Red Dragon} Fire Breath now deals the correct damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultCopperDra]{Adult Copper Dragon}'s Acid Breath now deals the correct damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientBrassDr]{Ancient Brass Dragon}'s Scorching Sand now deals the correct damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientCopperD]{Ancient Copper Dragon}'s Acid Breath now deals the correct damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientGoldDra]{Ancient Gold Dragon}'s Rend and Fire Breath now deal the correct damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmYoungCopperDra]{Young Copper Dragon}'s Rend now deals the correct damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMagmaMephit000]{Magma Mephit}'s Death Burst now deals the correct damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmCentaurTrooper]{Centaur Trooper}'s Trampling Charge now correctly uses the strength modifier.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPixie000000000]{Pixie}'s Faerie Dust now includes 1 Radiant damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmLarva000000000]{Larva}'s Bite now has the correct damage type.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSuccubus000000]{Succubus} now features the correct portraits/tokens.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGlabrezu000000]{Glabrezu}'s Pincer and Pummel features now have the correct damage types. The template feature has also been updated.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmChainDevil0000]{Chain Devil}'s Unnerving Gaze now includes the correct DC.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmArchpriest0000]{Archpriest} now includes the Divine Aid bonus action.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWarriorCommand]{Warrior Commander} now includes the Maneuver feature.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWereboar000000]{Wereboar}'s tusk now has a damage type.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGiantOctopus00]{Giant Octopus}'s tentacles attack now has the correct damage dice.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGasSporeFungus]{Gas Spore Fungus}' tendril attack now has a damage type.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMyconidSoverei]{Myconid Sovereign}'s @UUID[Compendium.dnd-monster-manual.features.Item.mmAnimatingSpore]{Animating Spores} feature has been added and created as a template feature.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmNeedleBlight00]{Needle Blight}'s @UUID[Compendium.dnd-monster-manual.features.Item.mmNeedles0000000]{Needles} has been added and created as a template feature.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmTreant00000000]{Treant}'s @UUID[Compendium.dnd-monster-manual.features.Item.mmAnimateTrees00]{Animate Trees} feature has been added and created as a template feature.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBanshee0000000]{Banshee}'s corrupting touch feature now has a damage type.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmCrawlingClaw00]{Crawling Claw}'s slam feature now has a damage type configured.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGhost000000000]{Ghost}'s possession feature now has the correct saving throw.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmVampire0000000]{Vampire}'s Grave Strike attack now has the correct damage.</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmMinotaurOfBaph]{Minotaur of Baphomet}'s Gore feature now includes the correct dice in the description (the activity was already correct).</p></li></ul></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "nz2MP9ZyYHJtyLHc": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1741301511019,
+        "lastModifiedBy": "nz2MP9ZyYHJtyLHc",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mmChangelog00000.C5L3epPZFoX29sHA"
+    },
+    {
+      "sort": 300000,
+      "name": "1.2.0",
+      "type": "text",
+      "_id": "3qT5PydsQbImmZC4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Bug Fixes</h2><ul><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmHezrou00000000]{hezrou's}</strong> bio now uses the correct pluralization of nalfeshnee. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1031\">#1031</a>, <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1137\">#1137</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBeholder000000]{Beholder's}</strong> token and portrait scaling use 2 rather than 1. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1033\">#1033</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.xvm3pq6Uqg49hhfQ]{Yuan-ti Malison's}</strong> caption reflects the correct positioning of the creatures in the art. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1043\">#1043</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientBlackDr]{Ancient Black Dragon's}</strong> and <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAdultBlackDrag]{Adult Black Dragon's}</strong> Cloud of Insects features now use the correct enricher syntax for Concentration. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1048\">#1048</a>, <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1264\">#1264</a>]</p></li><li><p>Addressed several issues with <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAncientGoldDra]{ancient gold dragon}</strong> [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1049\">#1049</a>]:</p><ul><li><p>Update DEX and WIS save bonuses.</p></li><li><p>Update Initiative.</p></li><li><p>Update the Multiattack description.</p></li><li><p>Set Rend attack reach to 15 ft.</p></li><li><p>Update the Guiding Light legendary action casting level.</p></li><li><p>Set the consumption count for legendary actions.</p></li><li><p>Update other gold dragons with similar issues.</p></li><li><p>Casting levels for Guiding Bolt and Flame Strike remain unchanged (already correct).</p></li></ul></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBugbearStalker]{Bugbear Stalker}</strong> and <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBugbearWarrior]{Bugbear Warrior}</strong> now use the correct portrait, token, and subject images. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1057\">#1057</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBanditDeceiver]{Bandit Deceiver's}</strong> AC now reflects that they can use the <em>mage armor</em> spell. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1065\">#1065</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmKuotoaWhip0000]{Kuo-toa whip}</strong> and <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmKuotoaMonitor0]{Kuo-toa monitor}</strong> now use the correct portrait, token, and subject images. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1072\">#1072</a>]</p></li><li><p>The file name for <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfInsects]{Swarm of Insects}</strong> is now <code>swarm-of-insects.webp</code> (from <code>swarm of insects.webp</code>). [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1085\">#1085</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmVampireSpawn00]{Vampire Spawn}</strong> uses the correct portrait image. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1092\">#1092</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPriest00000000]{Priest's}</strong> 1/Day spell uses <em>spirit guardians</em> rather than <em>spiritual weapon</em>. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1093\">#1093</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmLich0000000000]{Lich's}</strong> attack bonus for Eldritch Burst and Paralyzing Touch actions is +12. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1094\">#1094</a>]</p></li><li><p>The manual sort order for the <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmAirElemental00]{Air Elemental}</strong> is updated so Multiattack appears at the top of the actions when the list is in manual sort mode. If you use A to Z sorting, all items display alphabetically. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1095\">#1095</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmTroll000000000]{Troll}</strong> and <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmTrollLimb00000]{Troll Limb's}</strong> Regeneration feature now uses the correct value for healing. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1101\">#1101</a>]</p></li><li><p>The Armor Class (AC) for NPCs with the Beast creature type now reflects the correct AC value and type (natural armor). [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1110\">#1110</a>, <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1208\">#1208</a>, <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1213\">#1213</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmKraken00000000]{Kraken's}</strong> Swallow feature is an Action. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1121\">#1121</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.features.Item.mmCorruptingTouc]{Corrupting Touch}</strong> feature item in the Feature Items compendium now includes a range. The feature is implemented in the <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmBanshee0000000]{Banshee}</strong> and <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmLamia000000000]{Lamia}</strong> actors and both are configured correctly. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1133\">#1133</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWarriorInfantr]{Warrior Infantry}</strong> now has a chain shirt in their inventory, which also corrects the NPC's armor class (AC) accordingly. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1173\">#1173</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmRevenant000000]{Revenant's}</strong> Vow of Revenge bonus action now has the correct configuration, limiting its use to once per day. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1174\">#1174</a>]</p></li><li><p>The additional <strong>Kuo-toa</strong> stat block is removed from the Monster A-Z journal. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1187\">#1187</a>]</p></li><li><p>The Active Effect (AE) in the <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmShadowDragon00]{Shadow Dragon's}</strong> Living Shadow feature is consolidated to better manage temporary resistances (it was originally set up with separate AEs for each resistance type). [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1210\">#1210</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGiantVenomousS]{Giant Venomous Snake's}</strong> reach for its Bite action is now 10 ft. (from 5 ft.). [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1236\">#1236</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmOtyugh00000000]{Otyugh's}</strong> actor sheet now includes the missing languages. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1237\">#1237</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmUmberHulk00000]{Umber Hulk's}</strong> Confusing Gaze feature can recharge on a roll of 5–6. Additionally, the empty Confusing Gaze feature is removed. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1255\">#1255</a>]</p></li><li><p>The token images for the <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmFaerieDragonAd]{Adult}</strong> and <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmFaerieDragonYo]{Youth Faerie Dragons}</strong> now use the correct token and subject images. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1257\">#1257</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmFlameskull0000]{Flameskull's}</strong> Undead Restoration now has the correct description. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1260\">#1260</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmPlanetar000000]{Planetar's}</strong> Divine Aid feature now includes the correct spells. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1266\">#1266</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWillowisp00000]{Will-o'-Wisp's}</strong> prototype token now emits light: 20 ft. bright light, 40 ft. dim light. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1268\">#1268</a>]</p></li><li><p>The area of effect configured in the <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmChuul000000000]{Chuul's}</strong> Paralyzing Tentacles feature is removed. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1269\">#1269</a>]</p></li><li><p>Subject text images are configued at the manifest level using <code>tokenRingSubjectMappings</code> flag rather than directly on the prototype token. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1271\">#1271</a>]</p></li><li><p>The description of the <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmGithyankiKnigh]{Githyanki Knight's}</strong> spellcasting is updated to replace the placeholder text with the full text. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1281\">#1281</a>]</p></li><li><p>The <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmTroll000000000]{Troll}</strong> and <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmTrollLimb00000]{Troll Limb}</strong> now have the correct text for their Regeneration feature.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "1cIN1wXbfsmG13Hh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.2",
+        "createdTime": 1756307560302,
+        "modifiedTime": 1757705529115,
+        "lastModifiedBy": "xwp3q986qZwnnwvm"
+      },
+      "_key": "!journal.pages!mmChangelog00000.3qT5PydsQbImmZC4"
+    },
+    {
+      "sort": 400000,
+      "name": "1.3.0",
+      "type": "text",
+      "_id": "NIcbYP1qQuj4bHJm",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Feature Enhancements</h1><ul><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmJuvenileShadow]{Juvenile Shadow Dragon} and @UUID[Compendium.dnd-monster-manual.actors.Actor.mmShadowDragon00]{Shadow Dragon} uses only one Active Effect to handle Resistances. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1382\">#1382</a>]</p></li></ul><h2>Bug Fixes</h2><ul><li><p>Priest Acolyte's description now reflects the correct list of spells. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1093\">#1903</a>]</p></li><li><p>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSalamander0000]{Salamander}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmSalamanderInfe]{Salamander Inferno Master}, and @UUID[Compendium.dnd-monster-manual.actors.Actor.mmSalamanderFire]{Salamander Fire Snake}'s artwork is now all correct. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1055\">#1055</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmVampire0000000]{Vampire} and @UUID[Compendium.dnd-monster-manual.actors.Actor.mmVampireUmbralL]{Vampire Umbral Lord}'s <strong>Stake to the Heart</strong> description has been corrected. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1391\">#1391</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmYuantiMalison3]{Yuan-ti Malison (Type 3)}'s Constrict feature now lists the correct size for targets. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1388\">#1388</a>]</p></li><li><p>Removed extra Active Effects from the @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobLion000000]{Lion}'s Roar feature. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1381\">#1381</a>]</p></li><li><p>The Warrior Infantry's Chain Shirt now uses the official icon. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1380\">#1380</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmOctopus0000000]{Octopus}' Tentacles feature no longer includes incorrect Grappling/Escape activities/effects. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1379\">#1379</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmAboleth0000000]{Aboleth}'s Tentacle feature is now 14. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1377\">#1377</a>]</p></li><li><p>Added @UUID[Compendium.dnd-monster-manual.features.Item.mmRally000000000]{Rally} feature to @UUID[Compendium.dnd-monster-manual.actors.Actor.mmPirateAdmiral0]{Pirate Admiral}. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1376\">#1376</a>]</p></li><li><p>Removed unused duplicate Spectral Claw feature. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1375\">#1375</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmBadger00000000]{Badger} and @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGiantBadger000]{Giant Badger} now have resistance to Poison. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1373\">#1373</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmCultistHieroph]{Cultist Hierophant} no longer includes Mage Armor and instead includes a Breastplate. The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmPseudodragon00]{Pseudodragon}'s Sting feature's description and Active Effects have been updated. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1352\">#1352</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.features.Item.mmParry000000000]{Parry} feature now uses proficiency. All of the creature's which had the Parry feature now have the updated version: @UUID[Compendium.dnd-monster-manual.actors.Actor.mmBanditCaptain0]{Bandit Captain}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmDeathKnight000]{Death Knight}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmDeathKnightAsp]{Death Knight Aspirant}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmErinyes0000000]{Erinyes}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGladiator00000]{Gladiator}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmHobgoblinWarlo]{Hobgoblin Warlord}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmKnight00000000]{Knight}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmMarilith000000]{Marilith}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmNoble000000000]{Noble}, @UUID[Compendium.dnd-monster-manual.actors.Actor.mmWarriorVeteran]{Warrior Veteran} [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1347\">#1347</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGnollWarrior00]{Gnoll Warrior} now includes the Rampage feature. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1300\">#1300</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmLizardfolkGeom]{Lizardfolk Geomancer}'s Token no longer has a stray shadow [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1287\">#1287</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmPriest00000000]{Priest}'s Radiant Flame ability now only utilizes the base damage rather than overriding it with the same values in the Activity. There is no material impact in use though. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1273\">#1273</a>]</p></li><li><p>The @UUID[Compendium.dnd-monster-manual.actors.Actor.mmOwl00000000000]{Owl}'s Talon now deals slashing damage, not radiant.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "g3b1uG8OzU4jXKtW": 3
+      },
+      "flags": {
+        "core": {
+          "sheetClass": ""
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1760293487697,
+        "modifiedTime": 1760373188947,
+        "lastModifiedBy": "BcGywgWNTaQhpKPn"
+      },
+      "_key": "!journal.pages!mmChangelog00000.NIcbYP1qQuj4bHJm"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "dnd5e": {
+      "position": 6,
+      "showPages": false,
+      "type": "chapter",
+      "title": "Changelog"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1741289748206,
+    "modifiedTime": 1741289906354,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!mmChangelog00000"
+}

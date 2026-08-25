@@ -1,0 +1,105 @@
+{
+  "_id": "phbbrbBatteringR",
+  "name": "Battering Roots",
+  "type": "feat",
+  "img": "icons/magic/nature/root-vine-beanstolk-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>During your turn, your reach is 10 feet greater with any Melee weapon that has the Heavy or Versatile property, as tendrils of the World Tree extend from you. When you hit with such a weapon on your turn, you can activate the Push or Topple mastery property in addition to a different mastery property you're using with that weapon.</p><section id=\"secret-2uKFL0ICeFFIOlns\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which grants you the Push and Topple mastery property.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 10
+    },
+    "properties": [],
+    "requirements": "Path of the World Tree",
+    "activities": {},
+    "enchant": {},
+    "identifier": "battering-roots"
+  },
+  "effects": [
+    {
+      "name": "Battering Roots",
+      "img": "icons/magic/nature/root-vine-beanstolk-green.webp",
+      "_id": "7yLLTjEHxf9keIpV",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.weaponProf.mastery.bonus",
+          "mode": 2,
+          "value": "push",
+          "priority": null
+        },
+        {
+          "key": "system.traits.weaponProf.mastery.bonus",
+          "mode": 2,
+          "value": "topple",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725995429887,
+        "modifiedTime": 1725998595182,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbbrbBatteringR.7yLLTjEHxf9keIpV"
+    }
+  ],
+  "folder": "Zd7YGO9cOq0vvRbw",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425956490,
+    "modifiedTime": 1726075571725,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrbBatteringR"
+}

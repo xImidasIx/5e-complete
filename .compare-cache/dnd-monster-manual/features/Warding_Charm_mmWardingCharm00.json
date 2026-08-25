@@ -1,0 +1,188 @@
+{
+  "_id": "mmWardingCharm00",
+  "name": "Warding Charm",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "zTaurVqDcUSvviyB": {
+        "type": "save",
+        "_id": "zTaurVqDcUSvviyB",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "A creature hits the attacking creature with an attack roll."
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "turn",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "zwEj9uWpnA5D5HTh",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "cha",
+            "formula": "8 + @mod + @prof"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "zwEj9uWpnA5D5HTh"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Trigger:</em> A creature hits the [[lookup @name lowercase]] with an attack roll.</p><p class=\"feature\"><em>Response—Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=zTaurVqDcUSvviyB]], the triggering creature.</p><p class=\"feature\"><em>Failure:</em> The attack roll misses the [[lookup @name lowercase]], and the target has the &amp;Reference[Charmed apply=false] condition until the end of the [[lookup @name lowercase]]’s next turn.</p>",
+      "chat": ""
+    },
+    "identifier": "warding-charm",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+  "effects": [
+    {
+      "name": "Charmed",
+      "img": "systems/dnd5e/icons/svg/statuses/charmed.svg",
+      "origin": "Item.mmWardingCharm00",
+      "_id": "zwEj9uWpnA5D5HTh",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>If the attack roll misses the attacking creature's target, the target has the &amp;Reference[Charmed apply=false] condition until the end of the attacking creature's next turn.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "charmed"
+      ],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1737839325686,
+        "lastModifiedBy": "p7W6V9dOCsYphtv6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmWardingCharm00.zwEj9uWpnA5D5HTh"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737839306849,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 23600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmWardingCharm00"
+}

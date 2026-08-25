@@ -1,0 +1,193 @@
+{
+  "_id": "phbwlkResilience",
+  "name": "Celestial Resilience",
+  "type": "feat",
+  "folder": "BfXThSSeEfafZ3cJ",
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You gain Temporary Hit Points whenever you use your @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkMagicalCun]{Magical Cunning} feature or finish a Short or Long Rest. These Temporary Hit Points equal your Warlock level plus your Charisma modifier. Additionally, choose up to five creatures you can see when you gain the points. Those creatures each gain Temporary Hit Points equal to half your Warlock level plus your Charisma modifier.</p><section id=\"secret-Ny2g5xXGGjCiFgp7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Your Temporary Hit Points</strong> and the <strong>Chosen Creatures Hit Points</strong> activities both include the correct number of Temporary Hit Points for their respective targets.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 10
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "e0Z4QVl2xhKrnzlY": {
+        "type": "heal",
+        "name": "Your Temporary Hit Points",
+        "_id": "e0Z4QVl2xhKrnzlY",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "Whenever you use your Magical Cunning or finish a Short or Long Rest"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": "@classes.warlock.levels + @abilities.cha.mod"
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "RcOD8an5PifIcVfn": {
+        "type": "heal",
+        "name": "Chosen Creatures Hit Points",
+        "_id": "RcOD8an5PifIcVfn",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "Whenever you use your Magical Cunning or finish a Short or Long Rest"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "5",
+            "type": "creature",
+            "special": "You can see when you gain the points"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": "(floor(@classes.warlock.levels / 2)) + @abilities.cha.mod"
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "celestial-resilience"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425984980,
+    "modifiedTime": 1726075586390,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbwlkResilience"
+}

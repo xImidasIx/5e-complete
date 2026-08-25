@@ -1,0 +1,176 @@
+{
+  "_id": "mmHorrify0000000",
+  "name": "Horrify",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "HLddTFpf4viIdEOL": {
+        "type": "save",
+        "_id": "HLddTFpf4viIdEOL",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "rttbSuOfCKb1TjGs",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "cha",
+            "formula": "8 + @mod + @prof"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "rttbSuOfCKb1TjGs"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=HLddTFpf4viIdEOL]], [[lookup @target.affects.labels.statblock activity=HLddTFpf4viIdEOL]] the [[lookup @name lowercase]] can see within [[lookup @range.value activity=HLddTFpf4viIdEOL]] [[lookup @range.units activity=HLddTFpf4viIdEOL]] that can see the [[lookup @name lowercase]]. <em>Failure:</em> The target has the &amp;Reference[Frightened apply=false] condition until the start of the [[lookup @name lowercase]]’s next turn. <em>Success:</em> The target is immune to this [[lookup @name lowercase]]’s Horrifying Visage for 24 hours.</p>",
+      "chat": ""
+    },
+    "identifier": "horrify",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/death/skull-energy-light-white.webp",
+  "effects": [
+    {
+      "name": "Frightened",
+      "img": "systems/dnd5e/icons/svg/statuses/frightened.svg",
+      "origin": "Item.mmHorrify0000000",
+      "_id": "rttbSuOfCKb1TjGs",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the start of the attacking creature's next turn.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1736055196928,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmHorrify0000000.rttbSuOfCKb1TjGs"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737781844723,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 12000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmHorrify0000000"
+}

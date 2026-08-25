@@ -1,0 +1,120 @@
+{
+  "_id": "phbscrWildMagicS",
+  "name": "Wild Magic Sorcery",
+  "type": "subclass",
+  "folder": "45fGQlR9VJAIreZA",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/wild-magic.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Unleash Chaotic Magic</p></blockquote><p>Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "wild-magic",
+    "classIdentifier": "sorcerer",
+    "advancement": [
+      {
+        "_id": "L6ggzptPm0jk4nxC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbscrSurgeWildM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbscrTidesOfCha",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "3ptQZs8Z30J3e8MH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbscrBendLuck00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "Rr3BfHIS9JdX6c5X",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbscrControlled",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "zWNxZUTJugO6duSj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbscrTamedSurge",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "Subclass Features"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425984302,
+    "modifiedTime": 1726844251981,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbscrWildMagicS"
+}

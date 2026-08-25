@@ -1,0 +1,132 @@
+{
+  "_id": "phbclcImprovedDu",
+  "name": "Improved Duplicity",
+  "type": "feat",
+  "folder": "TEGFpRmAMpNOJWF6",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
+  "system": {
+    "description": {
+      "value": "<p>The illusion of your Invoke Duplicity has grown more powerful in the following ways.</p><p><strong>Shared Distraction.</strong> When you and your allies make attack rolls against a creature within 5 feet of the illusion, the attack rolls have Advantage.</p><p><strong>Healing Illusion.</strong> When the illusion ends, you or a creature of your choice within 5 feet of it regains a number of Hit Points equal to your Cleric level.</p><section id=\"secret-uap8bgfMVCz4pnet\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for the <strong>Healing Illusion</strong> but it does not automate the advantage against creatures within 5 feet of the illusion.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 17
+    },
+    "properties": [],
+    "requirements": "Trickery Domain",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "heal",
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "When the illusion ends",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "spec",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "radius",
+            "size": "5",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": true,
+            "special": "Within 5 feet of the duplicate"
+          },
+          "prompt": false,
+          "override": false
+        },
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "bonus": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "@classes.cleric.levels"
+          },
+          "scaling": {
+            "mode": "whole",
+            "number": null,
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "name": "Healing Illusion",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "improved-duplicity"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425964752,
+    "modifiedTime": 1726075574256,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbclcImprovedDu"
+}

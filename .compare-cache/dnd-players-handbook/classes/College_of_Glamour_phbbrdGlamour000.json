@@ -1,0 +1,157 @@
+{
+  "_id": "phbbrdGlamour000",
+  "name": "College of Glamour",
+  "type": "subclass",
+  "folder": "taXfKVJXVI5Z807d",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/glamour.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Weave Beguiling Fey Magic</p></blockquote><p>The College of Glamour traces its origins to the beguiling magic of the Feywild. Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of long-held fears, and tug at the emotions of even the most hard-hearted listeners.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "glamour",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "qZ2NBbJPG4MFaeGq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbbrdMantleOfMa",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "aKZyWRiyfDiHhcZJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbbrdUnbreakabl",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "HNlKvmPL8ztcaf2d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbbrdBeguilingM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbbrdMantleOfIn",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "GIqTIyYPWRzuIyqW",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Beguiling Magic",
+        "hint": ""
+      },
+      {
+        "_id": "nP8NCPYVMtgCwhLl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplCommand000"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": "Mantle of Majesty",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425961740,
+    "modifiedTime": 1726075573341,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrdGlamour000"
+}

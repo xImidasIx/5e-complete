@@ -1,0 +1,161 @@
+{
+  "_id": "dmgAlchemyJug000",
+  "name": "Activate Alchemy Jug",
+  "type": "equipment",
+  "folder": "CXJsbhXV9uLcWcfH",
+  "img": "icons/consumables/drinks/pitcher-dripping-white.webp",
+  "system": {
+    "activities": {
+      "R1WGvcqGs25b8wvR": {
+        "type": "utility",
+        "name": "Create Liquid",
+        "_id": "R1WGvcqGs25b8wvR",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ],
+      "autoDestroy": false,
+      "max": "1"
+    },
+    "description": {
+      "value": "<table><caption>Created Liquids (Choose One)</caption><thead><tr><td colspan=\"4\">Item and Quantity</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Acid}</td><td>2</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}</td><td>2</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Basic Poison}</td><td>1</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspVinegar0000]{Vinegar}</td><td>16</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspBeer0000000]{Beer}</td><td>32</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspWaterfresh0]{Water, fresh}</td><td>64</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspHoney000000]{Honey}</td><td>8</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspWatersalt00]{Water, salt}</td><td>96</td></tr><tr><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspMayonnaise0]{Mayonnaise}</td><td>16</td><td>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgspWine0000000]{Wine}</td><td>8</td></tr></tbody></table><details><summary>Alchemy Jug Details</summary><p>@Embed[.dmgAlchemyJugCon caption=false]</p></details>",
+      "chat": ""
+    },
+    "identifier": "alchemy-jug",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": "dmgAlchemyJugCon",
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": []
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.4",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1757170775738,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgAlchemyJug000"
+}

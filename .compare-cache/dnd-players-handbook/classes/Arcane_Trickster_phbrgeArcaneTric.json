@@ -1,0 +1,187 @@
+{
+  "_id": "phbrgeArcaneTric",
+  "name": "Arcane Trickster",
+  "type": "subclass",
+  "folder": "JBKpeqLQWPp9Wt59",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/arcane-trickster.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Enhance Stealth with Arcane Spells</p></blockquote><p>Some Rogues enhance their fine-honed skills of stealth and agility with spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "trickster",
+    "classIdentifier": "rogue",
+    "advancement": [
+      {
+        "_id": "52x82ltPXCgmrh1K",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeSpellcasti",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeMageHandLe",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "MlEcUhyGRGitfiUJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeMagicalAmb",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "aNcqA4J0puHsYiyv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeVersatileT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "Q45sJX4IS3NbsrtV",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeSpellThief",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "euJHhdIZBeLz1Wyc",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "max-prepared",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 3
+            },
+            "4": {
+              "value": 4
+            },
+            "7": {
+              "value": 5
+            },
+            "8": {
+              "value": 6
+            },
+            "10": {
+              "value": 7
+            },
+            "11": {
+              "value": 8
+            },
+            "13": {
+              "value": 9
+            },
+            "14": {
+              "value": 10
+            },
+            "16": {
+              "value": 11
+            },
+            "19": {
+              "value": 12
+            },
+            "20": {
+              "value": 13
+            }
+          }
+        },
+        "value": {},
+        "title": "Max Prepared Spells",
+        "hint": ""
+      },
+      {
+        "_id": "CKaLT66TRgZpnY7A",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Spellcasting",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "third",
+      "ability": "int",
+      "preparation": {
+        "formula": "@scale.trickster.max-prepared"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.2",
+    "createdTime": 1724425981316,
+    "modifiedTime": 1735253559466,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgeArcaneTric"
+}

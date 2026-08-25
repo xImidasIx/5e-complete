@@ -1,0 +1,176 @@
+{
+  "_id": "phbscrBastionOfL",
+  "name": "Bastion of Law",
+  "type": "feat",
+  "folder": "0Ca9gLGFA1up33c3",
+  "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As a Magic action, you can expend 1 to 5 Sorcery Points to create a magical ward around yourself or another creature you can see within 30 feet of yourself. The ward is represented by a number of d8s equal to the number of Sorcery Points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice.</p><p>The ward lasts until you finish a Long Rest or until you use this feature again.</p><section id=\"secret-O9GfdJl9WWz3Wnli\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Sorcery Points</strong> activity allows you to expend the desired number of Sorcery Points. It includes an Active Effect which can be used for tracking the warded creature. It also includes a \"Ward Die\" roll which rolls 1d8. You will have to manually track the number of dice available.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "DucJ5vspZD8Yv0gi": {
+        "type": "utility",
+        "name": "Create Shield",
+        "_id": "DucJ5vspZD8Yv0gi",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "5"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "0ighpvgKFnlqjRgB"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": true,
+          "name": "Ward Die",
+          "formula": "1d8"
+        },
+        "img": "",
+        "appliedEffects": [
+          "0ighpvgKFnlqjRgB"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "bastion-of-law"
+  },
+  "effects": [
+    {
+      "name": "Warded by Law",
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbscrBastionOfL",
+      "transfer": false,
+      "_id": "0ighpvgKFnlqjRgB",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice. The ward lasts until you finish a Long Rest or until you use this feature again.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725227059616,
+        "modifiedTime": 1726860273611,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbscrBastionOfL.0ighpvgKFnlqjRgB"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1724425983436,
+    "modifiedTime": 1755881764378,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbscrBastionOfL"
+}

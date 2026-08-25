@@ -1,0 +1,133 @@
+{
+  "name": "Medium Armor Master",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Dexterous Wearer.</strong> While you’re wearing Medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity score of 16 or higher.</p><section class=\"secret\" id=\"secret-6pnyGDNgbSDB7FtT\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which grants a +1 to Armor Class. Disable it if your Dexterity is 15 or lower.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "Medium Armor Training",
+    "activities": {},
+    "enchant": {},
+    "identifier": "medium-armor-master",
+    "advancement": [
+      {
+        "_id": "E22P7Y15pJOsqh5A",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbftMediumArmor",
+  "type": "feat",
+  "img": "icons/equipment/chest/breastplate-scale-grey.webp",
+  "effects": [
+    {
+      "name": "Medium Armor Master",
+      "img": "icons/equipment/chest/breastplate-scale-grey.webp",
+      "_id": "r6D3Ach1DcRanNcj",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbftMediumArmor",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.hCs5Fz3BSQjzpB8E.ActiveEffect.GPZfTyqsYaNTAMNm",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725555419949,
+        "modifiedTime": 1726253418730,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbftMediumArmor.r6D3Ach1DcRanNcj"
+    }
+  ],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425894611,
+    "modifiedTime": 1740697799748,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftMediumArmor"
+}

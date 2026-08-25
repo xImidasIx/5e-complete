@@ -1,0 +1,184 @@
+{
+  "_id": "phbrgeSoulknife0",
+  "name": "Soulknife",
+  "type": "subclass",
+  "folder": "JBKpeqLQWPp9Wt59",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/soulknife.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Strike Foes with Psionic Blades</p></blockquote><p>A Soulknife strikes with the mind, cutting through barriers both physical and psychic. These Rogues discover psionic power within themselves and channel it to do their roguish work. As a Soulknife, your psionic abilities might have haunted you since childhood, revealing their full potential only as you experienced the stress of adventure. Or you might have sought out an order of psychic adepts and spent years learning how to manifest your power.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "soulknife",
+    "classIdentifier": "rogue",
+    "advancement": [
+      {
+        "_id": "52x82ltPXCgmrh1K",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgePsionicPow",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgePsychicBla",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "MlEcUhyGRGitfiUJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeSoulBlades",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "aNcqA4J0puHsYiyv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgePsychicVei",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "Q45sJX4IS3NbsrtV",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeRendMind00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "vzAj9DVM39AAA9WA",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "die",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 4,
+              "faces": 6,
+              "modifiers": []
+            },
+            "5": {
+              "number": 6,
+              "faces": 8,
+              "modifiers": []
+            },
+            "9": {
+              "number": 8,
+              "faces": 8,
+              "modifiers": []
+            },
+            "11": {
+              "number": 8,
+              "faces": 10,
+              "modifiers": []
+            },
+            "13": {
+              "number": 10,
+              "faces": 10,
+              "modifiers": []
+            },
+            "17": {
+              "number": 12,
+              "faces": 12,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "Psionic Power",
+        "hint": "You harbor a wellspring of psionic energy within yourself. It is represented by your Psionic Energy Dice, which fuel certain powers you have from this subclass."
+      },
+      {
+        "_id": "ETTPZOwazQk1UcG3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeBladesPsyc"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Psychic Blade",
+        "hint": "You are granted a Psychic Blade which can be used for your Psychic Blades features."
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425982013,
+    "modifiedTime": 1726844244251,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgeSoulknife0"
+}

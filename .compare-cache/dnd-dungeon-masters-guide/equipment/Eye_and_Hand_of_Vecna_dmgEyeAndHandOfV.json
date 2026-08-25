@@ -1,0 +1,346 @@
+{
+  "_id": "dmgEyeAndHandOfV",
+  "name": "Eye and Hand of Vecna",
+  "type": "equipment",
+  "folder": "U4xmShLy19Ry54zl",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/eye-of-vecna.webp",
+  "system": {
+    "activities": {
+      "dT910wXtZDrqlQWA": {
+        "type": "heal",
+        "name": "Regeneration",
+        "_id": "dT910wXtZDrqlQWA",
+        "sort": 150000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "start your turn with at least 1 Hit Point"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": 1,
+          "denomination": "10",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "CP9ke0GUWNpeGxGe": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplWish000000",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "9",
+          "properties": []
+        },
+        "_id": "CP9ke0GUWNpeGxGe",
+        "sort": 200000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "Can be used once every 30 days"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "",
+        "img": ""
+      },
+      "Bgj4VKh3jykOu3P6": {
+        "type": "save",
+        "name": "Necrotic Reduction",
+        "_id": "Bgj4VKh3jykOu3P6",
+        "sort": 100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "A creature reduced to 0 Hit Points by this damage is transformed into green slime"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": "creature you can see"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": "con",
+          "dc": {
+            "calculation": "",
+            "formula": "18"
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<div><p><em>Wondrous Item, Artifact (Requires Attunement)</em></p></div><blockquote><p>Vecna was a mighty wizard who, through magic and conquest, forged a terrible empire. For all his power, however, Vecna feared death and took steps to prevent his demise by becoming a lich.</p><p>A treacherous lieutenant named Kas brought Vecna’s rule to an end in a terrible battle. Of Vecna, all that remained were one hand and one eye, grisly Artifacts that still seek to work Vecna’s will in <span class=\"no-break\">the world</span>.</p></blockquote><p>The <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyeofVecna000]{Eye of Vecna}</em> and the <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHandofVecna00]{Hand of Vecna}</em> are separate Artifacts that might be found together or <span class=\"no-break\">separately</span>. The eye looks like a bloodshot organ torn free from the socket. The hand is a shriveled left extremity.</p><p><strong>Properties of the Eye and Hand.</strong> While attuned to both the hand and eye, you gain the following additional benefits:</p><details><summary><strong>Danger Sense.</strong></summary><p>You have Advantage on Initiative rolls.</p></details><details><summary><strong>Necrotic Reduction.</strong></summary><p>As a Magic action, you can target one creature you can see within 5 feet of yourself. The target makes a DC 18 Constitution saving throw, taking 7d6 Necrotic damage on a failed save or half as much damage on a successful one. A creature reduced to 0 Hit Points by this damage is transformed into green slime (see chapter 3) that covers the ground in its space, each 5-foot square of slime representing a separate patch. Nonmagical objects worn or carried by the target that are made of metal or organic material are destroyed by the slime.</p></details><details><summary><strong>Poison Immunity.</strong></summary><p>You have Immunity to Poison damage and the Poisoned condition.</p></details><details><summary><strong>Regeneration.</strong></summary><p>If you start your turn with at least 1 Hit Point, you regain 1d10 Hit Points.</p></details><details><summary><strong>Wish.</strong></summary><p>You can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em>. Once used, this property can’t be used again until 30 days have passed.</p></details><details><summary><strong>Destroying the Eye and Hand.</strong></summary><p>If the <em>Eye of Vecna</em> and the <em>Hand of Vecna</em> are both attached to the same creature and that creature is slain by the <em>Sword of Kas</em> , both the eye and the hand burst into flame, turn to ash, and are destroyed. Any other attempt to destroy the eye or hand seems to work, but the Artifact reappears in one of Vecna’s many hidden vaults, where it waits to be rediscovered.</p></details>",
+      "chat": ""
+    },
+    "identifier": "eye-and-hand-of-vecna",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "Vecna's Eye and Hand: Initiative, Immunity",
+      "img": "icons/magic/symbols/rune-sigil-green-purple.webp",
+      "_id": "yRpn7W4fmkp5lwHn",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.initiativeAdv",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.traits.di.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "poisoned",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p><strong>Danger Sense.</strong> You have Advantage on Initiative rolls.</p><p><strong>Poison Immunity.</strong> You have Immunity to Poison damage and the Poisoned condition.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1729701759920,
+        "modifiedTime": 1729710255643,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgEyeAndHandOfV.yRpn7W4fmkp5lwHn"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1730838024348,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 12200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgEyeAndHandOfV"
+}

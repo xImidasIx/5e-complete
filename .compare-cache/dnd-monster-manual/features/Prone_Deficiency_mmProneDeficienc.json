@@ -1,0 +1,233 @@
+{
+  "_id": "mmProneDeficienc",
+  "name": "Prone Deficiency",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "LfYXT04YlFJUhscb": {
+        "type": "save",
+        "_id": "LfYXT04YlFJUhscb",
+        "sort": 200000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "10"
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "oZ9oY4kfs3X0Aiw7": {
+        "type": "utility",
+        "_id": "oZ9oY4kfs3X0Aiw7",
+        "sort": 100000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "On an odd number, it has the Incapacitated condition."
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "SUf1iDoWmclRnYZf"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "Roll a Die",
+          "formula": "1d6"
+        },
+        "name": "Roll a Die",
+        "img": "systems/dnd5e/icons/svg/dice/d6.svg",
+        "appliedEffects": [
+          "SUf1iDoWmclRnYZf"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\">If the [[lookup @name lowercase]] receives the Prone condition, roll a die. On an odd number, it has the &amp;Reference[Incapacitated apply=false] condition. At the end of each of its turns, the [[lookup @name lowercase]] makes a DC [[lookup @save.dc.value activity=LfYXT04YlFJUhscb]] Dexterity saving throw, ending the Incapacitated condition on a success.</p>",
+      "chat": ""
+    },
+    "identifier": "prone-deficiency",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": ""
+  },
+  "folder": "L9Zgr8qAPc3ngKhb",
+  "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
+  "effects": [
+    {
+      "name": "Incapacitated",
+      "img": "systems/dnd5e/icons/svg/statuses/incapacitated.svg",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmProneDeficienc",
+      "_id": "SUf1iDoWmclRnYZf",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>On an odd number, it has the &amp;Reference[Incapacitated apply=false] condition.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "incapacitated"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1736284593737,
+        "modifiedTime": 1737060097035,
+        "lastModifiedBy": "nz2MP9ZyYHJtyLHc",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmProneDeficienc.SUf1iDoWmclRnYZf"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1736284759823,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 9600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmProneDeficienc"
+}

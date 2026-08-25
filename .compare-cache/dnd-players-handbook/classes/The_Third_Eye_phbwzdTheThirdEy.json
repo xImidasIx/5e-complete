@@ -1,0 +1,419 @@
+{
+  "_id": "phbwzdTheThirdEy",
+  "name": "The Third Eye",
+  "type": "feat",
+  "folder": "vnHhgMUbXwdRJDX2",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can increase your powers of perception. As a Bonus Action, choose one of the following benefits, which lasts until you start a Short or Long Rest. You can’t use this feature again until you finish a Short or Long Rest.</p><p><strong>Darkvision.</strong> You gain Darkvision with a range of 120 feet.</p><p><strong>Greater Comprehension.</strong> You can read any language.</p><p><strong>See Invisibility.</strong> You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{See Invisibility} without expending a spell slot.</p><section class=\"secret\" id=\"secret-AeoWjJwGLABKOYGI\"><p><strong>Foundry Note</strong></p><p>The <strong>Darkvision</strong> activity includes an Active Effect which grants you Darkvision.</p><p>The <strong>Greater Comprehension</strong> activity includes an Active Effect for tracking.</p><p>The <strong>See Invisibility</strong> activity includes a limited use and an Active Effect for tracking.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 10
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "xlVtQKkQVrhNmJar": {
+        "type": "utility",
+        "name": "Darkvision",
+        "_id": "xlVtQKkQVrhNmJar",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "IUo9qk5F4i3jzUni"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/damage/psychic.svg",
+        "appliedEffects": [
+          "IUo9qk5F4i3jzUni"
+        ]
+      },
+      "RUXG2CkPAyYV2mAH": {
+        "type": "utility",
+        "name": "Greater Comprehension",
+        "_id": "RUXG2CkPAyYV2mAH",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "eQysfWPI1pcv9lwX"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/item-grant.svg",
+        "appliedEffects": [
+          "eQysfWPI1pcv9lwX"
+        ]
+      },
+      "lbwgWyEQ7Zc9kz1N": {
+        "type": "utility",
+        "name": "See Invisibility",
+        "_id": "lbwgWyEQ7Zc9kz1N",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "fmt01uyj41mO9kHm"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/damage/psychic.svg",
+        "appliedEffects": [
+          "fmt01uyj41mO9kHm"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "the-third-eye"
+  },
+  "effects": [
+    {
+      "name": "Third Eye: Darkvision",
+      "img": "icons/magic/perception/third-eye-blue-red.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwzdTheThirdEy",
+      "transfer": true,
+      "_id": "IUo9qk5F4i3jzUni",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 4,
+          "value": "120",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The Third Eye feature grants you Darkvision with a range of 120 feet.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725310081752,
+        "modifiedTime": 1726860714060,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbwzdTheThirdEy.IUo9qk5F4i3jzUni"
+    },
+    {
+      "name": "Third Eye: Greater Comprehension",
+      "img": "icons/magic/perception/third-eye-blue-red.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwzdTheThirdEy",
+      "transfer": true,
+      "_id": "eQysfWPI1pcv9lwX",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The Third Eye feature grants you the ability to read any language.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725310175183,
+        "modifiedTime": 1726860730244,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbwzdTheThirdEy.eQysfWPI1pcv9lwX"
+    },
+    {
+      "name": "See Invisibility",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwzdTheThirdEy",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {}
+      },
+      "img": "icons/magic/perception/orb-eye-scrying.webp",
+      "_id": "fmt01uyj41mO9kHm",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.special",
+          "mode": 2,
+          "value": ";Invisible creatures",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.senses.special",
+          "mode": 2,
+          "value": ";Ethereal Plane",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib.ActiveEffect.BRwB0T8buWhJAuDx",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1726345503295,
+        "modifiedTime": 1726860751102,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbwzdTheThirdEy.fmt01uyj41mO9kHm"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425985857,
+    "modifiedTime": 1726345639443,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbwzdTheThirdEy"
+}

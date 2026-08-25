@@ -1,0 +1,310 @@
+{
+  "_id": "dmgBallista00000",
+  "name": "Ballista",
+  "type": "weapon",
+  "img": "icons/weapons/artillery/ballista-wood-green.webp",
+  "system": {
+    "activities": {
+      "qvl05ah9zjj0FRDC": {
+        "_id": "qvl05ah9zjj0FRDC",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "any",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": true,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "none",
+          "bonus": "6"
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "Ballista Bolt"
+      },
+      "L6x7nfUDCplYJ1Np": {
+        "type": "utility",
+        "name": "Load",
+        "_id": "L6x7nfUDCplYJ1Np",
+        "sort": -200000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      },
+      "ljGomGOD9zEc3QP7": {
+        "type": "utility",
+        "name": "Aim",
+        "_id": "ljGomGOD9zEc3QP7",
+        "sort": -100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 1,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>Large Object</em></p><p><strong>Armor Class:</strong> 15 <strong>Hit Points:</strong> 50</p><p><em><strong>Ballista Bolt (Requires Load and Aim).</strong></em> <em>Ranged Attack Roll:</em> +6, range 120/480 ft. <em>Hit:</em> 16 (3d10) Piercing damage.</p><p>A Ballista is a massive crossbow that fires heavy bolts. Loading a Ballista requires the Utilize action, and aiming it requires another Utilize action. Then a crew member can take the Ballista Bolt action.</p>",
+      "chat": ""
+    },
+    "identifier": "ballista",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": 15
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": 50,
+      "max": 50,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "damage": {
+      "base": {
+        "number": 3,
+        "denomination": 10,
+        "types": [
+          "piercing"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "lod"
+    ],
+    "proficient": null,
+    "range": {
+      "value": 120,
+      "long": 480,
+      "reach": null,
+      "units": "ft"
+    },
+    "mastery": ""
+  },
+  "effects": [],
+  "folder": "0O0R2DaHzUoslB7X",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1730821573434,
+    "modifiedTime": 1732644040469,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgBallista00000"
+}

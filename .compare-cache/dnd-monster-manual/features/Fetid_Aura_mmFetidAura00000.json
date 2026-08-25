@@ -1,0 +1,178 @@
+{
+  "_id": "mmFetidAura00000",
+  "name": "Fetid Aura",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "viDmXaiaC23yBh98": {
+        "type": "save",
+        "_id": "viDmXaiaC23yBh98",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "osCPSzW0IxYlG7t0"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "10",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "con",
+            "formula": "8 + @mod + @prof"
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "osCPSzW0IxYlG7t0"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=viDmXaiaC23yBh98]], any creature that starts its turn in a [[lookup @target.template.size activity=viDmXaiaC23yBh98]]-foot Emanation originating from the swarm. <em>Failure:</em> The target has the &amp;Reference[Poisoned apply=false] condition until the start of its next turn. While Poisoned, the target can take either an action or a Bonus Action on its turn, not both, and it can’t take Reactions.</p>",
+      "chat": ""
+    },
+    "identifier": "fetid-aura",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": ""
+  },
+  "folder": "L9Zgr8qAPc3ngKhb",
+  "img": "icons/magic/unholy/hand-claw-fog-green.webp",
+  "effects": [
+    {
+      "name": "Poisoned",
+      "img": "systems/dnd5e/icons/svg/statuses/poisoned.svg",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmFetidAura00000",
+      "_id": "osCPSzW0IxYlG7t0",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the start of its next turn.</p><p>While Poisoned, the target can take either an action or a Bonus Action on its turn, not both, and it can’t take Reactions.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1736463444032,
+        "modifiedTime": 1736463505880,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmFetidAura00000.osCPSzW0IxYlG7t0"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737817387735,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 5300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmFetidAura00000"
+}

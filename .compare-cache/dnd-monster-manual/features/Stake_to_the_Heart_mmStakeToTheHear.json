@@ -1,0 +1,167 @@
+{
+  "_id": "mmStakeToTheHear",
+  "name": "Stake to the Heart",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "BEKH0HwVMaCWcuya": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "pwjvrco5Ld90jGcO"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Stake to the Heart",
+        "img": "systems/dnd5e/icons/svg/monster.svg",
+        "_id": "BEKH0HwVMaCWcuya",
+        "appliedEffects": [
+          "pwjvrco5Ld90jGcO"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature-trait\">The [[lookup @name lowercase]] is destroyed if a weapon that deals Piercing damage is driven into the [[lookup @name lowercase]]’s heart while the [[lookup @name lowercase]] has the Incapacitated condition.</p>",
+      "chat": ""
+    },
+    "identifier": "stake-to-the-heart",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": ""
+  },
+  "folder": "L9Zgr8qAPc3ngKhb",
+  "img": "icons/sundries/survival/stake-rough-heavy-brown.webp",
+  "effects": [
+    {
+      "name": "Paralyzed",
+      "img": "systems/dnd5e/icons/svg/statuses/paralyzed.svg",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmStakeToTheHear",
+      "_id": "pwjvrco5Ld90jGcO",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The staked creature has the Incapacitated condition in its resting place, the staked creature has the &amp;Reference[Paralyzed apply=false] condition until the weapon is removed.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "paralyzed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.actors.Actor.mmVampire0000000.Item.mmStakeToTheHear.ActiveEffect.6P2doNCBfrLCtXN4",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1737045182005,
+        "modifiedTime": 1737045182005,
+        "lastModifiedBy": "p7W6V9dOCsYphtv6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmStakeToTheHear.pwjvrco5Ld90jGcO"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737045187172,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 11900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmStakeToTheHear"
+}

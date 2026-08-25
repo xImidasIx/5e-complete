@@ -1,0 +1,59 @@
+{
+  "_id": "phbftrCombatSupe",
+  "name": "Combat Superiority",
+  "type": "feat",
+  "folder": "hGgJdVut0VCdIFjK",
+  "img": "icons/environment/people/archer.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your experience on the battlefield has refined your fighting techniques. You learn maneuvers that are fueled by special dice called Superiority Dice.</p><p><strong>Maneuvers.</strong> You learn three maneuvers of your choice from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.Ihf36UhEn91djWwP]{Maneuver Options} section. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.</p><p>You learn two additional maneuvers of your choice when you reach Fighter levels 7, 10, and 15. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.</p><p><strong>Superiority Dice.</strong> You have four Superiority Dice, which are d8s. A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a Short or Long Rest.</p><p>You gain an additional Superiority Die when you reach Fighter levels 7 (five dice total) and 15 (six dice total).</p><p><strong>Saving Throws. </strong>If a maneuver requires a saving throw, the DC equals 8 plus your Strength or Dexterity modifier (your choice) and Proficiency Bonus.</p><section class=\"secret\" id=\"secret-kj8nFLNQjP133Uoq\"><p><strong>Foundry Note</strong></p><p>Your Superiority Dice will automatically increase in count and die type as you level up.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "@scale.battle-master.superiority.number",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "combat-superiority"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1724425971302,
+    "modifiedTime": 1726768399775,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbftrCombatSupe"
+}

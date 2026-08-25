@@ -1,0 +1,242 @@
+{
+  "name": "Tasha's Bubbling Cauldron",
+  "system": {
+    "description": {
+      "value": "<p>You conjure a claw-footed cauldron filled with bubbling liquid. The cauldron appears in an unoccupied space on the ground within 5 feet of you and lasts for the duration. The cauldron can’t be moved and disappears when the spell ends, along with the bubbling liquid inside it.</p><p>The liquid in the cauldron duplicates the properties of a Common or an Uncommon potion of your choice (such as a <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Potion of Healing}</em>). As a Bonus Action, you or an ally can reach into the cauldron and withdraw one potion of that kind. The potion is contained in a vial that disappears when the potion is consumed. The cauldron can produce a number of these potions equal to your spellcasting ability modifier (minimum 1). When the last of these potions is withdrawn from the cauldron, the cauldron disappears, and the spell ends.</p><p>Potions obtained from the cauldron that aren’t consumed disappear when you cast this spell again.</p><section id=\"secret-qrXgiTRMAIHRBFCQ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The Limited Uses of this spell represent the number of potions remaining in the cauldron, which is reset by the <strong>Create Cauldron</strong> activity.</p><p>The optional <strong>Withdraw Potion</strong> activity will consume a use of the cauldron.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "5"
+    },
+    "uses": {
+      "max": "@attributes.spell.mod",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "loseAll"
+        }
+      ]
+    },
+    "level": 6,
+    "school": "con",
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "materials": {
+      "value": "a gilded ladle worth 500+ GP",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {
+      "n8e6rqgHeRvMyg79": {
+        "type": "utility",
+        "_id": "n8e6rqgHeRvMyg79",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-@attributes.spell.dc",
+              "target": "",
+              "scaling": {
+                "mode": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "square",
+            "size": "5",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "space",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Create Cauldron",
+        "img": "systems/dnd5e/icons/svg/activity/summon.svg",
+        "appliedEffects": []
+      },
+      "Z4X2OysUkkubxMtB": {
+        "type": "utility",
+        "_id": "Z4X2OysUkkubxMtB",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": true,
+          "condition": "you or an ally"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "object",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": true,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Withdraw Potion",
+        "img": "systems/dnd5e/icons/svg/ink-pot.svg",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "tashas-bubbling-cauldron"
+  },
+  "_id": "phbsplTashasBubb",
+  "type": "spell",
+  "img": "icons/skills/toxins/cauldron-pot-bubbles-green.webp",
+  "effects": [],
+  "folder": "8WmlLARx1Df3Ii9v",
+  "sort": 100391,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425974566,
+    "modifiedTime": 1740696857747,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbsplTashasBubb"
+}

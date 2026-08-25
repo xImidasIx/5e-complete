@@ -1,0 +1,295 @@
+{
+  "_id": "dmgCauldronOfReb",
+  "name": "Cauldron of Rebirth",
+  "type": "equipment",
+  "folder": "U4xmShLy19Ry54zl",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/cauldron-of-rebirth.webp",
+  "system": {
+    "activities": {
+      "NhXsLSOF9soO5M59": {
+        "type": "utility",
+        "_id": "NhXsLSOF9soO5M59",
+        "sort": 0,
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "override": false,
+          "condition": "When you finish a Long Rest"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "Creates one @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGreaterPotion]{Potion of Healing (greater)}"
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "24"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Brew Potion",
+        "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+        "appliedEffects": []
+      },
+      "ePMTSAmKJrw9MUJz": {
+        "type": "utility",
+        "name": "Enlarge Cauldron",
+        "_id": "ePMTSAmKJrw9MUJz",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "8"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "circle",
+            "size": "2",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "object",
+            "special": "The Cauldron of Rebirth"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "AswvWzSioVnPD3A1": {
+        "type": "cast",
+        "_id": "AswvWzSioVnPD3A1",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "7",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "formula",
+              "formula": "1"
+            }
+          ],
+          "max": "7"
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "5",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0"
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<div><p><em>Wondrous Item, Very Rare (Requires Attunement by a Druid or Warlock)</em></p></div><blockquote><p>This Tiny pot bears relief scenes of heroes on its cast-iron sides.</p></blockquote><p>You can use the cauldron as a Spellcasting Focus for your spells, and it functions as a suitable component for the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying}</em> spell.</p><details><summary><strong>Brew Potion.</strong></summary><p>When you finish a Long Rest, you can use the cauldron to create a <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGreaterPotion]{Potion of Healing (greater)}</em>, which takes 1 minute. The potion lasts for 24 hours, then loses its magic if not consumed.</p></details><details><summary><strong>Raise Dead.</strong></summary><p>As a Magic action, you can cause the cauldron to grow large enough for a Medium creature to crouch within. You can revert the cauldron to its normal size as a Magic action, harmlessly shunting anything that can’t fit inside to the nearest unoccupied space.</p><p>If you place the corpse of a Humanoid into the cauldron and cover the corpse with 200 pounds of salt (which costs 10 GP) for at least 8 hours, the salt is consumed and the creature returns to life as if by <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0]</em> at the next dawn. Once used, this property can’t be used again for 7 days.</p><section class=\"secret\" id=\"secret-67GBb7ysNk6W5rYv\"><p><strong>Foundry Note</strong></p><p>The <strong>Enlarge Cauldron</strong> activity is optional and provided to create a small, circular Measured Template indicating the cauldron's position.</p><p>The <strong>Raise Dead</strong> activity contains and consumes 7 uses, which recover at a rate of one per Day to represent its one activation per 7 Days.</p></section></details>",
+      "chat": ""
+    },
+    "identifier": "cauldron-of-rebirth",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1730835817465,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 6800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgCauldronOfReb"
+}

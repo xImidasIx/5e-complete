@@ -1,0 +1,125 @@
+{
+  "_id": "dmgReliquaryChar",
+  "name": "Reliquary Charm",
+  "type": "feat",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "system": {
+    "activities": {
+      "0zH1DwX8DXEFsmH0": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 5,
+          "properties": [
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "0zH1DwX8DXEFsmH0",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>After spending a Long Rest in your Bastion, you gain a magical Charm (@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.U9qU1oUFTPAK7g50]{Supernatural Gifts}) that lasts for 7 days or until you use it. The Charm allows you to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration} once without expending a spell slot or using Material components. You can’t gain this Charm again while you still have it.</p>",
+      "chat": ""
+    },
+    "identifier": "reliquary-charm",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "type": {
+      "value": "supernaturalGift",
+      "subtype": "charm"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "9xYal9n6aJGEpUFU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730946280850,
+    "modifiedTime": 1730946280850,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgReliquaryChar"
+}

@@ -1,0 +1,120 @@
+{
+  "_id": "phbrgeThief00000",
+  "name": "Thief",
+  "type": "subclass",
+  "folder": "JBKpeqLQWPp9Wt59",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/thief.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Hunt for Treasure as a Classic Adventurer</p></blockquote><p>A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "thief",
+    "classIdentifier": "rogue",
+    "advancement": [
+      {
+        "_id": "52x82ltPXCgmrh1K",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeFastHands0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeSecondstor",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "MlEcUhyGRGitfiUJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeSupremeSne",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "aNcqA4J0puHsYiyv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeUseMagicDe",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "Q45sJX4IS3NbsrtV",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeThiefsRefl",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "Subclass Features"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "int",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425982163,
+    "modifiedTime": 1726844244251,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgeThief00000"
+}

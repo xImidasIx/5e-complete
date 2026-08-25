@@ -1,0 +1,122 @@
+{
+  "_id": "phbmnvManeuverin",
+  "name": "Maneuvering Attack",
+  "type": "feat",
+  "img": "icons/skills/movement/arrow-down-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to maneuver one of your comrades into another position. Add the Superiority Die roll to the attack's damage roll, and choose a willing creature who can see or hear you. That creature can use its Reaction to move up to half its Speed without provoking an Opportunity Attack from the target of your attack.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "maneuver"
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "JpsQYtXEwkR4OZn7": {
+        "type": "utility",
+        "_id": "JpsQYtXEwkR4OZn7",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you hit a creature with an attack roll"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbftrCombatSupe"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "willing",
+            "special": "Can see or hear you"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "Attack Bonus",
+          "formula": "@scale.battle-master.superiority.die"
+        },
+        "name": "Maneuver",
+        "img": "systems/dnd5e/icons/svg/trait-saves.svg",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "maneuvering-attack"
+  },
+  "effects": [],
+  "folder": "tgLxjBJ1GxcEPcIC",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425980028,
+    "modifiedTime": 1726075580558,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbmnvManeuverin"
+}

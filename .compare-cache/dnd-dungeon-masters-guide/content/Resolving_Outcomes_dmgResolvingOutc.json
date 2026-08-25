@@ -1,0 +1,395 @@
+{
+  "_id": "dmgResolvingOutc",
+  "name": "Resolving Outcomes",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Introduction",
+      "type": "text",
+      "_id": "KVLPQvRhO0daXwoh",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>You decide when a player makes a &amp;Reference[D20 Test] based on what the character is trying to do. Players shouldn’t just roll ability checks without context; they should tell you what their characters are trying to achieve, and make ability checks only if you ask them to.</p><p>When a situation comes up and you’re not sure how to adjudicate it using the rules, use these four questions to help you decide:</p><p><strong>Is a D20 Test Warranted?</strong> If the task is trivial or impossible, don’t bother with a D20 Test. A character can move across an empty room or drink from a flask without making a Dexterity check, whereas no lucky die roll will allow a character with an ordinary bow to hit the moon with an arrow. Call for a D20 Test only if there’s a chance of both success and failure and if there are meaningful consequences for failure.</p><p><strong>What Kind of D20 Test?</strong> If a character is actively trying to do something, use an ability check (or an attack roll if the character is trying to hit something). If the character is reactively trying to avoid or resist something, use a saving throw.</p><p><strong>Which Ability Does the Test Use?</strong> Think about which ability has the most influence on a character’s chance to succeed on the ability check or saving throw. Refer to the @UUID[.jqN6QSvryhP8ACN6]{Abilities, Ability Checks, and Saving Throws table} on the next page for guidance. Also consider whether a skill or tool proficiency might apply to an ability check.</p><p><strong>What’s the DC?</strong> Based on how hard you think the task should be, set the DC as follows: 10 for an easy task, 15 for a moderately difficult task, or 20 for a hard task.</p><p>The sections that follow offer advice on how to use each kind of D20 Test, when to apply Advantage and Disadvantage, and how to decide what the consequences of success or failure might be.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Checks Built Into Journal Entries</h3><p>The D&amp;D 5th Edition system on Foundry supports inline checks and saving throws which you can send to chat for your players to roll on or roll for them automatically by selecting their Token. Here are some examples:</p><ul><li><strong>Ability Check:</strong> [[/check str dc=10]]</li><li><strong>Skill Check:</strong> [[/skill ath dc=10]]</li><li><strong>Saving Throw:</strong> [[/save con dc=10]]</li><li><strong>Tool Check:</strong> [[/tool thief dc=10]]</li><li><strong>Passive Perception:</strong> [[/check perception dc=10 passive=true]]</li><li><strong>Other Passive Skill:</strong> [[/check inv dc=10 passive=true]]</li></ul><p><strong>Important Note:</strong> If you have created a default Party Group Actor hovering over Passive checks will tell you who in the party passes the check automatically.</p></article></section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1730138072197,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.KVLPQvRhO0daXwoh"
+    },
+    {
+      "sort": 200000,
+      "name": "Ability Checks",
+      "type": "text",
+      "_id": "jqN6QSvryhP8ACN6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>An ability check is a test to see whether a character succeeds at a task the character has decided to attempt. The Abilities, Ability Checks, and Saving Throws table summarizes what each ability is used for. (Constitution checks are rare, as tests of a character’s endurance are usually passive or reactive, making a saving throw more appropriate.)</p><table><caption>Abilities, Ability Checks, and Saving Throws</caption><thead><tr><th><p>Ability</p></th><th><p>Score Measures …</p></th><th><p>Make an Ability Check To …</p></th><th><p>Make a Saving Throw To …</p></th></tr></thead><tbody><tr><td><p>Strength</p></td><td><p>Physical might</p></td><td><p>Lift, push, pull, or break something</p></td><td><p>Physically resist direct force</p></td></tr><tr><td><p>Dexterity</p></td><td><p>Agility, reflexes, balance</p></td><td><p>Move nimbly, quickly, or quietly</p></td><td><p>Dodge out of harm’s way</p></td></tr><tr><td><p>Constitution</p></td><td><p>Health and stamina</p></td><td><p>Push your body beyond normal limits</p></td><td><p>Endure a toxic hazard</p></td></tr><tr><td><p>Intelligence</p></td><td><p>Reasoning and memory</p></td><td><p>Reason or remember</p></td><td><p>Recognize an illusion as fake</p></td></tr><tr><td><p>Wisdom</p></td><td><p>Perceptiveness and mental fortitude</p></td><td><p>Notice things in the environment or in creatures’ behavior</p></td><td><p>Resist a mental assault</p></td></tr><tr><td><p>Charisma</p></td><td><p>Confidence, poise, and charm</p></td><td><p>Influence, entertain, or deceive</p></td><td><p>Assert your identity</p></td></tr></tbody></table><h2>Proficiency</h2><p>When the rules or a published adventure calls for an ability check, a skill or tool proficiency is often called out: for example, “a character who succeeds on a [[/skill arc dc=15]] check can puzzle out the magic involved.” Sometimes the rules allow for any one of two or more proficiencies to apply to a check. When deciding what check a character should make, be generous in determining if the character’s Proficiency Bonus comes into play. You might specifically ask for an Intelligence (Arcana) check, or you can ask for an Intelligence check and let the player negotiate with you to see if one of the character’s skill or tool proficiencies applies.</p><h2>Trying Again</h2><p>Sometimes a character fails an ability check and the player wants to try again. In many cases, failing an ability check makes it impossible to attempt the same thing again. For some tasks, however, the only consequence of failure is the time it takes to attempt the task again. For example, failing a Dexterity check to pick a lock on a treasure chest doesn’t mean the character can’t try again, but each attempt might take a minute.</p><p>If failure has no consequences and a character can try and try again, you can skip the ability check and just tell the player how long the task takes. Alternatively, you can call for a single ability check and use the result to determine how long it takes for the character to complete the task.</p><h2>Group Checks</h2><p>Group checks are a tool you can use when the party is trying to accomplish something together and the most skilled characters can cover for characters who are less adept at the task. To make a group ability check, everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.</p><p>Group checks aren’t appropriate when one character’s failure would spell disaster for the whole party, such as if the characters are creeping across a castle courtyard while trying not to alert the guards. In that case, one noisy character will draw the guards’ attention, and there’s not much that stealthier characters can do about it, so relying on individual checks makes more sense. Similarly, don’t use a group check when a single successful check is sufficient, as is the case when finding a hidden compartment with a [[/skill prc]] check.</p><p>Consider using group checks in situations such as the following:</p><p><strong>Research Tasks.</strong> The characters are trying to learn about an ancient prophecy from an archive. The characters can make a group [[/skill inv]] check to find sources in the archive; characters who are knowledgeable about such topics and about research methods in general can tell the other characters the most likely places to direct their search. If the group check is successful, the characters find enough different sources to paint a clear picture of the prophecy; otherwise, their information is incomplete.</p><p><strong>Roped Together.</strong> The characters are tied together as they scale a cliff or cross a rickety rope bridge. If one or two characters fail their checks, the successful characters can stop their fall and prevent disaster, but if more than half the party fails, the whole group falls. You could also apply this idea to something like a long swim, where strong swimmers can help weaker ones.</p><p><strong>Social Situations.</strong> One character offends someone at a diplomatic event, and a noble demands the adventurers be escorted from the premises. The characters can make a group [[/skill per]] check to avoid getting thrown out; they just need a few convincing arguments and the ability to smooth over any gaffes. You could apply this same principle to other Charisma checks using [[/skill dec]]{Deception}, [[/skill itm]]{Intimidation}, or [[/skill prf]]{Performance}.</p><h2>Passive Checks</h2><p>Ability checks normally represent a character’s active effort to accomplish something, but occasionally you need a passive measure of how good a character is at doing a thing. Passive Perception is the most common example. (See @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgRunningExplor.JournalEntryPage.Ye1j2WmZkNtL03ee]{Perception}) You can extend the concept of a passive ability check to other abilities and skills.</p><p>For example, if your game features a lot of social interaction, you can record each character’s Passive Insight score, calculated in much the same way as Passive Perception: 10 plus all modifiers that normally apply to a Wisdom (Insight) check.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1729199091504,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.jqN6QSvryhP8ACN6"
+    },
+    {
+      "sort": 300000,
+      "name": "Attack Rolls",
+      "type": "text",
+      "_id": "1v4AjogEhQOwNqFz",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>In combat, an attack roll is used to determine whether an attack hits.</p><p>You can also use attack rolls to resolve noncombat activities that are similar to attacks in combat, such as an archery contest or a game of darts. Assign an Armor Class to the target, decide whether the character is proficient with the weapon used, then have the player make an attack roll. (See also @UUID[.5gs6qtB2cbRudeoG#degrees-of-success]{Degrees of Success})</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1729263913491,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.1v4AjogEhQOwNqFz"
+    },
+    {
+      "sort": 400000,
+      "name": "Saving Throws",
+      "type": "text",
+      "_id": "m8Z5M6pQddJfP7rr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>In contrast to an ability check, a saving throw is an instant response to an effect and is almost never made by choice. A saving throw makes the most sense when something bad threatens a character and the character has a chance to avoid or resist it.</p><p>Most of the time, a saving throw comes into play when an effect—such as a spell, monster ability, or trap—calls for it, telling you what kind of saving throw is involved and providing a DC for it.</p><p>In other situations that call for a saving throw, it’s up to you to decide which ability score is involved. The @UUID[.jqN6QSvryhP8ACN6]{Abilities, Ability Checks, and Saving Throws table} offers suggestions.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1729266026228,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.m8Z5M6pQddJfP7rr"
+    },
+    {
+      "sort": 500000,
+      "name": "Difficulty Class",
+      "type": "text",
+      "_id": "ixCAmr5XBgsPmCfP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>You establish the Difficulty Class for an ability check or a saving throw when a rule or an adventure doesn’t give you one. Choose a DC from the Typical DCs table based on the task’s difficulty.</p><table class=\"float-right size-three\"><caption>Typical DCs</caption><thead><tr><th><p>Task</p></th><th><p>DC</p></th></tr></thead><tbody><tr><td><p>Very easy</p></td><td><p>5</p></td></tr><tr><td><p>Easy</p></td><td><p>10</p></td></tr><tr><td><p>Moderate</p></td><td><p>15</p></td></tr><tr><td><p>Hard</p></td><td><p>20</p></td></tr><tr><td><p>Very hard</p></td><td><p>25</p></td></tr><tr><td><p>Nearly impossible</p></td><td><p>30</p></td></tr></tbody></table><p>The task difficulties are explained below:</p><p><strong>Very Easy.</strong> Most people can accomplish a DC 5 task with little chance of failure. Unless circumstances are unusual, let characters succeed at such a task without making a check.</p><p><strong>Easy, Moderate, and Hard.</strong> These are the most common difficulties, and you can run your game using only them. A character with a 10 in the associated ability and no proficiency will succeed at an easy task around 50 percent of the time. For a moderate task, a character needs either a higher score or proficiency to have a similar chance of success, whereas a hard task typically requires both to have a similar chance. If you can’t decide between two levels of difficulty, choose a DC somewhere in the middle, such as 17 or 18 for a task that is a little easier than “hard.”</p><p><strong>Very Hard and Nearly Impossible.</strong> A DC 25 task is almost out of reach for low-level characters, but more reasonable after level 10 or so. Low-level characters have no chance to accomplish a DC 30 task, while a level 20 character with proficiency and a relevant ability score of 20 still needs a 19 or 20 on the die roll to succeed at a task of this difficulty.</p><p>If you’re setting the DC for a saving throw, don’t go lower than 10 or higher than 20. If a creature is the source of the effect forcing a saving throw, use the standard formula for calculating a save DC (see \"Calculated DCs\" below).</p><h4>Calculated DCs</h4><p>For some ability checks and most saving throws, the rules default to the following formula:</p><p style=\"text-align:center\"><strong>DC</strong> = 8 + ability modifier + Proficiency Bonus</p><p>This formula often sets the saving throw DC when a creature is casting a spell or using a special ability, but it can also apply to ability checks that are contests between two creatures. For example, if one creature is holding a door shut, use its Strength modifier and Proficiency Bonus to set the DC for opening the door. When another creature tries to force the door open, the creature makes a [[/skill ath]] check against that DC.</p><p>Another way to handle similar situations is to have one creature’s ability check set the DC for another creature’s check. That’s how hiding works, for example: a hiding creature’s total [[/skill ste]] check sets the DC for [[/skill prc]] checks made to find the hidden creature.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1730215546651,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.ixCAmr5XBgsPmCfP"
+    },
+    {
+      "sort": 600000,
+      "name": "Advantage and Disadvantage",
+      "type": "text",
+      "_id": "U1QYeRG2N6EMzSfx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Advantage and Disadvantage are among the most useful tools in your toolbox. They reflect temporary circumstances that might affect the chances of a character succeeding at a task. Advantage is also a great way to reward a player who shows exceptional creativity in play.</p><p>Characters often gain Advantage or Disadvantage through the use of special abilities, actions, spells, or other features of their classes or species. In other cases, you decide whether a circumstance would merit Advantage or Disadvantage.</p><p>As described in the <em>Player’s Handbook</em>, if different circumstances would give both Advantage and Disadvantage in the same situation, the Advantage and Disadvantage cancel out, regardless of how many circumstances would grant Advantage or Disadvantage.</p><h2>Advantage</h2><p>Consider granting Advantage when …</p><ul><li class=\"Core-Styles_Core-Bulleted\">Circumstances not related to a creature’s own capabilities provide it with an edge.</li><li class=\"Core-Styles_Core-Bulleted\">Some aspect of the environment improves the character’s chance of success.</li><li class=\"Core-Styles_Core-Bulleted\">A player shows exceptional creativity or cunning in attempting or describing a task.</li><li class=\"Core-Styles_Core-Bulleted\">Previous actions (whether taken by the character making the attempt or some other creature) improve the chances of success.</li></ul><h2>Disadvantage</h2><p>Consider imposing Disadvantage when …</p><ul><li class=\"Core-Styles_Core-Bulleted\">Circumstances hinder success in some way.</li><li class=\"Core-Styles_Core-Bulleted\">Some aspect of the environment makes success less likely.</li><li class=\"Core-Styles_Core-Bulleted\">An element of the plan or description of an action makes success less likely.</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1728841117759,
+        "lastModifiedBy": "UhfLMORm3LLc21n2",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.U1QYeRG2N6EMzSfx"
+    },
+    {
+      "sort": 700000,
+      "name": "Consequences",
+      "type": "text",
+      "_id": "5gs6qtB2cbRudeoG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>As a DM, you can use a variety of approaches when adjudicating success and failure to tailor the game to your liking.</p><h2>Success at a Cost</h2><p>When a character fails a D20 Test by only 1 or 2, you can offer to let the character succeed at the cost of a complication or hindrance. Such complications can run along any of the following lines:</p><ul><li class=\"Core-Styles_Core-Bulleted\">A character gets her sword past an enemy’s defenses and turns a near miss into a hit, but she then drops the sword.</li><li class=\"Core-Styles_Core-Bulleted\">A character narrowly escapes the full brunt of a <em>Fireball</em> spell but has the &amp;Reference[Prone apply=false] condition.</li><li class=\"Core-Styles_Core-Bulleted\">A character fails to intimidate a kobold prisoner, but the kobold reveals its secrets anyway while shrieking at the top of its lungs, alerting other nearby monsters.</li></ul><p>By putting the choice of success at a cost in the players’ hands, and even letting them choose the setbacks, you can give players more agency in crafting the story of their characters’ deeds.</p><h2>Degrees of Failure</h2><p>Sometimes a failed D20 Test has different consequences depending on the degree of failure. For example, a character who fails to disarm a trapped chest might accidentally spring the trap if the check fails by 5 or more, whereas a lesser failure means the trap wasn’t triggered during the botched disarm attempt. Consider adding similar distinctions to other checks. Perhaps a failed [[/skill per]] check means a queen won’t help, whereas a failure of 5 or more means she throws the character in the dungeon for such a display of impudence.</p><h2>Degrees of Success</h2><p>A successful D20 Test can have degrees of success. For example, when characters participate in an archery contest, you might decide that the more an attack roll exceeds the target’s AC, the higher the character’s score. The archery target might have AC 11, but it has five concentric rings indicating degrees of success. So you could decide that an attack roll of 11 or 12 lands in the outermost ring, a 13 or 14 hits the next ring closer to the center, a 15 or 16 hits the third ring, a 17 or 18 hits the fourth, and a 19 or higher strikes the bull’s-eye.</p><h2>Critical Success or Failure</h2><p>Rolling a 20 or a 1 on an ability check or a saving throw doesn’t normally have any special effect. However, you can take such an exceptional roll into account when adjudicating the outcome. It’s up to you to determine how this manifests in the game. One approach is to increase the impact of the success or failure. For example, rolling a 1 on a failed attempt to pick a lock might jam the lock, and rolling a 20 on a successful [[/skill inv]] check might reveal an extra clue.</p><p>For attack rolls, the rules cover what happens on a natural 20 (it’s a Critical Hit) or a natural 1 (it always misses). Resist the temptation to add additional negative consequences to a natural 1 on an attack roll: the automatic failure is bad enough. And characters typically make so many attack rolls that they’re bound to roll dozens of natural 1s over time. What might seem like an interesting consequence, like breaking the weapon used for the attack, will quickly get tiresome.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1729266644840,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.5gs6qtB2cbRudeoG"
+    },
+    {
+      "sort": 800000,
+      "name": "Improvising Damage",
+      "type": "text",
+      "_id": "YThtWUSw1VjY1cY6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.wnTzM2xaPk4yg3tb]</p><p>The Improvising Damage table gives guidelines for determining damage on the fly.</p><table><caption>Improvising Damage</caption><thead><tr><th><p>Damage</p></th><th><p>Examples</p></th></tr></thead><tbody><tr><td><p>[[/damage 1d10]]</p></td><td><p>Burned by coals, hit by a falling bookcase, pricked by a poison needle</p></td></tr><tr><td><p>[[/damage 2d10]]</p></td><td><p>Struck by lightning, stumbling into a firepit</p></td></tr><tr><td><p>[[/damage 4d10]]</p></td><td><p>Hit by falling rubble in a collapsing <span>tunnel</span>, tumbling into a vat of acid</p></td></tr><tr><td><p>[[/damage 10d10]]</p></td><td><p>Crushed by compacting walls, hit by whirling steel blades, wading through lava</p></td></tr><tr><td><p>[[/damage 18d10]]</p></td><td><p>Submerged in lava, hit by a crashing flying fortress</p></td></tr><tr><td><p>[[/damage 24d10]]</p></td><td><p>Tumbling into a vortex of fire on the <span>Elemental</span> Plane of Fire, crushed in the jaws of a godlike creature or a moon-size monster</p></td></tr></tbody></table><p>The Damage Severity and Level table is a guide to how deadly these damage amounts are for characters of different levels. Cross-reference a character’s level with the damage being dealt to gauge the severity of the damage.</p><table><caption>Damage Severity and Level</caption><thead><tr><th><p>Character Levels</p></th><th><p>Nuisance</p></th><th><p>Deadly</p></th><th></th></tr></thead><tbody><tr><td><p>1–4</p></td><td><p>[[/damage 1d10 average]]</p></td><td><p>[[/damage 2d10 average]]</p></td><td></td></tr><tr><td><p>5–10</p></td><td><p>[[/damage 2d10 average]]</p></td><td><p>[[/damage 4d10 average]]</p></td><td></td></tr><tr><td><p>11–16</p></td><td><p>[[/damage 4d10 average]]</p></td><td><p>[[/damage 10d10 average]]</p></td><td></td></tr><tr><td><p>17–20</p></td><td><p>[[/damage 10d10 average]]</p></td><td><p>[[/damage 18d10 average]]</p></td><td></td></tr></tbody></table><p>Nuisance damage rarely poses a risk of death to characters of the levels shown, but a severely weakened character might be laid low by this damage.</p><p>Deadly<strong> </strong>damage poses a significant threat to characters of the levels shown and could potentially kill such a character that’s missing many Hit Points.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1729266848700,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.YThtWUSw1VjY1cY6"
+    },
+    {
+      "sort": 900000,
+      "name": "Improvising Answers",
+      "type": "text",
+      "_id": "3i7ndnxVAYh4YkeH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>With a little preparation and a lot of flexibility, you can handle any curveball your players throw at you.</p><p>One of the cornerstones of improvisational theater is called “Yes, and …” It’s based on the idea that an actor takes whatever the other actors give and builds on that. A similar principle applies as you run sessions for your players. As often as possible, weave what the players give you into your story.</p><p>An equally important principle is “No, but …” Sometimes characters can’t do what their players want, but you can keep the game moving forward by offering an alternative.</p><p>For example, imagine the characters are searching for a lich’s lair. A player asks you if there’s a mages’ guild operating in a nearby city, hoping to find records that mention the lich. This wasn’t a possibility you anticipated, and you don’t have anything prepared for it. One option is to say yes and use the tools at your disposal to create a suitable mages’ guild. By doing this, you reward the player for thinking creatively. Also, the guild can become a great source for adventure hooks.</p><p>Another option is to say no, but a solitary mage in town might possess the desired information. This approach rewards the creative player while demanding less work from you.</p><h2>Aids to Improvisation</h2><p>When you need to make up something on the spot—say, a mages’ guild in a town where you hadn’t previously planned for one—you have abundant resources to draw on:</p><ul><li class=\"Core-Styles_Core-Bulleted\">Lists of NPC names (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.5GOEEHaai1dsSxbx]{Nonplayer Characters})</li><li class=\"Core-Styles_Core-Bulleted\">Random tables (such as the ones in the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.AsAAwKcFZegKYVsW]{Settlements} section)</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCreatingCampa.JournalEntryPage.Lr9F52qH48dMNOGA]{Campaign journal}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgBMaps00000000]{Maps}</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1729266977814,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.3i7ndnxVAYh4YkeH"
+    }
+  ],
+  "folder": "ZnbiXbiX12jvdzm6",
+  "flags": {
+    "core": {
+      "sheetClass": "dnd-dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "append": 2,
+      "type": "special",
+      "showPages": true,
+      "order": 201000,
+      "navigation": {
+        "previous": "dmgRunningTheGam",
+        "next": "dmgRunningSocial"
+      }
+    },
+    "dnd-dungeon-masters-guide": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.4",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1757366032479,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgResolvingOutc"
+}

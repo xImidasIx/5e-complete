@@ -1,0 +1,223 @@
+{
+  "_id": "mmFiendishBlood0",
+  "name": "Fiendish Blood",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "9JNSVEpH1x9MUvsZ": {
+        "type": "save",
+        "_id": "9JNSVEpH1x9MUvsZ",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "The sahuagin takes Piercing or Slashing damage"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false,
+          "special": "the target is cursed until it finishes a Short or Long Rest"
+        },
+        "effects": [
+          {
+            "_id": "f8TOptCnqAuIyOYi",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": "",
+          "value": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "5",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 3,
+              "denomination": "6",
+              "bonus": "",
+              "types": [
+                "acid"
+              ]
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "con",
+            "formula": "8 + @mod + @prof"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "f8TOptCnqAuIyOYi"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Trigger:</em> The [[lookup @name lowercase]] takes Piercing or Slashing damage.</p><p class=\"feature\"><em>Response—Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=9JNSVEpH1x9MUvsZ]], each [[lookup @target.affects.type activity=9JNSVEpH1x9MUvsZ]] of the [[lookup @name lowercase]]’s choice in a [[lookup @target.template.size activity=9JNSVEpH1x9MUvsZ]]-<span style=\"font-family:'Roboto Condensed', sans-serif\">foot </span>Emanation originating from the [[lookup @name lowercase]].</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and [[lookup @duration.special activity=9JNSVEpH1x9MUvsZ]]. While cursed, the target can’t benefit from the Invisible condition, its Speed decreases by 10 feet, and all Fiends within 120 feet of the target can sense its location regardless of interposing obstacles.</p>",
+      "chat": ""
+    },
+    "identifier": "fiendish-blood",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/unholy/strike-beam-blood-large-red-gray.webp",
+  "effects": [
+    {
+      "name": "Cursed",
+      "img": "systems/dnd5e/icons/svg/statuses/cursed.svg",
+      "origin": "Item.mmFiendishBlood0",
+      "_id": "f8TOptCnqAuIyOYi",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "-10",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.burrow",
+          "mode": 2,
+          "value": "-10",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.climb",
+          "mode": 2,
+          "value": "-10",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 2,
+          "value": "-10",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 2,
+          "value": "-10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target is &amp;Reference[cursed apply=false] until it finishes a Short or Long Rest. While cursed, the target can’t benefit from the Invisible condition, its Speed decreases by 10 feet, and all Fiends within 120 feet of the target can sense its location regardless of interposing obstacles.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "cursed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1737916654075,
+        "lastModifiedBy": "p7W6V9dOCsYphtv6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmFiendishBlood0.f8TOptCnqAuIyOYi"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737916274550,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 10000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmFiendishBlood0"
+}

@@ -1,0 +1,179 @@
+{
+  "_id": "mmDefensiveStanc",
+  "name": "Defensive Stance",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "YS92DFrClgqXMxTx": {
+        "type": "utility",
+        "_id": "YS92DFrClgqXMxTx",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "The pirate is hit by a melee attack roll while holding a weapon"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "VMUZlPyqf0UEnat3"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Expend Use",
+        "img": "systems/dnd5e/icons/svg/monster.svg"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Trigger:</em> The [[lookup @name lowercase]] is hit by a melee attack roll while holding a weapon.</p><p class=\"feature\"><em>Response:</em> The [[lookup @name lowercase]] adds 4 to its AC against melee attack rolls (including the triggering attack) until the start of its next turn, possibly causing the attacks to miss.</p><section class=\"secret\" id=\"secret-ZummIe4iT49KVHOk\"><p><strong>Foundry Note</strong></p><p>This feature also provides an <strong>Active Effect (AE)</strong> that will modify this creature's <strong>Armor Class</strong> when you utilize the reaction. You can enable the AE in the effects tab of the character sheet.</p></section>",
+      "chat": ""
+    },
+    "identifier": "defensive-stance",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/skills/melee/shield-block-bash-yellow.webp",
+  "effects": [
+    {
+      "name": "Defense: +4 AC",
+      "img": "icons/skills/melee/shield-block-bash-yellow.webp",
+      "origin": "Item.mmDefensiveStanc",
+      "_id": "VMUZlPyqf0UEnat3",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "4",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": 0,
+        "startTurn": null
+      },
+      "description": "<p>Add +4 to its AC against melee attack rolls (including the triggering attack) until the start of its next turn.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": [],
+          "enableCondition": ""
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1736048019476,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmDefensiveStanc.VMUZlPyqf0UEnat3"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737840446902,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 7700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmDefensiveStanc"
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "dmgGamingHall000",
+  "name": "Gaming Hall",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-04.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Gaming Hall</p><p>Level 9 Bastion Facility</p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Vast</p><p><strong>Hirelings: </strong>4</p><p><strong>Order: </strong>Trade</p><p>A Gaming Hall offers recreational activities like chess and games of darts, cards, or dice.</p><p><em><strong>Trade: Gambling Hall.</strong></em> When you issue the Trade order to this facility, the facility’s hirelings turn the Gaming Hall into a gambling den for 7 days. At the end of the seventh day, roll 1d100 and consult the following table to determine your portion of the house’s winnings.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgGamingHallWin caption=false rollable]</p>",
+      "chat": ""
+    },
+    "identifier": "gaming-hall",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 4
+    },
+    "level": 9,
+    "order": "trade",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "vast",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "gamingHall"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgGamingHall000"
+}

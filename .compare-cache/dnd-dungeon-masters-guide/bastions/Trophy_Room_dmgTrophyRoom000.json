@@ -1,0 +1,75 @@
+{
+  "_id": "dmgTrophyRoom000",
+  "name": "Trophy Room",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-01.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 9 Bastion Facility</em></p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Research</p><p>This room houses a collection of mementos, such as weapons from old battles, the mounted heads of slain creatures, trinkets plucked from dungeons and ruins, and trophies passed down from ancestors.</p><p><em><strong>Research Options.</strong></em> When you issue the Research order to this facility, choose one of the following options:</p><p><strong>Research: Lore.</strong> You commission the facility’s hireling to research a topic of your choice. The topic can be a legend, any kind of creature, or a famous object. The topic need not be directly related to items on display in the room, as the trophies provide clues to research a wide variety of other subjects. The work takes 7 days. When the research concludes, the hireling obtains up to three accurate pieces of information about the topic that were previously unknown to you and shares this knowledge with you the next time you speak with them. The DM determines what information is learned.</p><p><strong>Research: Trinket Trophy.</strong> You commission the facility’s hireling to search for a trinket that might be of use to you. The work takes 7 days. When the research concludes, roll any die ([[/r 1d2]]). If the number rolled is odd, the hireling finds nothing useful. If the number rolled is even, the hireling finds a magic item. Roll on the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgImplementsCom]{Implements—Common} table in @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz#implements-tables]{chapter 7} to determine what it is.</p>",
+      "chat": ""
+    },
+    "identifier": "trophy-room",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "research",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "trophyRoom"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731090853861,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgTrophyRoom000"
+}

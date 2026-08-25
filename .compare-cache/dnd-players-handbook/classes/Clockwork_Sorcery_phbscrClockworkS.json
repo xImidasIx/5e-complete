@@ -1,0 +1,244 @@
+{
+  "_id": "phbscrClockworkS",
+  "name": "Clockwork Sorcery",
+  "type": "subclass",
+  "folder": "45fGQlR9VJAIreZA",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/clockwork.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Channel Cosmic Forces of Order</p></blockquote><p>The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it’s part of a vast and glorious system.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "clockwork",
+    "classIdentifier": "sorcerer",
+    "advancement": [
+      {
+        "_id": "L6ggzptPm0jk4nxC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbscrSpellsCloc",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbscrRestoreBal",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "3ptQZs8Z30J3e8MH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbscrBastionOfL",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "Rr3BfHIS9JdX6c5X",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbscrTranceOfOr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "zWNxZUTJugO6duSj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbscrClockworkC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "w0jokQ4iwaUNPKxf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplAlarm00000"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Clockwork Spells",
+        "hint": "When you reach a Sorcerer level specified in the Clockwork Spells table, you thereafter always have the listed spells prepared."
+      },
+      {
+        "_id": "mKRSKUKVV76neRuG",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbProtectionFro"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Clockwork Spells",
+        "hint": "When you reach a Sorcerer level specified in the Clockwork Spells table, you thereafter always have the listed spells prepared."
+      },
+      {
+        "_id": "JXUMHu3oFtc8rIwP",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Clockwork Spells",
+        "hint": "When you reach a Sorcerer level specified in the Clockwork Spells table, you thereafter always have the listed spells prepared."
+      },
+      {
+        "_id": "gZdhCjwmNRmmDAPc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Clockwork Spells",
+        "hint": "When you reach a Sorcerer level specified in the Clockwork Spells table, you thereafter always have the listed spells prepared."
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425983513,
+    "modifiedTime": 1726844251981,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbscrClockworkS"
+}

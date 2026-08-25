@@ -1,0 +1,127 @@
+{
+  "_id": "dmgCharmOfTheBor",
+  "name": "Charm of the Boreal Ball",
+  "type": "feat",
+  "img": "icons/equipment/neck/amulet-triangle-blue.webp",
+  "system": {
+    "activities": {
+      "X8lmFO31sRCVRXBD": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 3,
+          "properties": [],
+          "spellbook": true,
+          "ability": ""
+        },
+        "_id": "X8lmFO31sRCVRXBD",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>This charm allows you cast the level 3 version of the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00]{Ice Knife} spell. Once used, the Charm vanishes.</p>",
+      "chat": ""
+    },
+    "identifier": "charm-of-the-boreal-ball",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "supernaturalGift",
+      "subtype": "charm"
+    }
+  },
+  "effects": [],
+  "folder": "PtV25Is9q5STEurJ",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1741900163131,
+    "modifiedTime": 1741900166173,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgCharmOfTheBor"
+}

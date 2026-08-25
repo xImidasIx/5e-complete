@@ -1,0 +1,118 @@
+{
+  "_id": "phbrgeMageHandLe",
+  "name": "Mage Hand Legerdemain",
+  "type": "feat",
+  "folder": "JWrHBfC3SxUB5k4L",
+  "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you cast <em>Mage Hand</em>, you can cast it as a Bonus Action, and you can make the spectral hand Invisible. You can control the hand as a Bonus Action, and through it, you can make [[/skill slt]] checks.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "pqFQ12KXNH89TDNX": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [],
+          "spellbook": false
+        },
+        "_id": "pqFQ12KXNH89TDNX",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "enchant": {},
+    "identifier": "mage-hand-legerdemain"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.2",
+    "createdTime": 1724425981712,
+    "modifiedTime": 1735253673811,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgeMageHandLe"
+}

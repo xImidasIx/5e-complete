@@ -1,0 +1,73 @@
+{
+  "_id": "dmgAlchemyJugCon",
+  "name": "Alchemy Jug",
+  "type": "container",
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true
+    }
+  },
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/alchemy-jug.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous Item, Uncommon</em></p><p>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. The jug sloshes when it is shaken, even if the jug is empty.</p><p>You can take a Magic action and name one liquid from the Alchemy Jug Liquids table to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as a Utilize action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.</p><p>Once the jug starts producing a liquid, it can’t produce a different one, or more of one that has reached its maximum, until the next dawn.</p><table><caption>Alchemy Jug Liquids</caption><thead><tr><td>Liquid</td><td>Max. Amount</td><td>Liquid</td><td>Max. Amount</td></tr></thead><tbody><tr><td>Acid</td><td>8 ounces</td><td>Oil</td><td>1 quart</td></tr><tr><td>Basic Poison</td><td>4 ounces</td><td>Vinegar</td><td>2 gallons</td></tr><tr><td>Beer</td><td>4 gallons</td><td>Water, fresh</td><td>8 gallons</td></tr><tr><td>Honey</td><td>1 gallon</td><td>Water, salt</td><td>12 gallons</td></tr><tr><td>Mayonnaise</td><td>2 gallons</td><td>Wine</td><td>1 gallon</td></tr></tbody></table><section class=\"secret\" id=\"secret-chVDR5A8BYbySfox\"><p><strong>Foundry Note</strong></p><p>The included [[/item Activate Alchemy Jug]] equipment item is intended for daily usage tracking and includes a modified <em>Alchemy Jug Liquids</em> table with links to the consumable liquid items and quantity produced.</p></section>",
+      "chat": ""
+    },
+    "identifier": "alchemy-jug-container",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 12,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "properties": [
+      "mgc",
+      "weightlessContents"
+    ],
+    "capacity": {
+      "type": "weight",
+      "value": null
+    }
+  },
+  "effects": [],
+  "folder": "CXJsbhXV9uLcWcfH",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1728329539084,
+    "modifiedTime": 1731107345681,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgAlchemyJugCon"
+}

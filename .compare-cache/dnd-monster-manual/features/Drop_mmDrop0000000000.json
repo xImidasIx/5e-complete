@@ -1,0 +1,144 @@
+{
+  "_id": "mmDrop0000000000",
+  "name": "Drop",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "yaKOcl4gDETLWHTE": {
+        "type": "save",
+        "_id": "yaKOcl4gDETLWHTE",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": "The attacking creature falls"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "directly underneath the attacking creature"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 3,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "piercing"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "11"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\">The [[lookup @name lowercase]] falls. <em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=yaKOcl4gDETLWHTE]], [[lookup @target.affects.labels.statblock activity=yaKOcl4gDETLWHTE]] directly underneath the [[lookup @name lowercase]]. <em>Failure:</em> [[/damage average]] damage. <em>Failure or Success:</em> The [[lookup @name lowercase]] reduces any damage it takes from the fall by 20.</p>",
+      "chat": ""
+    },
+    "identifier": "drop",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1736071070579,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 6700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmDrop0000000000"
+}

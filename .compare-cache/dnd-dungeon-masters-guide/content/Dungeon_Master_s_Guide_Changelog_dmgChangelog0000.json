@@ -1,0 +1,239 @@
+{
+  "_id": "dmgChangelog0000",
+  "name": "Dungeon Master’s Guide Changelog",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "1.0.0",
+      "type": "text",
+      "_id": "8PB0u5IxtZurM0jc",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Initial release.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgChangelog0000.8PB0u5IxtZurM0jc"
+    },
+    {
+      "sort": 200000,
+      "name": "1.1.0",
+      "type": "text",
+      "_id": "O64d19Hy3BUYvKQ7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Bug Fixes</h1><ul><li><p>Fixed typo in \"Coming Soon\" callout. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/836\">[#836]</a></p></li><li><p>Corrected content links in @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgRunningCombat.JournalEntryPage.6UthtPzF3dIb2EnV#change-the-terrain]{Running Combat}. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/837\">[#837]</a></p></li><li><p>@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTheBasics0000.JournalEntryPage.crbl7kSxiGnU8X29]{Example of Play} now includes the callout borders. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/838\">[#838]</a></p></li><li><p>Resolved issues with teleportation Scene Regions not correctly linking to their target region. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/839\">[#839]</a></p></li><li><p>Added @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBrownMold0000]{Brown Mold} item which resolves broken link/embed in the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#example-hazards]{Example Hazards}. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/840\">[#840]</a> and <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/856\">[#856]</a></p></li><li><p>Corrected paths for the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.NLscoKNP7uuyBQt0]{Eastern Oerik Unlabeled} and @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.ITXwJmk9IRhKhJXL]{City Locations (District Labels Only)} art handouts. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/842\">[#842]</a> and <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/852\">[#852]</a></p></li><li><p>Set correct roll formula for the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmg25GpArtObject]{25 GP Art Objects} roll table. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/843\">[#843]</a></p></li><li><p>Set correct roll formula for the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmg13CardDeckOfM]{Deck of Many Things: 13 Cards} roll table. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/844\">[#844]</a></p></li><li><p>Set correct roll formula for the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgArmamentsRare]{Armaments - Rare} roll table. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/845\">[#845]</a></p></li><li><p>Filled out the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgSenSenses0000]{Senses} roll table. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/846\">[#846]</a></p></li><li><p>Fixed typo in @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgRunningExplor.JournalEntryPage.52a3vRwhCNY60oEZ]{Weather} section of Running Exploration. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/848\">[#848]</a></p></li><li><p>Removed the empty Random Individual Treasure and Random Treasure Hoard tables which are not rollable tables but tables of data. These tables can be found here: @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgAdventureRewa.JournalEntryPage.EBcNErEifQuAkTR5]{Individual Treasure} and @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgAdventureRewa.JournalEntryPage.BPBTY8qIVTjIZ9Zl]{Treasure Hoards}. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/849\">[#849]</a></p></li><li><p>Marked a number of items as being \"Magical\". <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/853\">[#853]</a></p></li><li><p>Fixed a number of walling issues and improved the lighting across some Scenes with global illumination and underground Regions which disable them. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/863\">[#863]</a></p><ul><li><p>Some changes listed in the issue were not implemented like walling certain areas of crypts as they are not marked as regular or secret doors and the intent is for the wall to be an archway. There are a few other things (curtains in front of windows namely) that we've reached out to determine if they are intended to block vision.</p></li></ul></li><li><p>The @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgHappenstanceH]{Happenstance Hooks} roll table now has its correct contents. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/869\">[#869]</a></p></li><li><p>The @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHatOfWizardry]{Hat of Wizardry} now includes limited uses which are consumed by the activity. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/870\">[#870]</a></p></li><li><p>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWandOfMagicMi]{Wand of Magic Missiles} now has a maximum scaling of 3 or the remaining number of uses, whichever is lower. [Discord Feedback]</p></li></ul><h1>Feature Enhancements</h1><ul><li><p>Implemented the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.RYnuZEZ9wXoKpHbD#creature-traits]{Creature Traits} from DM's Toolbox. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/847\">[#847]</a></p></li><li><p>Added a @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh1ArtHandout.JournalEntryPage.DtDJc9DEHjVssHu6]{cover} image to the Chapter 1 Art Handouts.</p></li><li><p>Set the @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgGiantSpider00]{Giant Spider} to use Wildcard Tokens so either of the two provided Giant Spider tokens can be used.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732645517368,
+        "modifiedTime": 1732647236322,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgChangelog0000.O64d19Hy3BUYvKQ7"
+    },
+    {
+      "sort": 300000,
+      "name": "1.2.0",
+      "type": "text",
+      "_id": "f11Fyv9o2fyPfoOO",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Feature Enhancements</h2><ul><li><p>The @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTrackingSheet]{Tracking Sheets} have had their appearances enhanced. General CSS rules have also been consolidated and simplified.</p></li><li><p>When the Monster Manual is installed all items that summon a creature will now summon from the Monster Manual and not the 2014 SRD. When the updated SRD is released we will use those creatures when the Monster Manual is not present.</p></li><li><p>When importing from the scenes Compendium all teleportation behaviors now have their IDs updated to reflect the imported Scene's dynamically generated ID so it is no longer necessary to import with \"maintain ID\" checked for teleportation regions to function.</p></li><li><p>Split the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItemList]{Magic Item Lists} into multiple pages to improve loading performance.</p></li><li><p>All creatures in the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgAdventureExam]{example adventures} have the creature's linked to their Monster Manual actors.</p></li><li><p>Created a @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCharmOfTheBor]{Charm of the Boreal} item.</p></li></ul><h2>Bug Fixes</h2><ul><li><p>Added Long Rest recovery to @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHatOfWizardry]{Hat of Wizardry}. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/882\">#882</a>]</p></li><li><p>Added roll fomula to @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgDungeonDecay0]{Dungeon Decay} roll table. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/892\">#892</a>]</p></li><li><p>Updated @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledArmo]{Enspelled Armor}. Added spell levels to each of the Cast Bound Spell activities for clarity. Also added step-by-step instuctions on how to use the magic items as a Foundry Note. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/893\">#893</a>]</p></li><li><p>The Changelog is now titled, \"Dungeon Master’s Guide Changelog\" to provide context after the module updates. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/894\">#894</a>]</p></li><li><p>Updated @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgfirBeltofGian]{Belt of Giant Strength (Fire)} and @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgstoBeltofGian]{Belt of Giant Strength (Stone)} to the correct rarities. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/895\">#895</a>]</p></li><li><p>Removed Kyuss image and caption from Keraptis page. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/936\">#936</a>]</p></li><li><p>Added the missing UUIDs to the two Instruments of the Bard references in the @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgImplementsRar]{Implements - Rare} roll table. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/951\">#951</a>]</p></li><li><p>Swapped spells on @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMacfuirmidhCi]{Mac-Fuirmidh Cittern Instrument of the Bards} with the <em>Fog Cloud</em> spell. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/952\">#952</a>]</p></li><li><p>Added @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWhelm00000000]{Whelm} to the module (item and journal) [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/961\">#961</a>]</p></li><li><p>Updated \"system.description.value\" in all AEs for @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAmmunition12o]{Ammunition +1, +2, or +3}. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/989\">#989</a>]</p></li><li><p>Marked the @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHatOfVermin00]{Hat of Vermin}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPipeOfSmokeMo]{Pipe of Smoke Monsters}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPotOfAwakenin]{Pot of Awakening}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPotionOfClimb]{Potion of Climbing}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPotionOfCompr]{Potion of Comprehension}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgProstheticLim]{Prosthetic Limb}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRivalCoin0000]{Rival Coin}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRopeOfMending]{Rope of Mending}, and @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgVeteransCane0]{Veteran's Cane} as magical.</p></li><li><p>The @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSilveredWeapo]{Silvered Weapon} no longer adds an additional damage die to all damage rolls.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "OWaetvpfBPdPXFNZ": 3
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.JournalTextPageSheet"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.4",
+        "createdTime": 1740450398109,
+        "modifiedTime": 1742922660178,
+        "lastModifiedBy": "iMYosTLoW2AlFJJ5",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgChangelog0000.f11Fyv9o2fyPfoOO"
+    },
+    {
+      "sort": 400000,
+      "name": "1.2.1",
+      "type": "text",
+      "_id": "ze4lwSZlFZqV6C6u",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Bug Fixes</h2><ul><li><p>The @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgApparatusofKw]{Apparatus of Kwalish} Actor now has the correct movement speeds. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1044\">#1044</a>]</p></li><li><p>Added a missing word to the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCreatingCampa]{Step-by-Step Campaigns} page. [<a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1001\">#1001</a>]</p></li><li><p>Improved the code that handles updating teleportation regions in the included Scenes to better handle cases where \"compendiumSource\" does not exist.</p></li><li><p>Corrected the price of the @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgfirBeltofGian]{Belt of Giant Strength (fire)} and @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgstoBeltofGian]{Belt of Giant Strength (stone)} based on their rarity.</p></li><li><p>Changed @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWhelm00000000]{Whelm} to use the Warhammer's icon rather than another similar item's icon.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "iMYosTLoW2AlFJJ5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1742919080492,
+        "modifiedTime": 1757095121703,
+        "lastModifiedBy": "w7O2Nas6PEP9rC9A",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgChangelog0000.ze4lwSZlFZqV6C6u"
+    },
+    {
+      "sort": 500000,
+      "name": "2.0.0",
+      "type": "text",
+      "_id": "swoeGvLVBe1ijHP3",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "content": "<h2>Journals</h2>\n<ul>\n<li>Implements <a href=\"https://media.dndbeyond.com/compendium-images/errata/DMG-24/DMG-24_v1.pdf\">v1.0 Errata</a> updates in journals. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1222\">#1222</a></li>\n<li>Corrects a typo in Chapter 2's Art Handouts journal. It now reads \"In a courtyard full of monsters…\" from \"Ina courtyard full of monsters… .\" <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1108\">#1108</a></li>\n<li>Adds the missing word (<strong>bolded</strong>) to the first sentence in the City Overview sub-section of the Free City of Grayhawk section: \"The city is yours to make your own. A few important features and locations are described in the <strong>sections</strong> that follow… .\" <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1120\">#1120</a></li>\n</ul>\n<h3>AppV2 Journals</h3>\n<ul>\n<li>Updates module journal classes to use the system's AppV2 classes.</li>\n<li>Fully supports color scheme settings, including Table of Contents app (controlled by 'Interface' theme, currently).</li>\n<li>Corrects \"hide in embed\" CSS class. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1350\">#1350</a></li>\n</ul>\n<h2>Equipment and Magic Items</h2>\n<ul>\n<li>Updates the rarity for Heward's Hand Haversack, Bag of Holding, and other magic items that were missing their rarity. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1211\">#1211</a></li>\n</ul>\n<h3>Rod of Alertness</h3>\n<ul>\n<li>Renames \"Plant Rod\" activity to \"Protective Aura\" to directly associate it with the item's text.</li>\n<li>Adds Active Effect granting advantage on perception and initiative checks. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1341\">#1341</a></li>\n</ul>\n<h3>Quiver of Ehlonna</h3>\n<ul>\n<li>Corrects internal containers (long, short, and midsize compartment) to have Item Count limits of 6, 60, and 18, respectively. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1253\">#1253</a></li>\n</ul>\n<h3>Boots of Speed</h3>\n<ul>\n<li>Updates activation for Boots of Speed to Bonus Action from Action. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1243\">#1243</a></li>\n</ul>\n<h3>Boots of Elvenkind</h3>\n<ul>\n<li>Adds Active Effect with stealth advantage changes.</li>\n</ul>\n<h3>Cloak of the Bat</h3>\n<ul>\n<li>Adds Active Effect with stealth advantage changes.</li>\n</ul>\n<h3>Vicious Weapon</h3>\n<ul>\n<li>Updates the enchantment attribute of the Vicious Weapon to <code>system.damage.parts | Add | [[\"2d6\"]]</code>, enabling the additional damage dice to appear in the roll formula. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1161\">#1161</a></li>\n</ul>\n<h3>Ioun Stones</h3>\n<ul>\n<li>Corrects a mispelling in the Ioun Stone of Regeneration and Ioun Stone items (now \"Regeneration\" from \"Regneration\"). <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1205\">#1205</a></li>\n</ul>\n<h3>Rod of Lordly Might</h3>\n<ul>\n<li>Attunement is unchecked in the Details tab for Rod of Lordly Might and the Rod of Rulership. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1241\">#1241</a></li>\n</ul>\n<h3>Scroll of Tital Summoning</h3>\n<ul>\n<li>Animal Lord, Blob of Annihilation, Elemental Cataclysm, Empyrean, Kraken, and Larva are now referenced in the module's redirects file. The empty NPCs will need to remain so the module has something to redirect from. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1345\">#1345</a></li>\n</ul>\n<h3>Consumables</h3>\n<ul>\n<li>Changes the activation of all potions to a bonus action. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1140\">#1140</a></li>\n<li>Potion of Healing (Greater)<ul>\n<li>Corrects Destory on Empty setting. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1295\">#1295</a></li></ul></li>\n<li>Universal Solvent<ul>\n<li>Renames 'Apply Glue' activity to 'Apply Solvent'. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1276\">#1276</a></li>\n<li>Simplifies 'Determine Ounces' activity by setting the item uses to be fully spent (0/7 charges) initially and restoring 1d6 + 1 charges as a single use activity.</li>\n<li>Corrects item type to 'Consumable' with Destroy on Empty.</li>\n<li>Changes the template size from \"number of ounces in square feet\" to \"1 foot square template per ounce used\" to more closely match the item's usage and text.</li></ul></li>\n<li>Perfume of Bewitching<ul>\n<li>Corrects item type to 'consumable'.</li>\n<li>Adds advantage for listed skill checks in Active Effect.</li></ul></li>\n<li>Assassin's Blood<ul>\n<li>Corrects the spelling of the unidentified name. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1240\">#1240</a></li></ul></li>\n</ul>\n<h3>Treasure</h3>\n<ul>\n<li>Adds the missing thumbnail image for \"Art Object (750 GP)\" item. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1132\">#1132</a></li>\n</ul>\n<h3>Pricing Corrections</h3>\n<ul>\n<li>Updates price of the following items to include base rarity and base item. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1246\">#1246</a><ul>\n<li>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAnimatedShiel]{Animated Shield},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArrowcatching]{Arrow-Catching Shield},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGlamouredStud]{Glamoured Studded Leather},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSentinelShiel]{Sentinel Shield},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShieldOfExpre]{Shield of Expression},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShieldOfMissi]{Shield of Missile Attraction},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShieldOfTheCa]{Shield of the Cavalier},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSpellguardShi]{Spellguard Shield},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgElementalGem0]{Elemental Gem},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGreaterPotion]{Potion of Healing (Greater)},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSuperiorPotio]{Potion of Healing (Superior)},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSupremePotion]{Potion of Healing (Supreme)},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{Quaal's Feather Token},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFoldingBoat00]{Folding Boat},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgChimeOfOpenin]{Chime of Opening},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgClothesOfMend]{Clothes of Mending},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHeadbandOfInt]{Headband of Intellect},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHelmOfBrillia]{Helm of Brilliance},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgManualOfBodil]{Manual of Bodily Health},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgManualOfQuick]{Manual of Quickness of Action},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPotOfAwakenin]{Pot of Awakening},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpSilverRave]{Silver Raven},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEarthRingOfEl]{Earth Ring of Elemental Command},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfElement]{Ring of Elemental Command},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{Ring of Resistance},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDaggerOfVenom]{Dagger of Venom},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDwarvenThrowe]{Dwarven Thrower},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJavelinOfLigh]{Javelin of Lightning},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMaceOfDisrupt]{Mace of Disruption},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMaceOfSmiting]{Mace of Smiting},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgScimitarOfSpe]{Scimitar of Speed},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSunBlade00000]{Sun Blade},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwordOfAnswer]{Sword of Answering},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgTridentOfFish]{Trident of Fish Command},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfAdornm]{Staff of Adornment},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfBirdca]{Staff of Birdcalls},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfCharmi]{Staff of Charming},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfFire00]{Staff of Fire},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfFlower]{Staff of Flowers},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfFrost0]{Staff of Frost},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfHealin]{Staff of Healing},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfPower0]{Staff of Power},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfStriki]{Staff of Striking},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfSwarmi]{Staff of Swarming Insects},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfTheAdd]{Staff of the Adder},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfTheMag]{Staff of the Magi},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfTheWoo]{Staff of the Woodlands},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfThunde]{Staff of Thunder and Lightning},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfWither]{Staff of Withering}</li></ul></li>\n</ul>\n<h2>Roll Tables</h2>\n<ul>\n<li>Updates the roll formula in the Treasure Hordes table for the CR 0-4 row. When you click on the roll enricher, the result now displays in the chat. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1219\">#1219</a></li>\n<li>Updates the roll table for the Ring of Resistance by changing the label in row 2 to \"Cold (Tourmaline).\" This change cascades to the item and journal referencing the ring. <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/1227\">#1227</a></li>\n</ul>\n<h2>Traps</h2>\n<ul>\n<li>In addition to equipment, traps are also available as NPCs with a creature type of \"Traps\" and the Token Disposition of \"Secret.\" <a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/issues/963\">#963</a></li>\n</ul>\n<h2>Hazards</h2>\n<ul>\n<li>All Hazard Actors have also had their Token Disposition set to \"Secret\".</li>\n</ul>",
+        "markdown": "## Journals\n- Implements [v1.0 Errata](https://media.dndbeyond.com/compendium-images/errata/DMG-24/DMG-24_v1.pdf) updates in journals. [#1222](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1222)\n- Corrects a typo in Chapter 2's Art Handouts journal. It now reads \"In a courtyard full of monsters…\" from \"Ina courtyard full of monsters… .\" [#1108](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1108)\n- Adds the missing word (**bolded**) to the first sentence in the City Overview sub-section of the Free City of Grayhawk section: \"The city is yours to make your own. A few important features and locations are described in the **sections** that follow… .\" [#1120](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1120)\n\n### AppV2 Journals\n- Updates module journal classes to use the system's AppV2 classes.\n- Fully supports color scheme settings, including Table of Contents app (controlled by 'Interface' theme, currently).\n- Corrects \"hide in embed\" CSS class. [#1350](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1350)\n\n## Equipment and Magic Items\n- Updates the rarity for Heward's Hand Haversack, Bag of Holding, and other magic items that were missing their rarity. [#1211](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1211)\n\n### Rod of Alertness\n- Renames \"Plant Rod\" activity to \"Protective Aura\" to directly associate it with the item's text.\n- Adds Active Effect granting advantage on perception and initiative checks. [#1341](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1341)\n\n### Quiver of Ehlonna\n- Corrects internal containers (long, short, and midsize compartment) to have Item Count limits of 6, 60, and 18, respectively. [#1253](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1253)\n\n### Boots of Speed\n- Updates activation for Boots of Speed to Bonus Action from Action. [#1243](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1243)\n\n### Boots of Elvenkind\n- Adds Active Effect with stealth advantage changes.\n\n### Cloak of the Bat\n- Adds Active Effect with stealth advantage changes.\n\n### Vicious Weapon\n- Updates the enchantment attribute of the Vicious Weapon to `system.damage.parts | Add | [[\"2d6\"]]`, enabling the additional damage dice to appear in the roll formula. [#1161](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1161)\n\n### Ioun Stones\n- Corrects a mispelling in the Ioun Stone of Regeneration and Ioun Stone items (now \"Regeneration\" from \"Regneration\"). [#1205](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1205)\n\n### Rod of Lordly Might\n- Attunement is unchecked in the Details tab for Rod of Lordly Might and the Rod of Rulership. [#1241](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1241)\n\n### Scroll of Tital Summoning\n- Animal Lord, Blob of Annihilation, Elemental Cataclysm, Empyrean, Kraken, and Larva are now referenced in the module's redirects file. The empty NPCs will need to remain so the module has something to redirect from. [#1345](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1345)\n\n### Consumables\n- Changes the activation of all potions to a bonus action. [#1140](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1140)\n- Potion of Healing (Greater)\n  - Corrects Destory on Empty setting. [#1295](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1295)\n- Universal Solvent\n  - Renames 'Apply Glue' activity to 'Apply Solvent'. [#1276](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1276)\n  - Simplifies 'Determine Ounces' activity by setting the item uses to be fully spent (0/7 charges) initially and restoring 1d6 + 1 charges as a single use activity.\n  - Corrects item type to 'Consumable' with Destroy on Empty.\n  - Changes the template size from \"number of ounces in square feet\" to \"1 foot square template per ounce used\" to more closely match the item's usage and text.\n- Perfume of Bewitching\n  - Corrects item type to 'consumable'.\n  - Adds advantage for listed skill checks in Active Effect.\n- Assassin's Blood\n  - Corrects the spelling of the unidentified name. [#1240](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1240)\n\n### Treasure\n- Adds the missing thumbnail image for \"Art Object (750 GP)\" item. [#1132](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1132)\n\n### Pricing Corrections\n- Updates price of the following items to include base rarity and base item. [#1246](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1246)\n  - @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAnimatedShiel]{Animated Shield},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArrowcatching]{Arrow-Catching Shield},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGlamouredStud]{Glamoured Studded Leather},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSentinelShiel]{Sentinel Shield},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShieldOfExpre]{Shield of Expression},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShieldOfMissi]{Shield of Missile Attraction},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgShieldOfTheCa]{Shield of the Cavalier},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSpellguardShi]{Spellguard Shield},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgElementalGem0]{Elemental Gem},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGreaterPotion]{Potion of Healing (Greater)},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSuperiorPotio]{Potion of Healing (Superior)},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSupremePotion]{Potion of Healing (Supreme)},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgQuaalsFeather]{Quaal's Feather Token},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFoldingBoat00]{Folding Boat},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgChimeOfOpenin]{Chime of Opening},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgClothesOfMend]{Clothes of Mending},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHeadbandOfInt]{Headband of Intellect},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgHelmOfBrillia]{Helm of Brilliance},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgManualOfBodil]{Manual of Bodily Health},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgManualOfQuick]{Manual of Quickness of Action},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPotOfAwakenin]{Pot of Awakening},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgFwpSilverRave]{Silver Raven},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEarthRingOfEl]{Earth Ring of Elemental Command},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfElement]{Ring of Elemental Command},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista]{Ring of Resistance},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDaggerOfVenom]{Dagger of Venom},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDwarvenThrowe]{Dwarven Thrower},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgJavelinOfLigh]{Javelin of Lightning},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMaceOfDisrupt]{Mace of Disruption},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMaceOfSmiting]{Mace of Smiting},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgScimitarOfSpe]{Scimitar of Speed},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSunBlade00000]{Sun Blade},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwordOfAnswer]{Sword of Answering},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgTridentOfFish]{Trident of Fish Command},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfAdornm]{Staff of Adornment},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfBirdca]{Staff of Birdcalls},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfCharmi]{Staff of Charming},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfFire00]{Staff of Fire},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfFlower]{Staff of Flowers},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfFrost0]{Staff of Frost},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfHealin]{Staff of Healing},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfPower0]{Staff of Power},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfStriki]{Staff of Striking},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfSwarmi]{Staff of Swarming Insects},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfTheAdd]{Staff of the Adder},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfTheMag]{Staff of the Magi},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfTheWoo]{Staff of the Woodlands},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfThunde]{Staff of Thunder and Lightning},\n@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgStaffOfWither]{Staff of Withering}\n\n## Roll Tables\n- Updates the roll formula in the Treasure Hordes table for the CR 0-4 row. When you click on the roll enricher, the result now displays in the chat. [#1219](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1219)\n- Updates the roll table for the Ring of Resistance by changing the label in row 2 to \"Cold (Tourmaline).\" This change cascades to the item and journal referencing the ring. [#1227](https://github.com/foundryvtt/foundryvtt-premium-content/issues/1227)\n\n## Traps\n- In addition to equipment, traps are also available as NPCs with a creature type of \"Traps\" and the Token Disposition of \"Secret.\" [#963](https://github.com/foundryvtt/foundryvtt-premium-content/issues/963)\n\n## Hazards\n- All Hazard Actors have also had their Token Disposition set to \"Secret\"."
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xREoBzi7Iao0TR7B": 3
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.JournalEntryPageMarkdownSheet"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.3",
+        "createdTime": 1757089638845,
+        "modifiedTime": 1757704226710,
+        "lastModifiedBy": "gjDNAI0qTquElmU0"
+      },
+      "_key": "!journal.pages!dmgChangelog0000.swoeGvLVBe1ijHP3"
+    }
+  ],
+  "folder": "kkR3zR8yqdNg4nMV",
+  "flags": {
+    "core": {
+      "sheetClass": "dnd-dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "position": 13,
+      "type": "special",
+      "showPages": false,
+      "title": "Changelog"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.3",
+    "createdTime": 1731425184530,
+    "modifiedTime": 1740504507364,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgChangelog0000"
+}

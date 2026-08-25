@@ -1,0 +1,121 @@
+/* ---------------------------------------- */
+/*  Variables                               */
+/* ---------------------------------------- */
+.table-of-contents[data-compendium-id="dnd-monster-manual.content"],
+.mm {
+  /* ---------------------------------------- */
+  /*  Common                                  */
+  /* ---------------------------------------- */
+  container-name: --monster-manual;
+  /* Colors */
+  --mm-red: rgb(97, 42, 42);
+  --mm-olive: rgb(122, 124, 80);
+  --mm-brown: #7b5043;
+  --mm-tan: #fcf3f0;
+  --mm-yellow: #f1ebdd;
+  --mm-gold: hsla(40, 40%, 66%, 1);
+  --mm-peach: rgb(194, 128, 108);
+  --saturated-mm-gold: color(srgb 0.900816 0.74032 0.420752);
+  --notable-color: #d4e0e3;
+  --mm-link-shadow: 0 0 8px var(--saturated-mm-gold);
+  --table-header-bg: light-dark(#fdfdfd, var(--dnd5e-color-olive));
+  --table-header-text: light-dark(var(--color-text-dark-primary), var(--color-text-light-0));
+  --table-color-odd: light-dark(#e1e8df, var(--table-row-color-odd));
+  --table-color-even: light-dark(#f5f7f4, var(--table-row-color-even));
+  --table-color-hover: light-dark(#d8e0fa, var(--color-cool-3));
+  --mm-h-border-color: var(--saturated-mm-gold);
+  --mm-title-gradient: linear-gradient(to bottom, light-dark(var(--mm-red), var(--mm-olive)) 35%, light-dark(var(--mm-peach), var(--saturated-mm-gold)) 80%);
+
+  /* Layout */
+  --column-count: 2;
+  --column-width: 400px;
+  --column-gap: 10px;
+
+  .statblock-list {
+    --grid-column-count: 2;
+  }
+
+  --mm-border-image: url(../assets/ui/wide-page-bg.webp) 135 100 fill / 10% 7% / 0 round;
+
+  /* ---------------------------------------- */
+  /*  Variable Overrides                      */
+  /* ---------------------------------------- */
+  --dnd5e-color-table-row-even: var(--table-color-even);
+  --dnd5e-color-table-row-odd: var(--table-color-odd);
+  --dnd5e-color-table-header-1: var(--table-header-bg);
+  --dnd5e-color-table-header-2: var(--table-header-bg);
+  --color-text-emphatic: light-dark(var(--mm-red), var(--mm-olive));
+  --dnd5e-color-table-border: transparent;
+
+  .notable, .advice, .quest, .narrative {
+    --color-text-emphatic: initial;
+  }
+
+  /* ---------------------------------------- */
+  /*  Journals                                */
+  /* ---------------------------------------- */
+  &.journal-entry {
+    /* Font Sizes */
+    --dnd5e-journal-title-size: 2.2rem;
+    --dnd5e-journal-h1-size: 2rem;
+    --dnd5e-journal-h2-size: 1.8rem;
+    --dnd5e-journal-h3-size: 1.6rem;
+    --dnd5e-journal-h4-size: 1.4rem;
+    --font-h5-size: 1.2rem;
+    --font-h6-size: 1rem;
+    --body-size: 1rem;
+  }
+
+  /* ---------------------------------------- */
+  /*  Pull Quotes                             */
+  /* ---------------------------------------- */
+  & .quote-left,
+  & .quote {
+    --size: 50%;
+    --side-gutter: 10%;
+    --vert-gutter: 1em;
+    --edge: 1em;
+    --overlap: calc(-0.6 * var(--edge));
+    --w: 2px;
+    --octogon: polygon(
+      0 70%,
+      15% 100%,
+      85% 100%,
+      100% 70%,
+      100% 30%,
+      85% 0,
+      15% 0,
+      0 30%,
+      var(--w) calc(30% + var(--w) / 2),
+      15% var(--w),
+      85% var(--w),
+      calc(100% - var(--w)) calc(30% + var(--w) / 2),
+      calc(100% - var(--w)) calc(70% - var(--w) / 2),
+      85% calc(100% - var(--w)),
+      15% calc(100% - var(--w)),
+      var(--w) calc(70% - var(--w) / 2),
+      var(--w) calc(30% + var(--w) / 2),
+      0 30%
+    );
+  }
+
+}
+
+/* ---------------------------------------- */
+/*  Dark Mode (Non-Color) Changes           */
+/* ---------------------------------------- */
+@container --monster-manual style(--color-scheme: dark) {
+  .window-content {
+    --mm-border-image: none;
+  }
+}
+
+/* ---------------------------------------- */
+/*  Light Mode Only Changes                 */
+/* ---------------------------------------- */
+@container --monster-manual style(--color-scheme: light) {
+  .notable {
+    --dnd5e-block-background: var(--notable-color);
+  }
+}
+

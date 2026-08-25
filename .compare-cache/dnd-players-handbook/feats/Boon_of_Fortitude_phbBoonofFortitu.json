@@ -1,0 +1,198 @@
+{
+  "name": "Boon of Fortitude",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Fortified Health.</strong> Your Hit Point maximum increases by 40. In addition, whenever you regain Hit Points, you can regain additional Hit Points equal to your Constitution modifier (currently [[lookup @abilities.con.mod]]). Once you’ve regained these additional Hit Points, you can’t do so again until the start of your next turn.</p><section id=\"secret-JgTurTuyg5ikUyQq\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feat includes an Active Effect which will automatically apply the bonus to your maximum HP.</p><p>The <strong>Fortify Health</strong> activity includes the additional healing.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "epicBoon"
+    },
+    "prerequisites": {
+      "level": 19
+    },
+    "properties": [],
+    "requirements": "Level 19",
+    "activities": {
+      "MoDJcgbHc7p7fm8w": {
+        "type": "heal",
+        "name": "Fortify Health",
+        "_id": "MoDJcgbHc7p7fm8w",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "Whenever you regain Hit Points"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": "@abilities.con.mod"
+        },
+        "img": "systems/dnd5e/icons/svg/hit-points.svg",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "boon-of-fortitude",
+    "advancement": [
+      {
+        "_id": "zNqJRAI2ON8SRu40",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbBoonofFortitu",
+  "type": "feat",
+  "img": "icons/magic/life/heart-area-circle-red-green.webp",
+  "effects": [
+    {
+      "name": "Boon of Fortitude",
+      "img": "icons/magic/life/heart-area-circle-red-green.webp",
+      "_id": "OxnWwtmQir236NxM",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.hp.bonuses.overall",
+          "mode": 2,
+          "value": "40",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725463044982,
+        "modifiedTime": 1725463094006,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbBoonofFortitu.OxnWwtmQir236NxM"
+    }
+  ],
+  "folder": "7zo2bljGLQY3uwXI",
+  "sort": 112500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425893085,
+    "modifiedTime": 1740697837595,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbBoonofFortitu"
+}

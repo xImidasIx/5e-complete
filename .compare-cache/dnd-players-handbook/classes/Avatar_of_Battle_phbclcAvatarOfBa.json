@@ -1,0 +1,113 @@
+{
+  "_id": "phbclcAvatarOfBa",
+  "name": "Avatar of Battle",
+  "type": "feat",
+  "folder": "jCEOVokBRWBPXprX",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>You gain Resistance to Bludgeoning, Piercing, and Slashing damage.</p><section id=\"secret-6TJyGok1Gf1bVLme\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the damage resistance.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 17
+    },
+    "properties": [],
+    "requirements": "War Domain",
+    "activities": {},
+    "enchant": {},
+    "identifier": "avatar-of-battle"
+  },
+  "effects": [
+    {
+      "name": "Avatar of Battle",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbclcAvatarOfBa",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {}
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "_id": "pyuZXAmbtYvF6Slw",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbclcAvatarOfBa.pyuZXAmbtYvF6Slw"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425963346,
+    "modifiedTime": 1726075573799,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbclcAvatarOfBa"
+}

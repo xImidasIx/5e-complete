@@ -1,0 +1,733 @@
+{
+  "_id": "dmgSwordOfKas000",
+  "name": "Sword of Kas",
+  "type": "weapon",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/sword-of-kas.webp",
+  "system": {
+    "activities": {
+      "DR9OoQEVXCPdj2IF": {
+        "_id": "DR9OoQEVXCPdj2IF",
+        "type": "attack",
+        "sort": 100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "Bonus Damage: 2d10 Slashing vs Undead"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": 19
+          },
+          "flat": false,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "s73EZ0T3VO0O9usH": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplCallLightn",
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "3",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "s73EZ0T3VO0O9usH",
+        "sort": 400000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "name": "",
+        "img": ""
+      },
+      "PLVhfRmc1rBIYohc": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplDivineWord",
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "7",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "PLVhfRmc1rBIYohc",
+        "sort": 500000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "name": "",
+        "img": ""
+      },
+      "HfdGjwl9t6hNum7k": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplFingerofDe",
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "7",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "HfdGjwl9t6hNum7k",
+        "sort": 600000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "name": "",
+        "img": ""
+      },
+      "tnL6qhWFqE8kabWS": {
+        "type": "save",
+        "name": "Destroy Sword",
+        "_id": "tnL6qhWFqE8kabWS",
+        "sort": 700000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": "cha",
+          "dc": {
+            "calculation": "",
+            "formula": "18"
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{Longsword}), Artifact (Requires Attunement)</em></p><blockquote><p>Kas was a powerful warrior who served Vecna and whose loyalty was rewarded with this sword. As Kas’s power grew, so did his hubris. The sword urged Kas to destroy Vecna and usurp his throne. Legend says Vecna’s destruction came at Kas’s hand, but Vecna also wrought his rebellious lieutenant’s doom, leaving only Kas’s sword behind.</p></blockquote><p><em><strong>Bloodthirst.</strong></em> The sword thirsts for blood. If the sword doesn’t taste blood on its blade within 1 minute of being drawn from its scabbard, its wielder makes a [[/save ability=cha dc=15 format=long]]. On a successful save, the wielder takes [[/damage 3d6 type=psychic]] damage. On a failed save, the wielder is dominated by the sword, as if by the <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateMo]{Dominate Monster}</em> spell, and the sword demands blood. The spell effect ends when the sword’s demand is met.</p><p><em><strong>Magic Weapon.</strong></em> You gain a +3 bonus to attack rolls and damage rolls made with the sword, which scores a Critical Hit on a roll of 19 or 20 on the d20 and deals an extra 2d10 Slashing damage to Undead.</p><details><summary>Random Properties</summary><p><em><strong>Random Properties.</strong></em> The sword has the following random properties (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.iA3mHmvlXvWKlyBo#artifact-properties]{Artifacts}):</p><ul><li class=\"Core-Styles_Core-Bulleted\">1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorBenefici]{minor beneficial property}</li><li class=\"Core-Styles_Core-Bulleted\">1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorBenefici]{major beneficial property}</li><li class=\"Core-Styles_Core-Bulleted\">1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorDetrimen]{minor detrimental property}</li><li class=\"Core-Styles_Core-Bulleted\">1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorDetrimen]{major detrimental property}</li></ul></details><p><em><strong>Spells.</strong></em> While the sword is on your person, you can cast the following spells (save DC 18) from it:</p><ul><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCallLightn]{Call Lightning}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineWord]{Divine Word}</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFingerofDe]{Finger of Death}</li></ul><p>Once you use the sword to cast a spell, you can’t cast that spell again from it until the next dawn.</p><p><em><strong>Spirit of Kas.</strong></em> While the sword is on your person, you gain the following benefits:</p><p><strong>Battle Hunger.</strong> You add 1d10 to your Initiative rolls.</p><p><strong>Blade of Defense.</strong> When you take an action to attack with the sword, you can transfer some or all of its attack bonus to your Armor Class instead. The adjusted bonuses remain in effect until the start of your next turn.</p><p><strong>Necrotic Resistance.</strong> You have Resistance to Necrotic damage.</p><details><summary>Sentience/Personality Details</summary><p><em><strong>Sentience.</strong></em> The <em>Sword of Kas</em> is a sentient Chaotic Evil weapon with an Intelligence of 15, a Wisdom of 13, and a Charisma of 16. It has hearing and Darkvision out to 120 feet.</p><p>The weapon communicates telepathically with its wielder and speaks Common.</p><p><em><strong>Personality. </strong></em>The sword’s purpose is to bring ruin to Vecna. Killing Vecna’s worshipers, destroying the lich’s works, and foiling his machinations all help to fulfill this goal.</p><p>The <em>Sword of Kas</em> also seeks to destroy anyone corrupted by the <em>Eye</em> <em>and</em> <em>Hand of Vecna</em>.</p></details><p><em><strong>Destroying the Sword.</strong></em> A creature attuned to both the <em>Eye of Vecna</em> and the <em>Hand of Vecna</em> can use the <em>Wish</em> property of those combined Artifacts to unmake the <em>Sword of Kas</em>, provided the sword is within 30 feet of the spell’s caster. Upon casting <em>Wish</em>, the creature makes a DC 18 Charisma saving throw. On a failed save, nothing happens, and the <em>Wish</em> spell is wasted. On a successful save, the <em>Sword of Kas</em> is destroyed.</p><section class=\"secret\" id=\"secret-uZ5gG7V9eLEb2okx\"><p><strong>Foundry Note</strong></p><p>This item includes Active Effects which automatically add the 1d10 to your initiative and grants you Resistance to Necrotic damage.</p></section>",
+      "chat": ""
+    },
+    "identifier": "sword-of-kas",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "longsword"
+    },
+    "ammunition": {},
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "slashing"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      }
+    },
+    "magicalBonus": 3,
+    "properties": [
+      "mgc",
+      "ver"
+    ],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": "ft"
+    },
+    "mastery": "sap"
+  },
+  "effects": [
+    {
+      "name": "Battle Hunger",
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "_id": "d2glFryVriNzHep3",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.init.bonus",
+          "mode": 2,
+          "value": "1d10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730392548290,
+        "modifiedTime": 1730392617527,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgSwordOfKas000.d2glFryVriNzHep3"
+    },
+    {
+      "name": "Necrotic Resistance",
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp",
+      "_id": "exoGxZkXpTxdSrOO",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730392769997,
+        "modifiedTime": 1730392841550,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgSwordOfKas000.exoGxZkXpTxdSrOO"
+    },
+    {
+      "name": "Transferred AC Bonus: 1",
+      "img": "icons/skills/melee/sword-damaged-broken-glow-red.webp",
+      "origin": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwordOfKas000",
+      "transfer": true,
+      "_id": "UZOuHoIuXAGD4w7e",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDefender00000.ActiveEffect.4l1ngEyNnOxpfTGs",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731085606554,
+        "modifiedTime": 1731085606554,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgSwordOfKas000.UZOuHoIuXAGD4w7e"
+    },
+    {
+      "name": "Transferred AC Bonus: 2",
+      "img": "icons/skills/melee/sword-damaged-broken-orange.webp",
+      "origin": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwordOfKas000",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDefender00000.ActiveEffect.jiyXZKFtvIRlZfh2",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731085609219,
+        "modifiedTime": 1731085609219,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "C9VrsxxJUhsgiefG",
+      "_key": "!items.effects!dmgSwordOfKas000.C9VrsxxJUhsgiefG"
+    },
+    {
+      "name": "Transferred AC Bonus: 3",
+      "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+      "origin": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSwordOfKas000",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDefender00000.ActiveEffect.v3JBpJJorZfV3fXj",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731085610679,
+        "modifiedTime": 1731085610679,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "hXEN79in11agWUhu",
+      "_key": "!items.effects!dmgSwordOfKas000.hXEN79in11agWUhu"
+    }
+  ],
+  "folder": "kie870i5kr7yuxO8",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1731085295516,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 15000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgSwordOfKas000"
+}

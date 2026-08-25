@@ -1,0 +1,180 @@
+{
+  "_id": "phbftrSurvivor00",
+  "name": "Survivor",
+  "type": "feat",
+  "folder": "Amxh67Wqon1bSaHg",
+  "img": "icons/skills/wounds/injury-pain-body-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>You attain the pinnacle of resilience in battle, giving you these benefits.</p><p><strong>Defy Death.</strong> You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.</p><p><strong>Heroic Rally.</strong> At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.</p><section class=\"secret\" id=\"secret-z1Nr871ifr67hchm\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the Death Saving Throw changes to rolling an 18 or 19, but does include Advantage automation. It includes an activity for healing but does not automatically add it when you are Bloodied.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 18
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "5Fo0QwzexIPyLP3W": {
+        "type": "heal",
+        "_id": "5Fo0QwzexIPyLP3W",
+        "activation": {
+          "type": "turnStart",
+          "value": null,
+          "override": false,
+          "condition": "if Bloodied"
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "5 + @abilities.con.mod"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "name": "Heroic Rally",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "survivor"
+  },
+  "effects": [
+    {
+      "name": "Defy Death",
+      "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbftrSurvivor00",
+      "_id": "Pp5xPE2M5bTEdZWW",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.death.roll.mode",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p><strong>Note:</strong> This effect does not modify the behavior of rolling an 18 or 19 on a Death Saving Throw.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.1",
+        "createdTime": 1755801868087,
+        "modifiedTime": 1755802060149,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B"
+      },
+      "_key": "!items.effects!phbftrSurvivor00.Pp5xPE2M5bTEdZWW"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1724425973726,
+    "modifiedTime": 1755802267880,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbftrSurvivor00"
+}

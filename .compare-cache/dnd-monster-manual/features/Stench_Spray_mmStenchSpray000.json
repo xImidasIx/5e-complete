@@ -1,0 +1,183 @@
+{
+  "_id": "mmStenchSpray000",
+  "name": "Stench Spray",
+  "type": "feat",
+  "img": "icons/magic/acid/pouring-gas-smoke-liquid.webp",
+  "system": {
+    "activities": {
+      "MD1NjuNJfDjxKGrL": {
+        "type": "save",
+        "_id": "MD1NjuNJfDjxKGrL",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "1eZ97wSzxu4Txtw4",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "value": "15",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": "can see"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "10"
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "1eZ97wSzxu4Txtw4"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "day",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.formula activity=MD1NjuNJfDjxKGrL]], one [[lookup @target.affects.type activity=MD1NjuNJfDjxKGrL]] the [[lookup @name]] can see within [[lookup @range.value activity=MD1NjuNJfDjxKGrL]] feet. <em>Failure:</em> The target is coated in a foul-smelling liquid, exudes a stench for [[/r 1d4]] hours, and has the &amp;Reference[Poisoned apply=false] condition while the stench lasts. Other creatures have the Poisoned condition while in a 5-foot Emanation originating from the coated target. The target can remove the stench on itself if it bathes during a Short or Long Rest.</p>",
+      "chat": ""
+    },
+    "identifier": "stench-spray",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [],
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Poisoned",
+      "img": "icons/magic/acid/pouring-gas-smoke-liquid.webp",
+      "origin": "Item.mmStenchSpray000",
+      "transfer": false,
+      "_id": "1eZ97wSzxu4Txtw4",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target is coated in a foul-smelling liquid for [[/r 1d4]] hours and has the &amp;Reference[Poisoned] condition while the stench lasts. Other creatures within a 5-foot emanation of the coated target also have the Poisoned condition. The target can remove the stench on itself if it bathes during a Short or Long Rest.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmStenchSpray000.1eZ97wSzxu4Txtw4"
+    }
+  ],
+  "folder": "4T18pEvubPMQLzvD",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1737060740655,
+    "modifiedTime": 1737060878035,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmStenchSpray000"
+}

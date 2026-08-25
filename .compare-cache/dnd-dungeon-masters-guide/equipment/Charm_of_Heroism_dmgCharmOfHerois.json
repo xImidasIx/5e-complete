@@ -1,0 +1,212 @@
+{
+  "_id": "dmgCharmOfHerois",
+  "name": "Charm of Heroism",
+  "type": "feat",
+  "img": "icons/commodities/materials/orb-tassle-blue-yellow.webp",
+  "system": {
+    "activities": {
+      "fCzGqdL83JXUo8ky": {
+        "type": "heal",
+        "name": "Use Charm",
+        "_id": "fCzGqdL83JXUo8ky",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "9b2ZghcbSJBUgN1w"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "10"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "9b2ZghcbSJBUgN1w"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>Supernatural Gift (Charm)</em></p><p>This Charm allows you to give yourself the benefit of a @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPotionOfHeroi]{Potion of Heroism} as a Magic action. Once you do so, the Charm vanishes from you.</p><section class=\"secret\" id=\"secret-VSchHVg4E8Vu1j9s\"><p><strong>Foundry Note</strong></p><p>The <strong>Use Charm</strong> activity includes a healing option for the 10 Temporary Hit Points and an Active Effect that automates the effects of Bless.</p></section>",
+      "chat": ""
+    },
+    "identifier": "charm-of-heroism",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "type": {
+      "value": "supernaturalGift",
+      "subtype": "charm"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [
+    {
+      "_id": "9b2ZghcbSJBUgN1w",
+      "flags": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "rounds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCharmOfHerois",
+      "tint": "#ffffff",
+      "transfer": false,
+      "name": "Blessed with Heroism",
+      "description": "<p>Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.</p>",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730240640594,
+        "modifiedTime": 1730240791678,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "img": "icons/magic/holy/chalice-glowing-gold-water.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!dmgCharmOfHerois.9b2ZghcbSJBUgN1w"
+    }
+  ],
+  "folder": "PtV25Is9q5STEurJ",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1728421660391,
+    "modifiedTime": 1731442698233,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgCharmOfHerois"
+}

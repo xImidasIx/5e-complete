@@ -1,0 +1,116 @@
+{
+  "_id": "phbinvMistyVisio",
+  "name": "Misty Visions",
+  "type": "feat",
+  "img": "icons/magic/air/air-burst-spiral-teal-green.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{Silent Image} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag inline]</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": 2
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "74fYEr3FNUwniqfY": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag",
+          "challenge": {
+            "override": false
+          },
+          "properties": [],
+          "spellbook": true,
+          "ability": "",
+          "level": 1
+        },
+        "_id": "74fYEr3FNUwniqfY",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "enchant": {},
+    "identifier": "misty-visions"
+  },
+  "effects": [],
+  "folder": "BjeMHiqnKNWkWhox",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1724425976263,
+    "modifiedTime": 1755705017201,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbinvMistyVisio"
+}

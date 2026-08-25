@@ -1,0 +1,213 @@
+{
+  "_id": "mmWarpingHex0000",
+  "name": "Warping Hex",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "KaTc2c6hOHAqtywC": {
+        "type": "save",
+        "_id": "KaTc2c6hOHAqtywC",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "undY4wYomCW7TcOz",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "120"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 6,
+              "denomination": "6",
+              "bonus": "",
+              "types": [
+                "psychic"
+              ]
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "con",
+            "formula": "8 + @mod + @prof"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "undY4wYomCW7TcOz"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "recharge",
+          "formula": "4",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=KaTc2c6hOHAqtywC]], one [[lookup @target.affects.type activity=KaTc2c6hOHAqtywC]] the [[lookup @name lowercase]] can see within [[lookup @range.value activity=KaTc2c6hOHAqtywC]] feet.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target gains 1 &amp;Reference[Exhaustion apply=false] level.</p><p class=\"feature\"><em>Success:</em> Half damage only.</p><section class=\"secret\" id=\"secret-uoh3tHmERuVKckmg\"><p><strong>Foundry Note</strong></p><p>This feature provides an <strong>Active Effect</strong> that will modify the target.  Since the <strong>Exhaustion</strong> condition can be applied multiple times, the Active Effect must be dragged from this item’s Effects tab onto the target item’s sheet after the initial application of the Exhaustion condition.</p></section>",
+      "chat": ""
+    },
+    "identifier": "warping-hex",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
+  "effects": [
+    {
+      "name": "Exhaustion",
+      "img": "systems/dnd5e/icons/svg/statuses/exhaustion.svg",
+      "origin": "Item.mmWarpingHex0000",
+      "_id": "undY4wYomCW7TcOz",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target of the attack from the attacking creature gains one &amp;Reference[Exhaustion apply=false] level.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "exhaustion"
+      ],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1736137668470,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmWarpingHex0000.undY4wYomCW7TcOz"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1738097089118,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 23800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmWarpingHex0000"
+}

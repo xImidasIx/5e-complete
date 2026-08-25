@@ -1,0 +1,116 @@
+{
+  "name": "Keen Mind",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence score by 1, to a maximum of 20.</p><p><strong>Lore Knowledge.</strong> Choose one of the following skills: Arcana, History, Investigation, Nature, or Religion. If you lack proficiency in the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.</p><p><strong>Quick Study.</strong> You can take the Study action as a Bonus Action.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 3
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "Intelligence 13+",
+    "activities": {},
+    "enchant": {},
+    "identifier": "keen-mind",
+    "advancement": [
+      {
+        "_id": "S9zZnUeHeDR8lM6U",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 1,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "iGGq91v7jfRK9k2M",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:arc",
+                "skills:his",
+                "skills:inv",
+                "skills:nat",
+                "skills:rel"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "upgrade"
+        },
+        "level": 0,
+        "title": "Lore Knowledge",
+        "hint": "Choose one of the following skills: Arcana, History, Investigation, Nature, or Religion. If you lack proficiency in the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.",
+        "value": {}
+      }
+    ]
+  },
+  "_id": "phbftKeenMind000",
+  "type": "feat",
+  "img": "icons/commodities/biological/organ-brain-red.webp",
+  "effects": [],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425894422,
+    "modifiedTime": 1760134312309,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftKeenMind000"
+}

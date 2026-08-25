@@ -1,0 +1,683 @@
+{
+  "name": "Boon of Energy Resistance",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Energy Resistances.</strong> You gain Resistance to two of the following damage types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder. Whenever you finish a Long Rest, you can change your choices.</p><p><strong>Energy Redirection.</strong> When you take damage of one of the types chosen for the Energy Resistances benefit, you can take a Reaction to direct damage of the same type toward another creature you can see within 60 feet of yourself that isn’t behind &amp;Reference[Total Cover]. If you do so, that creature must succeed on a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus) or take damage equal to 2d12 plus your Constitution modifier.</p><section class=\"secret\" id=\"secret-YvvZOk14Rk8qwLgW\"><p><strong>Foundry Note</strong></p><p>The <strong>Choose Resistances</strong> activity includes an Active Effect for each Resistance that you can apply to yourself. When choosing new Resistances be sure to delete or disable the previously selected Active Effects in the 'Effects\" tab of your sheet.</p><p>The <strong>Energy Redirection</strong> reaction activity includes a save and you can choose the damage type in the damage roll's dialog box.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "epicBoon"
+    },
+    "prerequisites": {
+      "level": 19
+    },
+    "properties": [],
+    "requirements": "Level 19",
+    "activities": {
+      "vjZUyHXkFxNgcvoS": {
+        "type": "utility",
+        "name": "Choose Resistances",
+        "_id": "vjZUyHXkFxNgcvoS",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "Whenever you finish a Long Rest"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "07g1g9xccdFmBwyg"
+          },
+          {
+            "_id": "6qXA1gcGkOc1uBXD"
+          },
+          {
+            "_id": "UCKEyBs27AFWpWkQ"
+          },
+          {
+            "_id": "Jd6Qr8AHwIZHXCb3"
+          },
+          {
+            "_id": "Tzk4OKX0U6eYeX9i"
+          },
+          {
+            "_id": "yK1Ian5Wj9x8zWHf"
+          },
+          {
+            "_id": "vJvQbFUgIehWQ82j"
+          },
+          {
+            "_id": "eDF4I0i2xCfhtZY4"
+          },
+          {
+            "_id": "kG9rwau6X3DOyyk3"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/trait-damage-immunities.svg",
+        "appliedEffects": [
+          "07g1g9xccdFmBwyg",
+          "6qXA1gcGkOc1uBXD",
+          "UCKEyBs27AFWpWkQ",
+          "Jd6Qr8AHwIZHXCb3",
+          "Tzk4OKX0U6eYeX9i",
+          "yK1Ian5Wj9x8zWHf",
+          "vJvQbFUgIehWQ82j",
+          "eDF4I0i2xCfhtZY4",
+          "kG9rwau6X3DOyyk3"
+        ]
+      },
+      "gAfgFNKzMbpNdfae": {
+        "type": "save",
+        "name": "Energy Redirection",
+        "_id": "gAfgFNKzMbpNdfae",
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": "Isn't behind Total Cover"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": "12",
+              "bonus": "@abilities.con.mod",
+              "types": [
+                "acid",
+                "bludgeoning",
+                "cold",
+                "fire",
+                "force",
+                "lightning",
+                "necrotic",
+                "piercing",
+                "poison",
+                "psychic",
+                "radiant",
+                "slashing",
+                "thunder"
+              ]
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": "dex",
+          "dc": {
+            "calculation": "con",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "boon-of-energy-resistance",
+    "advancement": [
+      {
+        "_id": "zNqJRAI2ON8SRu40",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbBoonofEnergyR",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "effects": [
+    {
+      "name": "Acid: Boon of Energy Resistance",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbBoonofEnergyR",
+      "transfer": false,
+      "_id": "07g1g9xccdFmBwyg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "acid",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.jZGIulxQFLY7uRDe",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725461221904,
+        "modifiedTime": 1725461390782,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbBoonofEnergyR.07g1g9xccdFmBwyg"
+    },
+    {
+      "name": "Cold: Boon of Energy Resistance",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbBoonofEnergyR",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.6z5fLOHiOiHHcuac",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725461223361,
+        "modifiedTime": 1725461419735,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "6qXA1gcGkOc1uBXD",
+      "_key": "!items.effects!phbBoonofEnergyR.6qXA1gcGkOc1uBXD"
+    },
+    {
+      "name": "Fire: Boon of Energy Resistance",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbBoonofEnergyR",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.DW6JJBsbBtR1Z75R",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725461226383,
+        "modifiedTime": 1725461513419,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "UCKEyBs27AFWpWkQ",
+      "_key": "!items.effects!phbBoonofEnergyR.UCKEyBs27AFWpWkQ"
+    },
+    {
+      "name": "Lightning: Boon of Energy Resistance",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbBoonofEnergyR",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.5ZizSWuVy8cy77K1",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725461229048,
+        "modifiedTime": 1725461501566,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "Jd6Qr8AHwIZHXCb3",
+      "_key": "!items.effects!phbBoonofEnergyR.Jd6Qr8AHwIZHXCb3"
+    },
+    {
+      "name": "Necrotic: Boon of Energy Resistance",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbBoonofEnergyR",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.fcFLysPw4llFTQsg",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725461234291,
+        "modifiedTime": 1725461488285,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "Tzk4OKX0U6eYeX9i",
+      "_key": "!items.effects!phbBoonofEnergyR.Tzk4OKX0U6eYeX9i"
+    },
+    {
+      "name": "Poison: Boon of Energy Resistance",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbBoonofEnergyR",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.PpWYucbhugNEIBJ7",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725461237791,
+        "modifiedTime": 1725461476651,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "yK1Ian5Wj9x8zWHf",
+      "_key": "!items.effects!phbBoonofEnergyR.yK1Ian5Wj9x8zWHf"
+    },
+    {
+      "name": "Psychic: Boon of Energy Resistance",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbBoonofEnergyR",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "psychic",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.BbvC3rh4RDmi06XI",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725461241507,
+        "modifiedTime": 1725461465776,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "vJvQbFUgIehWQ82j",
+      "_key": "!items.effects!phbBoonofEnergyR.vJvQbFUgIehWQ82j"
+    },
+    {
+      "name": "Radiant: Boon of Energy Resistance",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbBoonofEnergyR",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "radiant",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.IFg9ae4ZyhMDPa3m",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725461242807,
+        "modifiedTime": 1725461452006,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "eDF4I0i2xCfhtZY4",
+      "_key": "!items.effects!phbBoonofEnergyR.eDF4I0i2xCfhtZY4"
+    },
+    {
+      "name": "Thunder: Boon of Energy Resistance",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbBoonofEnergyR",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "thunder",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.P7YUT6Y1NXGpo5Er",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725461245699,
+        "modifiedTime": 1725461435575,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "kG9rwau6X3DOyyk3",
+      "_key": "!items.effects!phbBoonofEnergyR.kG9rwau6X3DOyyk3"
+    }
+  ],
+  "folder": "7zo2bljGLQY3uwXI",
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425893001,
+    "modifiedTime": 1740697708188,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbBoonofEnergyR"
+}

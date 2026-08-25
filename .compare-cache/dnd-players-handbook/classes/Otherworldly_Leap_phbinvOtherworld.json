@@ -1,0 +1,122 @@
+{
+  "_id": "phbinvOtherworld",
+  "name": "Otherworldly Leap",
+  "type": "feat",
+  "img": "icons/creatures/mammals/deer-movement-leap-green.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump} on yourself without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000 inline]</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": 2
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "wH4IQveLxB62JsAi": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplJump000000",
+          "challenge": {
+            "override": false
+          },
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": "",
+          "level": 1
+        },
+        "_id": "wH4IQveLxB62JsAi",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self"
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "enchant": {},
+    "identifier": "otherworldly-leap"
+  },
+  "effects": [],
+  "folder": "BjeMHiqnKNWkWhox",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1724425976444,
+    "modifiedTime": 1755705270547,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbinvOtherworld"
+}

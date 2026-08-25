@@ -1,0 +1,181 @@
+{
+  "_id": "mmRapportSpores0",
+  "name": "Rapport Spores",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "WohqBNidY6nmDuum": {
+        "type": "utility",
+        "_id": "WohqBNidY6nmDuum",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "30",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Use",
+        "img": "systems/dnd5e/icons/svg/activity/utility.svg",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\">The [[lookup @name lowercase]] expels spores in a [[lookup @target.template.size activity=WohqBNidY6nmDuum]]-foot Emanation originating from itself. Creatures in that area with an Intelligence score of 2 or higher that aren’t Constructs, Elementals, or Undead gain telepathy with a range of 30 feet for [[lookup @duration.value activity=WohqBNidY6nmDuum]] [[lookup @duration.units activity=WohqBNidY6nmDuum]].</p>",
+      "chat": ""
+    },
+    "identifier": "rapport-spores",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/air/fog-gas-smoke-orange.webp",
+  "effects": [
+    {
+      "name": "Telepathy 30 ft.",
+      "img": "icons/magic/air/fog-gas-smoke-orange.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmRapportSpores0",
+      "_id": "615GgZWnB7ezBCPv",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.languages.communication.telepathy.value",
+          "mode": 4,
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": [],
+          "enableCondition": ""
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.actors.Actor.mmMyconidAdult00.Item.mmRapportSpores0.ActiveEffect.VLxWjtYOvhuar3vJ",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1737060781915,
+        "modifiedTime": 1737060781915,
+        "lastModifiedBy": "uiLWA8cjxlVrOPlI",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmRapportSpores0.615GgZWnB7ezBCPv"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737515542020,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 17900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmRapportSpores0"
+}

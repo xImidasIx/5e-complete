@@ -1,0 +1,421 @@
+{
+  "_id": "dmgPub0000000000",
+  "name": "Pub",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-01.webp",
+  "system": {
+    "activities": {
+      "04FNrbF56cAEHgsD": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 2,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": false
+        },
+        "_id": "04FNrbF56cAEHgsD",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "Bigby's Burden"
+      },
+      "6hwplaIjMbJQBzMj": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplSpiderClim",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 2,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": false
+        },
+        "_id": "6hwplaIjMbJQBzMj",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "Kiss of the Spider Queen"
+      },
+      "bWOWLMXZAT4yh7Iu": {
+        "type": "utility",
+        "name": "Moonlight Serenade",
+        "_id": "bWOWLMXZAT4yh7Iu",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "24"
+        },
+        "effects": [
+          {
+            "_id": "tvua6yMDXkK9qPSL"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      },
+      "APFQ2zS7d70XecDT": {
+        "type": "utility",
+        "name": "Positive Reinforcement",
+        "_id": "APFQ2zS7d70XecDT",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "24"
+        },
+        "effects": [
+          {
+            "_id": "xQ4fVh7TauA66UNT"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 13 Bastion Facility</em></p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Research</p><p>Folks come here to consume tasty beverages and socialize. Your Pub might be a bar, coffee shop, or tea room, and it might have a colorful name, such as the Rusty Flagon or the Dragon’s Loft. The facility’s hireling, who serves as the bartender, maintains a network of spies scattered throughout nearby communities. These spies are useful sources of information and frequent the Pub, often incognito.</p><p><em><strong>Research: Information Gathering.</strong></em> When you issue the Research order to this facility, you commission the Pub’s bartender to gather information from spies who are aware of important events happening within 10 miles of your Bastion over the next 7 days. During that time, these spies can divulge the location of any creature that is familiar to you, provided the creature is within 50 miles of your Bastion and not hidden by magic or confined to a location that the DM deems is beyond the spy network’s ability to locate. If the spies learn the target’s location, they also learn where that creature has been for the previous 7 days.</p><p><em><strong>Pub Special.</strong></em> The Pub has one magical beverage on tap, chosen from the options below:</p><p><strong>Bigby’s Burden.</strong> Drinking a pint of this beverage grants you the “enlarge” effect of an @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]{Enlarge/Reduce} spell that has a duration of 24 hours (no saving throw allowed).</p><p><strong>Kiss of the Spider Queen.</strong> Drinking a pint of this beverage grants you the effect of a @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiderClim]{Spider Climb} spell that has a duration of 24 hours.</p><p><strong>Moonlight Serenade.</strong> Drinking a pint of this beverage gives you Darkvision out to 60 feet for 24 hours. If you already have Darkvision, its range is extended by 60 feet for the same duration.</p><p><strong>Positive Reinforcement.</strong> Drinking a pint of this beverage gives you Resistance to Necrotic damage for 24 hours.</p><p><strong>Sterner Stuff.</strong> For 24 hours after drinking a pint of this beverage, you automatically succeed on saving throws to avoid or end the &amp;Reference[Frightened apply=false] condition.</p><p>At the start of a Bastion turn, you can switch to one of the other options. Your DM may create new options. A pint of this magical beverage loses its magic 24 hours after it’s poured.</p><p><em><strong>Enlarging the Facility.</strong></em> You can enlarge your Pub to a Vast facility by spending 2,000 GP. If you do so, the Pub can have two magical beverages from the Pub Special list on tap at a time. A Vast Pub gains three additional hirelings, for a total of four. These new hirelings are servers. Assign names and personalities to them as you see fit.</p>",
+      "chat": ""
+    },
+    "identifier": "pub",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 13,
+    "order": "research",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "pub"
+    },
+    "enlargeable": true
+  },
+  "effects": [
+    {
+      "name": "Moonlight Serenade",
+      "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-01.webp",
+      "origin": "Item.dmgPub0000000000",
+      "transfer": false,
+      "_id": "tvua6yMDXkK9qPSL",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 4,
+          "value": "60",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgPub0000000000.tvua6yMDXkK9qPSL"
+    },
+    {
+      "name": "Positively Reinforced",
+      "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-01.webp",
+      "origin": "Item.dmgPub0000000000",
+      "transfer": false,
+      "_id": "xQ4fVh7TauA66UNT",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgPub0000000000.xQ4fVh7TauA66UNT"
+    }
+  ],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731337689737,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgPub0000000000"
+}

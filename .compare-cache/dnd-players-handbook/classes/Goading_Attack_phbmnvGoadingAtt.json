@@ -1,0 +1,213 @@
+{
+  "_id": "phbmnvGoadingAtt",
+  "name": "Goading Attack",
+  "type": "feat",
+  "img": "icons/skills/melee/hand-grip-staff-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target into attacking you. Add the [[/damage @scale.battle-master.superiority.die]]{Superiority Die} to the attack's damage roll. The target must succeed on a Wisdom saving throw or have Disadvantage on attack rolls against targets other than you until the end of your next turn.</p><section class=\"secret\" id=\"secret-BS37R5kndzjT5lCr\"><p><strong>Foundry Note</strong></p><p>This feature includes activities for saving against your <strong>Strength</strong> or <strong>Dexterity</strong>. You can use the inline damage roll for the extra damage or the <strong>Damage</strong> activity.</p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "maneuver"
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "YZDchvLnuCD6xMkF": {
+        "type": "save",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you hit a creature with an attack roll"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbftrCombatSupe"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "bJjBbuJ2PZKby1Nt"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.battle-master.superiority.die"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "acid",
+                "bludgeoning",
+                "cold",
+                "fire",
+                "force",
+                "lightning",
+                "necrotic",
+                "piercing",
+                "poison",
+                "psychic",
+                "radiant",
+                "slashing",
+                "thunder"
+              ]
+            }
+          ],
+          "onSave": "full"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "8 + max(@abilities.dex.mod, @abilities.str.mod) + @prof"
+          }
+        },
+        "name": "",
+        "_id": "YZDchvLnuCD6xMkF",
+        "img": "",
+        "appliedEffects": [
+          "bJjBbuJ2PZKby1Nt"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "goading-attack"
+  },
+  "effects": [
+    {
+      "name": "Goaded",
+      "img": "icons/skills/melee/hand-grip-staff-teal.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbmnvGoadingAtt",
+      "_id": "bJjBbuJ2PZKby1Nt",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target has Disadvantage on attack rolls against targets other than you until the end of your next turn.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.5",
+        "createdTime": 1740691022454,
+        "modifiedTime": 1740691038871,
+        "lastModifiedBy": "zA1HDbCLa7iONUCI",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbmnvGoadingAtt.bJjBbuJ2PZKby1Nt"
+    }
+  ],
+  "folder": "tgLxjBJ1GxcEPcIC",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425979975,
+    "modifiedTime": 1740696154071,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbmnvGoadingAtt"
+}

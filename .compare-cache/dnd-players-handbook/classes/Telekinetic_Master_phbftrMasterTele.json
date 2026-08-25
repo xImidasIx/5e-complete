@@ -1,0 +1,59 @@
+{
+  "_id": "phbftrMasterTele",
+  "name": "Telekinetic Master",
+  "type": "feat",
+  "img": "icons/magic/air/air-pressure-shield-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi]{Telekinesis} spell prepared. With this feature, you can cast it without a spell slot or components, and your spellcasting ability for it is Intelligence. On each of your turns while you maintain Concentration on it, including the turn when you cast it, you can make one attack with a weapon as a Bonus Action.</p><p>Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-S88EcUnJKOTtOwTZ\"><p><strong>Foundry Note</strong></p><p>You are automatically granted the Telekinesis spell as you level up. It includes a free use and configures it to use Intelligence as your spellcasting modifier. You can manually consume a use of your Psionic Energy Die and give yourself another use of the spell.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 18
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "telekinetic-master"
+  },
+  "effects": [],
+  "folder": "6QOkSNHAocZXhKdO",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425972563,
+    "modifiedTime": 1726075576446,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbftrMasterTele"
+}

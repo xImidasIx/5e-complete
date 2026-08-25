@@ -1,0 +1,308 @@
+{
+  "_id": "phbbrbAspectOfTh",
+  "name": "Aspect of the Wilds",
+  "type": "feat",
+  "img": "icons/creatures/abilities/cougar-pounce-stalk-black.webp",
+  "system": {
+    "description": {
+      "value": "<p>You gain one of the following options of your choice. Whenever you finish a Long Rest, you can change your choice.</p><p><strong>Owl.</strong> You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p><p><strong>Panther. </strong>You have a Climb Speed equal to your Speed.</p><p><strong>Salmon.</strong> You have a Swim Speed equal to your Speed.</p><section class=\"secret\" id=\"secret-CKbkC1Dm8i7Nz9TV\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity with an Active Effect which automates the Darkvision changes from the <strong>Owl</strong> option. The Speed changes are not automatically applied.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "Path of the Wild Heart",
+    "activities": {
+      "8CZv2MLzxqygursG": {
+        "type": "utility",
+        "name": "Owl",
+        "_id": "8CZv2MLzxqygursG",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "CKLB1VHUlPsgOJxp"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "CKLB1VHUlPsgOJxp"
+        ]
+      },
+      "wexQTmsP5D0274PA": {
+        "type": "utility",
+        "name": "Panther",
+        "_id": "wexQTmsP5D0274PA",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "k0u8IufecchhZHFD": {
+        "type": "utility",
+        "name": "Salmon",
+        "_id": "k0u8IufecchhZHFD",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "aspect-of-the-wilds"
+  },
+  "effects": [
+    {
+      "name": "Aspect of the Owl",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbbrbAspectOfTh",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {}
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "_id": "CKLB1VHUlPsgOJxp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "attributes.senses.darkvision",
+          "mode": 2,
+          "value": "60",
+          "priority": null
+        }
+      ],
+      "description": "<p>You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbbrbAspectOfTh.CKLB1VHUlPsgOJxp"
+    }
+  ],
+  "folder": "etioosF5p3g1hqiO",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425956299,
+    "modifiedTime": 1726075571615,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrbAspectOfTh"
+}

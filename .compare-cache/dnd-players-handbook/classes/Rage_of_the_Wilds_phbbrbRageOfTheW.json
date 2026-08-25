@@ -1,0 +1,379 @@
+{
+  "_id": "phbbrbRageOfTheW",
+  "name": "Rage of the Wilds",
+  "type": "feat",
+  "img": "icons/creatures/abilities/bear-roar-bite-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your Rage taps into the primal power of animals. Whenever you activate your Rage, you gain one of the following options of your choice.</p><p><strong>Bear.</strong> While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p><p><strong>Eagle.</strong> When you activate your Rage, you can take the Disengage and Dash actions as part of that Bonus Action. While your Rage is active, you can take a Bonus Action to take both of those actions.</p><p><strong>Wolf.</strong> While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p><section class=\"secret\" id=\"secret-NkFSYzGdf370PpSv\"><p><strong>Foundry Note</strong></p><p>The <strong>Bear</strong> activity includes an Active Effect which can automate the addition of the resistances.</p><p>The <strong>Eagle</strong> activity uses a Bonus Action  for Disengage and Dash.</p><p>The <strong>Wolf</strong> activity includes a 5 foot target template for identifying impacted creatures.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "Path of the Wild Heart",
+    "activities": {
+      "aAgwjPzI59JVZZAj": {
+        "type": "utility",
+        "name": "Eagle",
+        "_id": "aAgwjPzI59JVZZAj",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 100000,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/abilities/charisma.svg",
+        "appliedEffects": []
+      },
+      "gePGvBzPWowZSZZl": {
+        "type": "utility",
+        "name": "Wolf",
+        "_id": "gePGvBzPWowZSZZl",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "7G8UJy5D9CTxeEVw"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "5",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 300000,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/abilities/intelligence.svg",
+        "appliedEffects": [
+          "7G8UJy5D9CTxeEVw"
+        ]
+      },
+      "vbZbZ5Hcu5SfsYnd": {
+        "type": "utility",
+        "name": "Bear",
+        "_id": "vbZbZ5Hcu5SfsYnd",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "5ZM8J0DQgUXj1GT5"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/abilities/constitution.svg",
+        "appliedEffects": [
+          "5ZM8J0DQgUXj1GT5"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "rage-of-the-wilds"
+  },
+  "effects": [
+    {
+      "name": "Rage of the Bear",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbbrbRageOfTheW",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+      "_id": "5ZM8J0DQgUXj1GT5",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "acid",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "thunder",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.1",
+        "createdTime": null,
+        "modifiedTime": 1755888827525,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbbrbRageOfTheW.5ZM8J0DQgUXj1GT5"
+    },
+    {
+      "name": "Rage of the Wolf",
+      "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbbrbRageOfTheW",
+      "transfer": true,
+      "_id": "7G8UJy5D9CTxeEVw",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 600,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.1",
+        "createdTime": 1755888734736,
+        "modifiedTime": 1755888819903,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B"
+      },
+      "_key": "!items.effects!phbbrbRageOfTheW.7G8UJy5D9CTxeEVw"
+    }
+  ],
+  "folder": "etioosF5p3g1hqiO",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1724425958808,
+    "modifiedTime": 1755888916986,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrbRageOfTheW"
+}

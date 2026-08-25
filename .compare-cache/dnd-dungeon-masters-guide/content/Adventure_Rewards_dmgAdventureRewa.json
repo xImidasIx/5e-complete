@@ -1,0 +1,238 @@
+{
+  "_id": "dmgAdventureRewa",
+  "name": "Adventure Rewards",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Introduction",
+      "type": "text",
+      "_id": "WrjlFh0n1ha2wF2O",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>For some characters, the prospect of material reward is their primary reason for going on adventures. For others it’s a welcome added benefit to pursuing their other goals.</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTreasure00000]{Chapter 7} describes different kinds of treasure, but see also @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.XpmEG4yalu71L9ed]{Marks of Prestige} in chapter 3 for other rewards you might use.</p><p>The following sections describe how treasure is typically dispersed in an adventure.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1731278922896,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgAdventureRewa.WrjlFh0n1ha2wF2O"
+    },
+    {
+      "sort": 200000,
+      "name": "Individual Treasure",
+      "type": "text",
+      "_id": "EBcNErEifQuAkTR5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Characters might find small amounts of treasure in the pockets, pouches, or personal stashes of individual monsters. Even if a monster doesn’t intentionally collect treasure, characters might find scattered coins and other monetary treasure left behind by the monster’s previous victims.</p><p>You can use the Random Individual Treasure table to determine how much treasure a single monster has based on its Challenge Rating (CR). The table includes the average total in parentheses, which you can use instead of rolling. To determine the total amount of treasure for a group of similar creatures, you can roll once and multiply the total by the number of creatures in the group.</p><table><caption>Random Individual Treasure</caption><thead><tr><th><p>CR</p></th><th><p>Treasure</p></th></tr></thead><tbody><tr><td><p>0–4</p></td><td><p>[[/award 3d6gp]] (10 GP)</p></td></tr><tr><td><p>5–10</p></td><td><p>[[/award 2d8*10gp]] (90 GP)</p></td></tr><tr><td><p>11–16</p></td><td><p>[[/award 2d10*10pp]] (110 PP)</p></td></tr><tr><td><p>17+</p></td><td><p>[[/award 2d8*100pp]] (900 PP)</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1729453325776,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgAdventureRewa.EBcNErEifQuAkTR5"
+    },
+    {
+      "sort": 300000,
+      "name": "Treasure Hoards",
+      "type": "text",
+      "_id": "BPBTY8qIVTjIZ9Zl",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Adventurers sometimes discover large caches of treasure, the accumulated wealth of a large group of creatures or the belongings of a single powerful creature that hoards valuables. The Random Treasure Hoard table can help you create such a cache. When determining the contents of a hoard belonging to one monster, use the row for that monster’s Challenge Rating (CR). When the hoard belongs to a large group of monsters, use the CR of the monster that leads the group. Each row includes average results for monetary treasure, which you can use instead of rolling. To create a hoard for a monster that is particularly fond of amassing treasure (such as a dragon), you can roll twice on the table or roll once and double the total.</p><p>As a rough benchmark, aim to roll on the Random Treasure Hoard table about once per game session. Use the guidelines in chapter 7 to determine which magic items are in the hoard (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.FD4qYfk5uK3MbytC]{Awarding Magic Items} and @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz]{Random Magic Items}).</p><table><caption>Random Treasure Hoard</caption><thead><tr><th><p>CR</p></th><th><p>Monetary Treasure</p></th><th><p>Magic Items</p></th></tr></thead><tbody><tr><td><p>0–4</p></td><td><p>[[/award 2d4*100gp]] (500 GP)</p></td><td><p>[[/r 1d4−1]]{1d4 − 1}</p></td></tr><tr><td><p>5–10</p></td><td><p>[[/award 8d10*100gp]] (4,400 GP)</p></td><td><p>[[/r 1d3]]</p></td></tr><tr><td><p>11–16</p></td><td><p>[[/award 8d8*1000gp]] (36,000 GP)</p></td><td><p>[[/r 1d4]]</p></td></tr><tr><td><p>17+</p></td><td><p>[[/award 6d10*10000gp]] (330,000 GP)</p></td><td><p>[[/r 1d6]]</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1757173447792,
+        "lastModifiedBy": "w7O2Nas6PEP9rC9A",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgAdventureRewa.BPBTY8qIVTjIZ9Zl"
+    },
+    {
+      "sort": 400000,
+      "name": "Quest Rewards",
+      "type": "text",
+      "_id": "irNzJJgX3D5cKGXa",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgCh4ArtHandout.JournalEntryPage.6i0mlLzRlAWvu13R]</p><p>Sometimes, characters are paid for completing a quest. To determine a suitable quest reward, roll once on the @UUID[.BPBTY8qIVTjIZ9Zl]{Random Treasure Hoard table}, using the characters’ level for the Challenge Rating (CR).</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1729453516713,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgAdventureRewa.irNzJJgX3D5cKGXa"
+    },
+    {
+      "sort": 500000,
+      "name": "Monster Treasure Preferences",
+      "type": "text",
+      "_id": "ur0r2zuMASyRpcr4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The <em>Monster Manual</em> gives treasure preferences for monsters in that book. These preferences are categorized as follows:</p><p><strong>Any.</strong> The monster has a treasure hoard, the contents of which you can determine by rolling on the @UUID[.BPBTY8qIVTjIZ9Zl]{Random Treasure Hoard table}. Monetary treasure can take the form of @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTreasure00000.JournalEntryPage.lHIlmKsXY7Z6vc4p]{coins}, @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTreasure00000.JournalEntryPage.alHxModFLga80BOe]{trade bars}, @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTreasure00000.JournalEntryPage.ctRdFYRoxmYc5yh5]{trade goods}, @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTreasure00000.JournalEntryPage.mctHyBqXCIxHZoHN]{gems}, or @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTreasure00000.JournalEntryPage.zueK5h0fQ5iiYoUB]{art objects}. Magic items can belong to any treasure theme or category (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTreasure00000.JournalEntryPage.fQpftaSbOhQlbEJK]{Treasure Themes} and @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.ECu9eaTCA5POlB30]{Magic Item Categories}).</p><p><strong>Individual.</strong> The monster doesn’t have a treasure hoard; however, it might have monetary treasure, which you can determine by rolling on the Random Individual Treasure table. This treasure can take the form of coins, trade bars, trade goods, gems, or art objects.</p><p><strong>Treasure Theme (Arcana, Armaments, Implements, or Relics).</strong> The monster has a treasure hoard skewed toward a particular theme (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTreasure00000.JournalEntryPage.fQpftaSbOhQlbEJK]{Treasure Themes}). You can determine the size of the hoard by rolling on the Random Treasure Hoard table. If the hoard contains magic items, use the guidelines and tables in chapter 7 to determine each one.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": null,
+        "modifiedTime": 1729453625734,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgAdventureRewa.ur0r2zuMASyRpcr4"
+    }
+  ],
+  "folder": "sMpWBrn9gqvlMdTq",
+  "flags": {
+    "core": {
+      "sheetClass": "dnd-dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "append": 4,
+      "type": "special",
+      "order": 301300,
+      "navigation": {
+        "previous": "dmgBringItToAnEn",
+        "next": "dmgAdventureExam"
+      }
+    },
+    "dnd-dungeon-masters-guide": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.4",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1757366032239,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 96875,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgAdventureRewa"
+}

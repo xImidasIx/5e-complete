@@ -1,0 +1,243 @@
+{
+  "_id": "mmStealBody00000",
+  "name": "Steal Body",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "dKA6FqhkPRD5rLhA": {
+        "type": "save",
+        "_id": "dKA6FqhkPRD5rLhA",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "jMXHiuori8qaVGww",
+            "onSave": false
+          },
+          {
+            "_id": "0E3z90uTzBGeozXr",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "one Small or Medium creature within 5 feet that has the Incapacitated condition, is a Humanoid or Beast, and has 10 Hit Points or fewer."
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "int"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "12"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "jMXHiuori8qaVGww",
+          "0E3z90uTzBGeozXr"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Intelligence Saving Throw:</em> DC [[lookup @save.dc.value activity=dKA6FqhkPRD5rLhA]], [[lookup @target.affects.special activity=dKA6FqhkPRD5rLhA]]</p><p class=\"feature\"><em>Failure:</em> The [[lookup @name lowercase]] possesses the target, consumes its brain, and teleports inside its skull.</p><p class=\"feature\">While there, the [[lookup @name lowercase]] has &amp;Reference[Total Cover] against attacks and other effects originating outside its host. The [[lookup @name lowercase]] retains its Intelligence, Wisdom, and Charisma scores; its understanding of Deep Speech; its telepathy; and its Detect Intelligence trait. It otherwise adopts the target’s game statistics. It knows everything the target knew, including spells and languages.</p><p class=\"feature\">If the host body dies, the [[lookup @name lowercase]] must leave it. The [[lookup @name lowercase]] is also forced out if the target regains its devoured brain by means of a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell.</p><p class=\"feature\">By spending 5 feet of its movement, the [[lookup @name lowercase]] can voluntarily leave the body, teleporting to the nearest unoccupied space within 5 feet of it. The body then dies unless its brain is restored before the end of the [[lookup @name lowercase]]’s next turn.</p>",
+      "chat": ""
+    },
+    "identifier": "steal-body",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "effects": [
+    {
+      "name": "Total Cover",
+      "img": "systems/dnd5e/icons/svg/statuses/cover-total.svg",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmStealBody00000",
+      "_id": "jMXHiuori8qaVGww",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The possessesing creature has &amp;Reference[Total Cover] against attacks and other effects originating outside its host.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "coverTotal"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1736119411736,
+        "modifiedTime": 1736119519600,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmStealBody00000.jMXHiuori8qaVGww"
+    },
+    {
+      "name": "Languages",
+      "img": "icons/magic/control/silhouette-aura-energy.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmStealBody00000",
+      "_id": "0E3z90uTzBGeozXr",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.languages.value",
+          "mode": 2,
+          "value": "deep speech",
+          "priority": null
+        },
+        {
+          "key": "system.traits.languages.custom",
+          "mode": 0,
+          "value": "Telepathy 60 ft.",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The possessing creature retains its understanding of Deep Speech and its telepathy.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": [],
+          "enableCondition": ""
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1736119739518,
+        "modifiedTime": 1736120340002,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmStealBody00000.0E3z90uTzBGeozXr"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1736120228284,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 22700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmStealBody00000"
+}

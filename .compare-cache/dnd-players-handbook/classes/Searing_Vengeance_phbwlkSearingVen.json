@@ -1,0 +1,187 @@
+{
+  "_id": "phbwlkSearingVen",
+  "name": "Searing Vengeance",
+  "type": "feat",
+  "folder": "BfXThSSeEfafZ3cJ",
+  "img": "icons/magic/fire/flame-burning-skeleton-explosion.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you or an ally within 60 feet of you is about to make a Death Saving Throw, you can unleash radiant energy to save the creature. The creature regains Hit Points equal to half its Hit Point maximum and can end the &amp;Reference[Prone] condition on itself. Each creature of your choice that is within 30 feet of the creature takes Radiant damage equal to 2d8 plus your Charisma modifier, and each has the &amp;Reference[Blinded] condition until the end of the current turn.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest.</p><section id=\"secret-fOSDxWyY7FdboIM7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Healing up to half their Hit Point maximum is not automated but the <strong>Damage</strong> activity includes the relevant targeting template and damage roll. It also includes an Active Effect which applies the Blinded condition.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 14
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "3dwQMFOGNl4ZLoWM": {
+        "type": "damage",
+        "_id": "3dwQMFOGNl4ZLoWM",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you or an ally within 60 feet of you is about to make a Death Saving Throw"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "KOXCayzftTFF9Kam"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "30",
+            "count": ""
+          },
+          "affects": {
+            "choice": true,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": "8",
+              "bonus": "@abilities.cha.mod",
+              "types": [
+                "radiant"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "searing-vengeance"
+  },
+  "effects": [
+    {
+      "name": "Searing Vengeance",
+      "img": "icons/magic/fire/flame-burning-skeleton-explosion.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkSearingVen",
+      "transfer": false,
+      "_id": "KOXCayzftTFF9Kam",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725289456059,
+        "modifiedTime": 1726860462298,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbwlkSearingVen.KOXCayzftTFF9Kam"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425985003,
+    "modifiedTime": 1726075586442,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbwlkSearingVen"
+}

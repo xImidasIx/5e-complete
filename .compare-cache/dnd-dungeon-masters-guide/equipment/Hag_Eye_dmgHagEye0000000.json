@@ -1,0 +1,229 @@
+{
+  "_id": "dmgHagEye0000000",
+  "name": "Hag Eye",
+  "type": "equipment",
+  "folder": "U4xmShLy19Ry54zl",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/hag-eye.webp",
+  "system": {
+    "activities": {
+      "VvMkNOLYT9zpPGSK": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplDarkvision",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "2",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "VvMkNOLYT9zpPGSK",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "",
+        "img": ""
+      },
+      "OJ7tHvJVWFm7zx2D": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "2",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "OJ7tHvJVWFm7zx2D",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>Wondrous Item, Uncommon</em></p><p>A <em>Hag Eye</em> has 3 charges. While wearing or holding this item, you can expend 1 charge to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkvision]{Darkvision} (targeting yourself only) or @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{See Invisibility}. The Hag Eye regains all expended charges daily at dawn.</p><p><em><strong>Coven Sensor.</strong></em> The <em>Hag Eye</em> is usually entrusted to a hag’s minion for safekeeping and transport. As a Magic action, a hag who belongs to the coven that created the <em>Hag Eye</em> can see what the <em>Hag Eye</em> sees if the hag and the <em>Hag Eye</em> are on the same plane of existence. This effect lasts as long as the hag maintains Concentration. Multiple hags in the coven can see through the <em>Hag Eye</em> simultaneously.</p><p><em><strong>Creating a Hag Eye.</strong></em> Only a hag coven can craft this item, which is made from a real eye coated in varnish and often fitted to a pendant or another wearable item. A hag coven can have only one <em>Hag Eye</em> at a time, and creating a new one requires all three members of the coven to perform a special rite. This rite takes 1 hour, and the hags can’t perform it if one or more of them has the &amp;Reference[Incapacitated apply=false] condition. If the hags take any other actions during this rite, the rite fails and ends.</p>",
+      "chat": ""
+    },
+    "identifier": "hag-eye",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1731355409658,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 17400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgHagEye0000000"
+}

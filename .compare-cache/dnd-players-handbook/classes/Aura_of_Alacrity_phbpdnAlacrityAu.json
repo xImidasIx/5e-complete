@@ -1,0 +1,99 @@
+{
+  "_id": "phbpdnAlacrityAu",
+  "name": "Aura of Alacrity",
+  "type": "feat",
+  "folder": "aiyH43DQjphs06GZ",
+  "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your Speed increases by 10 feet.</p><p>In addition, whenever an ally enters your Aura of Protection for the first time on a turn or starts their turn there, the ally’s Speed increases by 10 feet until the end of their next turn.</p><section id=\"secret-kOizvMlalbKjwbX4\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which increases your Speed by 10 feet. It does not automatically apply to creatures within your aura.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 7
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "aura-of-alacrity"
+  },
+  "effects": [
+    {
+      "name": "Alacrity",
+      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+      "_id": "FOchR6tBniuG75lL",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724878611022,
+        "modifiedTime": 1726514569590,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbpdnAlacrityAu.FOchR6tBniuG75lL"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425980303,
+    "modifiedTime": 1726075580930,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbpdnAlacrityAu"
+}

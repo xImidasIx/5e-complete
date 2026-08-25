@@ -1,0 +1,292 @@
+{
+  "_id": "phbrgrDreadAmbus",
+  "name": "Dread Ambusher",
+  "type": "feat",
+  "folder": "de4kglc2V33iB0yi",
+  "img": "icons/magic/nature/stealth-hide-eyes-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have mastered the art of creating fearsome ambushes, granting you the following benefits.</p><p><strong>Ambusher’s Leap.</strong> At the start of your first turn of each combat, your Speed increases by 10 feet until the end of that turn.</p><p><strong>Dreadful Strike.</strong> When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><p><strong>Initiative Bonus.</strong> When you roll Initiative, you can add your Wisdom modifier to the roll.</p><section class=\"secret\" id=\"secret-QF11lzzOLRLzoSrk\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically adds your Wisdom modifier to your Initiative roll.</p><p>The <strong>Dreadful Strike</strong> activity includes the additional damage and tracks your limited number of uses. It's damage will automatically increase when you gain the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrStalkersFl]{Stalker's Flurry} feature.</p><p>The <strong>Ambusher's Leap</strong> activity includes an Active Effect that can be used to increase your Speed by 10 feet.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "DMVf7FTyTC2HCAf9": {
+        "type": "damage",
+        "name": "Dreadful Strike",
+        "_id": "DMVf7FTyTC2HCAf9",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you attack and hit a creature with a weapon"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "(max(1,@abilities.wis.mod))"
+        },
+        "sort": 0,
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.gloom.dreadful-strike"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ]
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "R5Vq2As7MZSnfYzL": {
+        "type": "utility",
+        "name": "Ambusher's Leap",
+        "_id": "R5Vq2As7MZSnfYzL",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "At the start of your first turn of each combat"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "MFog5fJxkSCrXOuY"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 100000,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "dread-ambusher"
+  },
+  "effects": [
+    {
+      "name": "Dread Ambusher",
+      "img": "icons/magic/nature/stealth-hide-eyes-pink.webp",
+      "_id": "x1wPKl1K2XexAGkC",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.init.bonus",
+          "mode": 2,
+          "value": "@abilities.wis.mod",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724950355466,
+        "modifiedTime": 1726512821066,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbrgrDreadAmbus.x1wPKl1K2XexAGkC"
+    },
+    {
+      "name": "Ambusher's Leap",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbrgrDreadAmbus",
+      "transfer": false,
+      "_id": "MFog5fJxkSCrXOuY",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724950551115,
+        "modifiedTime": 1726512705206,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbrgrDreadAmbus.MFog5fJxkSCrXOuY"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425982454,
+    "modifiedTime": 1726512792252,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgrDreadAmbus"
+}

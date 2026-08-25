@@ -1,0 +1,297 @@
+{
+  "_id": "dmgEfreetiChain0",
+  "name": "Efreeti Chain",
+  "type": "equipment",
+  "folder": "1kn4uV4dTVVduLjA",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/efreeti-chain.webp",
+  "system": {
+    "activities": {
+      "VJjkxcSagZzMFDam": {
+        "type": "enchant",
+        "name": "Efreeti Chain",
+        "_id": "VJjkxcSagZzMFDam",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "CHgtsntaR52IskHP",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "iayKhkCEqIpiRViL"
+              ],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "CHgtsntaR52IskHP"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Armor (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0]{Chain Mail} or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainShirt]{Chain Shirt}), Legendary (Requires Attunement)</em></p><p>While wearing this armor, you gain a +3 bonus to Armor Class, you have Immunity to Fire damage, and you know Primordial. In addition, you can stand on and move across molten rock as if it were solid ground.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "efreeti-chain",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": 16,
+      "magicalBonus": 3,
+      "dex": 0
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": 13,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "Efreeti Bonuses: Resistance, Primordial, Movement",
+      "img": "icons/magic/fire/flame-burning-eye.webp",
+      "_id": "iayKhkCEqIpiRViL",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.di.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        },
+        {
+          "key": "system.traits.languages.value",
+          "mode": 2,
+          "value": "primordial",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>You have Immunity to Fire damage, and you know Primordial. In addition, you can stand on and move across molten rock as if it were solid ground.</p>",
+      "origin": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEfreetiChain0",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEfreetiShirt0.ActiveEffect.w8Ex7UAIQvPUI7CK",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1729626388503,
+        "modifiedTime": 1729626388503,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgEfreetiChain0.iayKhkCEqIpiRViL"
+    },
+    {
+      "type": "enchantment",
+      "name": "Efreeti Chain",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "_id": "CHgtsntaR52IskHP",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Efreeti {}",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEfreetiChain0 caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730304687509,
+        "modifiedTime": 1730305005918,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgEfreetiChain0.CHgtsntaR52IskHP"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": [
+          "iayKhkCEqIpiRViL"
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1731356434557,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgEfreetiChain0"
+}

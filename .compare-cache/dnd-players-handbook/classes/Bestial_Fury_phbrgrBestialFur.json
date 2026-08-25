@@ -1,0 +1,129 @@
+{
+  "_id": "phbrgrBestialFur",
+  "name": "Bestial Fury",
+  "type": "feat",
+  "folder": "hgxCFiq4twdW6SXc",
+  "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you command your Primal Companion beast to take the Beast’s Strike action, the beast can use it twice.</p><p>In addition, the first time each turn it hits a creature under the effect of your Hunter’s Mark spell, the beast deals extra Force damage equal to the bonus damage of that spell.</p><section id=\"secret-oX1a4cTYW435Ii3q\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity includes the additional damage roll.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 11
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "gSi5hBWIsy2wJqUj": {
+        "type": "damage",
+        "_id": "gSi5hBWIsy2wJqUj",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.ranger.mark"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "bestial-fury"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425982380,
+    "modifiedTime": 1726075583532,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgrBestialFur"
+}

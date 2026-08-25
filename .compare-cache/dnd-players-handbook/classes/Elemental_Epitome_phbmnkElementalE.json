@@ -1,0 +1,574 @@
+{
+  "_id": "phbmnkElementalE",
+  "name": "Elemental Epitome",
+  "type": "feat",
+  "folder": "RSuhMqGxJHmfxlwG",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>While your Elemental Attunement is active, you also gain the following benefits.</p><p><strong>Damage Resistance.</strong> You gain Resistance to one of the following damage types of your choice: Acid, Cold, Fire, Lightning, or Thunder. At the start of each of your turns, you can change this choice.</p><p><strong>Destructive Stride.</strong> When you use your Step of the Wind, your Speed increases by 20 feet until the end of the turn. For that duration, any creature of your choice takes damage equal to one roll of your Martial Arts die when you enter a space within 5 feet of it. The damage type is your choice of Acid, Cold, Fire, Lightning, or Thunder. A creature can take this damage only once per turn.</p><p><strong>Empowered Strikes.</strong> Once on each of your turns, you can deal extra damage to a target equal to one roll of your Martial Arts die when you hit it with an Unarmed Strike. The extra damage is the same type dealt by that strike.</p><section class=\"secret\" id=\"secret-o7dIl2Kw7UaODgLu\"><p><strong>Foundry Note</strong></p><p>This <strong>Damage Resistance</strong> activity includes 5 Active Effects which you can toggle between to select your preferred Resistance.</p><p>The <strong>Destructive Stride</strong> activity includes an Active Effect which can increase your Movement Speed by 20 feet and allows you to choose the type of damage in the roll dialog.</p><p>The <strong>Empowered Strike</strong> activity allows you to choose the damage type in the roll dialog.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 17
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "dgweOd8lDt6TRI0e": {
+        "type": "damage",
+        "name": "Destructive Stride",
+        "_id": "dgweOd8lDt6TRI0e",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you use your Step of the Wind"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "gui0qzhKfR57pQgX"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 100000,
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.monk.die"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "thunder"
+              ]
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": [
+          "gui0qzhKfR57pQgX"
+        ]
+      },
+      "a5WGe405dvalmJKa": {
+        "type": "damage",
+        "name": "Empowered Strike",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "Once on each of your turns when you hit with an Unarmed Strike"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 300000,
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.monk.die"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "thunder",
+                "bludgeoning"
+              ]
+            }
+          ]
+        },
+        "_id": "a5WGe405dvalmJKa",
+        "img": "",
+        "appliedEffects": [
+          "gui0qzhKfR57pQgX"
+        ]
+      },
+      "qE2UY5XJjYB5wZ1t": {
+        "type": "utility",
+        "name": "Damage Resistance",
+        "_id": "qE2UY5XJjYB5wZ1t",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "While your Elemental Attunement is active"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "zBSIxwVzm5hUeYvu"
+          },
+          {
+            "_id": "ioGM1qzuhHmDkOKV"
+          },
+          {
+            "_id": "9U32AaBUDEDM9Fyt"
+          },
+          {
+            "_id": "ZgNs0IRUKwUrZGn9"
+          },
+          {
+            "_id": "rajbPA9Inl0nYnlP"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "zBSIxwVzm5hUeYvu",
+          "ioGM1qzuhHmDkOKV",
+          "9U32AaBUDEDM9Fyt",
+          "ZgNs0IRUKwUrZGn9",
+          "rajbPA9Inl0nYnlP"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "elemental-epitome"
+  },
+  "effects": [
+    {
+      "name": "Acid Resistance",
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_id": "zBSIxwVzm5hUeYvu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "acid",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724796014909,
+        "modifiedTime": 1726516329571,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbmnkElementalE.zBSIxwVzm5hUeYvu"
+    },
+    {
+      "name": "Cold Resistance",
+      "img": "icons/magic/water/snowflake-ice-blue.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724796057168,
+        "modifiedTime": 1726516322443,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "ioGM1qzuhHmDkOKV",
+      "_key": "!items.effects!phbmnkElementalE.ioGM1qzuhHmDkOKV"
+    },
+    {
+      "name": "Fire Resistance",
+      "img": "icons/magic/fire/projectile-fireball-red-yellow.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724796076616,
+        "modifiedTime": 1726516355352,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "9U32AaBUDEDM9Fyt",
+      "_key": "!items.effects!phbmnkElementalE.9U32AaBUDEDM9Fyt"
+    },
+    {
+      "name": "Lightning Resistance",
+      "img": "icons/magic/lightning/bolt-cloud-sky-white.webp",
+      "_id": "ZgNs0IRUKwUrZGn9",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724796088852,
+        "modifiedTime": 1726516395660,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbmnkElementalE.ZgNs0IRUKwUrZGn9"
+    },
+    {
+      "name": "Thunder Resistance",
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr",
+          "mode": 2,
+          "value": "thunder",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724796114967,
+        "modifiedTime": 1726516419855,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "rajbPA9Inl0nYnlP",
+      "_key": "!items.effects!phbmnkElementalE.rajbPA9Inl0nYnlP"
+    },
+    {
+      "name": "Step of the Wind Bonus",
+      "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbmnkElementalE",
+      "transfer": false,
+      "_id": "gui0qzhKfR57pQgX",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "20",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724796574236,
+        "modifiedTime": 1726516062586,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbmnkElementalE.gui0qzhKfR57pQgX"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1724425978422,
+    "modifiedTime": 1726516270712,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbmnkElementalE"
+}

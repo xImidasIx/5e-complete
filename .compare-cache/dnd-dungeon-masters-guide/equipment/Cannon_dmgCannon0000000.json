@@ -1,0 +1,310 @@
+{
+  "_id": "dmgCannon0000000",
+  "name": "Cannon",
+  "type": "weapon",
+  "img": "icons/weapons/artillery/cannon-engraved.webp",
+  "system": {
+    "activities": {
+      "Nr9i6ukNEz8Tdeoi": {
+        "type": "utility",
+        "name": "Aim",
+        "sort": -100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        },
+        "_id": "Nr9i6ukNEz8Tdeoi"
+      },
+      "3BfXlFOZwXhK5ScP": {
+        "type": "utility",
+        "name": "Load",
+        "sort": -50000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "3BfXlFOZwXhK5ScP"
+      },
+      "0gniQNmHmWzIAIMO": {
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "any",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": true,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "none",
+          "bonus": "6"
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "Cannonball",
+        "_id": "0gniQNmHmWzIAIMO"
+      }
+    },
+    "uses": {
+      "spent": 1,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>Large Object</em></p><p><strong>Armor Class:</strong> 19 <strong>Hit Points:</strong> 75</p><p><em><strong>Cannonball (Requires Load and Aim).</strong></em> <em>Ranged Attack Roll:</em> +6, range 600/2,400 ft. <em>Hit:</em> 44 (8d10) Bludgeoning damage.</p><p>A Cannon uses gunpowder or arcane power to propel heavy iron balls at destructive speeds. A Cannon is usually attached to a wooden frame with wheels. Loading a Cannon requires the Utilize action, and aiming it requires another Utilize action. Then a crew member can take the Cannonball action.</p>",
+      "chat": ""
+    },
+    "identifier": "cannon",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": 19
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": 75,
+      "max": 75,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "damage": {
+      "base": {
+        "number": 8,
+        "denomination": 10,
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "lod"
+    ],
+    "proficient": null,
+    "range": {
+      "value": 600,
+      "long": 2400,
+      "reach": null,
+      "units": "ft"
+    },
+    "mastery": ""
+  },
+  "effects": [],
+  "folder": "0O0R2DaHzUoslB7X",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730821573434,
+    "modifiedTime": 1730823447307,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgCannon0000000"
+}

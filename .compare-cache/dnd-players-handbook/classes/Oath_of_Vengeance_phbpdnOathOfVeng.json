@@ -1,0 +1,265 @@
+{
+  "_id": "phbpdnOathOfVeng",
+  "name": "Oath of Vengeance",
+  "type": "subclass",
+  "folder": "VHaxJHEReTihmspe",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/vengeance.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Punish Evildoers at Any Cost</p></blockquote><p>The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves’ guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.</p><p>These paladins share the following tenets:</p><ul><li>Show the wicked no mercy.</li><li>Fight injustice and its causes.</li><li>Aid those harmed by injustice.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "vengeance",
+    "classIdentifier": "paladin",
+    "advancement": [
+      {
+        "_id": "jxzvTfXzjLzIvQbF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbpdnVengeanceS",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbpdnVowOfEnmit",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "jix1tV556sLlpGYr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbpdnRelentless",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "3t0heVzpZV6AClAz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbpdnSoulOfVeng",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "1Koj8mZO5gVtRril",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbpdnAvengingAn",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "5odMdYFLIl3L5D0X",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplBane000000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Oath of Vengeance Spells",
+        "hint": ""
+      },
+      {
+        "_id": "b4x7VukRNGJcz1BM",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Oath of Vengeance Spells",
+        "hint": ""
+      },
+      {
+        "_id": "RFgVLmzbcdu12XP3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbProtectionFro",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Oath of Vengeance Spells",
+        "hint": ""
+      },
+      {
+        "_id": "VUmPWqGdVSi8ILrA",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplBanishment",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Oath of Vengeance Spells",
+        "hint": ""
+      },
+      {
+        "_id": "CVyNYvAWyCAYyQYK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplScrying000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Oath of Vengeance Spells",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425980886,
+    "modifiedTime": 1726844229695,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbpdnOathOfVeng"
+}

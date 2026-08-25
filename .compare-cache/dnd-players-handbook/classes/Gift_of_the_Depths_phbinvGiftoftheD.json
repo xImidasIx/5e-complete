@@ -1,0 +1,177 @@
+{
+  "_id": "phbinvGiftoftheD",
+  "name": "Gift of the Depths",
+  "type": "feat",
+  "img": "icons/magic/water/water-elemental-blue-teeth.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p><p>You can also cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat]{Water Breathing} once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat inline]</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": 5
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "vWwmQUAWJw04yAbF": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat",
+          "challenge": {
+            "override": false
+          },
+          "properties": [],
+          "spellbook": true,
+          "ability": "",
+          "level": 3
+        },
+        "_id": "vWwmQUAWJw04yAbF",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "enchant": {},
+    "identifier": "gift-of-the-depths"
+  },
+  "effects": [
+    {
+      "name": "Water Breathing & Swim Speed",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheD",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "img": "icons/creatures/fish/crab-blue-purple.webp",
+      "_id": "IEhxOF5rtwJ3xhOA",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "<p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat.ActiveEffect.hyFupFam9XIbim0U",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.1",
+        "createdTime": 1726327523164,
+        "modifiedTime": 1755702741181,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbinvGiftoftheD.IEhxOF5rtwJ3xhOA"
+    }
+  ],
+  "folder": "BjeMHiqnKNWkWhox",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1724425975646,
+    "modifiedTime": 1755706231521,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbinvGiftoftheD"
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Dueling",
+  "system": {
+    "description": {
+      "value": "<p><em>(Prerequisite: Fighting Style Feature)</em></p><p>When you’re holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p><section id=\"secret-WIcgVLYQvq2Sj87q\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which provides the bonus. Disable it when you are wielding multiple weapons.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [
+        "fighting-style"
+      ]
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "dueling"
+  },
+  "_id": "phbfstDueling000",
+  "type": "feat",
+  "img": "icons/skills/melee/hand-grip-sword-white-brown.webp",
+  "effects": [
+    {
+      "name": "Dueling",
+      "img": "icons/skills/melee/hand-grip-sword-white-brown.webp",
+      "_id": "VEodDUQvYPHhl0Ya",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725467040743,
+        "modifiedTime": 1725467070313,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbfstDueling000.VEodDUQvYPHhl0Ya"
+    }
+  ],
+  "folder": "O942K0m1gZMIIoMB",
+  "sort": 125000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425893470,
+    "modifiedTime": 1760123542571,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbfstDueling000"
+}

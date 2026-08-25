@@ -1,0 +1,75 @@
+{
+  "_id": "dmgWarRoom000000",
+  "name": "War Room",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-01.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 17 Bastion Facility</em></p><p><strong>Prerequisite: </strong>Fighting Style feature or Unarmored Defense feature</p><p><strong>Space: </strong>Vast</p><p><strong>Hirelings: </strong>2+ (see below)</p><p><strong>Order: </strong>Recruit</p><p>The War Room is where you plan military actions in consultation with an inner circle of loyal lieutenants, each one a battle-hardened <strong>Veteran Warrior </strong>(see the <em>Monster Manual</em>) whose alignment matches yours. You start with two lieutenants but can add more, as described below. If your Bastion lacks facilities to house your lieutenants, they secure accommodations in the inn or settlement closest to your Bastion. Lieutenants are hirelings, not Bastion Defenders; however, if your Bastion is attacked (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgBastions00000.JournalEntryPage.KiujX8sthhH791vM#attack]{Bastion Events}), each lieutenant housed in your Bastion reduces by 1 the number of dice you roll to determine how many Bastion Defenders are lost in the attack.</p><p>The War Room contains war memorabilia plus a large table surrounded by enough chairs for you and your lieutenants.</p><p><em><strong>Recruit Options.</strong></em> When you issue the Recruit order to this facility, choose one of the following options:</p><p><strong>Recruit: Lieutenant.</strong> You gain one new lieutenant. You can have up to ten lieutenants at any time. Assign names and personalities to them as you see fit.</p><p><strong>Recruit: Soldiers.</strong> You commission one or more of your lieutenants to assemble a small army. Each lieutenant can muster one hundred <strong>Guards</strong> (see the <em>Monster Manual</em>) in 7 days to fight for your cause. Reduce that number to twenty if you want them to be mounted on <strong>Riding Horses</strong> (see the <em>Monster Manual</em>). It costs you 1 GP per day to feed each guard and each horse in your army. Wherever the army goes, it must be led by you or at least one of your lieutenants, or else it disbands immediately. The army also disbands if it goes 1 day without being fed. Otherwise, the army remains until it is destroyed or you command it to disband. You can’t issue this Recruit order again until your current army disbands or is destroyed.</p>",
+      "chat": ""
+    },
+    "identifier": "war-room",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 10
+    },
+    "level": 17,
+    "order": "recruit",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "vast",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "warRoom"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgWarRoom000000"
+}

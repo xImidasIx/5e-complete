@@ -1,0 +1,31 @@
+.theme-light .phb:not(.themed),
+.theme-light.phb {
+
+  & .journal-entry-content {
+    border-image: var(--phb-border-image);
+
+    /*
+     * Title and Header styling
+     * to match book
+     */
+    & .journal-header .title {
+      --input-text-color: var(--phb-red);
+    }
+
+    & h2 {
+      border-bottom: 2px solid var(--phb-saturated-gold);
+      border-image: linear-gradient(to right, var(--phb-saturated-gold), transparent 90%);
+      border-image-slice: 0 0 1 0;
+    }
+
+    & h4:not(.statblock-title) {
+      border:none;
+    }
+
+    table {
+      tr {
+        color: var(--color-text-dark-primary);
+      }
+    }
+  }
+}

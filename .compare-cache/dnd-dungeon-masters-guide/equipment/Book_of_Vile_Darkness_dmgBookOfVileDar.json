@@ -1,0 +1,566 @@
+{
+  "_id": "dmgBookOfVileDar",
+  "name": "Book of Vile Darkness",
+  "type": "equipment",
+  "folder": "U4xmShLy19Ry54zl",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/book-of-vile-darkness.webp",
+  "system": {
+    "activities": {
+      "Qz8yglKziYI2e3tb": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "hour",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "80"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "object",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": "80"
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Spend Hours Reading",
+        "_id": "Qz8yglKziYI2e3tb"
+      },
+      "QCNkGQX4lTt0Dfi3": {
+        "type": "damage",
+        "name": "Vile Speech",
+        "_id": "QCNkGQX4lTt0Dfi3",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "[[/damage 1d12 type=psychic]] to self"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "15"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": "Fiends and Undead excluded"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 3,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "RXtBvH3pDFVMNOOD": {
+        "type": "cast",
+        "_id": "RXtBvH3pDFVMNOOD",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "3",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplAnimateDea"
+        },
+        "name": "",
+        "img": ""
+      },
+      "OuqekVL6NsKkrxcS": {
+        "type": "cast",
+        "_id": "OuqekVL6NsKkrxcS",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "6",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplCircleofDe"
+        },
+        "name": "",
+        "img": ""
+      },
+      "TbdnWgWnVVcwFfO0": {
+        "type": "cast",
+        "_id": "TbdnWgWnVVcwFfO0",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "8",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplDominateMo"
+        },
+        "name": "",
+        "img": ""
+      },
+      "L5m0JcREspMkinUU": {
+        "type": "cast",
+        "_id": "L5m0JcREspMkinUU",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "7",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplFingerofDe"
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<div><p><em>Wondrous Item, Artifact (Requires Attunement)</em></p></div><blockquote><p>The contents of this foul manuscript are the meat and drink of the wicked. It contains knowledge so horrid that to even glimpse the scrawled pages invites doom.</p><p>Most believe the lich-god Vecna authored the <em>Book of Vile Darkness.</em> He recorded in its pages <span class=\"no-break\">every</span> <span class=\"no-break\">horrid</span> idea, every corrupt thought, and every example of foul magic he came across or devised.</p><p>Other practitioners of evil have added their own input to the book’s catalog of vile knowledge. Their additions are clear, for the writers of later works stitched whatever they were writing into the tome or, in some cases, made notations and additions to existing text. There are places where pages are missing, torn, or covered so completely with ink, blood, and scratches that the original text can’t be divined.</p></blockquote><p>Nature can’t abide the book’s presence. Ordinary plants wither in its presence, common animals are unwilling to approach it, and the book gradually destroys whatever it touches. Even stone cracks and turns to powder if the book rests on it long enough.</p><p>Whenever a creature that isn’t a Fiend or an Undead attunes to the <em>Book of Vile Darkness</em> , that creature makes a [[/save ability=cha dc=17 format=long]]. On a failed save, the creature is magically transformed into a <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcLarva00000]{Larva}</strong> under the DM’s control. Only a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell can reverse this vile transformation.</p><p>A creature attuned to the book must spend 80 hours reading and studying it to digest its contents and use its Adjusted Ability Scores, Tireless Form, Spells, Vile Lore, and Vile Speech properties.</p><p>The <em>Book of Vile Darkness</em> remains with you only as long as you strive to work evil in the world. If you fail to perform at least one evil act within the span of 10 days, or if you willingly perform a good act, the book disappears, your Attunement to it ends immediately, and you lose all benefits granted by it. If you die while attuned to the book, an entity of great evil claims your soul. You can’t be restored to life by any means while your soul remains imprisoned.</p><details><summary><strong>Adjusted Ability Scores.</strong></summary><p>One ability score of your choice increases by 2, to a maximum of 24. Another ability score of your choice decreases by 2, to a minimum of 3. The book can’t adjust your ability scores again.</p></details><details><summary><strong>Tireless Form.</strong></summary><p>While the book is on your person, you have Immunity to the Exhaustion condition.</p></details><details><summary><strong>Random Properties.</strong></summary><p>The <em>Book of Vile Darkness</em> has the following random properties (see “Artifacts” in this chapter):</p><ul><li>3 minor beneficial properties</li><li>1 major beneficial property</li><li>3 minor detrimental properties</li><li>2 major detrimental properties</li></ul></details><details><summary><strong>Spells.</strong></summary><p>While holding the book and holding it, you can cast the following spells (save DC 18) from it:</p><ul><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateDea]{Animate Dead}</em></li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCircleofDe]{Circle of Death}</em></li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateMo]{Dominate Monster}</em></li><li><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFingerofDe]{Finger of Death}</em></li></ul><p>Once you use the book to cast a spell, you can’t cast that spell again from it until the next dawn.</p></details><details><summary><strong>Vile Lore.</strong></summary><p>You can reference the <em>Book of Vile Darkness</em> whenever you make an Intelligence check to recall information about some aspect of evil, such as lore about demons. When you do so, you have Advantage on that check.</p><p>At the DM’s discretion, the book might reveal secrets no mortal should know, such as the true names of powerful Fiends, foul rites that allow one to transform into a death knight or lich, or long-lost spells crafted by beings so evil their names ought never to be spoken aloud.</p></details><details><summary><strong>Vile Speech.</strong></summary><p>While the book is on your person, you can take a Magic action to recite words from its pages in a foul, dead language. Each time you do so, you take [[/damage 1d12 type=psychic]] damage, and each creature within 15 feet of you takes 3d6 Psychic damage unless the creature is a Fiend or an Undead.</p></details><details><summary><strong>Destroying the Book.</strong></summary><p>The <em>Book of Vile Darkness</em> allows pages to be torn from it, but any evil lore contained on those pages finds its way back into the book eventually, usually when a new author adds pages to the tome.</p><p>If a solar tears the book in two, the book is destroyed for [[/r 1d100#Years]] years, after which it re-forms in some far corner of the multiverse.</p><p>A creature attuned to the book for 100 years can unearth a phrase hidden in the original text that, when translated to Celestial and spoken aloud, destroys both the speaker and the book in a flash of radiance. However, as long as evil exists in the multiverse, the book re-forms [[/r 100* 1d10#Years]]{1d10 × 100} years later.</p></details>",
+      "chat": ""
+    },
+    "identifier": "book-of-vile-darkness",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "Tireless Form",
+      "img": "icons/creatures/mammals/ox-buffalo-horned-green.webp",
+      "_id": "HT5SxZf273SHk0LF",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "exhaustion",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>While the book is on your person, you have Immunity to the Exhaustion condition.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.4",
+        "createdTime": 1728679195093,
+        "modifiedTime": 1728679367126,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgBookOfVileDar.HT5SxZf273SHk0LF"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1730835512220,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 3600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgBookOfVileDar"
+}

@@ -1,0 +1,2856 @@
+{
+  "_id": "mmDeathTyrant000",
+  "name": "Death Tyrant",
+  "type": "npc",
+  "img": "modules/dnd-monster-manual/assets/portraits/death-tyrant.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 14,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 19,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 19,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 2,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": "@prof * 2"
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": 40,
+        "swim": null,
+        "walk": 5,
+        "units": null,
+        "hover": true
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": null,
+        "special": ""
+      },
+      "spellcasting": "str",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "ac": {
+        "flat": 19,
+        "calc": "natural"
+      },
+      "hd": {
+        "spent": 0
+      },
+      "hp": {
+        "value": 195,
+        "max": 195,
+        "temp": null,
+        "tempmax": null,
+        "formula": "26d10 + 52"
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<h1>Death Tyrant</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.7Xo5zu42gIQjrpPS caption=false cite=false classes=\"no-embed mm\"]</p><h2>Death Tyrant Lairs</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Ckr0NCF3IpLoeQ0F caption=false cite=false classes=\"no-embed mm\"]</p>",
+        "public": ""
+      },
+      "alignment": "Lawful Evil",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "race": null,
+      "type": {
+        "value": "undead"
+      },
+      "environment": "",
+      "cr": 14,
+      "spellLevel": 0,
+      "habitat": {
+        "value": [
+          {
+            "type": "underdark"
+          }
+        ]
+      },
+      "treasure": {
+        "value": [
+          "any"
+        ]
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 3,
+        "max": 3
+      },
+      "legres": {
+        "value": 3,
+        "max": 3
+      },
+      "lair": {
+        "value": true,
+        "initiative": 20
+      }
+    },
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "bypasses": [],
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "deep",
+          "undercommon"
+        ],
+        "custom": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Death Tyrant",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/dnd-monster-manual/assets/tokens/death-tyrant.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 2,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "_id": "H3Y3mXFQsFMhxGna",
+      "name": "Legendary Resistance",
+      "type": "feat",
+      "system": {
+        "activities": {
+          "nLPRJi7ipeAet7ir": {
+            "type": "utility",
+            "_id": "nLPRJi7ipeAet7ir",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": null,
+              "override": false,
+              "condition": "fails a saving throw"
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": [
+                {
+                  "type": "attribute",
+                  "value": "1",
+                  "target": "resources.legres.value",
+                  "scaling": {}
+                }
+              ]
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            },
+            "name": "Expend Use",
+            "img": "systems/dnd5e/icons/svg/monster.svg"
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "identifier": "legendary-resistance",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "advancement": []
+      },
+      "folder": "L9Zgr8qAPc3ngKhb",
+      "img": "icons/equipment/shield/heater-steel-crystal-red.webp",
+      "effects": [],
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmLegendaryResis",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1736871764450,
+        "modifiedTime": 1736871764450,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "1cIN1wXbfsmG13Hh": 3
+      },
+      "_key": "!actors.items!mmDeathTyrant000.H3Y3mXFQsFMhxGna"
+    },
+    {
+      "_id": "hhMQ44dqfaRqGeOb",
+      "name": "Bite",
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activities": {
+          "xWlMeXFjELfSUWX9": {
+            "type": "attack",
+            "_id": "xWlMeXFjELfSUWX9",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {}
+            },
+            "damage": {
+              "critical": {},
+              "includeBase": true,
+              "parts": []
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "chat": ""
+        },
+        "identifier": "bite",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "properties": [],
+        "identified": true,
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "mastery": "",
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "denomination": 8,
+            "bonus": "",
+            "number": 2,
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "armor": {
+          "value": null
+        },
+        "cover": null,
+        "crewed": false,
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "ammunition": {},
+        "magicalBonus": null,
+        "proficient": null,
+        "attuned": false,
+        "equipped": true
+      },
+      "folder": "pSCWWdqMX9eUATRJ",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "effects": [],
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmBite0000000000",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1736872115323,
+        "modifiedTime": 1738006176952,
+        "lastModifiedBy": "p7W6V9dOCsYphtv6",
+        "exportSource": null
+      },
+      "sort": -50000,
+      "ownership": {
+        "default": 0,
+        "1cIN1wXbfsmG13Hh": 3
+      },
+      "_key": "!actors.items!mmDeathTyrant000.hhMQ44dqfaRqGeOb"
+    },
+    {
+      "_id": "Z6pyFtoaSxxVedl5",
+      "name": "Negative Energy Cone",
+      "type": "feat",
+      "system": {
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {
+          "TLqcxF6OYH0LweRo": {
+            "type": "utility",
+            "_id": "TLqcxF6OYH0LweRo",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": "cone",
+                "size": "150",
+                "count": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "",
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            },
+            "name": "Expend Use",
+            "img": "systems/dnd5e/icons/svg/monster.svg"
+          },
+          "wctTMS9GIxCeMaD2": {
+            "type": "summon",
+            "_id": "wctTMS9GIxCeMaD2",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "bonuses": {
+              "ac": "",
+              "hd": "",
+              "hp": "",
+              "attackDamage": "",
+              "saveDamage": "",
+              "healing": ""
+            },
+            "creatureSizes": [],
+            "creatureTypes": [],
+            "match": {
+              "attacks": false,
+              "proficiency": false,
+              "saves": false,
+              "ability": ""
+            },
+            "profiles": [
+              {
+                "count": "1",
+                "name": "Zombie",
+                "_id": "WjQQG0nlMnyEosHN",
+                "uuid": "Compendium.dnd-monster-manual.actors.Actor.mmZombie00000000",
+                "level": {
+                  "min": null,
+                  "max": null
+                },
+                "types": []
+              }
+            ],
+            "summon": {
+              "prompt": false,
+              "mode": "",
+              "identifier": ""
+            },
+            "name": "Create Zombie"
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p class=\"feature\">The [[lookup @name lowercase]]’s central eye emits an imperceptible, magical wave of negative energy in a [[lookup @target.template.size activity=TLqcxF6OYH0LweRo]]-[[lookup @target.template.units activity=TLqcxF6OYH0LweRo]]. [[lookup @target.template.type capitalize activity=TLqcxF6OYH0LweRo]]. [[lookup @target.affects.type capitalize activity=TLqcxF6OYH0LweRo]]s in that area can’t regain Hit Points until the start of the [[lookup @name lowercase]]’s next turn. An intact Humanoid corpse there instantly rises as a <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmZombie00000000]{Zombie}</strong> under the [[lookup @name lowercase]]’s control and takes its turn immediately after the [[lookup @name lowercase]] on the same initiative count.</p>",
+          "chat": ""
+        },
+        "identifier": "negative-energy-cone",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "advancement": []
+      },
+      "folder": "4T18pEvubPMQLzvD",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
+      "effects": [],
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmNegativeEnergy",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1736875657925,
+        "modifiedTime": 1736875657925,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "sort": 15800000,
+      "ownership": {
+        "default": 0,
+        "1cIN1wXbfsmG13Hh": 3
+      },
+      "_key": "!actors.items!mmDeathTyrant000.Z6pyFtoaSxxVedl5"
+    },
+    {
+      "_id": "p5ZyKpvU2judPS7D",
+      "name": "Chomp",
+      "type": "feat",
+      "system": {
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {
+          "dGvL4gPwqRki7w2s": {
+            "type": "utility",
+            "sort": 0,
+            "activation": {
+              "type": "legendary",
+              "value": 1,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "formula": "",
+              "name": ""
+            },
+            "name": "Expend Use",
+            "img": "systems/dnd5e/icons/svg/monster.svg",
+            "_id": "dGvL4gPwqRki7w2s",
+            "appliedEffects": []
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>The [[lookup @name lowercase]] makes two [[/item Bite]] attacks.</p>",
+          "chat": ""
+        },
+        "identifier": "chomp",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "advancement": []
+      },
+      "folder": "4T18pEvubPMQLzvD",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "effects": [],
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmChomp000000000",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1736875713938,
+        "modifiedTime": 1736875781179,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1cIN1wXbfsmG13Hh": 3
+      },
+      "_key": "!actors.items!mmDeathTyrant000.p5ZyKpvU2judPS7D"
+    },
+    {
+      "_id": "FQHIJKUI9FQQT3Om",
+      "name": "Glare",
+      "type": "feat",
+      "system": {
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {
+          "sKVNu6ILpA3FSFFE": {
+            "type": "utility",
+            "_id": "sKVNu6ILpA3FSFFE",
+            "sort": 0,
+            "activation": {
+              "type": "legendary",
+              "value": 1,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            },
+            "name": "Expend Use",
+            "img": "systems/dnd5e/icons/svg/monster.svg"
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p class=\"feature\">The [[lookup @name lowercase]] uses [[/item .mmEyeRays0000000]].</p>",
+          "chat": ""
+        },
+        "identifier": "glare",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "advancement": []
+      },
+      "folder": "aehE0L1ERkzYCvJW",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+      "effects": [],
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmGlare000000000",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.2",
+        "createdTime": 1736875795876,
+        "modifiedTime": 1737787778567,
+        "lastModifiedBy": "p7W6V9dOCsYphtv6",
+        "exportSource": null
+      },
+      "sort": 2900000,
+      "ownership": {
+        "default": 0,
+        "1cIN1wXbfsmG13Hh": 3
+      },
+      "_key": "!actors.items!mmDeathTyrant000.FQHIJKUI9FQQT3Om"
+    },
+    {
+      "_id": "Jc8TLnwidE3Kpshs",
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {
+          "Ms63W7e3Mv2Margn": {
+            "type": "utility",
+            "name": "Use",
+            "_id": "Ms63W7e3Mv2Margn",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>The [[lookup @name lowercase]] uses [[/item .mmEyeRays0000000]] three times.</p>",
+          "chat": ""
+        },
+        "identifier": "multiattack",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "advancement": []
+      },
+      "folder": "4T18pEvubPMQLzvD",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmMultiattack000",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.2",
+        "createdTime": 1736876804949,
+        "modifiedTime": 1738006175449,
+        "lastModifiedBy": "p7W6V9dOCsYphtv6",
+        "exportSource": null
+      },
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "1cIN1wXbfsmG13Hh": 3
+      },
+      "_key": "!actors.items!mmDeathTyrant000.Jc8TLnwidE3Kpshs"
+    },
+    {
+      "_id": "mmEyeRays0000000",
+      "name": "Eye Rays",
+      "type": "feat",
+      "system": {
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {
+          "IqFl7Nuwv0aQJ3aP": {
+            "type": "utility",
+            "_id": "IqFl7Nuwv0aQJ3aP",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": true,
+              "visible": false,
+              "name": "Roll 1d10 to Determine Eye Ray",
+              "formula": "1d10"
+            },
+            "name": "Roll 1d10",
+            "img": "systems/dnd5e/icons/svg/monster.svg"
+          },
+          "dcpGMW2jBewtY5lx": {
+            "type": "save",
+            "_id": "dcpGMW2jBewtY5lx",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "hour",
+              "concentration": false,
+              "override": false,
+              "value": "1"
+            },
+            "effects": [
+              {
+                "_id": "OZBZrDI0m8zZSCxq",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 3,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "psychic"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ],
+              "onSave": "half"
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "cha",
+                "formula": "8 + @mod + @prof"
+              }
+            },
+            "name": "1: Charm Ray"
+          },
+          "EZ5rsyCFKBY3TWww": {
+            "type": "save",
+            "_id": "EZ5rsyCFKBY3TWww",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "minute",
+              "concentration": false,
+              "override": false,
+              "value": "1"
+            },
+            "effects": [
+              {
+                "_id": "uqejMIv7S1xZmEcD",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [],
+              "onSave": "none"
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "cha",
+                "formula": "8 + @mod + @prof"
+              }
+            },
+            "name": "2: Paralyzing Ray"
+          },
+          "aMfevxGsYy5swVDA": {
+            "type": "save",
+            "_id": "aMfevxGsYy5swVDA",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "turn",
+              "concentration": false,
+              "override": false,
+              "value": "1"
+            },
+            "effects": [
+              {
+                "_id": "okGmSea9t9idzzrp",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 4,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "psychic"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ],
+              "onSave": "half"
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "cha",
+                "formula": "8 + @mod + @prof"
+              }
+            },
+            "name": "3: Fear Ray"
+          },
+          "lq2AtXFOVBz6IHMh": {
+            "type": "save",
+            "_id": "lq2AtXFOVBz6IHMh",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "turn",
+              "concentration": false,
+              "override": false,
+              "value": "1"
+            },
+            "effects": [
+              {
+                "_id": "1zE4l88npB9r24MV",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 4,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ],
+              "onSave": "half"
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "cha",
+                "formula": "8 + @mod + @prof"
+              }
+            },
+            "name": "4: Slowing Ray"
+          },
+          "9srzVFm9txeDeMFf": {
+            "type": "save",
+            "_id": "9srzVFm9txeDeMFf",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "turn",
+              "concentration": false,
+              "override": false,
+              "value": "1"
+            },
+            "effects": [
+              {
+                "_id": "XvZO30AwVhzcboC7",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 3,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "poison"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ],
+              "onSave": "half"
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "cha",
+                "formula": "8 + @mod + @prof"
+              }
+            },
+            "name": "5: Enervation Ray"
+          },
+          "a5zT8E1cS4yBVodK": {
+            "type": "save",
+            "_id": "a5zT8E1cS4yBVodK",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "turn",
+              "concentration": false,
+              "override": false,
+              "value": "1"
+            },
+            "effects": [
+              {
+                "_id": "5tr2oDlFLN7khXBT",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": "line",
+                "size": "30",
+                "width": "",
+                "count": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [],
+              "onSave": "none"
+            },
+            "save": {
+              "ability": [
+                "str"
+              ],
+              "dc": {
+                "calculation": "cha",
+                "formula": "8 + @mod + @prof"
+              }
+            },
+            "name": "6: Telekinetic Ray"
+          },
+          "CSKrXM1Pkhlf23et": {
+            "type": "save",
+            "_id": "CSKrXM1Pkhlf23et",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "minute",
+              "concentration": false,
+              "override": false,
+              "value": "1"
+            },
+            "effects": [
+              {
+                "_id": "TlR4l9cSFcUEbsJW",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [],
+              "onSave": "none"
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "cha",
+                "formula": "8 + @mod + @prof"
+              }
+            },
+            "name": "7: Sleep Ray"
+          },
+          "q67AgIfRplRO2e9p": {
+            "type": "save",
+            "_id": "q67AgIfRplRO2e9p",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "spec",
+              "concentration": false,
+              "override": false,
+              "value": "1",
+              "special": ""
+            },
+            "effects": [
+              {
+                "_id": "K1dTJYj98PUwPBTZ",
+                "onSave": false
+              },
+              {
+                "_id": "l6MomayhxYuMYQR3",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [],
+              "onSave": "none"
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "cha",
+                "formula": "8 + @mod + @prof"
+              }
+            },
+            "name": "8: Petrification Ray"
+          },
+          "A5PdqZCq1yeIN8m4": {
+            "type": "save",
+            "_id": "A5PdqZCq1yeIN8m4",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": "cube",
+                "size": "10",
+                "count": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": false,
+              "prompt": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 8,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "force"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ],
+              "onSave": "half"
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "cha",
+                "formula": "8 + @mod + @prof"
+              }
+            },
+            "name": "9: Disintegration Ray"
+          },
+          "yjLvFKZIWfUCIT73": {
+            "type": "save",
+            "_id": "yjLvFKZIWfUCIT73",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "120"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 10,
+                  "denomination": 10,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ],
+              "onSave": "half"
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "cha",
+                "formula": "8 + @mod + @prof"
+              }
+            },
+            "name": "10: Death Ray"
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p class=\"feature\">The [[lookup @name lowercase]] randomly shoots one of the following magical rays at a target it can see within 120 feet of itself (roll [[/r 1d10]]; reroll if the beholder has already used that ray during this turn):</p><details><summary><strong>Eye Rays</strong></summary><p class=\"feature-trait\"><strong>1: Charm Ray.</strong></p><p><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=dcpGMW2jBewtY5lx]].</p><p><em>Failure:</em> [[/damage average activity=dcpGMW2jBewtY5lx]] damage, and the target has the &amp;Reference[Charmed apply=false] condition for [[lookup @duration.value activity=dcpGMW2jBewtY5lx]] [[lookup @duration.units activity=dcpGMW2jBewtY5lx]] or until it takes damage.</p><p><em>Success:</em> Half damage only.</p><p class=\"feature-trait\"><strong>2: Paralyzing Ray.</strong></p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=EZ5rsyCFKBY3TWww]].</p><p><em>Failure:</em> The target has the &amp;Reference[Paralyzed apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After [[lookup @duration.value activity=EZ5rsyCFKBY3TWww]] [[lookup @duration.units activity=EZ5rsyCFKBY3TWww]], it succeeds automatically.</p><p class=\"feature-trait\"><strong>3: Fear Ray.</strong></p><p><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=aMfevxGsYy5swVDA]].</p><p><em>Failure:</em> [[/damage average activity=aMfevxGsYy5swVDA]] damage, and the target has the &amp;Reference[Frightened apply=false] condition until the end of its next turn.</p><p><em>Success:</em> Half damage only.</p><p class=\"feature-trait\"><strong>4: Slowing Ray.</strong></p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=lq2AtXFOVBz6IHMh]].</p><p><em>Failure:</em> [[/damage average activity=lq2AtXFOVBz6IHMh]] damage. Until the end of the target’s next turn, the target’s Speed is halved; the target can’t take &amp;Reference[Reaction]{Reactions}; and it can take either an action or a &amp;Reference[BonusAction] on its turn, not both.</p><p><em>Success:</em> Half damage only.</p><p class=\"feature-trait\"><strong>5: Enervation Ray.</strong></p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=9srzVFm9txeDeMFf]].</p><p><em>Failure:</em> [[/damage average activity=9srzVFm9txeDeMFf]] damage, and the target has the &amp;Reference[Poisoned apply=false] condition until the end of its next turn. While Poisoned, the target can’t regain Hit Points.</p><p><em>Success:</em> Half damage only.</p><p class=\"feature-trait\"><strong>6: Telekinetic Ray.</strong></p><p><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=a5zT8E1cS4yBVodK]] (the target succeeds automatically if it is Gargantuan).</p><p><em>Failure:</em> The [[lookup @name lowercase]] moves the target up to [[lookup @target.template.size activity=a5zT8E1cS4yBVodK]] [[lookup @target.template.units activity=a5zT8E1cS4yBVodK]]. in any direction. The target has the &amp;Reference[Restrained apply=false] condition until the start of the [[lookup @name lowercase]]’s next turn or until the beholder has the Incapacitated condition. The [[lookup @name lowercase]] can also exert fine control on objects with this ray, such as manipulating a tool or opening a door or container.</p><p class=\"feature-trait\"><strong>7: Sleep Ray.</strong></p><p><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=CSKrXM1Pkhlf23et]] (the target succeeds automatically if it is a Construct or an Undead).</p><p><em>Failure:</em> The target has the &amp;Reference[Unconscious apply=false] condition for [[lookup @duration.value activity=CSKrXM1Pkhlf23et]] [[lookup @duration.units activity=CSKrXM1Pkhlf23et]]. The condition ends if the target takes damage or a creature within 5 feet of it takes an action to wake it.</p><p class=\"feature-trait\"><strong>8: Petrification Ray.</strong></p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=q67AgIfRplRO2e9p]]. <em>First Failure:</em> The target has the &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. <em>Second Failure:</em> The target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p><p class=\"feature-trait\"><strong>9: Disintegration Ray.</strong></p><p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=A5PdqZCq1yeIN8m4]].</p><p><em>Failure:</em> [[/damage average activity=A5PdqZCq1yeIN8m4]] damage. If the target is a nonmagical object or a creation of magical force, a [[lookup @target.template.size activity=A5PdqZCq1yeIN8m4]]-[[lookup @target.template.units activity=A5PdqZCq1yeIN8m4]]. [[lookup @target.template.type capitalize activity=A5PdqZCq1yeIN8m4]] of it disintegrates into dust.</p><p><em>Success:</em> Half damage.</p><p><em>Failure or Success:</em> If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.</p><p class=\"feature-trait\"><strong>10: Death Ray.</strong></p><p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=yjLvFKZIWfUCIT73]].</p><p><em>Failure:</em> [[/damage average activity=yjLvFKZIWfUCIT73]] damage.</p><p><em>Success:</em> [[lookup @damage.onSave capitalize activity=yjLvFKZIWfUCIT73]] damage.</p><p><em>Failure or Success:</em> The target dies if the ray reduces it to 0 Hit Points.</p></details>",
+          "chat": ""
+        },
+        "identifier": "eye-rays",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "advancement": [],
+        "cover": null,
+        "crewed": false
+      },
+      "folder": "4T18pEvubPMQLzvD",
+      "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+      "effects": [
+        {
+          "name": "Charmed",
+          "img": "systems/dnd5e/icons/svg/statuses/charmed.svg",
+          "origin": "Item.mmEyeRays0000000",
+          "_id": "OZBZrDI0m8zZSCxq",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": 3600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition for 1 hour or until it takes damage.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "charmed"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.2",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!mmDeathTyrant000.mmEyeRays0000000.OZBZrDI0m8zZSCxq"
+        },
+        {
+          "name": "Paralyzed",
+          "img": "systems/dnd5e/icons/svg/statuses/paralyzed.svg",
+          "origin": "Item.mmEyeRays0000000",
+          "_id": "uqejMIv7S1xZmEcD",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": 60,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>The target has the &amp;Reference[Paralyzed apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "paralyzed"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.2",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!mmDeathTyrant000.mmEyeRays0000000.uqejMIv7S1xZmEcD"
+        },
+        {
+          "name": "Frightened",
+          "img": "systems/dnd5e/icons/svg/statuses/frightened.svg",
+          "origin": "Item.mmEyeRays0000000",
+          "_id": "okGmSea9t9idzzrp",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": 1,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the end of its next turn.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "frightened"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.2",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!mmDeathTyrant000.mmEyeRays0000000.okGmSea9t9idzzrp"
+        },
+        {
+          "name": "Poisoned",
+          "img": "systems/dnd5e/icons/svg/statuses/poisoned.svg",
+          "origin": "Item.mmEyeRays0000000",
+          "_id": "XvZO30AwVhzcboC7",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": 1,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of its next turn.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "poisoned"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.2",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!mmDeathTyrant000.mmEyeRays0000000.XvZO30AwVhzcboC7"
+        },
+        {
+          "name": "Unconscious",
+          "img": "systems/dnd5e/icons/svg/statuses/unconscious.svg",
+          "origin": "Item.mmEyeRays0000000",
+          "_id": "TlR4l9cSFcUEbsJW",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": 60,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>The target has the &amp;Reference[Unconscious apply=false] condition for 1 minute.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "unconscious"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.2",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!mmDeathTyrant000.mmEyeRays0000000.TlR4l9cSFcUEbsJW"
+        },
+        {
+          "name": "Restrained",
+          "img": "systems/dnd5e/icons/svg/statuses/restrained.svg",
+          "origin": "Item.mmEyeRays0000000",
+          "_id": "5tr2oDlFLN7khXBT",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": 1,
+            "startTurn": null
+          },
+          "description": "<p><em>First Failure:</em> The target has the &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its next turn.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "restrained"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.2",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!mmDeathTyrant000.mmEyeRays0000000.5tr2oDlFLN7khXBT"
+        },
+        {
+          "name": "Restrained",
+          "img": "systems/dnd5e/icons/svg/statuses/restrained.svg",
+          "origin": "Item.mmEyeRays0000000",
+          "_id": "K1dTJYj98PUwPBTZ",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p><em>First Failure:</em> The target has the &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p><p></p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "petrified"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.2",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!mmDeathTyrant000.mmEyeRays0000000.K1dTJYj98PUwPBTZ"
+        },
+        {
+          "name": "Petrified",
+          "img": "systems/dnd5e/icons/svg/statuses/petrified.svg",
+          "origin": "Compendium.dnd-monster-manual.features.Item.mmEyeRays0000000",
+          "_id": "l6MomayhxYuMYQR3",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p><em>Second Failure:</em> The target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [
+            "petrified"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.2",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!mmDeathTyrant000.mmEyeRays0000000.l6MomayhxYuMYQR3"
+        },
+        {
+          "name": "Half Speed/No Reactions",
+          "img": "icons/skills/movement/figure-running-gray.webp",
+          "origin": "Compendium.dnd-monster-manual.features.Item.mmEyeRays0000000",
+          "_id": "1zE4l88npB9r24MV",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 1,
+              "value": "0.5",
+              "priority": null
+            },
+            {
+              "key": "system.attributes.movement.swim",
+              "mode": 1,
+              "value": "0.5",
+              "priority": null
+            },
+            {
+              "key": "system.attributes.movement.fly",
+              "mode": 1,
+              "value": "0.5",
+              "priority": null
+            },
+            {
+              "key": "system.attributes.movement.climb",
+              "mode": 1,
+              "value": "0.5",
+              "priority": null
+            },
+            {
+              "key": "system.attributes.movement.burrow",
+              "mode": 1,
+              "value": "0.5",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": 1,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>Until the end of the target’s next turn, the target’s Speed is halved; the target can’t take &amp;Reference[Reaction]{Reactions}; and it can take either an action or a &amp;Reference[BonusAction] on its turn, not both.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.346",
+            "systemId": "dnd5e",
+            "systemVersion": "4.2.2",
+            "createdTime": null,
+            "modifiedTime": 1738088384801,
+            "lastModifiedBy": "p7W6V9dOCsYphtv6",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!mmDeathTyrant000.mmEyeRays0000000.1zE4l88npB9r24MV"
+        }
+      ],
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmEyeRays0000000",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.2",
+        "createdTime": 1738006167569,
+        "modifiedTime": 1738274529507,
+        "lastModifiedBy": "nz2MP9ZyYHJtyLHc",
+        "exportSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "p7W6V9dOCsYphtv6": 3
+      },
+      "sort": 0,
+      "_key": "!actors.items!mmDeathTyrant000.mmEyeRays0000000"
+    }
+  ],
+  "effects": [],
+  "folder": "fSNeRtZ6WOSjk4f8",
+  "flags": {
+    "dnd5e": {
+      "showTokenPortrait": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1732598129404,
+    "modifiedTime": 1739896887350,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!mmDeathTyrant000"
+}

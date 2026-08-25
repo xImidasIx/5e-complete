@@ -1,0 +1,205 @@
+{
+  "_id": "mmAnimalLordship",
+  "name": "Animal Lordship",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>An [[lookup @name lowercase]] represents a Forager, Hunter, or Sage (DM’s choice), which determines certain traits in this stat block.</p><details><summary>Appearance Tables</summary><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmForagerAnimalL rollable classes=\"caption-top\" cite=false]{Forager Animal Lord Appearances}</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmHunterAnimalLo rollable classes=\"caption-top\" cite=false]{Hunter Animal Lord Appearances}</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmSageAnimalLord rollable classes=\"caption-top\" cite=false]{Sage Animal Lord Appearances}</p></details>",
+      "chat": ""
+    },
+    "identifier": "animal-lordship",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": ""
+  },
+  "folder": "L9Zgr8qAPc3ngKhb",
+  "img": "icons/creatures/mammals/spirit-deer-herd-blue.webp",
+  "effects": [
+    {
+      "name": "Forager Appearance",
+      "img": "icons/creatures/invertebrates/bee-simple-green.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmAnimalLordship",
+      "_id": "OLfqHaVMfzU2ogop",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "{} (Forager)",
+          "priority": null
+        },
+        {
+          "key": "system.details.type.subtype",
+          "mode": 5,
+          "value": "Forager",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735838657352,
+        "modifiedTime": 1735839670375,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmAnimalLordship.OLfqHaVMfzU2ogop"
+    },
+    {
+      "name": "Hunter Appearance",
+      "img": "icons/creatures/abilities/paw-print-tan.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmAnimalLordship",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "{} (Hunter)",
+          "priority": null
+        },
+        {
+          "key": "system.details.type.subtype",
+          "mode": 5,
+          "value": "Hunter",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmAnimalLordship.ActiveEffect.OLfqHaVMfzU2ogop",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735839610752,
+        "modifiedTime": 1735839681479,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "In3JuTnW8uqeTCFj",
+      "_key": "!items.effects!mmAnimalLordship.In3JuTnW8uqeTCFj"
+    },
+    {
+      "name": "Sage Appearance",
+      "img": "icons/creatures/mammals/rodent-rat-green.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmAnimalLordship",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "{} (Sage)",
+          "priority": null
+        },
+        {
+          "key": "system.details.type.subtype",
+          "mode": 5,
+          "value": "Sage",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.features.Item.mmAnimalLordship.ActiveEffect.OLfqHaVMfzU2ogop",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735839612187,
+        "modifiedTime": 1735839696836,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "LUgihZtt0G9VQteM",
+      "_key": "!items.effects!mmAnimalLordship.LUgihZtt0G9VQteM"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737491874623,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmAnimalLordship"
+}

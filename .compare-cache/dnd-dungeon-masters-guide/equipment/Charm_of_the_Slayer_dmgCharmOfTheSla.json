@@ -1,0 +1,128 @@
+{
+  "_id": "dmgCharmOfTheSla",
+  "name": "Charm of the Slayer",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-sword-blood-red.webp",
+  "system": {
+    "activities": {
+      "K5f0HaemErhk5cJF": {
+        "type": "utility",
+        "name": "Use Charm",
+        "_id": "K5f0HaemErhk5cJF",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "object",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>Supernatural Gift (Charm)</em></p><p>One weapon in your possession becomes a @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgDragonSlayer0]{Dragon Slayer} or @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGiantSlayer00]{Giant Slayer} (DM’s choice) for the next 9 days. The Charm then vanishes from you, and the weapon returns to normal.</p>",
+      "chat": ""
+    },
+    "identifier": "charm-of-the-slayer",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "type": {
+      "value": "supernaturalGift",
+      "subtype": "charm"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "PtV25Is9q5STEurJ",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1728421660391,
+    "modifiedTime": 1731442679944,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgCharmOfTheSla"
+}

@@ -1,0 +1,82 @@
+{
+  "_id": "dmgGarden0000000",
+  "name": "Garden",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-01.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 5 Bastion Facility</em></p><p><strong>Prerequisite:</strong> None</p><p><strong>Space:</strong> Roomy</p><p><strong>Hirelings:</strong> 1</p><p><strong>Order:</strong> Harvest</p><p>A Bastion can have more than one Garden. Each time you add a Garden to your Bastion, choose its type from the options in the Garden Types table.</p><p>While in your Bastion, you can instruct the facility’s hireling to change the Garden from one type to another. This work takes 21 days, during which time no other activity can occur in this facility.</p><p><em><strong>Harvest: Garden Growth.</strong></em> When you issue the Harvest order to this facility, you commission the facility’s hireling to collect items from the Garden as noted in the Garden Types table. The work takes 7 days and costs no money.</p><p><em><strong>Enlarging the Facility.</strong></em> You can enlarge your Garden to a Vast facility by spending 2,000 GP. A Vast Garden is equivalent to two Roomy Gardens and can include two of the same type of Garden or two different types. When you issue the Harvest order to a Vast Garden, each component garden produces its own harvest. A Vast Garden gains one additional hireling.</p><section class=\"secret\" id=\"secret-HJORHmOwPDnIfnKQ\"><p><strong>Foundry Note:</strong> Instead of enlarging the Garden facility in the normal way, add a second Garden facility to the Bastion and mark it as a 'Free Facility'.</p></section><div class=\"scroll-x\"><table><caption>Garden Types</caption><thead><tr><th><p>Garden Type</p></th><th><p>Description</p></th><th><p>Harvest</p></th></tr></thead><tbody><tr><td><p>Decorative</p></td><td><p>Aesthetically pleasing garden full of flowers and topiaries.</p></td><td><p>Ten exquisite floral bouquets (worth 5 GP each), ten vials of @UUID[Compendium.dnd-players-handbook.equipment.Item.yoRKNd2QddQp1XuX]{Perfume}, or ten @UUID[Compendium.dnd-players-handbook.equipment.Item.ts2DfyhdfsR092Td]{Candles}</p></td></tr><tr><td><p>Food</p></td><td><p>Garden of delicious mushrooms or vegetables</p></td><td><p>100 days worth of @UUID[Compendium.dnd-players-handbook.equipment.Item.xP6OWuEaxQbDUfJV]{Rations}</p></td></tr><tr><td><p>Herb</p></td><td><p>Garden of rare herbs, some of which have medicinal uses</p></td><td><p>Herbs that are used to create either ten @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Healer’s Kits} or one @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPotionOfHeali]{Potion of Healing}</p></td></tr><tr><td><p>Poison</p></td><td><p>Garden stocked with plants and fungi from which poisons and antitoxin can be extracted</p></td><td><p>Plants that are used to create either two vials of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxin} or one vial of Basic Poison</p></td></tr></tbody></table></div>",
+      "chat": ""
+    },
+    "identifier": "garden",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 5,
+    "order": "harvest",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "garden"
+    },
+    "craft": null
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731443342261,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgGarden0000000"
+}

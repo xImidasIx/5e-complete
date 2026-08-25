@@ -1,0 +1,76 @@
+{
+  "_id": "dmgStable0000000",
+  "name": "Stable",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-02.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 9 Bastion Facility</em></p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Trade</p><p>A Bastion can have more than one Stable. Each Stable you add to your Bastion comes with one <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRidingHors]{Riding Horse}</strong> or <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobCamel00000]{Camel}</strong> and two <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobPony000000]{Ponies}</strong> or <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobMule000000]{Mules}</strong>; see the <em>Player’s Handbook</em> or the <em>Monster Manual</em> for these creatures’ stat blocks. The facility is big enough to house three Large animals. Two Medium creatures occupy the same amount of space as one Large creature there. The facility’s hireling looks after these creatures.</p><p>After a Beast that can serve as a mount spends at least 14 days in this facility, all Wisdom (Animal Handling) checks made with respect to it have Advantage.</p><p><em><strong>Trade: Animals.</strong></em> When you issue the Trade order to this facility, you commission the facility’s hireling to buy or sell one or more mounts at normal cost, keeping the ones you buy in your Stable. The work takes 7 days, and the DM decides what types of animals are available for purchase—horses, ponies, and mules being the most common. The @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbMountsAndVehi.JournalEntryPage.NVPIUDJEdFDaErTg#saddles]{Mounts and Other Animals} table in the <em>Player’s Handbook</em> gives standard prices for various mounts. You bear the total cost of any purchases.</p><p>When you sell a mount from your Stable, the buyer pays you 20 percent more than the standard price; this profit increases to 50 percent when you reach level 13 and 100 percent when you reach level 17.</p><p><em><strong>Enlarging the Facility.</strong></em> You can enlarge your Stable to a Vast facility by spending 2,000 GP. If you do so, the Stable is large enough to house six Large animals.</p>",
+      "chat": ""
+    },
+    "identifier": "stable",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "trade",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": 3
+      },
+      "profit": 20,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "stable"
+    },
+    "enlargeable": true
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731337950575,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgStable0000000"
+}

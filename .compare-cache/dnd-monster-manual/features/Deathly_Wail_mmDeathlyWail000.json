@@ -1,0 +1,156 @@
+{
+  "_id": "mmDeathlyWail000",
+  "name": "Deathly Wail",
+  "type": "feat",
+  "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+  "system": {
+    "activities": {
+      "mnlRA4ivGOORPiBs": {
+        "type": "save",
+        "_id": "mnlRA4ivGOORPiBs",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "circle",
+            "size": "30"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 3,
+              "denomination": "6",
+              "bonus": "",
+              "types": [
+                "psychic"
+              ]
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "cha",
+            "formula": "8 + @mod + @prof"
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "day",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p class=\"feature\">The [[lookup @name lowercase]] releases a mournful wail if it isn’t in sunlight. <em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=mnlRA4ivGOORPiBs]], each creature within [[lookup @target.template.size activity=mnlRA4ivGOORPiBs]] feet that can hear the wail and isn’t a Construct or an Undead. <em>Failure:</em> If the target has 25 Hit Points or fewer, it drops to 0 Hit Points. Otherwise, the target takes [[/damage average]] damage.</p>",
+      "chat": ""
+    },
+    "identifier": "deathly-wail",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [],
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "4T18pEvubPMQLzvD",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1736956510453,
+    "modifiedTime": 1737782022645,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 5500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmDeathlyWail000"
+}

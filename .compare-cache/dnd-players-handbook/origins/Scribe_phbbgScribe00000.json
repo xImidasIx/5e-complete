@@ -1,0 +1,190 @@
+{
+  "name": "Scribe",
+  "system": {
+    "description": {
+      "value": "<p><strong>Ability Scores:</strong> Dexterity, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Skilled}</p><p><strong>Skill Proficiencies:</strong> Investigation and Perception</p><p><strong>Tool Proficiency:</strong> Calligrapher’s Supplies</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Calligrapher’s Supplies}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} (3 flasks), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment} (12 sheets), 23 GP; or (B) 50 GP</p><p>You spent formative years in a scriptorium, a monastery dedicated to the preservation of knowledge, or a government agency, where you learned to write with a clear hand and produce finely written texts. Perhaps you scribed government documents or copied tomes of literature. You might have some skill as a writer of poetry, narrative, or scholarly research. Above all, you have a careful attention to detail, helping you avoid introducing mistakes to the documents you copy and create.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 3
+    },
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "IJt4vrZkmsb1bq5P",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph",
+        "requiresProficiency": false,
+        "_id": "z0wqHSiAb53k6spF",
+        "group": "IJt4vrZkmsb1bq5P",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine",
+        "requiresProficiency": false,
+        "_id": "JSKHX4xaVemgM6BI",
+        "group": "IJt4vrZkmsb1bq5P",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000",
+        "requiresProficiency": false,
+        "_id": "5POtOIu8Hm214jsl",
+        "group": "IJt4vrZkmsb1bq5P",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": 3,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000",
+        "requiresProficiency": false,
+        "_id": "8xEtxQwIyb5Gm3Al",
+        "group": "IJt4vrZkmsb1bq5P",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": 12,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagParchment00",
+        "requiresProficiency": false,
+        "_id": "YYqucNSV58lqtR5i",
+        "group": "IJt4vrZkmsb1bq5P",
+        "sort": 600000
+      }
+    ],
+    "identifier": "scribe",
+    "advancement": [
+      {
+        "_id": "ihi9jqhIMh3y3uaU",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "con",
+            "cha"
+          ],
+          "points": 3,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "Background Ability Score Improvement",
+        "hint": "Your background allows you to increase your Dexterity, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+      },
+      {
+        "_id": "uwnus2OqHl8XwTbO",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:art:calligrapher",
+            "skills:inv",
+            "skills:prc"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Background Proficiencies",
+        "hint": "Your background grants you proficiency in Investigation and Perception. It also grants you proficiency with Calligrapher's Supplies."
+      },
+      {
+        "_id": "BNzeq8VcPbRzjlmh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Background Feat",
+        "hint": "Your background grants you the Skilled feat."
+      },
+      {
+        "_id": "pLGiyOjTP7nwuwTl",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Choose Languages",
+        "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+      }
+    ],
+    "wealth": "50"
+  },
+  "_id": "phbbgScribe00000",
+  "type": "background",
+  "img": "modules/dnd-players-handbook/assets/icons/backgrounds/scribe.webp",
+  "effects": [],
+  "folder": "ysJSs3cbEBOMC1zV",
+  "sort": 100025,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425890559,
+    "modifiedTime": 1760154031480,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbbgScribe00000"
+}

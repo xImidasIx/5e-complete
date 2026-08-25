@@ -1,0 +1,197 @@
+{
+  "_id": "mmSecondRoar0000",
+  "name": "Second Roar",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "zvnlZKMEskNJUahH": {
+        "type": "save",
+        "_id": "zvnlZKMEskNJUahH",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "Mqo7mTcWuKlgkQwb",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "500",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "enemy",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "20"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "Mqo7mTcWuKlgkQwb"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature-trait\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=zvnlZKMEskNJUahH]], each [[lookup @target.affects.type activity=zvnlZKMEskNJUahH]] in a [[lookup @target.template.size activity=zvnlZKMEskNJUahH]]-[[lookup @target.template.units activity=zvnlZKMEskNJUahH]] Emanation originating from the [[lookup @name lowercase]]. <em>Failure:</em> The target has the &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After [[lookup @duration.value activity=zvnlZKMEskNJUahH]] [[lookup @duration.units activity=zvnlZKMEskNJUahH]], it succeeds automatically.</p>",
+      "chat": ""
+    },
+    "identifier": "second-roar",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
+  "effects": [
+    {
+      "name": "Paralyzed",
+      "img": "systems/dnd5e/icons/svg/statuses/paralyzed.svg",
+      "origin": "Item.mmSecondRoar0000",
+      "_id": "Mqo7mTcWuKlgkQwb",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target has the &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "paralyzed"
+      ],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": [],
+          "enableCondition": ""
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.mmSecondRoar0000.ActiveEffect.Mqo7mTcWuKlgkQwb",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1736112956177,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmSecondRoar0000.Mqo7mTcWuKlgkQwb"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1736112897612,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 20300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmSecondRoar0000"
+}

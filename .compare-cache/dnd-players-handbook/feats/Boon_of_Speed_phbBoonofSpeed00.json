@@ -1,0 +1,128 @@
+{
+  "name": "Boon of Speed",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Escape Artist.</strong> As a Bonus Action, you can take the &amp;Reference[Disengage] action, which also ends the Grappled condition on you.</p><p><strong>Quickness.</strong> Your Speed increases by 30 feet.</p><section class=\"secret\" id=\"secret-BTieKWSqXALMO8oH\"><p><strong>Foundry Note</strong></p><p>This feat includes an Active Effect which automatically increases your Speed.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "epicBoon"
+    },
+    "prerequisites": {
+      "level": 19
+    },
+    "properties": [],
+    "requirements": "Level 19",
+    "activities": {},
+    "enchant": {},
+    "identifier": "boon-of-speed",
+    "advancement": [
+      {
+        "_id": "zNqJRAI2ON8SRu40",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbBoonofSpeed00",
+  "type": "feat",
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "effects": [
+    {
+      "name": "Boon of Speed",
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "_id": "0NnhKk6NqkYKbRTJ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725464924902,
+        "modifiedTime": 1726253535746,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbBoonofSpeed00.0NnhKk6NqkYKbRTJ"
+    }
+  ],
+  "folder": "7zo2bljGLQY3uwXI",
+  "sort": 100782,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425893243,
+    "modifiedTime": 1740697741505,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbBoonofSpeed00"
+}

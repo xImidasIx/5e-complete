@@ -1,0 +1,202 @@
+{
+  "_id": "dmgBrownMold0000",
+  "name": "Brown Mold",
+  "type": "feat",
+  "img": "icons/commodities/leather/leather-patch-grey.webp",
+  "system": {
+    "activities": {
+      "b8mgiBkIDcoK2Q2x": {
+        "type": "save",
+        "_id": "b8mgiBkIDcoK2Q2x",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "cold"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "12"
+          }
+        },
+        "name": ""
+      },
+      "dNDTMP9tcw54xzv9": {
+        "type": "utility",
+        "name": "10-Foot Square",
+        "_id": "dNDTMP9tcw54xzv9",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "square",
+            "size": "10",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Deadly Hazard (Levels 5–10) or Nuisance Hazard (Levels 11–16)</em></p><p><strong>Actor:</strong> @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgBrownMold0000]{Brown Mold}</p><p>Brown mold resembles a furry, light-brown carpet. This fungus feeds on warmth, drawing heat from anything around itself. One patch of brown mold covers a 10-foot square, and the temperature within 30 feet of it is always frigid.</p><p>When a creature enters a space within 5 feet of the mold for the first time on a turn or starts its turn there, the creature makes a DC 12 Constitution saving throw, taking 22 (4d10) Cold damage on a failed save or half as much damage on a successful one.</p><p>Brown mold has Immunity to Fire damage, and any source of fire brought within 5 feet of it causes the mold to instantly expand across a surface and toward the fire, creating a new patch that covers a 10-foot square. A patch of brown mold exposed to an effect that deals any amount of Cold damage is destroyed instantly.</p>",
+      "chat": ""
+    },
+    "identifier": "brown-mold",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [],
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "mdyzoHWeYYcPMTGl",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1731444523496,
+    "modifiedTime": 1731444523496,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgBrownMold0000"
+}

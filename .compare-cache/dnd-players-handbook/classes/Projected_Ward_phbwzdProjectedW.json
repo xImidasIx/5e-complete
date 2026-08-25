@@ -1,0 +1,135 @@
+{
+  "_id": "phbwzdProjectedW",
+  "name": "Projected Ward",
+  "type": "feat",
+  "folder": "Yxtyuf6PvbrATAek",
+  "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>When a creature that you can see within 30 feet of yourself takes damage, you can take a Reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 Hit Points, the warded creature takes any remaining damage. If that creature has any Resistances or Vulnerabilities, apply them before reducing the ward’s Hit Points.</p><section class=\"secret\" id=\"secret-pSOEhQX3JbZyO19Q\"><p><strong>Foundry Note</strong></p><p>The <strong>Project Ward</strong> activity uses your reaction and can be used to reduce the Ward's uses (\"HP\").</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [
+      "mgc"
+    ],
+    "requirements": "",
+    "activities": {
+      "THaODa86JJaeoWfL": {
+        "type": "utility",
+        "name": "Project Ward",
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "When a creature that you can see within 30 feet of yourself takes damage"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "(2 * @classes.wizard.levels) + @abilities.int.mod"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbwzdArcaneWard",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": "That you can see"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "systems/dnd5e/icons/svg/activity/damage.svg",
+        "_id": "THaODa86JJaeoWfL",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "projected-ward"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1724425985653,
+    "modifiedTime": 1755811112419,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbwzdProjectedW"
+}

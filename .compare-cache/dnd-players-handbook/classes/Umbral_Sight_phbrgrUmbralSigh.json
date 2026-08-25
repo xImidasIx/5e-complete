@@ -1,0 +1,99 @@
+{
+  "_id": "phbrgrUmbralSigh",
+  "name": "Umbral Sight",
+  "type": "feat",
+  "folder": "de4kglc2V33iB0yi",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "system": {
+    "description": {
+      "value": "<p>You gain Darkvision with a range of 60 feet. If you already have Darkvision when you gain this feature, its range increases by 60 feet.</p><p>You are also adept at evading creatures that rely on Darkvision. While entirely in Darkness, you have the &amp;Reference[Invisible] condition to any creature that relies on Darkvision to see you in that Darkness.</p><section class=\"secret\" id=\"secret-EavrzDSgyIsjHyEj\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will automatically increase your Darkvision range.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "umbral-sight"
+  },
+  "effects": [
+    {
+      "name": "Umbral Sight",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "_id": "wCEKfpDvJ2S53HYR",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 2,
+          "value": "60",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724950867655,
+        "modifiedTime": 1726264680911,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbrgrUmbralSigh.wCEKfpDvJ2S53HYR"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425983334,
+    "modifiedTime": 1726075584551,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgrUmbralSigh"
+}

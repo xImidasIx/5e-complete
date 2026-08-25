@@ -1,0 +1,120 @@
+{
+  "_id": "phbsptResourcefu",
+  "name": "Resourceful",
+  "type": "feat",
+  "img": "icons/tools/hand/hammer-and-nail.webp",
+  "system": {
+    "activities": {
+      "IiqBiFB7i3JZPpXD": {
+        "type": "utility",
+        "_id": "IiqBiFB7i3JZPpXD",
+        "sort": 0,
+        "activation": {
+          "type": "longRest",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>You gain @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.AQ1oTG7jHy5kZuN9]{Heroic Inspiration} whenever you finish a Long Rest.</p><section id=\"secret-76Fxj5ArEsAJk2ZO\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Usage of this feature's activity does not automatically grant Heroic Inspiration.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "Human",
+    "identifier": "resourceful"
+  },
+  "effects": [],
+  "folder": "uCr9wkkriM8r4C9R",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1725733894972,
+    "modifiedTime": 1755811952976,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbsptResourcefu"
+}

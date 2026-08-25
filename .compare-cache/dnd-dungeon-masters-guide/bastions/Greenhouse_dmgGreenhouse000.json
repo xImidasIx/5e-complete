@@ -1,0 +1,75 @@
+{
+  "_id": "dmgGreenhouse000",
+  "name": "Greenhouse",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-02.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 9 Bastion Facility</em></p><p><strong>Prerequisite:</strong> None</p><p><strong>Space:</strong> Roomy</p><p><strong>Hirelings:</strong> 1</p><p><strong>Order:</strong> Harvest</p><p>A Greenhouse is an enclosure where rare plants and fungi are nurtured in a controlled climate.</p><p><em><strong>Fruit of Restoration.</strong></em> One plant in your Greenhouse has three magical fruits growing on it. Any creature that eats one of these fruits gains the benefit of a @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser Restoration} spell. Fruits that aren’t eaten within 24 hours of being picked lose their magic. The plant replaces all picked fruits daily at dawn, and it can’t be transplanted without killing it.</p><p><em><strong>Harvest Options.</strong></em> When you issue the Harvest order to this facility, choose one of the following options:</p><p><strong>Harvest: Healing Herbs.</strong> You commission the facility’s hireling to create a @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgGreaterPotion]{Potion of Healing (greater)} made from healing herbs. The work takes 7 days and costs no money.</p><p><strong>Harvest: Poison.</strong> You commission the facility’s hireling to extract one application of a poison from rare plants or fungi. Choose the type of poison from the following options: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgAssassinsBloo]{Assassin's Blood}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMalice0000000]{Malice}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgPaleTincture0]{Pale Tincture}, or @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgTruthSerum000]{Truth Serum}. See “Poison” in chapter 3 for each poison’s effect. Once harvested, the poison can be contained in a vial. The work takes 7 days and costs no money.</p>",
+      "chat": ""
+    },
+    "identifier": "greenhouse",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "harvest",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "greenhouse"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgGreenhouse000"
+}

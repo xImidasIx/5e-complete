@@ -1,0 +1,551 @@
+{
+  "_id": "dmgAxeOfTheDwarv",
+  "name": "Axe of the Dwarvish Lords",
+  "type": "weapon",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/axe-of-the-dwarvish-lords.webp",
+  "system": {
+    "activities": {
+      "JFLG2W85cRg9lvcU": {
+        "_id": "JFLG2W85cRg9lvcU",
+        "type": "attack",
+        "sort": 100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": "20"
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "Attack",
+        "img": "",
+        "appliedEffects": []
+      },
+      "AKGl6IzVV6qsBuMS": {
+        "type": "summon",
+        "name": "Conjure Earth Elemental",
+        "_id": "AKGl6IzVV6qsBuMS",
+        "sort": 200000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "24"
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "space",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "50mLQn2KsYb8mZQJ",
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.sApYLZj9PTZ40wJr",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "Ne5Jr56dDPNGHGKr": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "7",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "Ne5Jr56dDPNGHGKr",
+        "sort": 400000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "3",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "If target is underground, there is no chance for mishap."
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "formula",
+              "formula": "1"
+            }
+          ],
+          "max": "3"
+        },
+        "name": "Travel the Depths (Teleport)",
+        "img": ""
+      },
+      "DNPpfjzR43pxDMD0": {
+        "type": "attack",
+        "name": "Throw",
+        "_id": "DNPpfjzR43pxDMD0",
+        "sort": 150000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "Bonus Damage: 1d8 Force vs Giant"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "ft",
+          "special": "20 feet Normal range; 60 feet Long range",
+          "value": "20"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": "20"
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "force"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepBattleaxe0]{Battleaxe}), Artifact (Requires Attunement)</em></p><blockquote><p>A young dwarf prince set out to forge a weapon that would be regarded as a symbol of unity among his people. Venturing deep under the mountains, deeper than any dwarf had ever delved, the prince came to the blazing heart of a great volcano. With the aid of Moradin, a god of creation, he first crafted four mighty tools: the <span class=\"no-break\">Starmetal</span> Pick, the Earthheart Forge, the Anvil of Songs, and the Shaping Hammer. With these tools, he forged the <em>Axe of the Dwarvish Lords</em>.</p><p>Armed with the Artifact, the prince brought peace to the dwarf clans, ending grudges and answering slights. The clans became allies, and they threw back their enemies and enjoyed an era of prosperity. This young dwarf is remembered as the First King. When he became old, he passed the weapon, which had become his badge of office, to his heir. The rightful inheritors passed the axe on for many generations.</p><p>Later, in an era marked by treachery and wickedness, the axe was lost in a bloody civil war fomented by greed for its power and the status it bestowed. Centuries later, the dwarves still search for the axe, and many adventurers have made careers of chasing after rumors and plundering old vaults to find it.</p></blockquote><p><strong>Magic Weapon.</strong> The <em>Axe of the Dwarvish Lords</em> is a magic weapon that grants a +3 bonus to attack rolls and damage rolls made with it.</p><p>When you attack a creature with the axe and roll a 20 on the d20 for the attack roll, the axe deals an extra 20 Slashing damage.</p><p>The axe has the Thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra 1d8 Force damage, or an extra 2d8 Force damage if the target is a creature of the <span class=\"no-break\">Giant</span> type. Immediately after hitting or missing, the weapon flies back to your hand.</p><details><summary><strong>Blessings of Moradin.</strong> While attuned to the axe, you gain the following benefits:</summary><dl><dt><p>Darkvision</p></dt><dd><p>You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p></dd><dt><p>Fortitude of Stone</p></dt><dd><p>Your Constitution increases by 2, to a maximum of 20.</p></dd><dt><p>Gifts of the Creator</p></dt><dd><p>You have proficiency with Brewer’s Supplies, Mason’s Tools, and Smith’s Tools.</p></dd><dt><p>One with the Forge</p></dt><dd><p>You have Immunity to Poison damage and Resistance to Fire damage.</p></dd><dt><p>Sunder</p></dt><dd><p>When you hit an object with the axe, the object takes the maximum amount of damage possible.</p></dd></dl></details><hr /><details><summary><strong>Conjure Earth Elemental.</strong></summary><p>While holding the axe, you can take a Magic action to summon an <strong>Earth Elemental</strong> . It appears in an unoccupied space you choose within 30 feet of yourself, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 24 hours, when it dies, or when you dismiss it as a Bonus Action. You can’t use this property again until the next dawn.</p></details><details><summary><strong>Random Properties.</strong></summary><p>The axe has the following random properties (see “Artifacts” in this chapter):</p><ul><li>2 minor beneficial properties</li><li>1 major beneficial property</li><li>2 minor detrimental properties</li></ul></details><details><summary><strong>Travel the Depths.</strong></summary><p>You can take a Magic action to touch the axe to a fixed piece of dwarven stonework and cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00]</em> from the axe. If your intended destination is underground, there is no chance of a mishap or arriving somewhere unexpected. You can’t use this property again until 3 days have passed.</p></details><details><summary><strong>Destroying the Axe.</strong></summary><p>The only way to destroy the axeis to melt it down in the Earthheart Forge, where it was created. It must remain in the burning forge for 50 years before it finally succumbs to the fire and is consumed.</p></details>",
+      "chat": ""
+    },
+    "identifier": "axe-of-the-dwarvish-lords",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "battleaxe"
+    },
+    "ammunition": {},
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "slashing"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      }
+    },
+    "magicalBonus": 3,
+    "properties": [
+      "mgc",
+      "ret",
+      "thr",
+      "ver"
+    ],
+    "proficient": null,
+    "range": {
+      "value": 20,
+      "long": 60,
+      "reach": 5,
+      "units": "ft"
+    },
+    "mastery": "topple"
+  },
+  "effects": [
+    {
+      "name": "Blessings of Moradin",
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "rosGOOCXWoAjvaYk",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 2,
+          "value": "60",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.con.value",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.tools.brewer",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.tools.mason",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.tools.mason",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.traits.di.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.con.value",
+          "mode": 3,
+          "value": "20",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p><strong>Blessings of Moradin.</strong> While attuned to the axe, you gain the following benefits:</p><div class=\"def-block\"><p><strong>Darkvision.</strong> You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p><p><strong>Fortitude of Stone.</strong> Your Constitution increases by 2, to a maximum of 20.</p><p><strong>Gifts of the Creator.</strong> You have proficiency with Brewer’s Supplies, Mason’s Tools, and Smith’s Tools.</p><p><strong>One with the Forge.</strong> You have Immunity to Poison damage and Resistance to Fire damage.</p><p><strong>Sunder.</strong> When you hit an object with the axe, the object takes the maximum amount of damage possible.</p></div>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.4",
+        "createdTime": 1728523922274,
+        "modifiedTime": 1730829604365,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgAxeOfTheDwarv.rosGOOCXWoAjvaYk"
+    }
+  ],
+  "folder": "kie870i5kr7yuxO8",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1731015008454,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 6800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgAxeOfTheDwarv"
+}

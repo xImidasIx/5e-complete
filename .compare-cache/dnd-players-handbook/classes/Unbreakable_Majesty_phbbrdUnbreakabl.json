@@ -1,0 +1,263 @@
+{
+  "_id": "phbbrdUnbreakabl",
+  "name": "Unbreakable Majesty",
+  "type": "feat",
+  "folder": "nRLsU9drIaxSPf82",
+  "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>As a Bonus Action, you can assume a magically majestic presence for 1 minute or until you have the &amp;Reference[Incapacitated] condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a [[/save]]{Charisma saving throw} against your spell save DC, or the attack misses instead, as the creature recoils from your majesty.</p><p>Once you assume this majestic presence, you can't do so again until you finish a Short or Long Rest.</p><section class=\"secret\" id=\"secret-NbhuxdzHOM4DrYtJ\"><p><strong>Foundry Note</strong></p><p>The <strong>Assume Majestic Presence</strong> activity includes an Active Effect for tracking your presence.</p><p>The <strong>Recoil Save</strong> activity includes the saving throw for the attacking creature.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 14
+    },
+    "properties": [],
+    "requirements": "College of Glamour",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "",
+          "value": 1,
+          "condition": "a creature hits you with an attack roll for the first time on a turn",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false,
+          "concentration": false
+        },
+        "effects": [],
+        "range": {
+          "units": "any",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": "cha",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "name": "Recoil Save",
+        "img": "",
+        "appliedEffects": []
+      },
+      "FyhxcGTa0d3Q8Oum": {
+        "type": "utility",
+        "_id": "FyhxcGTa0d3Q8Oum",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ],
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "KN7yYmUNAlfO4onh",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": -100000,
+        "damage": {
+          "parts": [],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": "cha",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "Assume Majestic Presence",
+        "img": "",
+        "appliedEffects": [
+          "KN7yYmUNAlfO4onh"
+        ],
+        "roll": {
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "enchant": {},
+    "identifier": "unbreakable-majesty"
+  },
+  "effects": [
+    {
+      "name": "Majestic Presence",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbbrdUnbreakabl",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {}
+      },
+      "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+      "_id": "KN7yYmUNAlfO4onh",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbbrdMantleOfMa.ActiveEffect.XhXWBd5kDOgYnnLZ",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1726858607780,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbbrdUnbreakabl.KN7yYmUNAlfO4onh"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1724425963067,
+    "modifiedTime": 1755889494525,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrdUnbreakabl"
+}

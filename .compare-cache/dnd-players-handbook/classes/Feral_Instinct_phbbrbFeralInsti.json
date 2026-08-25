@@ -1,0 +1,99 @@
+{
+  "_id": "phbbrbFeralInsti",
+  "name": "Feral Instinct",
+  "type": "feat",
+  "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your instincts are so honed that you have Advantage on Initiative rolls.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 7
+    },
+    "properties": [],
+    "requirements": "Barbarian",
+    "activities": {},
+    "enchant": {},
+    "identifier": "feral-instinct"
+  },
+  "effects": [
+    {
+      "_id": "CaV1VYMaVjjPceJs",
+      "changes": [
+        {
+          "key": "flags.dnd5e.initiativeAdv",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbbrbFeralInsti",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "name": "Feral Instinct",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": "Compendium.dnd5e.classfeatures.Item.NlXslw4yAqmKZWtN.ActiveEffect.q7TkJQX7PeVOzTQH",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!phbbrbFeralInsti.CaV1VYMaVjjPceJs"
+    }
+  ],
+  "folder": "p6WDpW0gzmKfhGad",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425957425,
+    "modifiedTime": 1726075572021,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrbFeralInsti"
+}

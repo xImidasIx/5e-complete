@@ -1,0 +1,105 @@
+{
+  "_id": "phbinvEldritchMi",
+  "name": "Eldritch Mind",
+  "type": "feat",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have Advantage on Constitution saving throws that you make to maintain Concentration.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "eldritch-mind"
+  },
+  "effects": [
+    {
+      "name": "Concentration Advantage",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbinvEldritchMi",
+      "_id": "24hE74nCrrmswvlm",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.concentration.roll.mode",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.1",
+        "createdTime": 1755702144823,
+        "modifiedTime": 1755702239891,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B"
+      },
+      "_key": "!items.effects!phbinvEldritchMi.24hE74nCrrmswvlm"
+    }
+  ],
+  "folder": "BjeMHiqnKNWkWhox",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1724425975200,
+    "modifiedTime": 1726676229676,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbinvEldritchMi"
+}

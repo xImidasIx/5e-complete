@@ -1,0 +1,180 @@
+{
+  "name": "Sailor",
+  "system": {
+    "description": {
+      "value": "<p><strong>Ability Scores:</strong> Strength, Dexterity, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftTavernBrawl]{Tavern Brawler}</p><p><strong>Skill Proficiencies:</strong> Acrobatics and Perception</p><p><strong>Tool Proficiency:</strong> Navigator’s Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagger}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators]{Navigator’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}, 20 GP; or (B) 50 GP</p><p>You lived as a seafarer, wind at your back and decks swaying beneath your feet. You’ve perched on barstools in more ports of call than you can remember, faced mighty storms, and swapped stories with folk who live beneath the waves.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "ttXQVlKgXbWScs2k",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000",
+        "requiresProficiency": false,
+        "_id": "4CJUf1T7DqK06Yg4",
+        "group": "ttXQVlKgXbWScs2k",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators",
+        "requiresProficiency": false,
+        "_id": "kkIP4LLruGnWnEhf",
+        "group": "ttXQVlKgXbWScs2k",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000",
+        "requiresProficiency": false,
+        "_id": "TErlhMcXzZkmMSq8",
+        "group": "ttXQVlKgXbWScs2k",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav",
+        "requiresProficiency": false,
+        "_id": "m5vrh6g9hwxdJOCD",
+        "group": "ttXQVlKgXbWScs2k",
+        "sort": 500000
+      }
+    ],
+    "identifier": "sailor",
+    "advancement": [
+      {
+        "_id": "wAR0X8QxjqKrsxgG",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "int",
+            "cha"
+          ],
+          "points": 3
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "Background Ability Score Improvement",
+        "hint": "Your background allows you to increase your Strength, Dexterity, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+      },
+      {
+        "_id": "ROkIVsDigXSFdJkm",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:navg",
+            "skills:acr",
+            "skills:prc"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Background Proficiencies",
+        "hint": "Your background grants you proficiency in Acrobatics and Perception. It also grants you proficiency with Navigator's Tools."
+      },
+      {
+        "_id": "6jf2ylkDlxJ1L1iy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftTavernBrawl"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Background Feat",
+        "hint": "Your background grants you the Tavern Brawler feat."
+      },
+      {
+        "_id": "pLGiyOjTP7nwuwTl",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Choose Languages",
+        "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+      }
+    ],
+    "wealth": "50"
+  },
+  "_id": "phbbgSailor00000",
+  "type": "background",
+  "img": "modules/dnd-players-handbook/assets/icons/backgrounds/sailor.webp",
+  "effects": [],
+  "folder": "ysJSs3cbEBOMC1zV",
+  "sort": 100049,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425890531,
+    "modifiedTime": 1760122963032,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbbgSailor00000"
+}

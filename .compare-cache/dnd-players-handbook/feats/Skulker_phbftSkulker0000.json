@@ -1,0 +1,185 @@
+{
+  "name": "Skulker",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Dexterity score by 1, to a maximum of 20.</p><p><strong>Blindsight.</strong> You have Blindsight with a range of 10 feet.</p><p><strong>Fog of War.</strong> You exploit the distractions of battle, gaining Advantage on any Dexterity (Stealth) check you make as part of the Hide action during combat.</p><p><strong>Sniper.</strong> If you make an attack roll while hidden and the roll misses, making the attack roll doesn’t reveal your location.</p><section class=\"secret\" id=\"secret-uYEwLh81hYSCN3nb\"><p><strong>Foundry Note</strong></p><p>This feature automatically grants the Blindsight range.</p><p>The <strong>Fog of War</strong> Active Effect automates Advantage on Stealth checks. It can be disabled outside of combat.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "Dexterity 13+",
+    "activities": {},
+    "enchant": {},
+    "identifier": "skulker",
+    "advancement": [
+      {
+        "_id": "iRG3h87UVN9ab1g4",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 1,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbftSkulker0000",
+  "type": "feat",
+  "img": "icons/creatures/eyes/humanoid-single-blind.webp",
+  "effects": [
+    {
+      "name": "Skulker",
+      "img": "icons/creatures/eyes/humanoid-single-blind.webp",
+      "_id": "UISGaeQxKRgJJuG0",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.blindsight",
+          "mode": 4,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725560179978,
+        "modifiedTime": 1725560235114,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbftSkulker0000.UISGaeQxKRgJJuG0"
+    },
+    {
+      "name": "Fog of War",
+      "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbftSkulker0000",
+      "_id": "6moNnOl0izLMgVNl",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.ste.roll.mode",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p><strong>Fog of War.</strong> You exploit the distractions of battle, gaining Advantage on any Dexterity (Stealth) check you make as part of the Hide action during combat.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1760132789704,
+        "modifiedTime": 1760132884694,
+        "lastModifiedBy": "BcGywgWNTaQhpKPn"
+      },
+      "_key": "!items.effects!phbftSkulker0000.6moNnOl0izLMgVNl"
+    }
+  ],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425895179,
+    "modifiedTime": 1760132923213,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftSkulker0000"
+}

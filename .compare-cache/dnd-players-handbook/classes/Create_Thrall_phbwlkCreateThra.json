@@ -1,0 +1,208 @@
+{
+  "_id": "phbwlkCreateThra",
+  "name": "Create Thrall",
+  "type": "feat",
+  "folder": "fBiqZyJP2XES6YvY",
+  "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{Summon Aberration}, you can modify it so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting, and when summoned, the Aberration has a number of Temporary Hit Points equal to your Warlock level plus your Charisma modifier.</p><p>In addition, the first time each turn the Aberration hits a creature under the effect of your <em>Hex</em>, the Aberration deals extra Psychic damage to the target equal to the bonus damage of that spell.</p><section class=\"secret\" id=\"secret-vKu1iYvn77Ozv6N2\"><p><strong>Foundry Note</strong></p><p>The <strong>Hex</strong> activity includes the extra damage.</p><p>The <strong>Thrall Temporary HP</strong> activity includes the Temporary HP to apply to your Thrall when summoning without Concentration.</p><p>The spell is granted automatically as you level up.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 14
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "E8deQJEsNQVxFCPf": {
+        "type": "damage",
+        "_id": "E8deQJEsNQVxFCPf",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When your thrall hits a creature under the effect of your Hex"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "name": "Hex Damage",
+        "img": "",
+        "appliedEffects": []
+      },
+      "NVf51SrlR3le7SrR": {
+        "type": "heal",
+        "name": "Thrall Temporary HP",
+        "_id": "NVf51SrlR3le7SrR",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you cast Hex without Concentration"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "90"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "@classes.warlock.levels + @abilitis.cha.mod"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "create-thrall"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425984520,
+    "modifiedTime": 1726343554946,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbwlkCreateThra"
+}

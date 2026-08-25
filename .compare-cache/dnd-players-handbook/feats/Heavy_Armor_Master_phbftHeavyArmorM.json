@@ -1,0 +1,145 @@
+{
+  "name": "Heavy Armor Master",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong>Increase your Constitution or Strength score by 1, to a maximum of 20.</p><p><strong>Damage Reduction.</strong> When you’re hit by an attack while you’re wearing Heavy armor, any Bludgeoning, Piercing, and Slashing damage dealt to you by that attack is reduced by an amount equal to your Proficiency Bonus.</p><section class=\"secret\" id=\"secret-BoU0ql21IXdiGxDw\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically reduces those damage types by your Proficiency Bonus. Disable it when you are not wearing Heavy Armor.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "Heavy Armor Training",
+    "activities": {},
+    "enchant": {},
+    "identifier": "heavy-armor-master",
+    "advancement": [
+      {
+        "_id": "IkVFH0aUnE57HbtD",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "dex",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbftHeavyArmorM",
+  "type": "feat",
+  "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
+  "effects": [
+    {
+      "name": "Heavy Armor Master",
+      "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
+      "_id": "bADQON2o52cOL6WI",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dm.amount.bludgeoning",
+          "mode": 2,
+          "value": "-(@prof)",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dm.amount.piercing",
+          "mode": 2,
+          "value": "-(@prof)",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dm.amount.slashing",
+          "mode": 2,
+          "value": "-(@prof)",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbftHeavyArmorM",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.hCs5Fz3BSQjzpB8E.ActiveEffect.GPZfTyqsYaNTAMNm",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725552707332,
+        "modifiedTime": 1725552811736,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbftHeavyArmorM.bADQON2o52cOL6WI"
+    }
+  ],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425894372,
+    "modifiedTime": 1740697812068,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftHeavyArmorM"
+}

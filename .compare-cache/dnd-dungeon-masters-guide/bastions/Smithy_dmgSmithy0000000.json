@@ -1,0 +1,82 @@
+{
+  "_id": "dmgSmithy0000000",
+  "name": "Smithy",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-02.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 5 Bastion Facility</em></p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>2</p><p><strong>Order: </strong>Craft</p><p>This Smithy contains a forge, an anvil, and other tools needed to craft weapons, armor, and other equipment.</p><p><em><strong>Craft Options.</strong></em> When you issue the Craft order to this facility, choose one of the following options:</p><p><strong>Craft: Smith’s Tools.</strong> The facility’s hirelings craft anything that can be made with @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]{Smith's Tools}, using the rules in the Player’s Handbook.</p><p><strong>Craft: Magic Item (Armament).</strong> If you are level 9+, can you commission the facility’s hirelings to craft a Common or an Uncommon magic item chosen by you from the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz#armaments-tables]{Armaments tables}. The facility has the tool required to craft the item, and the hirelings have proficiency with that tool as well as proficiency in the Arcana skill. See @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.CmKJpbyrDuVrAkIs]{Crafting Magic Items} for the time and money that must be spent to craft the item. If the item allows its user to cast any spells from it, you must craft the item yourself (the facility’s hirelings can assist), and you must have all those spells prepared every day you spend crafting the item.</p>",
+      "chat": ""
+    },
+    "identifier": "smithy",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 2
+    },
+    "level": 5,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "smithy"
+    },
+    "craft": null
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgSmithy0000000"
+}

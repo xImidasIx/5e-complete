@@ -1,0 +1,117 @@
+{
+  "_id": "phbdrdFullOfStar",
+  "name": "Full of Stars",
+  "type": "feat",
+  "folder": "46oyPDUMbm12rzwN",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": {
+      "value": "<p>While in your Starry Form, you become partially incorporeal, giving you Resistance to Bludgeoning, Piercing, and Slashing damage.</p><section class=\"secret\" id=\"secret-Do45Z2i70UArTlES\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the addition of the Resistances. It is not automatically applied when entering your Starry Form though. It can be activated by using this feature and applying it or by turning the Active Effect on in your character sheet's Effects tab.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 14
+    },
+    "properties": [],
+    "requirements": "Circle of the Stars",
+    "activities": {},
+    "enchant": {},
+    "identifier": "full-of-stars"
+  },
+  "effects": [
+    {
+      "name": "Full of Stars",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbdrdFullOfStar",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+      "_id": "Z3dPVHxaYqTIvLPg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": null,
+        "modifiedTime": 1760374934708,
+        "lastModifiedBy": "BcGywgWNTaQhpKPn",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbdrdFullOfStar.Z3dPVHxaYqTIvLPg"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425968496,
+    "modifiedTime": 1726075575229,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbdrdFullOfStar"
+}

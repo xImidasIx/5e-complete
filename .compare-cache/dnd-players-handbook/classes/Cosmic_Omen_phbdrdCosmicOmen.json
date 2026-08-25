@@ -1,0 +1,192 @@
+{
+  "_id": "phbdrdCosmicOmen",
+  "name": "Cosmic Omen",
+  "type": "feat",
+  "folder": "46oyPDUMbm12rzwN",
+  "img": "icons/skills/trades/academics-astronomy-navigation-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Whenever you finish a Long Rest, you can consult your Star Map for omens and roll a die. Until you finish your next Long Rest, you gain access to a special Reaction based on whether you rolled an even or an odd number on the die:</p><p><strong>Weal (Even).</strong> Whenever a creature you can see within 30 feet of you is about to make a D20 Test, you can take a Reaction to roll 1d6 and add the number rolled to the total.</p><p><strong>Woe (Odd). </strong>Whenever a creature you can see within 30 feet of you is about to make a D20 Test, you can take a Reaction to roll 1d6 and subtract the number rolled from the total.</p><p>You can use this Reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-4KkQJd5AOz4q4G76\"><p><strong>Foundry Note</strong></p><p>The <strong>Weal</strong> and <strong>Woe</strong> activities will consume a use of this feature and provide an Add or Subtract roll.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "(max(1,@abilities.wis.mod))",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "Circle of the Stars",
+    "activities": {
+      "nu3AqVu9lyqeFwr3": {
+        "type": "utility",
+        "name": "Weal (Even)",
+        "_id": "nu3AqVu9lyqeFwr3",
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "Whenever a creature you can see within 30 feet is about to make a D20 Test"
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "Add",
+          "formula": "1d6"
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "RUVw6UxNL4FIdDrJ": {
+        "type": "utility",
+        "name": "Woe (Odd)",
+        "_id": "RUVw6UxNL4FIdDrJ",
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "Whenever a creature you can see within 30 feet of you is about to make a D20 Test"
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "Subtract",
+          "formula": "1d6"
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "cosmic-omen"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425967640,
+    "modifiedTime": 1726075575073,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbdrdCosmicOmen"
+}

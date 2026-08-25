@@ -1,0 +1,145 @@
+{
+  "_id": "dmgFireballFungu",
+  "name": "Fireball Fungus",
+  "type": "feat",
+  "img": "icons/consumables/mushrooms/bell-shiitake-brown.webp",
+  "system": {
+    "activities": {
+      "C1wWPs87P94LEYsF": {
+        "type": "save",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false,
+          "concentration": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "sphere",
+            "size": "20",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 8,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "fire"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "_id": "C1wWPs87P94LEYsF",
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Deadly Hazard (Levels 5–10)</em></p><p><strong>Actor:</strong> @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgFireballFungu]{Fireball Fungus}</p><p>A fireball fungus is a Small, inanimate mushroom that can grow anywhere fungi are found in abundance. Its luminous, orange cap sheds Bright Light in a 15-foot radius and Dim Light for an additional 15 feet.</p><p>A fireball fungus has AC 10, HP 6, and to Immunity Psychic damage. When it drops to 0 Hit Points, the fungus explodes as if a @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball} spell (save DC 15) had been centered on it.</p><p><em><strong>At Higher Levels.</strong></em> The explosion of a fireball fungus causes other fireball fungi in the area of effect to explode as well. You can scale the hazard for higher levels by adding one additional fungus at levels 11–16 or three additional fungi at levels 17–20.</p>",
+      "chat": ""
+    },
+    "identifier": "fireball-fungus",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "properties": [],
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "mdyzoHWeYYcPMTGl",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1731295110259,
+    "modifiedTime": 1731295110259,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgFireballFungu"
+}

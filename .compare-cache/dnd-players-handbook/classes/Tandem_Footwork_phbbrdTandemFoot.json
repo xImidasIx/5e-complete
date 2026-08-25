@@ -1,0 +1,128 @@
+{
+  "_id": "phbbrdTandemFoot",
+  "name": "Tandem Footwork",
+  "type": "feat",
+  "folder": "PvoPSaBbuCP1m6yg",
+  "img": "icons/skills/movement/arrows-up-trio-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you roll Initiative, you can expend one use of your Bardic Inspiration if you don't have the &amp;Reference[Incapacitated] condition. When you do so, roll your Bardic Inspiration die; you and each ally within 30 feet of you who can see or hear you gains a bonus to Initiative equal to the number rolled.</p><section class=\"secret\" id=\"secret-nQrxfDcx2JC1jNO2\"><p><strong>Foundry Note</strong></p><p>Using this feature will consume a usage of your Bardic Inspiration.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "College of Dance",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "When rolling initiative and not Incapacitated.",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbbrdBardicInsp"
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "ally",
+            "choice": false,
+            "special": "Ally who can see or hear you"
+          },
+          "prompt": true,
+          "override": false
+        },
+        "roll": {
+          "formula": "@scale.bard.inspiration",
+          "name": "Bardic Inspiration",
+          "prompt": false,
+          "visible": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "name": "Initiative Bonus",
+        "img": "systems/dnd5e/icons/svg/trait-saves.svg",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "tandem-footwork"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425962971,
+    "modifiedTime": 1726075573685,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrdTandemFoot"
+}

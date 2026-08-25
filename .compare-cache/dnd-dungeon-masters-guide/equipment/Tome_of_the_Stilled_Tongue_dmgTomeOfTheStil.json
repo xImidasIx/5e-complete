@@ -1,0 +1,161 @@
+{
+  "_id": "dmgTomeOfTheStil",
+  "name": "Tome of the Stilled Tongue",
+  "type": "equipment",
+  "folder": "U4xmShLy19Ry54zl",
+  "img": "icons/sundries/books/book-face-black.webp",
+  "system": {
+    "activities": {
+      "0rgdvjQJsCN1p2Fa": {
+        "type": "utility",
+        "name": "Cast Spell",
+        "_id": "0rgdvjQJsCN1p2Fa",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>Wondrous Item, Legendary (Requires Attunement by a Wizard)</em></p><p>This book has a desiccated tongue pinned to its front cover. Five of these tomes exist, and it’s unknown which one is the original. The tongue on the first <em>Tome of the Stilled Tongue</em> belonged to a treacherous former servant of the lich Vecna. The tongues pinned to the covers of the four copies came from other spellcasters who crossed Vecna. The first few pages of each tome are filled with indecipherable scrawls. The remaining pages are blank.</p><p>While attuned to this item, you can use it as a Spellbook and an Arcane Focus. In addition, while holding the tome, you can take a Bonus Action to cast a spell you have written in this tome, without expending a spell slot or using any Verbal or Somatic components. Once used, this property of the tome can’t be used again until the next dawn.</p><p>Only you can remove the tongue from the book’s cover. If you do so, all spells written in the book are permanently erased.</p><p>Vecna watches anyone using this tome and can write cryptic messages in it. These messages typically fade away after they are read.</p><section id=\"secret-nZYEjPVmbqkhWjRo\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Cast Spell</strong> activity can be used for tracking your uses of that property.</p></section>",
+      "chat": ""
+    },
+    "identifier": "tome-of-the-stilled-tongue",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1731359732157,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 37300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgTomeOfTheStil"
+}

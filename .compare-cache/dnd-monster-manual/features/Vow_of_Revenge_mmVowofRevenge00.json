@@ -1,0 +1,170 @@
+{
+  "_id": "mmVowofRevenge00",
+  "name": "Vow of Revenge",
+  "type": "feat",
+  "img": "icons/magic/control/mouth-smile-deception-purple.webp",
+  "system": {
+    "activities": {
+      "NBJRR41fIGp8FYJh": {
+        "type": "utility",
+        "_id": "NBJRR41fIGp8FYJh",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "qhxGUlnO8pb3UVtS"
+          }
+        ],
+        "range": {
+          "override": false,
+          "value": "30",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "Curse Target"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\">The [[lookup @name lowercase]] curses one [[lookup @target.affects.type activity=NBJRR41fIGp8FYJh]] it can see within [[lookup @range.value activity=NBJRR41fIGp8FYJh]] feet of itself. The [[lookup @name lowercase]] knows the distance to and direction of the cursed target, even if it is on a different plane of existence. The curse ends on the target if the [[lookup @name lowercase]] uses this Bonus Action on a different creature.</p>",
+      "chat": ""
+    },
+    "identifier": "vow-of-revenge",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "MM 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Cursed",
+      "img": "systems/dnd5e/icons/svg/statuses/cursed.svg",
+      "origin": "Item.mmVowofRevenge00",
+      "_id": "qhxGUlnO8pb3UVtS",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "cursed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmVowofRevenge00.qhxGUlnO8pb3UVtS"
+    }
+  ],
+  "folder": "4T18pEvubPMQLzvD",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1736987392653,
+    "modifiedTime": 1737060761283,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmVowofRevenge00"
+}

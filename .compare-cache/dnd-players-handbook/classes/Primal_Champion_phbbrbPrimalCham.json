@@ -1,0 +1,88 @@
+{
+  "_id": "phbbrbPrimalCham",
+  "name": "Primal Champion",
+  "type": "feat",
+  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 20
+    },
+    "properties": [],
+    "requirements": "Barbarian",
+    "activities": {},
+    "enchant": {},
+    "identifier": "primal-champion",
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "Yj4v0ul6dJiogWZy",
+        "configuration": {
+          "cap": 4,
+          "fixed": {
+            "str": 4,
+            "dex": 0,
+            "con": 4,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": 25
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "p6WDpW0gzmKfhGad",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.3",
+    "createdTime": 1724425958443,
+    "modifiedTime": 1756311793290,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrbPrimalCham"
+}

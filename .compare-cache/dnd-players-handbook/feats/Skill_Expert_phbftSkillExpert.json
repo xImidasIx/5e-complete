@@ -1,0 +1,126 @@
+{
+  "name": "Skill Expert",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 20.</p><p><strong>Skill Proficiency.</strong> You gain proficiency in one skill of your choice.</p><p><strong>Expertise.</strong> Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 3
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "skill-expert",
+    "advancement": [
+      {
+        "_id": "GJlZlecSj64knAQG",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 1,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "title": "Skill Proficiency",
+        "_id": "PRilUMngmSawxh2x",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "hint": "You gain proficiency in one skill of your choice.",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "title": "Expertise",
+        "_id": "RSwt2t9FgSR5pcCM",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "expertise"
+        },
+        "level": 0,
+        "hint": "Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill.",
+        "value": {}
+      }
+    ]
+  },
+  "_id": "phbftSkillExpert",
+  "type": "feat",
+  "img": "icons/commodities/treasure/medal-ribbon-star-gold-red.webp",
+  "effects": [],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425895098,
+    "modifiedTime": 1760134524500,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftSkillExpert"
+}

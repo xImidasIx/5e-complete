@@ -1,0 +1,330 @@
+{
+  "_id": "phbftrBattleMast",
+  "name": "Battle Master",
+  "type": "subclass",
+  "folder": "FCphxnvdYmavFNkr",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/battle-master.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Master Sophisticated Battle Maneuvers</p></blockquote><p>Battle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "battle-master",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "1uBHnM7yyltYiGYr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrCombatSupe",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrStudentOfW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "WS2baKDHOKdTHvn4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrKnowYourEn",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "ifmHcVXF9ZqyVhXa",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrImprovedCo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "DNwHuSG5CFe5o94z",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrRelentless",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "nAg9H5fvgytySqaf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrUltimateCo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "invmv4oqzyJrxiQm",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "superiority",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 4,
+              "faces": 8,
+              "modifiers": []
+            },
+            "7": {
+              "number": 5,
+              "faces": 8,
+              "modifiers": []
+            },
+            "10": {
+              "number": 5,
+              "faces": 10,
+              "modifiers": []
+            },
+            "15": {
+              "number": 6,
+              "faces": 10,
+              "modifiers": []
+            },
+            "18": {
+              "number": 6,
+              "faces": 12,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "Superiority Dice",
+        "hint": ""
+      },
+      {
+        "_id": "1ea5JshCgLSm7lf0",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:acr",
+                "skills:ani",
+                "skills:ath",
+                "skills:his",
+                "skills:ins",
+                "skills:itm",
+                "skills:per",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "Student of War: Skills",
+        "hint": ""
+      },
+      {
+        "_id": "eoklbSN2nZwv8yV7",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "Student of War: Tools",
+        "hint": ""
+      },
+      {
+        "_id": "2Bz61bO8B5SjrzEg",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "3": {
+              "count": 3,
+              "replacement": false
+            },
+            "7": {
+              "count": 2,
+              "replacement": true
+            },
+            "10": {
+              "count": 2,
+              "replacement": true
+            },
+            "15": {
+              "count": 2,
+              "replacement": true
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvAmbush0000"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvBaitandSwi"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvCommanders"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvCommanding"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvDisarmingA"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvDistractin"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvEvasiveFoo"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvFeintingAt"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvGoadingAtt"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvLungingAtt"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvManeuverin"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvMenacingAt"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvParry00000"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvPrecisionA"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvPushingAtt"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvRally00000"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvRiposte000"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvSweepingAt"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvTacticalAs"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbmnvTripAttack"
+            }
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "maneuver"
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Combat Superiority: Maneuvers",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1724425971030,
+    "modifiedTime": 1726844217209,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbftrBattleMast"
+}

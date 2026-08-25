@@ -1,0 +1,175 @@
+{
+  "name": "Protection",
+  "system": {
+    "description": {
+      "value": "<p><em>(Prerequisite: Fighting Style Feature)</em></p><p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a Reaction to interpose your Shield if you’re holding one. You impose Disadvantage on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target.</p><section id=\"secret-omzqnTg5Wlirj4sK\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking the protected creature but it does not automate the Disadvantage.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [
+        "fighting-style"
+      ]
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "8RRNln3LeSbeDlnn": {
+        "type": "utility",
+        "name": "Protect",
+        "_id": "8RRNln3LeSbeDlnn",
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "When a creature you can see attacks a target other than you within 5 feet of you"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "oSby0tJpvySxGrjY"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/trait-damage-resistances.svg",
+        "appliedEffects": [
+          "oSby0tJpvySxGrjY"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "protection"
+  },
+  "_id": "phbfstProtection",
+  "type": "feat",
+  "img": "icons/skills/melee/shield-block-fire-orange.webp",
+  "effects": [
+    {
+      "name": "Protected",
+      "img": "icons/skills/melee/shield-block-fire-orange.webp",
+      "_id": "oSby0tJpvySxGrjY",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>You impose Disadvantage on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.1",
+        "createdTime": 1725467431781,
+        "modifiedTime": 1755617420399,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbfstProtection.oSby0tJpvySxGrjY"
+    }
+  ],
+  "folder": "O942K0m1gZMIIoMB",
+  "sort": 103125,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425893576,
+    "modifiedTime": 1760123532375,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbfstProtection"
+}

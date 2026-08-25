@@ -1,0 +1,75 @@
+{
+  "_id": "dmgSacristy00000",
+  "name": "Sacristy",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-02.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 9 Bastion Facility</em></p><p><strong>Prerequisite: </strong>Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Craft</p><p>A Sacristy serves as a preparation and storage room for the sacred items and religious vestments.</p><p><em><strong>Craft Options.</strong></em> When you issue the Craft order to this facility, choose one of the following options:</p><p><strong>Craft: Holy Water. </strong>You commission the facility’s hireling to craft a flask of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Holy Water}. The work takes 7 days and costs no money. You can spend GP during the creation process to increase the potency of the Holy Water. For every 100 GP you spend, up to a maximum of 500 GP, the damage dealt by the Holy Water increases by 1d8.</p><p><strong>Craft: Magic Item (Relic).</strong> You commission the facility’s hireling to craft a Common or an Uncommon magic item chosen by you from the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz#relics-tables]{Relics tables}. The facility has the tool required to craft the item, and the hireling has proficiency with that tool as well as proficiency in the Arcana skill. See @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.CmKJpbyrDuVrAkIs]{Crafting Magic Items} for the time and money that must be spent to craft the item. If the item allows its user to cast any spells from it, you must craft the item yourself (the facility’s hireling can assist), and you must have all those spells prepared every day you spend crafting the item.</p><p><em><strong>Spell Refreshment.</strong></em> Having a Sacristy allows you to regain one expended spell slot of level 5 or lower after spending an entire Short Rest in your Bastion. You can’t gain this benefit again until you finish a Long Rest.</p>",
+      "chat": ""
+    },
+    "identifier": "sacristy",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "sacristy"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731091075617,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgSacristy00000"
+}

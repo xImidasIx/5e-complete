@@ -1,0 +1,179 @@
+{
+  "_id": "dmgPotOfAwakenin",
+  "name": "Pot of Awakening",
+  "type": "equipment",
+  "folder": "U4xmShLy19Ry54zl",
+  "img": "icons/sundries/misc/plant-potted.webp",
+  "system": {
+    "activities": {
+      "ZRzx4Mo5XOKNIr1d": {
+        "type": "summon",
+        "_id": "ZRzx4Mo5XOKNIr1d",
+        "sort": 0,
+        "activation": {
+          "type": "day",
+          "value": 30,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false
+        },
+        "profiles": [
+          {
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.gaSTr7DFZJLmgI2J",
+            "_id": "29XQPz5GncIXotMK",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Wondrous Item, Common</em></p><p>If you plant an ordinary shrub in this 10-pound clay pot and let it grow for 30 days, the shrub magically transforms into an <strong>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.gaSTr7DFZJLmgI2J]{Awakened Shrub}</strong> at the end of that time. When the shrub awakens, its roots break the pot, destroying it.</p><p>The awakened shrub is Friendly toward you and obeys your commands. Absent commands from you, it does nothing.</p>",
+      "chat": ""
+    },
+    "identifier": "pot-of-awakening",
+    "source": {
+      "revision": 2,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.3",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1757104185305,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 26900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgPotOfAwakenin"
+}

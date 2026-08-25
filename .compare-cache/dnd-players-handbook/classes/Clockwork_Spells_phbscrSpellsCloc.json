@@ -1,0 +1,54 @@
+{
+  "_id": "phbscrSpellsCloc",
+  "name": "Clockwork Spells",
+  "type": "feat",
+  "img": "icons/magic/symbols/cog-orange-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you reach a Sorcerer level specified in the Clockwork Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Clockwork Spells</caption><thead><tr><td>Sorcerer Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Aid}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlarm00000]{Alarm}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser Restoration}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons]{Summon Construct}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{Wall of Force}</td></tr></tbody></table><p>In addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your Sorcerer spells.</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbManifestation rollable caption=false]</p><section class=\"secret\" id=\"secret-bh8NWt7XSuwLjVsa\"><p><strong>Foundry Note</strong></p><p>The spells will be automatically granted as you level up.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "clockwork-spells"
+  },
+  "effects": [],
+  "folder": "0Ca9gLGFA1up33c3",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425984124,
+    "modifiedTime": 1726455218850,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbscrSpellsCloc"
+}

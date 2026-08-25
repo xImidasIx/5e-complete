@@ -1,0 +1,161 @@
+{
+  "_id": "phbrgeAssassin00",
+  "name": "Assassin",
+  "type": "subclass",
+  "folder": "JBKpeqLQWPp9Wt59",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/assassin.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Practice the Grim Art of Death</p></blockquote><p>An Assassin’s training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "assassin",
+    "classIdentifier": "rogue",
+    "advancement": [
+      {
+        "_id": "52x82ltPXCgmrh1K",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeAssasinate",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeAssassinsT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "MlEcUhyGRGitfiUJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeInfiltrati",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "aNcqA4J0puHsYiyv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeEnvenomWea",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "Q45sJX4IS3NbsrtV",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbrgeDeathStrik",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "DUvYYdPtc0kH5wEg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbtulDisguiseKi"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.equipment.Item.phbtulPoisonersK"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Assassin's Tools",
+        "hint": "You gain a Disguise Kit and a Poisoner’s Kit."
+      },
+      {
+        "_id": "rvg1VPVkuaZrsvIx",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:disg",
+            "tool:pois"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "Assassin's Tools",
+        "hint": "You have proficiency with your Assassin's Tools."
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425981365,
+    "modifiedTime": 1726844244251,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgeAssassin00"
+}

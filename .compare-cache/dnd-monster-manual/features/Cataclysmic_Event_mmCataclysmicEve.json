@@ -1,0 +1,818 @@
+{
+  "_id": "mmCataclysmicEve",
+  "name": "Cataclysmic Event",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "tUJIM74oC6JUcDJC": {
+        "type": "save",
+        "name": "Clinging Flames",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "SG38lYUsKyC0FaUM",
+            "onSave": true
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "150"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "sphere",
+            "size": "60",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 13,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "fire"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "str",
+            "formula": ""
+          }
+        },
+        "_id": "tUJIM74oC6JUcDJC",
+        "img": "systems/dnd5e/icons/svg/statuses/exhaustion-1.svg",
+        "appliedEffects": [
+          "SG38lYUsKyC0FaUM"
+        ]
+      },
+      "rF7ttNDNWDfvxxkl": {
+        "type": "save",
+        "name": "Freezing Waves",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "YxxqpVEPwR9cjFhe",
+            "onSave": true
+          },
+          {
+            "_id": "Uo5K6WIs75vZesvz",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "cone",
+            "size": "90",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 5,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            },
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 5,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "cold"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "str",
+            "formula": ""
+          }
+        },
+        "_id": "rF7ttNDNWDfvxxkl",
+        "img": "systems/dnd5e/icons/svg/statuses/exhaustion-2.svg",
+        "appliedEffects": [
+          "YxxqpVEPwR9cjFhe",
+          "Uo5K6WIs75vZesvz"
+        ]
+      },
+      "RNZgZ52YOGGAg1zj": {
+        "type": "save",
+        "name": "Raging Storm",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false,
+          "value": "1",
+          "special": "1 minute or until Cataclysmic Event is used again"
+        },
+        "effects": [
+          {
+            "_id": "EJyVaoWWvaFr2MaM",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "150"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "sphere",
+            "size": "60",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "lightning"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            },
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "thunder"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "str",
+            "formula": ""
+          }
+        },
+        "_id": "RNZgZ52YOGGAg1zj",
+        "img": "systems/dnd5e/icons/svg/statuses/exhaustion-3.svg",
+        "appliedEffects": []
+      },
+      "sJ4avTypqPGWDLlD": {
+        "type": "save",
+        "name": "Swallowing Earth",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Uo5K6WIs75vZesvz",
+            "onSave": false
+          },
+          {
+            "_id": "NNfBNxg6PO0NlffF",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "150"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "cube",
+            "size": "90",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            },
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "acid"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "str",
+            "formula": ""
+          }
+        },
+        "_id": "sJ4avTypqPGWDLlD",
+        "img": "systems/dnd5e/icons/svg/statuses/exhaustion-4.svg",
+        "appliedEffects": [
+          "Uo5K6WIs75vZesvz",
+          "NNfBNxg6PO0NlffF"
+        ]
+      },
+      "D6Y3UoPRZH7BUZX9": {
+        "type": "check",
+        "name": "Buried: Escape Check",
+        "_id": "D6Y3UoPRZH7BUZX9",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "an action taken by the buried creature or a creature within range"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "check": {
+          "associated": [
+            "ath"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "@skills.ath.passive"
+          },
+          "ability": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "recharge",
+          "formula": "4",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>The [[lookup @name lowercase]] creates one of the following effects at random (roll [[/r 1d4#Cataclysmic Event]]):</p><p class=\"feature-trait\"><strong>1: Clinging Flames.</strong> <em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=tUJIM74oC6JUcDJC]], each creature in a [[lookup @target.template.size activity=tUJIM74oC6JUcDJC]]-foot-radius Sphere centered on a point the [[lookup @name lowercase]] can see within [[lookup @range.value activity=tUJIM74oC6JUcDJC]] feet. <em>Failure:</em> [[/damage average activity=tUJIM74oC6JUcDJC]] damage. <em>Success:</em> Half damage. <em>Failure or Success:</em> The target starts &amp;Reference[burning].</p><p class=\"feature-trait\"><strong>2: Freezing Waves.</strong> <em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=rF7ttNDNWDfvxxkl]], each creature in a [[lookup @target.template.size activity=rF7ttNDNWDfvxxkl]]-foot Cone. <em>Failure:</em> [[/damage average activity=rF7ttNDNWDfvxxkl]] damage, and the target has the &amp;Reference[Prone apply=false] condition. <em>Success:</em> Half damage only. <em>Failure or Success:</em> The target’s Speed is reduced to 0 until the end of its next turn.</p><p class=\"feature-trait\"><strong>3: Raging Storm.</strong> A storm cloud fills a [[lookup @target.template.size activity=RNZgZ52YOGGAg1zj]]-foot-radius Sphere centered on a point the [[lookup @name lowercase]] can see within [[lookup @range.value activity=RNZgZ52YOGGAg1zj]] feet. The cloud lasts for 1 minute or until the [[lookup @name lowercase]] uses Cataclysmic Event again. Creatures entirely in the cloud have the &amp;Reference[Blinded apply=false] and &amp;Reference[Deafened apply=false] conditions and can’t cast spells with a Verbal component. <em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=RNZgZ52YOGGAg1zj]], each creature that enters the cloud for the first time on a turn or starts its turn there. <em>Failure:</em> [[/damage average activity=RNZgZ52YOGGAg1zj]] damage. <em>Success:</em> Half damage.</p><p class=\"feature-trait\"><strong>4: Swallowing Earth.</strong> <em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=sJ4avTypqPGWDLlD]], each creature in a [[lookup @target.template.size activity=sJ4avTypqPGWDLlD]]-foot Cube originating from a point on the ground within [[lookup @range.value activity=sJ4avTypqPGWDLlD]] feet. <em>Failure:</em> [[/damage average activity=sJ4avTypqPGWDLlD]] damage, and the target has the &amp;Reference[Prone apply=false] condition and is buried under rubble. A buried target has the &amp;Reference[Restrained apply=false] condition, has &amp;Reference[Total Cover], and is &amp;Reference[suffocating]. As an action, a buried creature or another creature within 5 feet of it can make a [[/check ability=str skill=ath dc=@skills.ath.passive format=long]]. On a successful check, the creature is no longer buried. <em>Success:</em> Half damage only.</p>",
+      "chat": ""
+    },
+    "identifier": "cataclysmic-event",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+  "effects": [
+    {
+      "name": "Clinging Flames: Burning",
+      "img": "systems/dnd5e/icons/svg/statuses/burning.svg",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmCataclysmicEve",
+      "transfer": false,
+      "_id": "SG38lYUsKyC0FaUM",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.mPBGM1vguT5IPzxT caption=false]</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "burning"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.xqxliyD8kzZy0IZf.ActiveEffect.ePppPvhLU1DnHySS",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735590836197,
+        "modifiedTime": 1735591690531,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmCataclysmicEve.SG38lYUsKyC0FaUM"
+    },
+    {
+      "name": "Freezing Waves: Zero Speed",
+      "img": "icons/magic/water/barrier-ice-water-cube.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmCataclysmicEve",
+      "transfer": false,
+      "_id": "YxxqpVEPwR9cjFhe",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 3,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.climb",
+          "mode": 3,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 3,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 3,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.burrow",
+          "mode": 3,
+          "value": "0",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target’s Speed is reduced to 0 until the end of its next turn.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735590926941,
+        "modifiedTime": 1735591615548,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmCataclysmicEve.YxxqpVEPwR9cjFhe"
+    },
+    {
+      "name": "Raging Storm: Blind, Deaf, Verbal Components",
+      "img": "icons/magic/lightning/bolt-strike-clouds-blue.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmCataclysmicEve",
+      "transfer": false,
+      "_id": "EJyVaoWWvaFr2MaM",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Creatures entirely in the cloud have the &amp;Reference[Blinded apply=false] and &amp;Reference[Deafened apply=false] conditions and can’t cast spells with a Verbal component.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "blinded",
+        "deafened"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735591459636,
+        "modifiedTime": 1735591676530,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmCataclysmicEve.EJyVaoWWvaFr2MaM"
+    },
+    {
+      "name": "Prone",
+      "img": "systems/dnd5e/icons/svg/statuses/prone.svg",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmCataclysmicEve",
+      "transfer": false,
+      "_id": "Uo5K6WIs75vZesvz",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p><strong>2: Freezing Waves. </strong>The target has the &amp;Reference[Prone apply=false] condition</p><p><strong>4: Swallowing Earth.</strong> The target has the &amp;Reference[Prone apply=false] condition and is buried under rubble.</p><p></p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "prone"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735592542230,
+        "modifiedTime": 1735664540399,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmCataclysmicEve.Uo5K6WIs75vZesvz"
+    },
+    {
+      "name": "Swallowing Earth: Restrained, Cover, Suffocating",
+      "img": "icons/magic/earth/barrier-stone-brown-green.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmCataclysmicEve",
+      "transfer": false,
+      "_id": "NNfBNxg6PO0NlffF",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>A buried target has the &amp;Reference[Restrained apply=false] condition, has &amp;Reference[Total Cover], and is &amp;Reference[suffocating]. As an action, a buried creature or another creature within 5 feet of it can make a [[/check ability=str skill=ath format=long] (see source for escape DC). On a successful check, the creature is no longer buried.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "coverTotal",
+        "restrained",
+        "suffocation"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735592672216,
+        "modifiedTime": 1735666206514,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmCataclysmicEve.NNfBNxg6PO0NlffF"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1735666337193,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmCataclysmicEve"
+}

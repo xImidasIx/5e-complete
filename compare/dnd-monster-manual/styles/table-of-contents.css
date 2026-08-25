@@ -1,0 +1,47 @@
+.table-of-contents[data-compendium-id="dnd-monster-manual.content"] {
+    --dnd5e-srd-color-chapter-header: var(--mm-red);
+    --dnd5e-srd-color-border: var(--mm-red);
+    --dnd5e-srd-color-box-header: #fff;
+
+    & .window-content {
+      border-image: var(--mm-border-image);
+      & .contents {
+        background:none;
+      }
+
+      scrollbar-width: thin;
+      scrollbar-color: var(--mm-red) transparent;
+
+      &::-webkit-scrollbar-track {
+        box-shadow: none;
+        border-radius: 0;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        border: none;
+        background: var(--mm-red);
+      }
+    }
+
+    & aside { order: 2; }
+
+    & .contents > section {
+      column-count: unset;
+      column-width: 30ch;
+      & > div {
+        break-inside: auto;
+        & ul { margin-inline-start: 0.5rem; }
+      }
+      & ul li.special-entry:not(.child-pages) > a {
+        font-weight: normal;
+      }
+    }
+
+    & ul > li:has(ul) {
+      break-inside: avoid-column;
+    }
+
+    & h3 {
+      font-family: var(--dnd5e-font-modesto);
+    }
+}

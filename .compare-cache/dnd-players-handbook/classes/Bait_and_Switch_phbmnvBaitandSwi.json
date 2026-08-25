@@ -1,0 +1,707 @@
+{
+  "_id": "phbmnvBaitandSwi",
+  "name": "Bait and Switch",
+  "type": "feat",
+  "img": "icons/tools/fishing/hook-simple-bone.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you're within 5 feet of a creature on your turn, you can expend one Superiority Die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and doesn't have the Incapacitated condition. This movement doesn't provoke Opportunity Attacks.</p><p>Roll the Superiority Die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p><section class=\"secret\" id=\"secret-L87MUloqB18hV04V\"><p><strong>Foundry Note</strong></p><p>This feature includes a Active Effects for each possible Superiority Die value, which grants the indicated AC bonus.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "maneuver"
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "nYe2l7Rml0qyFbf6": {
+        "type": "utility",
+        "name": "Switch Places",
+        "_id": "nYe2l7Rml0qyFbf6",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you're within 5 feet of a creature on your turn"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbftrCombatSupe"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "8HUDgkIN8xvG2BAm"
+          },
+          {
+            "_id": "7FVGJRkn52KeAARy"
+          },
+          {
+            "_id": "IvFYFzjrXYsauwKw"
+          },
+          {
+            "_id": "Z2ufa0h7C4PzZAQ6"
+          },
+          {
+            "_id": "uuSbonOKo8CFgId3"
+          },
+          {
+            "_id": "4hmNgqnSAUUFULlt"
+          },
+          {
+            "_id": "XnvqffrAvSgfowbT"
+          },
+          {
+            "_id": "WJgb8JBfc1kenObb"
+          },
+          {
+            "_id": "pPMrXw9opVYvHF1K"
+          },
+          {
+            "_id": "BucXGzmPTuuoAqnS"
+          },
+          {
+            "_id": "j6exVZMA0OfL8AJp"
+          },
+          {
+            "_id": "G6sCl7GedrA9DvIt"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "willing",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "Armor Class Bonus",
+          "formula": "@scale.battle-master.superiority.die"
+        },
+        "img": "",
+        "appliedEffects": [
+          "8HUDgkIN8xvG2BAm",
+          "7FVGJRkn52KeAARy",
+          "IvFYFzjrXYsauwKw",
+          "Z2ufa0h7C4PzZAQ6",
+          "uuSbonOKo8CFgId3",
+          "4hmNgqnSAUUFULlt",
+          "XnvqffrAvSgfowbT",
+          "WJgb8JBfc1kenObb",
+          "pPMrXw9opVYvHF1K",
+          "BucXGzmPTuuoAqnS",
+          "j6exVZMA0OfL8AJp",
+          "G6sCl7GedrA9DvIt"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "bait-and-switch"
+  },
+  "effects": [
+    {
+      "name": "Baited AC +1",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "_id": "8HUDgkIN8xvG2BAm",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724708209481,
+        "modifiedTime": 1726514762174,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbmnvBaitandSwi.8HUDgkIN8xvG2BAm"
+    },
+    {
+      "name": "Baited AC +2",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514770063,
+        "modifiedTime": 1726514781430,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "7FVGJRkn52KeAARy",
+      "_key": "!items.effects!phbmnvBaitandSwi.7FVGJRkn52KeAARy"
+    },
+    {
+      "name": "Baited AC +3",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514771520,
+        "modifiedTime": 1726514791782,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "IvFYFzjrXYsauwKw",
+      "_key": "!items.effects!phbmnvBaitandSwi.IvFYFzjrXYsauwKw"
+    },
+    {
+      "name": "Baited AC +4",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "4",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514772908,
+        "modifiedTime": 1726514800246,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "Z2ufa0h7C4PzZAQ6",
+      "_key": "!items.effects!phbmnvBaitandSwi.Z2ufa0h7C4PzZAQ6"
+    },
+    {
+      "name": "Baited AC +5",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514774222,
+        "modifiedTime": 1726514808513,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "uuSbonOKo8CFgId3",
+      "_key": "!items.effects!phbmnvBaitandSwi.uuSbonOKo8CFgId3"
+    },
+    {
+      "name": "Baited AC +6",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "6",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514811009,
+        "modifiedTime": 1726514839847,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "4hmNgqnSAUUFULlt",
+      "_key": "!items.effects!phbmnvBaitandSwi.4hmNgqnSAUUFULlt"
+    },
+    {
+      "name": "Baited AC +7",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "7",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514812406,
+        "modifiedTime": 1726514853462,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "XnvqffrAvSgfowbT",
+      "_key": "!items.effects!phbmnvBaitandSwi.XnvqffrAvSgfowbT"
+    },
+    {
+      "name": "Baited AC +8",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "8",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514813634,
+        "modifiedTime": 1726514865615,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "WJgb8JBfc1kenObb",
+      "_key": "!items.effects!phbmnvBaitandSwi.WJgb8JBfc1kenObb"
+    },
+    {
+      "name": "Baited AC +9",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "9",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514814700,
+        "modifiedTime": 1726514876421,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "pPMrXw9opVYvHF1K",
+      "_key": "!items.effects!phbmnvBaitandSwi.pPMrXw9opVYvHF1K"
+    },
+    {
+      "name": "Baited AC +10",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514815720,
+        "modifiedTime": 1726514888187,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "BucXGzmPTuuoAqnS",
+      "_key": "!items.effects!phbmnvBaitandSwi.BucXGzmPTuuoAqnS"
+    },
+    {
+      "name": "Baited AC +11",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "11",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514816773,
+        "modifiedTime": 1726514896833,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "j6exVZMA0OfL8AJp",
+      "_key": "!items.effects!phbmnvBaitandSwi.j6exVZMA0OfL8AJp"
+    },
+    {
+      "name": "Baited AC +12",
+      "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "12",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726514817868,
+        "modifiedTime": 1726514907160,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_id": "G6sCl7GedrA9DvIt",
+      "_key": "!items.effects!phbmnvBaitandSwi.G6sCl7GedrA9DvIt"
+    }
+  ],
+  "folder": "tgLxjBJ1GxcEPcIC",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1724425979800,
+    "modifiedTime": 1726514964859,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbmnvBaitandSwi"
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "dmgMenagerie0000",
+  "name": "Menagerie",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-02.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 13 Bastion Facility</em></p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Vast</p><p><strong>Hirelings: </strong>2</p><p><strong>Order: </strong>Recruit</p><p>A Menagerie has enclosures big enough to contain up to four Large creatures. Four Small or Medium creatures can occupy the same space as one Large creature there.</p><p><em><strong>Recruit: Creature.</strong></em> When you issue the Recruit order to this facility, you commission the facility’s hirelings to add a creature from the Menagerie Creatures table to your Menagerie. The recruitment takes 7 days and costs you the amount listed in the table. The hirelings look after the creature.</p><p>Creatures in your Menagerie count as Bastion Defenders. Deduct any you lose from your Bastion Defenders roster. You can choose not to count one or more of these creatures as Bastion Defenders, in which case they can’t be called on to defend the Bastion. Instead, they act in accordance with their nature and use their stat blocks in the <em>Monster Manual</em>.</p><table><caption>Menagerie Creatures</caption><thead><tr><th><p>Creature</p></th><th><p>Size</p></th><th><p>Cost</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobApe0000000]{Ape}</p></td><td><p>Medium</p></td><td><p>500 GP</p></td></tr><tr><td><p>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgBlackBear0000]{Black Bear}</p></td><td><p>Medium</p></td><td><p>500 GP</p></td></tr><tr><td><p>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgBrownBear0000]{Brown Bear}</p></td><td><p>Large</p></td><td><p>1,000 GP</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobConstricto]{Constrictor Snake}</p></td><td><p>Large</p></td><td><p>250 GP</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobCrocodile0]{Crocodile}</p></td><td><p>Large</p></td><td><p>500 GP</p></td></tr><tr><td><p>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgDireWolf00000]{Dire Wolf}</p></td><td><p>Large</p></td><td><p>1,000 GP</p></td></tr><tr><td><p>Giant Vulture</p></td><td><p>Large</p></td><td><p>1,000 GP</p></td></tr><tr><td><p>Hyena</p></td><td><p>Medium</p></td><td><p>50 GP</p></td></tr><tr><td><p>Jackal</p></td><td><p>Small</p></td><td><p>50 GP</p></td></tr><tr><td><p>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgLion000000000]{Lion}</p></td><td><p>Large</p></td><td><p>1,000 GP</p></td></tr><tr><td><p>Owlbear</p></td><td><p>Large</p></td><td><p>3,500 GP</p></td></tr><tr><td><p>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgPanther000000]{Panther}</p></td><td><p>Medium</p></td><td><p>250 GP</p></td></tr><tr><td><p>@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgTiger00000000]{Tiger}</p></td><td><p>Large</p></td><td><p>1,000 GP</p></td></tr></tbody></table><p>With the DM’s consent, you can add different creatures than those shown in the Menagerie Creatures table to your Menagerie. The cost of a creature depends on its Challenge Rating, as shown on the Creature Costs by Challenge Rating table. Typically only Beasts and some Monstrosities can be kept in a Menagerie, though the DM might allow other creatures.</p><table><caption>Creature Costs by Challenge Rating</caption><thead><tr><th><p>Challenge Rating</p></th><th><p><br />Cost</p></th></tr></thead><tbody><tr><td><p>0 or 1/8</p></td><td><p>50 GP</p></td></tr><tr><td><p>1</p></td><td><p>1,000 GP</p></td></tr><tr><td><p>1/4</p></td><td><p>250 GP</p></td></tr><tr><td><p>2</p></td><td><p>2,000 GP</p></td></tr><tr><td><p>1/2</p></td><td><p>500 GP</p></td></tr><tr><td><p>3</p></td><td><p>3,500 GP</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "menagerie",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": 4
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 2
+    },
+    "level": 13,
+    "order": "recruit",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "vast",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "menagerie"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgMenagerie0000"
+}

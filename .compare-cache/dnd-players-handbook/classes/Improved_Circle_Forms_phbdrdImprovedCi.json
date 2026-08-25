@@ -1,0 +1,101 @@
+{
+  "_id": "phbdrdImprovedCi",
+  "name": "Improved Circle Forms",
+  "type": "feat",
+  "folder": "Kif3DrTmPnMK5Nct",
+  "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>While in a Wild Shape form, you gain the following benefits.</p><p><strong>Lunar Radiance.</strong> Each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks.</p><p><strong>Increased Toughness.</strong> You can add your Wisdom modifier to your Constitution saving throws.</p><section id=\"secret-5SxAo2RPwoSrFTGC\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the bonus to Constitution saving throws.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "Circle of Moon",
+    "activities": {},
+    "enchant": {},
+    "identifier": "improved-circle-forms"
+  },
+  "effects": [
+    {
+      "name": "Improved Circle Forms",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbdrdImprovedCi",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {}
+      },
+      "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+      "_id": "yvjaO9R5qoRxtDKY",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.con.bonuses.save",
+          "mode": 2,
+          "value": "@abilities.wis.mod",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1726260232378,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbdrdImprovedCi.yvjaO9R5qoRxtDKY"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425968628,
+    "modifiedTime": 1726075575252,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbdrdImprovedCi"
+}

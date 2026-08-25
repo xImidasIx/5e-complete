@@ -1,0 +1,449 @@
+{
+  "_id": "dmgHandofVecna00",
+  "name": "Hand of Vecna",
+  "type": "equipment",
+  "folder": "U4xmShLy19Ry54zl",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/hand-of-vecna.webp",
+  "system": {
+    "activities": {
+      "pBWatuoq0kWxFm99": {
+        "type": "cast",
+        "_id": "pBWatuoq0kWxFm99",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "5",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "The hand casts @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion} on you: [[/save ability=wis dc=18]]{save DC 18}"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "7",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplFingerofDe"
+        },
+        "name": "",
+        "img": ""
+      },
+      "GtyAr5Y5Jr1sY25s": {
+        "type": "cast",
+        "_id": "GtyAr5Y5Jr1sY25s",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "The hand casts @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion} on you: [[/save ability=wis dc=18]]{save DC 18}"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "1",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000"
+        },
+        "name": "",
+        "img": ""
+      },
+      "4n0NZ8tcCwXzY90M": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000",
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "3",
+          "properties": []
+        },
+        "_id": "4n0NZ8tcCwXzY90M",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "The hand casts @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion} on you: [[/save ability=wis dc=18]]{save DC 18}"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "",
+        "img": ""
+      },
+      "O1ZwTKcU9iSpF9G8": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00",
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "7",
+          "properties": []
+        },
+        "_id": "O1ZwTKcU9iSpF9G8",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d4 + 4"
+        }
+      ],
+      "max": "8"
+    },
+    "description": {
+      "value": "<p><em>Wondrous Item, Artifact (Requires Attunement)</em></p><p>The <em>Eye of Vecna</em> and the <em>Hand of Vecna</em> are separate Artifacts that might be found together or <span class=\"no-break\">separately</span>. The hand is a shriveled left extremity. See: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyeAndHandOfV]{Eye and Hand of Vecna} if both Artifacts are obtained.</p><p><strong>Random Properties of the Hand.</strong> The <em>Hand of Vecna</em> has the following @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.iA3mHmvlXvWKlyBo#artifact-properties]{random properties}:</p><ul><li>1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorBenefici]{minor beneficial property}</li><li>1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMajorBenefici]{major beneficial property}</li><li>1 @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMinorDetrimen]{minor detrimental property}</li></ul><p><strong>Attuning to the Hand.</strong> To attune to the hand, you must press it against the stump where your left hand was. The hand grafts itself to your arm and becomes a functioning appendage. If the hand is ever removed, you die.</p><p><strong>Properties of the Hand.</strong> When you are attuned to the hand, your alignment is Neutral Evil, and you gain the following benefits:</p><details><summary><strong>Great Strength.</strong></summary><p>Your Strength becomes 20 unless it is already 20 or higher.</p></details><details><summary><strong>Icy Touch.</strong></summary><p>Any melee spell attack you make with the hand and any melee attack made with a weapon held by it deals an extra 2d8 Cold damage on a hit.</p></details><details><summary><strong>Spellcasting.</strong></summary><p>The hand has 8 charges and regains 1d4 + 4 expended charges daily at dawn. You can cast a spell on the Hand of Vecna Spells table from the hand (save DC 18). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from it, the hand casts <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion}</em> on you ([[/save ability=wis dc=18]]{save DC 18}; no Concentration required), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you.</p><table><caption>Hand of Vecna Spells</caption><thead><tr><td>Spell</td><td>Charge Cost</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFingerofDe]{Finger of Death}</em></td><td>5</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Sleep}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{Slow}</em></td><td>2</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00]{Teleport}</em></td><td>3</td></tr></tbody></table></details>",
+      "chat": ""
+    },
+    "identifier": "eye-and-hand-of-vecna",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "Vecna's Hand: Alignment, Strength",
+      "img": "icons/commodities/biological/hand-gnarled-purple.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.str.value",
+          "mode": 4,
+          "value": "20",
+          "priority": null
+        },
+        {
+          "key": "system.details.alignment",
+          "mode": 5,
+          "value": "Neutral Evil",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>While you are attuned to the hand, your alignment is Neutral Evil, and your Strength becomes 20 unless it is already 20 or higher.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEyeAndHandOfV.ActiveEffect.mkiRAthKIq3ZPIJ0",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "IEk25qM9By3CGVJo",
+      "_key": "!items.effects!dmgHandofVecna00.IEk25qM9By3CGVJo"
+    },
+    {
+      "name": "Icy Touch: Bonus Damage",
+      "img": "icons/magic/water/strike-weapon-blade-ice-blue.webp",
+      "_id": "d62pjeQ3NGLFdOH9",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "2d8[cold]",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "2d8[cold]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Any melee spell attack you make with the hand and any melee attack made with a weapon held by it deals an extra 2d8 Cold damage on a hit.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1729699555271,
+        "modifiedTime": 1729699800945,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgHandofVecna00.d62pjeQ3NGLFdOH9"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "sort": 12200000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1729697784117,
+    "modifiedTime": 1730728198511,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!dmgHandofVecna00"
+}

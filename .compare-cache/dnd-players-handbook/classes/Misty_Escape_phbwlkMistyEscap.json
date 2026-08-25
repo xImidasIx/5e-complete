@@ -1,0 +1,306 @@
+{
+  "_id": "phbwlkMistyEscap",
+  "name": "Misty Escape",
+  "type": "feat",
+  "folder": "GpcElwne8niowtEP",
+  "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step} as a Reaction in response to taking damage.</p><p>In addition, the following effects are now among your Steps of the Fey options.</p><p><strong>Disappearing Step. </strong>You have the &amp;Reference[Invisible] condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.</p><p><strong>Dreadful Step.</strong> Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</p><section class=\"secret\" id=\"secret-TTIMVNpwS90Cackr\"><p><strong>Foundry Note</strong></p><p>The <strong>Disappearing Step</strong> activity includes an Active Effect which applies the Invisible condition.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "KMyLMOnvFbMuoRYa": {
+        "type": "utility",
+        "name": "Disappearing Step",
+        "_id": "KMyLMOnvFbMuoRYa",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "After teleporting"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Xyc2AEkzGqoATxKs"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "kj8zIhPbjs4UIHtc": {
+        "type": "save",
+        "name": "Dreadful Step",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "After teleporting"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "5",
+          "units": "ft",
+          "special": "Of the space you just left"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": "That you choose"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": "10",
+              "bonus": "",
+              "types": [
+                "psychic"
+              ]
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": "wis",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "kj8zIhPbjs4UIHtc",
+        "img": "",
+        "appliedEffects": []
+      },
+      "2ceGTpBbBclN3qF9": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "2",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": false
+        },
+        "_id": "2ceGTpBbBclN3qF9",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": true,
+          "condition": "After taking damage"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "enchant": {},
+    "identifier": "misty-escape"
+  },
+  "effects": [
+    {
+      "name": "Disappearing Step",
+      "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkMistyEscap",
+      "transfer": true,
+      "_id": "Xyc2AEkzGqoATxKs",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "invisible"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725223430517,
+        "modifiedTime": 1726860412889,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbwlkMistyEscap.Xyc2AEkzGqoATxKs"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.2",
+    "createdTime": 1724425984864,
+    "modifiedTime": 1735325744946,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbwlkMistyEscap"
+}

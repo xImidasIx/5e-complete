@@ -1,0 +1,215 @@
+{
+  "_id": "phbdrdStormborn0",
+  "name": "Stormborn",
+  "type": "feat",
+  "folder": "vjbnrXxp5AsqWHYD",
+  "img": "icons/magic/water/projectile-water-rings.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your Wrath of the Sea confers two more benefits while active, as detailed below.</p><p><strong>Flight.</strong> You gain a Fly Speed equal to your Speed.</p><p><strong>Resistance.</strong> You have Resistance to Cold, Lightning, and Thunder damage.</p><section class=\"secret\" id=\"secret-gM39tGMfj0IPiND0\"><p><strong>Foundry Note</strong></p><p>You can use this feature in place of Wrath of the Sea. It includes an Active Effect which will automate the addition of the Resistances. It does not add the Fly Speed though.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 10
+    },
+    "properties": [],
+    "requirements": "Circle of the Sea",
+    "activities": {
+      "jOppnQcyBPpUizBN": {
+        "type": "save",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbdrdWildShape0"
+            }
+          ],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "Wx6YdoM1hQLblhmP"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "radius",
+            "size": "@scale.sea.wrath-range"
+          },
+          "affects": {
+            "choice": true,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "(max(1,@abilities.wis.mod))d6"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "cold"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": "con",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "_id": "jOppnQcyBPpUizBN",
+        "img": "",
+        "appliedEffects": [
+          "Wx6YdoM1hQLblhmP"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "stormborn"
+  },
+  "effects": [
+    {
+      "name": "Stormborn",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbdrdStormborn0",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {}
+      },
+      "img": "icons/magic/water/projectile-water-rings.webp",
+      "_id": "Wx6YdoM1hQLblhmP",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "thunder",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1726858910277,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbdrdStormborn0.Wx6YdoM1hQLblhmP"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425970178,
+    "modifiedTime": 1726238341632,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbdrdStormborn0"
+}

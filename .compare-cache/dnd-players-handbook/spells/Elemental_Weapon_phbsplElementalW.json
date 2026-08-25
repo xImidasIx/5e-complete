@@ -1,0 +1,1342 @@
+{
+  "name": "Elemental Weapon",
+  "system": {
+    "description": {
+      "value": "<p>A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.</p><p><strong>Using a Higher-Level Spell Slot.</strong> If you use a level 5–6 spell slot, the bonus to attack rolls increases to +2, and the extra damage increases to 2d4. If you use a level 7+ spell slot, the bonus increases to +3, and the extra damage increases to 3d4.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "object",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 3,
+    "school": "trs",
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "enchant",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "pGfFNf1ET79OGY2m",
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "wKcTkykZTJwB5WGx",
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "JSh7FcMkMvrPuUze",
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "4fKngKGyhjykjx5K",
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "xlAFY1k5T1OAtpDy",
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "F0jmiP33LCpSXzKS",
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "P7l2v5zWI795y0qr",
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "9YTw1A75Wva2KJFq",
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "R9Pq5uRtTktLZaBV",
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "XN3zomIP0t98AGfc",
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "1l07FgjqaBWVhfdf",
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "mDyZ1j4PNKdlJCiD",
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "dWeOUtA5QzUSuT5r",
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "I4YQq64aes0LeDNj",
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "hARI3OSV4CuHMXBT",
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "type": "weapon",
+          "categories": [],
+          "properties": []
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "elemental-weapon"
+  },
+  "_id": "phbsplElementalW",
+  "type": "spell",
+  "img": "icons/skills/melee/blade-tip-smoke-green.webp",
+  "effects": [
+    {
+      "name": "Elemental Acid +1",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/acid/projectile-flame-smoke-green.webp",
+      "_id": "pGfFNf1ET79OGY2m",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"1d4\", \"acid\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.pGfFNf1ET79OGY2m"
+    },
+    {
+      "name": "Elemental Cold +1",
+      "origin": null,
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/water/snowflake-ice-blue.webp",
+      "_id": "wKcTkykZTJwB5WGx",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"1d4\", \"cold\"]]",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.wKcTkykZTJwB5WGx"
+    },
+    {
+      "name": "Elemental Fire +1",
+      "origin": null,
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/fire/flame-burning-yellow-orange.webp",
+      "_id": "JSh7FcMkMvrPuUze",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"1d4\", \"fire\"]]",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.JSh7FcMkMvrPuUze"
+    },
+    {
+      "name": "Elemental Lightning +1",
+      "origin": null,
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp",
+      "_id": "4fKngKGyhjykjx5K",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"1d4\", \"lightning\"]]",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.4fKngKGyhjykjx5K"
+    },
+    {
+      "name": "Elemental Thunder +1",
+      "origin": null,
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/lightning/bolt-cloud-sky-white.webp",
+      "_id": "xlAFY1k5T1OAtpDy",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"1d4\", \"thunder\"]]",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.xlAFY1k5T1OAtpDy"
+    },
+    {
+      "name": "Elemental Acid +2",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/acid/projectile-flame-smoke-green.webp",
+      "_id": "F0jmiP33LCpSXzKS",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"2d4\", \"acid\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.F0jmiP33LCpSXzKS"
+    },
+    {
+      "name": "Elemental Cold +2",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/water/snowflake-ice-blue.webp",
+      "_id": "P7l2v5zWI795y0qr",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"2d4\", \"cold\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.P7l2v5zWI795y0qr"
+    },
+    {
+      "name": "Elemental Fire +2",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/fire/flame-burning-yellow-orange.webp",
+      "_id": "9YTw1A75Wva2KJFq",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"2d4\", \"fire\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.9YTw1A75Wva2KJFq"
+    },
+    {
+      "name": "Elemental Lightning +2",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp",
+      "_id": "R9Pq5uRtTktLZaBV",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"2d4\", \"lightning\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.R9Pq5uRtTktLZaBV"
+    },
+    {
+      "name": "Elemental Thunder +2",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/lightning/bolt-cloud-sky-white.webp",
+      "_id": "XN3zomIP0t98AGfc",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"2d4\", \"thunder\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.XN3zomIP0t98AGfc"
+    },
+    {
+      "name": "Elemental Acid +3",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/acid/projectile-flame-smoke-green.webp",
+      "_id": "1l07FgjqaBWVhfdf",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"3d4\", \"acid\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.1l07FgjqaBWVhfdf"
+    },
+    {
+      "name": "Elemental Cold +3",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/water/snowflake-ice-blue.webp",
+      "_id": "mDyZ1j4PNKdlJCiD",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"3d4\", \"cold\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.mDyZ1j4PNKdlJCiD"
+    },
+    {
+      "name": "Elemental Fire +3",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/fire/flame-burning-yellow-orange.webp",
+      "_id": "dWeOUtA5QzUSuT5r",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"3d4\", \"fire\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.dWeOUtA5QzUSuT5r"
+    },
+    {
+      "name": "Elemental Lightning +3",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp",
+      "_id": "I4YQq64aes0LeDNj",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"3d4\", \"lightning\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.I4YQq64aes0LeDNj"
+    },
+    {
+      "name": "Elemental Thunder +3",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        }
+      },
+      "img": "icons/magic/lightning/bolt-cloud-sky-white.webp",
+      "_id": "hARI3OSV4CuHMXBT",
+      "type": "enchantment",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attack.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"3d4\", \"thunder\"]]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplElementalW.hARI3OSV4CuHMXBT"
+    }
+  ],
+  "folder": "HCovEE4VoPGlIbKi",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425951763,
+    "modifiedTime": 1726075746878,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbsplElementalW"
+}

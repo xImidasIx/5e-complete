@@ -1,0 +1,196 @@
+{
+  "_id": "phbrgeSoulBlades",
+  "name": "Soul Blades",
+  "type": "feat",
+  "folder": "lYU9TkcsaR73tTdn",
+  "img": "icons/skills/melee/weapons-crossed-swords-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can now use the following powers with your Psychic Blades.</p><p><strong>Homing Strikes.</strong> If you make an attack roll with your Psychic Blade and miss the target, you can roll one Psionic Energy Die and add the number rolled to the attack roll. If this causes the attack to hit, the die is expended.</p><p><strong>Psychic Teleportation.</strong> As a Bonus Action, you manifest a Psychic Blade, expend one Psionic Energy Die and roll it, and throw the blade at an unoccupied space you can see up to a number of feet away equal to 10 times the number rolled. You then teleport to that space, and the blade vanishes.</p><section class=\"secret\" id=\"secret-1npFnCTwWLq6hxhx\"><p><strong>Foundry Note</strong></p><p>The <strong>Homing Strikes</strong> activity will expend a die and provides a roll. If the check still fails you can refund the die.</p><p>The <strong>Psychic Teleportation</strong> activity expends a die and provides a roll. You can then place a template within the rolled range to indicate where you would like to teleport to (though you are not automatically teleported).</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 9
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "V4igVC3iuQ9uHASF": {
+        "type": "utility",
+        "name": "Homing Strikes",
+        "_id": "V4igVC3iuQ9uHASF",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "Miss an Attack Roll with your Psychic Blades"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbrgePsionicPow"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "Psionic Bonus",
+          "formula": "@scale.soulknife.die.die"
+        },
+        "img": "systems/dnd5e/icons/svg/damage/force.svg",
+        "appliedEffects": []
+      },
+      "KyFxvisMIoL1OXRa": {
+        "type": "utility",
+        "name": "Psychic Teleportation",
+        "_id": "KyFxvisMIoL1OXRa",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbrgePsionicPow"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": "",
+          "value": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "1",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "space",
+            "special": "Unoccupied space"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "Max Throw Distance",
+          "formula": "10 * @scale.soulknife.die.die"
+        },
+        "img": "systems/dnd5e/icons/svg/trait-saves.svg",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "soul-blades"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1724425981988,
+    "modifiedTime": 1726675789535,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgeSoulBlades"
+}

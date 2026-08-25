@@ -1,0 +1,312 @@
+{
+  "_id": "phbrgrPrimalComp",
+  "name": "Primal Companion",
+  "type": "feat",
+  "folder": "hgxCFiq4twdW6SXc",
+  "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You magically summon a primal beast, which draws strength from your bond with nature. Choose its stat block: @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheLan]{Beast of the Land}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSea]{Beast of the Sea}, or @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSky]{Beast of the Sky}. You also determine the kind of animal it is, choosing a kind appropriate for the stat block. Whatever beast you choose, it bears primal markings indicating its supernatural origin.</p><p>The beast is Friendly to you and your allies and obeys your commands. It vanishes if you die.</p><p><strong>The Beast in Combat.</strong> In combat, the beast acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Beast’s Strike action. If you have the Incapacitated condition, the beast acts on its own and isn’t limited to the Dodge action.</p><p><strong>Restoring or Replacing the Beast.</strong> If the beast has died within the last hour, you can take a Magic action to touch it and expend a spell slot. The beast returns to life after 1 minute with all its Hit Points restored.</p><p>Whenever you finish a Long Rest, you can summon a different primal beast, which appears in an unoccupied space within 5 feet of you. You choose its stat block and appearance. If you already have a beast from this feature, the old one vanishes when the new one appears.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of your statistics in the companion's Traits and Actions, the following attributes are also affected.</p><table><caption>Common</caption><tbody><tr><td><strong>AC</strong></td><td>13 plus your Wisdom modifier</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table><table><caption>Beast of the Land</caption><tbody><tr><td><strong>HP</strong></td><td>5 plus five times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d8s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>40 ft., Climb 40 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 60 ft.</td></tr></tbody></table><table><caption>Beast of the Sky</caption><tbody><tr><td><strong>HP</strong></td><td>4 plus four times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d6s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>10 ft., Fly 60 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 60 ft.</td></tr></tbody></table><table><caption>Beast of the Sea</caption><tbody><tr><td><strong>HP</strong></td><td>5 plus five times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d8s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>5 ft., Swim 60 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 90 ft.</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-vZalmDSCpVh4yzu3\"><p><strong>Foundry Note</strong></p><p>The <strong>Restore Companion</strong> activity will allow you to fully heal the beast at the cost of any spell slot.</p><p>The <strong>Command</strong> activity only needs to be used if you're tracking your Bonus Action usage.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [
+      "mgc"
+    ],
+    "requirements": "",
+    "activities": {
+      "2yp6Wab81zhE5XAj": {
+        "type": "summon",
+        "_id": "2yp6Wab81zhE5XAj",
+        "activation": {
+          "type": "longRest",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "space",
+            "special": "Unoccupied"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": -100000,
+        "bonuses": {
+          "ac": "@abilities.wis.mod",
+          "hd": "@classes.ranger.levels",
+          "hp": "@classes.ranger.levels * (@summon.attributes.hd.denomination * 0.5 + 1)",
+          "attackDamage": "@abilities.wis.mod",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": false,
+          "ability": "wis"
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "zDK3wzzvaXMKiL4D",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheLan",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "MXM2VQzGhCcQ7Epw",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSea",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "pjmn4NxTpTLhfSNU",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSky",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": "Summon Companion",
+        "img": "",
+        "appliedEffects": []
+      },
+      "Jtr7GXnCHb85xHg8": {
+        "type": "utility",
+        "name": "Command",
+        "_id": "Jtr7GXnCHb85xHg8",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "any",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": "Primal Companion"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": -50000,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "nmuppQvpw52aVeaf": {
+        "type": "heal",
+        "name": "Restore Companion",
+        "_id": "nmuppQvpw52aVeaf",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "9"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "units": "touch",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "Primal Companion that has died within the last hour"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1,
+            "mode": ""
+          },
+          "number": null,
+          "denomination": null,
+          "bonus": "200"
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "primal-companion"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.0",
+    "createdTime": 1724425983006,
+    "modifiedTime": 1755099612023,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgrPrimalComp"
+}

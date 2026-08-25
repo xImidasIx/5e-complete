@@ -1,0 +1,79 @@
+{
+  "_id": "dmgMidsizeCompar",
+  "name": "Midsize Compartment",
+  "type": "container",
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true
+    }
+  },
+  "img": "icons/containers/bags/case-simple-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>The midsize compartment holds up to 18 Javelins or similar objects.</p>",
+      "chat": ""
+    },
+    "identifier": "midsize-compartment",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": "dmgQuiverOfEhlon",
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "properties": [
+      "weightlessContents"
+    ],
+    "capacity": {
+      "type": "items",
+      "value": 18,
+      "count": 18,
+      "volume": {
+        "value": null
+      },
+      "weight": {
+        "value": null
+      }
+    }
+  },
+  "effects": [],
+  "folder": "CXJsbhXV9uLcWcfH",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.3",
+    "createdTime": 1730487944729,
+    "modifiedTime": 1757096159770,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 750000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgMidsizeCompar"
+}

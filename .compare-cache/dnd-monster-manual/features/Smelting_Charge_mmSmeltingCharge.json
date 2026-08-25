@@ -1,0 +1,289 @@
+{
+  "_id": "mmSmeltingCharge",
+  "name": "Smelting Charge",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "DnNDb8TtIrFe33aF": {
+        "type": "save",
+        "_id": "DnNDb8TtIrFe33aF",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "LWkIghqRZ7VM59yW",
+            "onSave": false
+          },
+          {
+            "_id": "yYSd1OyTtM0P6xYG",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": "can move through the spaces of Medium or smaller creatures."
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": 8,
+              "bonus": "@abilities.str.mod",
+              "types": [
+                "piercing"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            },
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 3,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "fire"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "16"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "LWkIghqRZ7VM59yW",
+          "yYSd1OyTtM0P6xYG"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "recharge",
+          "formula": "5",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p class=\"feature\">The [[lookup @name lowercase]] moves up to its Speed without provoking &amp;Reference[OpportunityAttacks] and [[lookup @range.special activity=DnNDb8TtIrFe33aF]]</p><p class=\"feature\">Each time the [[lookup @name lowercase]] enters a creature’s space for the first time during this move, that target is subjected to the following effect.</p><p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=DnNDb8TtIrFe33aF]]. <em>Failure:</em> [[/damage average]] damage, and the target is pulled into the [[lookup @name lowercase]]’s space and has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]); if the [[lookup @name lowercase]] already has a creature Grappled, the target has the &amp;Reference[Prone apply=false] condition instead.</p><p class=\"feature\">Until the grapple ends, the target has the &amp;Reference[Restrained apply=false] condition. When the [[lookup @name lowercase]] moves, the Grappled target moves with it, costing no extra movement.</p>",
+      "chat": ""
+    },
+    "identifier": "smelting-charge",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/earth/explosion-lava-orange.webp",
+  "effects": [
+    {
+      "name": "Grappled & Restrained",
+      "img": "systems/dnd5e/icons/svg/statuses/grappled.svg",
+      "origin": "Item.mmSmeltingCharge",
+      "_id": "LWkIghqRZ7VM59yW",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p><p>Until the grapple ends, the target has the &amp;Reference[Restrained apply=false] condition.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "grappled",
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": [],
+          "enableCondition": ""
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1736118167512,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmSmeltingCharge.LWkIghqRZ7VM59yW"
+    },
+    {
+      "name": "Prone & Restrained",
+      "img": "systems/dnd5e/icons/svg/statuses/prone.svg",
+      "origin": "Item.mmSmeltingCharge",
+      "_id": "yYSd1OyTtM0P6xYG",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>If the target is already Grappled, the target has the &amp;Reference[Prone apply=false] condition instead.</p><p>Until the grapple ends, the target has the &amp;Reference[Restrained apply=false] condition.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "prone",
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": [],
+          "enableCondition": ""
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1736118197177,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmSmeltingCharge.yYSd1OyTtM0P6xYG"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1736118141616,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 21800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmSmeltingCharge"
+}

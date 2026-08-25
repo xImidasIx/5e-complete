@@ -1,0 +1,125 @@
+{
+  "_id": "phbbrdDance00000",
+  "name": "College of Dance",
+  "type": "subclass",
+  "folder": "taXfKVJXVI5Z807d",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/dance.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Move in Harmony with the Cosmos</p></blockquote><p>Bards of the College of Dance know that the Words of Creation can't be contained within speech or song; the words are uttered by the movements of celestial bodies and flow through the motions of the smallest creatures. These Bards practice a way of being in harmony with the whirling cosmos that emphasizes agility, speed, and grace.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "dance",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "Wzklwew8uiOOCBKS",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbbrdInspiringM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbbrdTandemFoot",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "EHNSlqKQIFyXR7p6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbbrdLeadingEva",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "kR7KHtYF0aXV947i",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbbrdDazzlingFo",
+              "optional": false
+            },
+            {
+              "uuid": "Item.phbbrdUnarmedStr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "sd7v9tQZdXYCDlqT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbbrdUnarmedStr"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Dazzling Footwork",
+        "hint": "This Unarmed Strike item uses Dexterity or Strength (whichever is higher) and uses your Bardic Inspiration die for damage rather than the normal damage."
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.2",
+    "createdTime": 1724425961179,
+    "modifiedTime": 1727465154870,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrdDance00000"
+}

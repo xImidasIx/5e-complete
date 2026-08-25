@@ -1,0 +1,329 @@
+{
+  "_id": "dmgBlackrazor000",
+  "name": "Blackrazor",
+  "type": "weapon",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/blackrazor.webp",
+  "system": {
+    "activities": {
+      "HeJ8f9DdcZZxPitI": {
+        "_id": "HeJ8f9DdcZZxPitI",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em>Devour Soul</em> on kill"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "any",
+            "special": "self damage if Undead"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "tbt8KtzxLOPvLnaD": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "3",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material",
+            "concentration"
+          ],
+          "spellbook": true
+        },
+        "_id": "tbt8KtzxLOPvLnaD",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": true,
+          "condition": "Blackrazor decides when to cast the spell, which takes effect at the start of your turn."
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": true,
+          "value": "1"
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{Greatsword}), Artifact (Requires Attunement)</em></p><blockquote><p>Hidden in the dungeon of White Plume Mountain, <em>Blackrazor</em> shines like a piece of night sky filled with stars. Its black scabbard is decorated with pieces of cut obsidian.</p></blockquote><p>You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. If you hit an Undead with this weapon, you take [[/damage 1d10 type=necrotic]] damage, and the target regains [[/healing 1d10 type=healing]]{1d10} Hit Points. If this Necrotic damage reduces you to 0 Hit Points, <em>Blackrazor</em> devours your soul (see “Devour Soul” below).</p><p>While you hold this weapon, you have Immunity to the Charmed and Frightened conditions, and you have Blindsight with a range of 30 feet.</p><details><summary><strong>Devour Soul.</strong></summary><p>Whenever you use <em>Blackrazor</em> to reduce a creature to 0 Hit Points, the sword slays the creature and devours its soul unless it is a Construct or an Undead. A creature whose soul has been devoured by <em>Blackrazor</em> can be restored to life only by a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}</em> spell.</p><p>When <em>Blackrazor</em> devours a soul that isn’t yours, you gain Temporary Hit Points equal to the slain creature’s Hit Point maximum.</p></details><details><summary><strong>Haste.</strong></summary><p><em>Blackrazor</em> can cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{Haste}</em> on you, after which it can’t cast this spell again until the next dawn. <em>Blackrazor</em> decides when to cast the spell, which takes effect at the start of your turn. The spell lasts for 1 minute (no Concentration required) or until <em>Blackrazor</em> decides to end it, which it can do at the end of any of your turns.</p></details><details><summary><strong>Sentience.</strong></summary><p><em>Blackrazor</em> is a sentient Chaotic Neutral weapon with an [[/r 1d20 + 3#Intelligence]]{Intelligence of 17}, a [[/roll 1d20 + 0#Wisdom]]{Wisdom of 10}, and a [[/roll 1d20 + 4#Charisma]]{Charisma of 19}. It has hearing and Darkvision out to 120 feet.</p><p>The weapon speaks Common and can communicate with its wielder telepathically. Its voice is deep and echoing. While you are attuned to it, <em>Blackrazor</em> also understands every language you know.</p></details><details><summary><strong>Personality.</strong></summary><p><em>Blackrazor</em> speaks with an imperious tone, as though accustomed to being obeyed.</p><p>The sword’s purpose is to consume souls. It doesn’t care whose souls it eats, including the wielder’s. The sword believes that all matter and energy sprang from a void of negative energy and will one day return to it. <em>Blackrazor</em> is meant to hurry that process along.</p><p>Despite its nihilism, <em>Blackrazor</em> feels a strange kinship to <em>Wave</em> and <em>Whelm</em>, two other weapons locked away under White Plume Mountain. It wants the three weapons to be reunited and wielded together in combat, even though it violently disagrees with <em>Whelm</em> and finds <em>Wave</em> tedious.</p><p><em>Blackrazor</em>’s hunger for souls must be regularly fed. If the sword goes 3 days or more without consuming a soul, a conflict between it and its wielder occurs at the next sunset.</p></details><details><summary><strong>Destroying Blackrazor.</strong></summary><p><em>Blackrazor</em> can be destroyed by crushing it in the great gears of Mechanus. Primus, the creator of the modrons, also knows a series of musical tones that <em>Blackrazor</em> can’t stand to hear, causing the sword to shatter.</p></details>",
+      "chat": ""
+    },
+    "identifier": "blackrazor",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "greatsword"
+    },
+    "ammunition": {},
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 6,
+        "types": [
+          "slashing"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": 3,
+    "properties": [
+      "hvy",
+      "mgc",
+      "two"
+    ],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": ""
+    },
+    "mastery": "graze"
+  },
+  "effects": [
+    {
+      "name": "Condition Immunity and Blindsight",
+      "img": "icons/magic/unholy/hand-weapon-glow-black-green.webp",
+      "_id": "8IUU2pHPXYll3MUC",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "charmed",
+          "priority": null
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "frightened",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.senses.blindsight",
+          "mode": 4,
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<div><p>While you hold this weapon, you have Immunity to the Charmed and Frightened conditions, and you have Blindsight with a range of 30 feet.</p></div>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.4",
+        "createdTime": 1728597365421,
+        "modifiedTime": 1730831871123,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgBlackrazor000.8IUU2pHPXYll3MUC"
+    }
+  ],
+  "folder": "kie870i5kr7yuxO8",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1731015485356,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 7000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgBlackrazor000"
+}

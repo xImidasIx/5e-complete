@@ -1,0 +1,209 @@
+{
+  "_id": "mmNegativeEnergy",
+  "name": "Negative Energy Cone",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "TLqcxF6OYH0LweRo": {
+        "type": "utility",
+        "_id": "TLqcxF6OYH0LweRo",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "cone",
+            "size": "150",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Expend Use",
+        "img": "systems/dnd5e/icons/svg/monster.svg"
+      },
+      "wctTMS9GIxCeMaD2": {
+        "type": "summon",
+        "_id": "wctTMS9GIxCeMaD2",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "1",
+            "name": "Zombie",
+            "_id": "WjQQG0nlMnyEosHN",
+            "uuid": "Compendium.dnd-monster-manual.actors.Actor.mmZombie00000000",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": false,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": "Create Zombie",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\">The [[lookup @name lowercase]]’s central eye emits an imperceptible, magical wave of negative energy in a [[lookup @target.template.size activity=TLqcxF6OYH0LweRo]]-[[lookup @target.template.units activity=TLqcxF6OYH0LweRo]]. [[lookup @target.template.type capitalize activity=TLqcxF6OYH0LweRo]]. [[lookup @target.affects.type capitalize activity=TLqcxF6OYH0LweRo]]s in that area can’t regain Hit Points until the start of the [[lookup @name lowercase]]’s next turn. An intact Humanoid corpse there instantly rises as a <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmZombie00000000]{Zombie}</strong> under the [[lookup @name lowercase]]’s control and takes its turn immediately after the [[lookup @name lowercase]] on the same initiative count.</p>",
+      "chat": ""
+    },
+    "identifier": "negative-energy-cone",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1736073222624,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 15800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmNegativeEnergy"
+}

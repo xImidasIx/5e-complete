@@ -1,0 +1,953 @@
+{
+  "_id": "dmgMoonblade0000",
+  "name": "Moonblade",
+  "type": "weapon",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/moonblade-longsword.webp",
+  "system": {
+    "activities": {
+      "D44R55Bkg0AGMTup": {
+        "type": "enchant",
+        "name": "Moonblade",
+        "_id": "D44R55Bkg0AGMTup",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "gNxjo1MzARh7eKog",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "o2IcKz2aAooQr7EK",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "vwQstbhAl6CdxUeN",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "2lApMhxs1SMQFEqE",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "Qzkx9WVqILq2hG5c",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "TSIOqA3Euorgk8xg"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "VC3o2KY4btBnaIAc",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "rzsbnjT5QiK2Jq8E",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5A5noXCG97iXDWMI"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "vZ0T3fFRBE3NHG6o",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "CdCmkyRrAAGCrJEh"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "gNxjo1MzARh7eKog",
+          "o2IcKz2aAooQr7EK",
+          "vwQstbhAl6CdxUeN",
+          "2lApMhxs1SMQFEqE",
+          "Qzkx9WVqILq2hG5c",
+          "VC3o2KY4btBnaIAc",
+          "rzsbnjT5QiK2Jq8E",
+          "vZ0T3fFRBE3NHG6o"
+        ]
+      },
+      "TSIOqA3Euorgk8xg": {
+        "type": "summon",
+        "name": "Conjure Spectral Entity",
+        "_id": "TSIOqA3Euorgk8xg",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false,
+          "special": " It remains until it drops to 0 Hit Points or you dismiss it as a Magic action."
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [
+          "fey"
+        ],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "qnhNBUiqGnYXH3ZI",
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.QGcQYZbVl4bWzi4E",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "5A5noXCG97iXDWMI": {
+        "type": "save",
+        "name": "Blinding Flash",
+        "_id": "5A5noXCG97iXDWMI",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "4q1t2L6XuHr4yTb9",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": true,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "30",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            },
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": "con",
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "img": "",
+        "appliedEffects": [
+          "4q1t2L6XuHr4yTb9"
+        ]
+      },
+      "CdCmkyRrAAGCrJEh": {
+        "type": "cast",
+        "name": "Cast Stored Spell",
+        "_id": "CdCmkyRrAAGCrJEh",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Weapon (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLongsword0]{Longsword}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepScimitar00]{Scimitar}, or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortsword]{Shortsword}), Legendary (Requires Attunement by a Creature of the Weapon’s Choice)</em></p><blockquote><p>Of all the magic items created by elves, one of the most prized and jealously guarded is a <em>Moonblade</em> . In ancient times, nearly all elven noble houses claimed one such weapon. Over the centuries, some of these weapons have faded from the world, their magic lost as family lines have become extinct. Others have vanished with their bearers during great quests. Thus, only a few of these weapons remain.</p></blockquote><p>Every <em>Moonblade</em> longs for a bearer whose disposition and goals are compatible with its own. If you try to attune to a <em>Moonblade</em> that doesn’t want you as its bearer, the weapon not only rejects you but also places a curse on you, causing you to make D20 Tests with Disadvantage for 24 hours or until the curse is ended by a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Remove Curse}</em> spell or similar magic. If you’re accepted by the weapon and try to attune to it, you become attuned to it instantly, and a new rune appears on it. You remain attuned to the weapon until you die or the weapon is destroyed. A <em>Moonblade</em> functions like a nonmagical weapon of its kind for anyone other than its chosen bearer.</p><p>A <em>Moonblade</em> has one rune on it for each bearer it has willingly served (typically [[/r 1d6 + 1]]). The @UUID[.ActiveEffect.o2IcKz2aAooQr7EK]{first rune} grants a +1 bonus to attack rolls and damage rolls made with this magic weapon. Each rune beyond the first grants the <em>Moonblade</em> an additional property. The DM chooses each property or determines it randomly by rolling on the Moonblade Properties table.</p><details><summary><strong>Minor Property.</strong></summary><p>In addition to its aforementioned properties, each <em>Moonblade</em> has a minor property determined by rolling on the Magic Item’s @UUID[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMagicItemsMin]{Minor Property} table.</p></details><details><summary><strong>Sentience.</strong></summary><p>A <em>Moonblade</em> is a sentient weapon with an Intelligence of 12, a Wisdom of 10, and a Charisma of 12. It has hearing and Darkvision out to 120 feet. Its alignment matches that of its creator.</p><p>The weapon communicates by transmitting emotions, sending a tingling sensation through the wielder’s hand when it wants to communicate something it has sensed. It can communicate through visions or dreams when the wielder is either in a trance or asleep.</p></details><details><summary><strong>Personality.</strong></summary><p>A <em>Moonblade</em> has a personality similar to that of its creator. Once a <em>Moonblade</em> has decided on an owner, it believes that only that person should wield it, even if the bearer’s alignment differs from that of the weapon’s or the bearer’s goals later clash with the weapon’s goals.</p></details><details><summary><strong>Moonblade Properties.</strong></summary><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgMoonbladeProp rollable caption=false]</p></details><p> @Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "moonblade",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": ""
+    },
+    "mastery": ""
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "Moonblade",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "_id": "gNxjo1MzARh7eKog",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Moonblade ({})",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMoonblade0000 caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1729725508103,
+        "modifiedTime": 1730742004027,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgMoonblade0000.gNxjo1MzARh7eKog"
+    },
+    {
+      "type": "enchantment",
+      "name": "Rune: +1 Bonus",
+      "img": "icons/magic/symbols/rune-sigil-green.webp",
+      "disabled": true,
+      "_id": "o2IcKz2aAooQr7EK",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.magicalBonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Increase the weapon’s bonus to attack rolls and damage rolls by 1, to a maximum of +3. Reroll if the <em>Moonblade</em> already has a +3 bonus.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1729725565073,
+        "modifiedTime": 1730743213620,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgMoonblade0000.o2IcKz2aAooQr7EK"
+    },
+    {
+      "type": "enchantment",
+      "name": "Rune: Force Damage",
+      "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+      "disabled": true,
+      "_id": "vwQstbhAl6CdxUeN",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"1d6\",\"force\"]]",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>When you hit with an attack roll using the <em>Moonblade</em>, you deal an extra 1d6 Force damage. Each time the weapon gains this property after the first, the extra damage increases by 1d6, to a maximum of 3d6. Reroll if the <em>Moonblade</em> already deals an extra 3d6 Force damage on a hit.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1729725716261,
+        "modifiedTime": 1730743232918,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgMoonblade0000.vwQstbhAl6CdxUeN"
+    },
+    {
+      "type": "enchantment",
+      "name": "Rune: Thrown (20/60)",
+      "img": "icons/magic/symbols/rune-sigil-rough-white-teal.webp",
+      "disabled": true,
+      "_id": "2lApMhxs1SMQFEqE",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "thr",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "ret",
+          "priority": null
+        },
+        {
+          "key": "system.range.value",
+          "mode": 2,
+          "value": "20",
+          "priority": null
+        },
+        {
+          "key": "system.range.long",
+          "mode": 2,
+          "value": "60",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The <em>Moonblade</em> gains the Thrown property with a normal range of 20 feet and a long range of 60 feet. Each time you throw the weapon, it flies back to your hand after the attack.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1729725785733,
+        "modifiedTime": 1730743296074,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgMoonblade0000.2lApMhxs1SMQFEqE"
+    },
+    {
+      "type": "enchantment",
+      "name": "Rune: Conjure Entity",
+      "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
+      "disabled": true,
+      "_id": "Qzkx9WVqILq2hG5c",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1729726349913,
+        "modifiedTime": 1730743260648,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgMoonblade0000.Qzkx9WVqILq2hG5c"
+    },
+    {
+      "type": "enchantment",
+      "name": "Rune: Critical Range",
+      "img": "icons/magic/symbols/rune-sigil-hook-white-red.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "activities[attack].attack.critical.threshold",
+          "mode": 3,
+          "value": "19",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The <em>Moonblade</em> scores a &amp;Reference[CriticalHits]{Critical Hit} on a roll of 19 or 20 on the d20.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730738857975,
+        "modifiedTime": 1730743277902,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "VC3o2KY4btBnaIAc",
+      "_key": "!items.effects!dmgMoonblade0000.VC3o2KY4btBnaIAc"
+    },
+    {
+      "name": "Blinded",
+      "img": "systems/dnd5e/icons/svg/statuses/blinded.svg",
+      "origin": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgMoonblade0000",
+      "transfer": false,
+      "_id": "4q1t2L6XuHr4yTb9",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>A creature repeats the [[/save ability=con dc=15]]{save} at the end of each of its turns, ending the effect on itself on a success. </p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730740086720,
+        "modifiedTime": 1730740194938,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgMoonblade0000.4q1t2L6XuHr4yTb9"
+    },
+    {
+      "type": "enchantment",
+      "name": "Rune: Blinding Flash",
+      "img": "icons/magic/symbols/rune-sigil-red-orange.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>You can take a Bonus Action to cause the <em>Moonblade</em> to flash brightly. Each other creature that is within 30 feet of you and not behind Total Cover must succeed on a DC 15 Constitution saving throw or have the Blinded condition for 1 minute. A creature repeats the save at the end of each of its turns, ending the effect on itself on a success. You can’t use this property again until you finish a Short or Long Rest.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730740545482,
+        "modifiedTime": 1730743240476,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "rzsbnjT5QiK2Jq8E",
+      "_key": "!items.effects!dmgMoonblade0000.rzsbnjT5QiK2Jq8E"
+    },
+    {
+      "type": "enchantment",
+      "name": "Rune: Spell Storing",
+      "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "system.magicalBonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The <em>Moonblade</em> has the properties of a <em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfSpellSt]{Ring of Spell Storing}</em>.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730741371872,
+        "modifiedTime": 1730743285701,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "vZ0T3fFRBE3NHG6o",
+      "_key": "!items.effects!dmgMoonblade0000.vZ0T3fFRBE3NHG6o"
+    }
+  ],
+  "folder": "kie870i5kr7yuxO8",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "TSIOqA3Euorgk8xg",
+          "5A5noXCG97iXDWMI",
+          "CdCmkyRrAAGCrJEh"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1731356689984,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 9100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgMoonblade0000"
+}

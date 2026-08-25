@@ -1,0 +1,128 @@
+{
+  "_id": "phbdrdLunarForm0",
+  "name": "Lunar Form",
+  "type": "feat",
+  "folder": "Kif3DrTmPnMK5Nct",
+  "img": "icons/creatures/abilities/wolf-howl-moon-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>The power of the moon suffuses you, granting you the following benefits.</p><p><strong>Improved Lunar Radiance.</strong> Once per turn, you can deal an extra 2d10 Radiant damage to a target you hit with a Wild Shape form's attack.</p><p><strong>Shared Moonlight.</strong> Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space.</p><section class=\"secret\" id=\"secret-6Sw7VQQgJ2Ghklrl\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for dealing the Radiant damage.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 14
+    },
+    "properties": [],
+    "requirements": "Circle of Moon",
+    "activities": {
+      "1MWIOnDOZdrrCRw5": {
+        "type": "damage",
+        "_id": "1MWIOnDOZdrrCRw5",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "Once per turn when you hit a target with a Wild Shape form's attack"
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": "10",
+              "bonus": "",
+              "types": [
+                "radiant"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "lunar-form"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425969051,
+    "modifiedTime": 1726075575339,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbdrdLunarForm0"
+}

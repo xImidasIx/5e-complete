@@ -1,0 +1,104 @@
+{
+  "_id": "phbpdnProtection",
+  "name": "Aura of Protection",
+  "type": "feat",
+  "folder": "6uMLnndK8UPkb7Uy",
+  "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the &amp;Reference[Incapacitated apply=false] condition.</p><p>You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1, currently [[lookup @abilities.cha.mod]]).</p><p>If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.</p><section class=\"secret\" id=\"secret-PEdASVYFq26DP4Fq\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically improves your Saving Throws but it should not be used for other impacted characters because it will add their Charisma modifier and not the Paladin's. They should add your modifier manually.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "aura-of-protection"
+  },
+  "effects": [
+    {
+      "name": "Protected",
+      "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+      "_id": "WOJ5r71FCDRmElea",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "@abilities.cha.mod",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724860114228,
+        "modifiedTime": 1726513496395,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbpdnProtection.WOJ5r71FCDRmElea"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.2",
+    "createdTime": 1724425980994,
+    "modifiedTime": 1735250717503,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbpdnProtection"
+}

@@ -1,0 +1,253 @@
+{
+  "_id": "phbbrbRageOfTheG",
+  "name": "Rage of the Gods",
+  "type": "feat",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you activate your Rage, you can assume the form of a divine warrior. This form lasts for 1 minute or until you drop to 0 Hit Points. Once you use this feature, you can't do so again until you finish a Long Rest.</p><p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level (currently [[lookup @classes.barbarian.levels]]).</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>Foundry Note</strong></p><p>The <strong>Rage of the Gods</strong> activity includes an Active Effect for automatically adding the resistances and hover but does not provide the fly speed.</p><p>The <strong>Revivification</strong> activity includes a healing roll of your Barbarian level.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 14
+    },
+    "properties": [],
+    "requirements": "Path of the Zealot",
+    "activities": {
+      "zZfN3UbRTXkF6rYq": {
+        "type": "utility",
+        "name": "Revivification",
+        "_id": "zZfN3UbRTXkF6rYq",
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "When a creature within 30 feet of you would drop to 0 Hit Points"
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbbrbRage000000"
+            }
+          ],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "Barbarian Level",
+          "formula": "@classes.barbarian.levels"
+        },
+        "img": "systems/dnd5e/icons/svg/damage/healing.svg",
+        "appliedEffects": []
+      },
+      "L33U6oEzv0vPpPHj": {
+        "type": "utility",
+        "name": "Rage of the Gods",
+        "_id": "L33U6oEzv0vPpPHj",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you activate your Rage"
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "jxe9kRBshrrb5tii"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": -100000,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/damage/bludgeoning.svg",
+        "appliedEffects": [
+          "jxe9kRBshrrb5tii"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "rage-of-the-gods"
+  },
+  "effects": [
+    {
+      "name": "Rage of the Gods",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbbrbRageOfTheG",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "flags": {
+        "dnd5e": {}
+      },
+      "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+      "_id": "jxe9kRBshrrb5tii",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "psychic",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "radiant",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.hover",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "description": "<p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1726858436338,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbbrbRageOfTheG.jxe9kRBshrrb5tii"
+    }
+  ],
+  "folder": "bvUC4yRvQ3BWUaG9",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1724425958716,
+    "modifiedTime": 1726844447122,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrbRageOfTheG"
+}

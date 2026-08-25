@@ -1,0 +1,211 @@
+{
+  "_id": "dmgPerfumeOfBewi",
+  "name": "Perfume of Bewitching",
+  "type": "consumable",
+  "folder": "guHYjt0gjPLU2wCs",
+  "img": "icons/consumables/potions/bottle-metal-yellow-gray.webp",
+  "system": {
+    "activities": {
+      "IdE6PO7aquMG6Oqc": {
+        "type": "utility",
+        "name": "Apply Perfume",
+        "_id": "IdE6PO7aquMG6Oqc",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1",
+      "autoDestroy": true
+    },
+    "description": {
+      "value": "<p><em>Wondrous Item, Common</em></p><p>This tiny vial contains magic perfume, enough for one use. You can take a Magic action to apply the perfume to yourself, and its effect lasts 1 hour. For the duration, you have Advantage on all Charisma (Deception and Persuasion) checks made to influence a creature within 5 feet of yourself.</p><section class=\"secret\" id=\"secret-csXfXvBZjs3cCGRi\"><p><strong>Foundry Note</strong></p><p>The <strong>Bewitching Scent</strong> Active Effect provides Advantage on the listed skill checks and should be disabled if the conditions are not met.</p></section>",
+      "chat": ""
+    },
+    "identifier": "perfume-of-bewitching",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    }
+  },
+  "effects": [
+    {
+      "name": "Bewitching Scent",
+      "img": "icons/consumables/potions/bottle-metal-yellow-gray.webp",
+      "_id": "EeWnLYkzW4vq9LiH",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.per.roll.mode",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.dec.roll.mode",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>For the duration, you have Advantage on all Charisma (Deception and Persuasion) checks made to influence a creature within 5 feet of yourself.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.3",
+        "createdTime": 1730735695475,
+        "modifiedTime": 1757101378430,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgPerfumeOfBewi.EeWnLYkzW4vq9LiH"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.3",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1757101532132,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgPerfumeOfBewi"
+}

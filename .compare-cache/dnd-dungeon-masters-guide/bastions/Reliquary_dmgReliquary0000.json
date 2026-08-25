@@ -1,0 +1,75 @@
+{
+  "_id": "dmgReliquary0000",
+  "name": "Reliquary",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-01.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 13 Bastion Facility</em></p><p><strong>Prerequisite: </strong>Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus</p><p><strong>Space: </strong>Cramped</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Harvest</p><p>This vault holds sacred objects.</p><p><em><strong>Reliquary Charm.</strong></em> After spending a Long Rest in your Bastion, you gain a magical Charm (@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.U9qU1oUFTPAK7g50]{Supernatural Gifts}) that lasts for 7 days or until you use it. The Charm allows you to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration} once without expending a spell slot or using Material components. You can’t gain this Charm again while you still have it.</p><p><em><strong>Harvest: Talisman.</strong></em> When you issue the Harvest order to this facility, you commission its hireling to produce a specially prepared talisman for your use. The talisman usually takes the form of an amulet, a rune-carved box, or a statuette, but it can be any Tiny, nonmagical object that has religious significance. The work takes 7 days and costs no money. You can use this talisman in place of one spell’s Material components, provided the components have a cost of 1,000 GP or less. If the spell normally consumes its components, the talisman isn’t consumed. After the talisman has been used in this way, it can’t be used again until you return it to your Reliquary and use another Harvest order to prepare it.</p>",
+      "chat": ""
+    },
+    "identifier": "reliquary",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 13,
+    "order": "harvest",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "cramped",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "reliquary"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgReliquary0000"
+}

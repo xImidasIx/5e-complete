@@ -1,0 +1,88 @@
+{
+  "name": "Crafter",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Tool Proficiency.</strong> You gain proficiency with three different Artisan’s Tools of your choice from the Fast Crafting table.</p><p><strong>Discount.</strong> Whenever you buy a nonmagical item, you receive a 20 percent discount on it.</p><p><strong>Fast Crafting.</strong> When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan’s Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.</p><table><caption>Fast Crafting</caption><thead><tr><td>Artisan’s Tools</td><td>Crafted Gear</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCarpenters]{Carpenter’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Ladder}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torch}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulLeatherwor]{Leatherworker’s Tools}</td><td>Case, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulMasonsTool]{Mason’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Block and Tackle}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPottersToo]{Potter’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jug}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulSmithsTool]{Smith’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo]{Tinker’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWeaversToo]{Weaver’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Basket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Net}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tent}</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWoodcarver]{Woodcarver’s Tools}</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "crafter",
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "8pm3HRuP68mTqdYt",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "tool:art:carpenter",
+                "tool:art:leatherworker",
+                "tool:art:mason",
+                "tool:art:potter",
+                "tool:art:smith",
+                "tool:art:tinker",
+                "tool:art:weaver",
+                "tool:art:woodcarver"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Tool Proficiency",
+        "hint": "You gain proficiency with three different Artisan’s Tools of your choice from the Fast Crafting table.",
+        "value": {}
+      }
+    ]
+  },
+  "_id": "phbftCrafter0000",
+  "type": "feat",
+  "img": "icons/tools/hand/hammer-and-nail.webp",
+  "effects": [],
+  "folder": "d5jrO8A6QpjEV9rn",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425893930,
+    "modifiedTime": 1760134769078,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftCrafter0000"
+}

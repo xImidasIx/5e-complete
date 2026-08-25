@@ -1,0 +1,83 @@
+{
+  "_id": "dmgBarrack000000",
+  "name": "Barrack",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-04.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 5 Bastion Facility</em></p><p><strong>Prerequisite:</strong> None</p><p><strong>Space:</strong> Roomy</p><p><strong>Hirelings:</strong> 1</p><p><strong>Order:</strong> Recruit</p><p>A Bastion can have more than one Barrack, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.</p><p><em><strong>Recruit: Bastion Defenders.</strong></em> Each time you issue the Recruit order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can’t issue the Recruit order to this facility if it’s fully occupied.</p><p>Keep track of the Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit.</p><p><em><strong>Enlarging the Facility.</strong></em> You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders.</p>",
+      "chat": ""
+    },
+    "identifier": "barrack",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "defenders": {
+      "value": [],
+      "max": 12
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 5,
+    "order": "recruit",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "barrack"
+    },
+    "craft": null,
+    "enlargeable": true
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731337338483,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgBarrack000000"
+}

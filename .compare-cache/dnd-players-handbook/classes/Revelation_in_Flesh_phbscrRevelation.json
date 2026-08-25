@@ -1,0 +1,295 @@
+{
+  "_id": "phbscrRevelation",
+  "name": "Revelation in Flesh",
+  "type": "feat",
+  "folder": "Cx7Cr4uePGLHWRu8",
+  "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can unleash the aberrant truth hidden within yourself. As a Bonus Action, you can spend 1 Sorcery Point or more to magically alter your body for 10 minutes. For each Sorcery Point you spend, you gain one of the following benefits of your choice, the effects of which last until the alteration ends.</p><p><strong>Aquatic Adaptation.</strong> You gain a Swim Speed equal to twice your Speed, and you can breathe underwater. Gills grow from your neck or flare behind your ears, and your fingers become webbed or you grow wriggling cilia.</p><p><strong>Glistening Flight.</strong> You gain a Fly Speed equal to your Speed, and you can hover. As you fly, your skin glistens with mucus or otherworldly light.</p><p><strong>See the Invisible.</strong> You can see any Invisible creature within 60 feet of yourself that isn’t behind Total Cover. Your eyes also turn black or become writhing sensory tendrils.</p><p><strong>Wormlike Movement.</strong> Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to escape from nonmagical restraints or the Grappled condition.</p><section id=\"secret-jX8dvHDf5youPS4j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Sorcery Points</strong> activity will let you select the number of Sorcery Points you would like to expend. It includes an Active Effect for each option which can be used for tracking but does not automate their changes.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 14
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "2LYvAYulPEP3AGVQ": {
+        "type": "utility",
+        "name": "Expend Sorcery Points",
+        "_id": "2LYvAYulPEP3AGVQ",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "4"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "DVEAR7RcAwlgZ8xj"
+          },
+          {
+            "_id": "CxuVthyUWdT2ARMn"
+          },
+          {
+            "_id": "INl6ci60PWFubnJW"
+          },
+          {
+            "_id": "dg10uvC1ddOgTVdE"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "DVEAR7RcAwlgZ8xj",
+          "CxuVthyUWdT2ARMn",
+          "INl6ci60PWFubnJW",
+          "dg10uvC1ddOgTVdE"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "revelation-in-flesh"
+  },
+  "effects": [
+    {
+      "name": "Aquatic Adaptation",
+      "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbscrRevelation",
+      "transfer": true,
+      "_id": "DVEAR7RcAwlgZ8xj",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725226117927,
+        "modifiedTime": 1726860222867,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbscrRevelation.DVEAR7RcAwlgZ8xj"
+    },
+    {
+      "name": "Glistening Flight",
+      "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbscrRevelation",
+      "transfer": true,
+      "_id": "CxuVthyUWdT2ARMn",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725226151230,
+        "modifiedTime": 1726860226489,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbscrRevelation.CxuVthyUWdT2ARMn"
+    },
+    {
+      "name": "See the Invisible",
+      "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbscrRevelation",
+      "transfer": true,
+      "_id": "INl6ci60PWFubnJW",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725226177722,
+        "modifiedTime": 1726860229078,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbscrRevelation.INl6ci60PWFubnJW"
+    },
+    {
+      "name": "Wormlike Movement",
+      "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbscrRevelation",
+      "transfer": true,
+      "_id": "dg10uvC1ddOgTVdE",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725226198247,
+        "modifiedTime": 1726860231398,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbscrRevelation.dg10uvC1ddOgTVdE"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425983924,
+    "modifiedTime": 1726075585232,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbscrRevelation"
+}

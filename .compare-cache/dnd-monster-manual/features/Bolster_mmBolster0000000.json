@@ -1,0 +1,172 @@
+{
+  "_id": "mmBolster0000000",
+  "name": "Bolster",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "v5km8Vio4N6HgkF6": {
+        "type": "heal",
+        "_id": "v5km8Vio4N6HgkF6",
+        "sort": 0,
+        "activation": {
+          "type": "legendary",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Bl4Nwy7U9F8KoUXh"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "ally"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": "10"
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "Bl4Nwy7U9F8KoUXh"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>The [[lookup @name lowercase]] gains [[lookup @healing.formula activity=v5km8Vio4N6HgkF6]] Temporary Hit Points, and the [[lookup @name lowercase]] and each ally within [[lookup @range.value activity=v5km8Vio4N6HgkF6]] feet of it gain Advantage on D20 Tests until the end of the [[lookup @name lowercase]]'s next turn. The [[lookup @name lowercase]] can’t take this action again until the start of its next turn.</p>",
+      "chat": ""
+    },
+    "identifier": "bolster",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "effects": [
+    {
+      "name": "Bolstered: Test Advantage",
+      "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmBolster0000000",
+      "transfer": false,
+      "_id": "Bl4Nwy7U9F8KoUXh",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target gains Advantage on D20 Tests until the end of the user's next turn.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735309382733,
+        "modifiedTime": 1735310976683,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmBolster0000000.Bl4Nwy7U9F8KoUXh"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1735310843569,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmBolster0000000"
+}

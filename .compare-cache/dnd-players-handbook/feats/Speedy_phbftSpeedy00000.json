@@ -1,0 +1,133 @@
+{
+  "name": "Speedy",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Dexterity or Constitution score by 1, to a maximum of 20.</p><p><strong>Speed Increase.</strong> Your &amp;Reference[Speed] increases by 10 feet.</p><p><strong>Dash over Difficult Terrain.</strong> When you take the Dash action on your turn, Difficult Terrain doesn’t cost you extra movement for the rest of that turn.</p><p><strong>Agile Movement.</strong> Opportunity Attacks have Disadvantage against you.</p><section class=\"secret\" id=\"secret-mmDZHieZYuvYT5LG\"><p><strong>Foundry Note</strong></p><p>This feature automatically increases your walk movement Speed by 10 feet. If you have other movement types you will need to update them manually.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "Dexterity or Constitution 13+",
+    "activities": {},
+    "enchant": {},
+    "identifier": "speedy",
+    "advancement": [
+      {
+        "_id": "c56S76wfE0zX1kDI",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbftSpeedy00000",
+  "type": "feat",
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "effects": [
+    {
+      "name": "Speedy",
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "_id": "WYPFLhnW9s8fCt1r",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725560759625,
+        "modifiedTime": 1725560784370,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbftSpeedy00000.WYPFLhnW9s8fCt1r"
+    }
+  ],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425895243,
+    "modifiedTime": 1740697731599,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftSpeedy00000"
+}

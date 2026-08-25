@@ -1,0 +1,125 @@
+{
+  "_id": "mmWarpStep000000",
+  "name": "Warp Step",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "xKCUfhoRUHj6f8TE": {
+        "type": "utility",
+        "_id": "xKCUfhoRUHj6f8TE",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "to an unoccupied space it can see",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "",
+            "size": "",
+            "width": "",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "willing",
+            "count": "1",
+            "special": "within 5 feet"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Expend Use",
+        "img": "systems/dnd5e/icons/svg/monster.svg",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>The [[lookup @name lowercase]] teleports, along with [[lookup @target.affects.labels.statblock activity=xKCUfhoRUHj6f8TE]] of its choice within [[lookup @target.affects.special activity=xKCUfhoRUHj6f8TE]] of it, up to [[lookup @range.value activity=xKCUfhoRUHj6f8TE]] feet [[lookup @range.special activity=xKCUfhoRUHj6f8TE]].</p>",
+      "chat": ""
+    },
+    "identifier": "warp-step",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737736696700,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 23700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmWarpStep000000"
+}

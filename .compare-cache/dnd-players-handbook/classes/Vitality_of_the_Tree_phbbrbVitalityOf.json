@@ -1,0 +1,197 @@
+{
+  "_id": "phbbrbVitalityOf",
+  "name": "Vitality of the Tree",
+  "type": "feat",
+  "img": "icons/magic/nature/tree-twisted-glow-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your Rage taps into the life force of the World Tree. You gain the following benefits.</p><p><strong>Vitality Surge.</strong> When you activate your Rage, you gain a number of Temporary Hit Points equal to your Barbarian level.</p><p><strong>Life-Giving Force.</strong> At the start of each of your turns while your Rage is active, you can choose another creature within 10 feet of yourself to gain Temporary Hit Points. To determine the number of Temporary Hit Points, roll a number of d6s equal to your Rage Damage bonus, and add them together. If any of these Temporary Hit Points remain when your Rage ends, they vanish.</p><section class=\"secret\" id=\"secret-6DP7OmiyG1ibcVqP\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for <strong>Vitality Surge</strong> and <strong>Life-Giving Force</strong> which can be used to roll the Temporary HP. It does not automatically remove Life-Giving Force's Temporary Hit Points when your Rage ends.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "Path of the World Tree",
+    "activities": {
+      "HA6qXLiCmMuEq6r1": {
+        "type": "heal",
+        "_id": "HA6qXLiCmMuEq6r1",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you activate your Rage"
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "@classes.barbarian.levels"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "name": "Vitality Surge",
+        "img": "",
+        "appliedEffects": []
+      },
+      "zJ9HccAHt4FgLBC1": {
+        "type": "heal",
+        "name": "Life-Giving Force",
+        "_id": "zJ9HccAHt4FgLBC1",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "Start of each of your turns while your Rage is active"
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "10"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "(@scale.barbarian.rage-damage)d6"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "vitality-of-the-tree"
+  },
+  "effects": [],
+  "folder": "Zd7YGO9cOq0vvRbw",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1724425959413,
+    "modifiedTime": 1726602428585,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrbVitalityOf"
+}

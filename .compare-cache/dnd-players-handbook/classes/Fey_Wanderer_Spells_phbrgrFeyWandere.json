@@ -1,0 +1,54 @@
+{
+  "_id": "phbrgrFeyWandere",
+  "name": "Fey Wanderer Spells",
+  "type": "feat",
+  "folder": "5jsJdDIwl7A0hLT6",
+  "img": "icons/magic/nature/leaf-rune-glow-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you reach a Ranger level specified in the Fey Wanderer Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Fey Wanderer Spells</caption><thead><tr><td>Ranger Level</td><td>Spell</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0]{Summon Fey}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{Dimension Door}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMislead000]{Mislead}</td></tr></tbody></table><p>You also possess a fey blessing. Choose it from the Feywild Gifts table or determine it randomly.</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbFeywildGifts0 rollable]</p><section class=\"secret\" id=\"secret-iOmJyauf3eYFUSIM\"><p><strong>Foundry Note</strong></p><p>The spells will be automatically granted as you level up.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "fey-wanderer-spells"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425982702,
+    "modifiedTime": 1726455340310,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgrFeyWandere"
+}

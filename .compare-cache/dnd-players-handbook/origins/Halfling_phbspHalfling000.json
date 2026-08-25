@@ -1,0 +1,105 @@
+{
+  "name": "Halfling",
+  "system": {
+    "description": {
+      "value": "<p>Cherished and guided by gods who value life, home, and hearth, halflings gravitate toward bucolic havens where family and community help shape their lives. That said, many halflings possess a brave and adventurous spirit that leads them on journeys of discovery, affording them the chance to explore a bigger world and make new friends along the way. Their size—similar to that of a human child—helps them pass through crowds unnoticed and slip through tight spaces.</p><p>Anyone who has spent time around halflings, particularly halfling adventurers, has likely witnessed the storied “luck of the halflings” in action. When a halfling is in mortal danger, an unseen force seems to intervene on the halfling’s behalf. Many halflings believe in the power of luck, and they attribute their unusual gift to one or more of their benevolent gods, including Yondalla, Brandobaris, and Charmalaine. The same gift might contribute to their robust life spans (about 150 years).</p><p>Halfling communities come in all varieties. For every sequestered shire tucked away in an unspoiled part of the world, there’s a crime syndicate like the Boromar Clan in the Eberron setting or a territorial mob of halflings like those in the Dark Sun setting.</p><p>Halflings who prefer to live underground are sometimes called strongheart halflings or stouts. Nomadic halflings, as well as those who live among humans and other tall folk, are sometimes called lightfoot halflings or tallfellows.</p><h3 data-anchor=\"halfling-traits\">Halfling Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size: </strong>Small (about 2–3 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As a Halfling, you have these special traits.</p><p><strong>Brave.</strong> You have Advantage on saving throws you make to avoid or end the Frightened condition.</p><p><strong>Halfling Nimbleness.</strong> You can move through the space of any creature that is a size larger than you, but you can’t stop in the same space.</p><p><strong>Luck.</strong> When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.</p><p><strong>Naturally Stealthy.</strong> You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "advancement": [
+      {
+        "_id": "GYp1vi82hSEoe3mO",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "Small (about 2-3 feet tall)",
+        "value": {}
+      },
+      {
+        "_id": "GFHErdA52SfUBvB5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.origins.Item.phbsptBrave00000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.origins.Item.phbsptHalflingNi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.origins.Item.phbsptLuck000000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.origins.Item.phbsptNaturallyS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Halfling Traits",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Halfling"
+    },
+    "identifier": "halfling"
+  },
+  "_id": "phbspHalfling000",
+  "type": "race",
+  "folder": "Ulvo8nbygUegLa59",
+  "img": "modules/dnd-players-handbook/assets/icons/species/halfling.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425890885,
+    "modifiedTime": 1760123772177,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbspHalfling000"
+}

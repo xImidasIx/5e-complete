@@ -1,0 +1,54 @@
+{
+  "_id": "phbclcLightSpell",
+  "name": "Light Domain Spells",
+  "type": "feat",
+  "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Light Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Light Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{Burning Hands}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Faerie Fire}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Scorching Ray}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{See Invisibility}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{Daylight}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane Eye}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofFire]{Wall of Fire}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameStrik]{Flame Strike}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying}</td></tr></tbody></table><section class=\"secret\" id=\"secret-gGmJsB1mwI4zNuDh\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "Light Domain",
+    "activities": {},
+    "enchant": {},
+    "identifier": "light-domain-spells"
+  },
+  "effects": [],
+  "folder": "PbMVDCVQ3cxfsaVY",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425965369,
+    "modifiedTime": 1726455978879,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbclcLightSpell"
+}

@@ -1,0 +1,302 @@
+{
+  "_id": "mmAnimalSpirit00",
+  "name": "Animal Spirit",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "cx21u9ZYjSdu2m3U": {
+        "type": "save",
+        "_id": "cx21u9ZYjSdu2m3U",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "ERS5n6nHszCnoySl",
+            "onSave": false
+          },
+          {
+            "_id": "EaYfvxJPLJ2Ko434",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "120"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": 10,
+              "bonus": "@mod",
+              "types": [
+                "radiant"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "ERS5n6nHszCnoySl",
+          "EaYfvxJPLJ2Ko434"
+        ]
+      },
+      "emHqEek8e9Mwyaj7": {
+        "type": "heal",
+        "_id": "emHqEek8e9Mwyaj7",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": "20"
+        },
+        "name": "Forager: Fortify",
+        "img": "icons/creatures/invertebrates/bee-simple-green.webp",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>The [[lookup @name lowercase]] conjures an animal spirit that strikes at a creature and then disappears. <em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=cx21u9ZYjSdu2m3U]], one creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=cx21u9ZYjSdu2m3U]] feet. <em>Failure:</em> [[/damage average]] damage. <em>Success:</em> Half damage. <em>Failure or Success:</em> One of the following effects occurs:</p><p class=\"feature-trait\"><strong>Fortify (Forager Only).</strong> The [[lookup @name lowercase]] gains [[lookup @healing.formula activity=emHqEek8e9Mwyaj7]] Temporary Hit Points.</p><p class=\"feature-trait\"><strong>Marked as Prey (Hunter Only).</strong> The [[lookup @name lowercase]] has Advantage on attack rolls against the target until the start of the [[lookup @name lowercase]]'s next turn.</p><p class=\"feature-trait\"><strong>Pesky Swarm (Sage Only).</strong> The target has Disadvantage on attack rolls and ability checks until the end of its next turn.</p>",
+      "chat": ""
+    },
+    "identifier": "animal-spirit",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "effects": [
+    {
+      "name": "Hunter: Marked as Prey",
+      "img": "icons/creatures/abilities/paw-print-tan.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmAnimalSpirit00",
+      "transfer": false,
+      "_id": "ERS5n6nHszCnoySl",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The user has Advantage on attack rolls against the target until the start of the user’s next turn.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "marked"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735844490251,
+        "modifiedTime": 1735852744653,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmAnimalSpirit00.ERS5n6nHszCnoySl"
+    },
+    {
+      "name": "Sage: Pesky Swarm",
+      "img": "icons/creatures/mammals/rodent-rat-green.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmAnimalSpirit00",
+      "_id": "EaYfvxJPLJ2Ko434",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target has Disadvantage on attack rolls and ability checks until the end of its next turn.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1735844589503,
+        "modifiedTime": 1735852755986,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmAnimalSpirit00.EaYfvxJPLJ2Ko434"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1735919252058,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmAnimalSpirit00"
+}

@@ -1,0 +1,583 @@
+{
+  "_id": "phbwlkFiendishRe",
+  "name": "Fiendish Resilience",
+  "type": "feat",
+  "folder": "fP1LEFkoKLotitj0",
+  "img": "icons/magic/defensive/armor-stone-skin.webp",
+  "system": {
+    "description": {
+      "value": "<p>Choose one damage type, other than Force, whenever you finish a Short or Long Rest. You have Resistance to that damage type until you choose a different one with this feature.</p><section class=\"secret\" id=\"secret-MG3loWptcg4gpsdG\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for each type of damage which will grant you the correct Resistance. Apply and disable the effects as necessary when you change types.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 10
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "fiendish-resilience"
+  },
+  "effects": [
+    {
+      "name": "Fiendish Resilience: Acid",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "_id": "JdULzod722VVpgZx",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "acid",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.jZGIulxQFLY7uRDe",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725290983147,
+        "modifiedTime": 1735924346506,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbwlkFiendishRe.JdULzod722VVpgZx"
+    },
+    {
+      "name": "Fiendish Resilience: Bludgeoning",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.HybTLXiZgGa3t61e",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725290984308,
+        "modifiedTime": 1735924393357,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "JjA9Jda2qeK6Tpxk",
+      "_key": "!items.effects!phbwlkFiendishRe.JjA9Jda2qeK6Tpxk"
+    },
+    {
+      "name": "Fiendish Resilience: Cold",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.6z5fLOHiOiHHcuac",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725290985440,
+        "modifiedTime": 1735924390981,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "rhUc7IVz5XTphPRp",
+      "_key": "!items.effects!phbwlkFiendishRe.rhUc7IVz5XTphPRp"
+    },
+    {
+      "name": "Fiendish Resilience: Fire",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.DW6JJBsbBtR1Z75R",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725290986560,
+        "modifiedTime": 1735924388435,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "GvzW5wzRBfjFqye7",
+      "_key": "!items.effects!phbwlkFiendishRe.GvzW5wzRBfjFqye7"
+    },
+    {
+      "name": "Fiendish Resilience: Lightning",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.5ZizSWuVy8cy77K1",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725290989226,
+        "modifiedTime": 1735924385614,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "UZ00jXoUKfevQhxQ",
+      "_key": "!items.effects!phbwlkFiendishRe.UZ00jXoUKfevQhxQ"
+    },
+    {
+      "name": "Fiendish Resilience: Necrotic",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.fcFLysPw4llFTQsg",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725290990946,
+        "modifiedTime": 1735924383319,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "iMBfFAs7UwqdgSI5",
+      "_key": "!items.effects!phbwlkFiendishRe.iMBfFAs7UwqdgSI5"
+    },
+    {
+      "name": "Fiendish Resilience: Piercing",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.8Uf0Dw8A3l7CI8Fd",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725290996872,
+        "modifiedTime": 1735924381196,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "G0Ed5szAi1vUFCf7",
+      "_key": "!items.effects!phbwlkFiendishRe.G0Ed5szAi1vUFCf7"
+    },
+    {
+      "name": "Fiendish Resilience: Poison",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.PpWYucbhugNEIBJ7",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725290998472,
+        "modifiedTime": 1735924378984,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "3Uw7a9ldJtxHam1x",
+      "_key": "!items.effects!phbwlkFiendishRe.3Uw7a9ldJtxHam1x"
+    },
+    {
+      "name": "Fiendish Resilience: Psychic",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "psychic",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.BbvC3rh4RDmi06XI",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725290999939,
+        "modifiedTime": 1735924376598,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "loTaIaBwUsMSzpdW",
+      "_key": "!items.effects!phbwlkFiendishRe.loTaIaBwUsMSzpdW"
+    },
+    {
+      "name": "Fiendish Resilience: Radiant",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "radiant",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.IFg9ae4ZyhMDPa3m",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725291000969,
+        "modifiedTime": 1735924374060,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "F8szMcfuxVxXJ7sf",
+      "_key": "!items.effects!phbwlkFiendishRe.F8szMcfuxVxXJ7sf"
+    },
+    {
+      "name": "Fiendish Resilience: Slashing",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.30KWef6vBjF8RChr",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725291002057,
+        "modifiedTime": 1735924371217,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "7oATkYAfEZzx6F5P",
+      "_key": "!items.effects!phbwlkFiendishRe.7oATkYAfEZzx6F5P"
+    },
+    {
+      "name": "Fiendish Resilience: Thunder",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbwlkFiendishRe",
+      "transfer": true,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "thunder",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-players-handbook.classes.Item.phbrgrSuperiorDe.ActiveEffect.P7YUT6Y1NXGpo5Er",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725291003103,
+        "modifiedTime": 1735924368836,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_id": "6BHlD7hrfHUEfum5",
+      "_key": "!items.effects!phbwlkFiendishRe.6BHlD7hrfHUEfum5"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425984749,
+    "modifiedTime": 1726075586092,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbwlkFiendishRe"
+}

@@ -1,0 +1,1601 @@
+{
+  "_id": "dmgEnspelledWeap",
+  "name": "Enspelled Weapon",
+  "type": "weapon",
+  "img": "icons/weapons/swords/scimitar-guard-gold.webp",
+  "system": {
+    "activities": {
+      "pMhjRG3IufYVFNAz": {
+        "type": "cast",
+        "name": "Cast Bound Cantrip",
+        "_id": "pMhjRG3IufYVFNAz",
+        "sort": 100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 5,
+            "save": 13,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null
+        },
+        "img": "systems/dnd5e/icons/svg/activity/cast.svg"
+      },
+      "8c3xvYdZJO3rHC45": {
+        "type": "cast",
+        "name": "Cast Bound Spell",
+        "sort": 300000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 5,
+            "save": 13,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null
+        },
+        "_id": "8c3xvYdZJO3rHC45",
+        "img": "systems/dnd5e/icons/spell-tiers/spell1.webp"
+      },
+      "YrZqPZj4QuKEhycT": {
+        "type": "cast",
+        "name": "Cast Bound Spell",
+        "sort": 400000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 5,
+            "save": 13,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null
+        },
+        "img": "systems/dnd5e/icons/spell-tiers/spell2.webp",
+        "_id": "YrZqPZj4QuKEhycT"
+      },
+      "7trhDxAAI7D3MGf5": {
+        "type": "cast",
+        "name": "Cast Bound Spell",
+        "sort": 500000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 7,
+            "save": 15,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null
+        },
+        "img": "systems/dnd5e/icons/spell-tiers/spell3.webp",
+        "_id": "7trhDxAAI7D3MGf5"
+      },
+      "eFZVVEl8bjQdU8ip": {
+        "type": "cast",
+        "name": "Cast Bound Spell",
+        "sort": 600000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 7,
+            "save": 15,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null
+        },
+        "img": "systems/dnd5e/icons/spell-tiers/spell4.webp",
+        "_id": "eFZVVEl8bjQdU8ip"
+      },
+      "c9wxLOG8pe1KZPtJ": {
+        "type": "cast",
+        "name": "Cast Bound Spell",
+        "sort": 700000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null
+        },
+        "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+        "_id": "c9wxLOG8pe1KZPtJ"
+      },
+      "eBL8LVWHzKrD6Akr": {
+        "type": "cast",
+        "name": "Cast Bound Spell",
+        "sort": 800000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null
+        },
+        "img": "systems/dnd5e/icons/spell-tiers/spell6.webp",
+        "_id": "eBL8LVWHzKrD6Akr"
+      },
+      "XQcxrqa83k11tycD": {
+        "type": "cast",
+        "name": "Cast Bound Spell",
+        "sort": 900000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 10,
+            "save": 18,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null
+        },
+        "img": "systems/dnd5e/icons/spell-tiers/spell7.webp",
+        "_id": "XQcxrqa83k11tycD"
+      },
+      "TVB46dAUr3wJPYGy": {
+        "type": "cast",
+        "name": "Cast Bound Spell",
+        "sort": 1000000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 10,
+            "save": 18,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null
+        },
+        "img": "systems/dnd5e/icons/spell-tiers/spell8.webp",
+        "_id": "TVB46dAUr3wJPYGy"
+      },
+      "vzEAFr6ch8zvSrGj": {
+        "type": "enchant",
+        "name": "Enspelled Weapon",
+        "_id": "vzEAFr6ch8zvSrGj",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "DWrQ6rScpzl5FkqY",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "pMhjRG3IufYVFNAz"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "8Y9q83fCBhqjadRA",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "8c3xvYdZJO3rHC45"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "BqJrbzg5uQtROOlP",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "YrZqPZj4QuKEhycT"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "ORt3NtEuIzfAkXVS",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "7trhDxAAI7D3MGf5"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "geXjHKAjo2Sz9UXJ",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "eFZVVEl8bjQdU8ip"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "VciOoFMPNryMTen3",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "c9wxLOG8pe1KZPtJ"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "rkyWAG07le568We5",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "eBL8LVWHzKrD6Akr"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "qRUKGNlIiQRdsuov",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "XQcxrqa83k11tycD"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "UxoiwERG1utIrVD5",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "TVB46dAUr3wJPYGy"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "DWrQ6rScpzl5FkqY",
+          "8Y9q83fCBhqjadRA",
+          "BqJrbzg5uQtROOlP",
+          "ORt3NtEuIzfAkXVS",
+          "geXjHKAjo2Sz9UXJ",
+          "VciOoFMPNryMTen3",
+          "rkyWAG07le568We5",
+          "qRUKGNlIiQRdsuov",
+          "UxoiwERG1utIrVD5"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Weapon (Any Simple or Martial), Rarity Varies (Requires Attunement)</em></p><p>Bound into this weapon is a spell of level 8 or lower. The spell is determined when the weapon is created and must belong to the Conjuration, Divination, Evocation, Necromancy, or Transmutation school of magic. The weapon has 6 charges and regains 1d6 expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.</p><p>The level of the spell bound into the weapon determines the spell’s saving throw DC and attack bonus, as well as the weapon’s rarity, as shown in the following table.</p><details><summary>Spell Level Table</summary><table><thead><tr><td>Spell Level</td><td>Rarity</td><td>Save DC</td><td>Attack Bonus</td></tr></thead><tbody><tr><td>Cantrip</td><td>Uncommon</td><td>13</td><td>+5</td></tr><tr><td>1</td><td>Uncommon</td><td>13</td><td>+5</td></tr><tr><td>2</td><td>Rare</td><td>13</td><td>+5</td></tr><tr><td>3</td><td>Rare</td><td>15</td><td>+7</td></tr><tr><td>4</td><td>Very Rare</td><td>15</td><td>+7</td></tr><tr><td>5</td><td>Very Rare</td><td>17</td><td>+9</td></tr><tr><td>6</td><td>Legendary</td><td>17</td><td>+9</td></tr><tr><td>7</td><td>Legendary</td><td>18</td><td>+10</td></tr><tr><td>8</td><td>Legendary</td><td>18</td><td>+10</td></tr></tbody></table></details><p> @Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "enspelled-weapon",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": ""
+    },
+    "mastery": ""
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "Cantrip Enspelled Weapon",
+      "img": "systems/dnd5e/icons/spell-tiers/spell2.webp",
+      "disabled": true,
+      "_id": "DWrQ6rScpzl5FkqY",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Enspelled {}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "uncommon",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730144602319,
+        "modifiedTime": 1730144990531,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgEnspelledWeap.DWrQ6rScpzl5FkqY"
+    },
+    {
+      "type": "enchantment",
+      "name": "1st Level Enspelled Weapon",
+      "img": "systems/dnd5e/icons/spell-tiers/spell2.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Enspelled {}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "uncommon",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730144602319,
+        "modifiedTime": 1730144808436,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "8Y9q83fCBhqjadRA",
+      "_key": "!items.effects!dmgEnspelledWeap.8Y9q83fCBhqjadRA"
+    },
+    {
+      "type": "enchantment",
+      "name": "2nd Level Enspelled Weapon",
+      "img": "systems/dnd5e/icons/spell-tiers/spell3.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Enspelled {}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730144602319,
+        "modifiedTime": 1730144819576,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "BqJrbzg5uQtROOlP",
+      "_key": "!items.effects!dmgEnspelledWeap.BqJrbzg5uQtROOlP"
+    },
+    {
+      "type": "enchantment",
+      "name": "3rd Level Enspelled Weapon",
+      "img": "systems/dnd5e/icons/spell-tiers/spell3.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Enspelled {}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730144602319,
+        "modifiedTime": 1730144833976,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "ORt3NtEuIzfAkXVS",
+      "_key": "!items.effects!dmgEnspelledWeap.ORt3NtEuIzfAkXVS"
+    },
+    {
+      "type": "enchantment",
+      "name": "4th Level Enspelled Weapon",
+      "img": "systems/dnd5e/icons/spell-tiers/spell4.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Enspelled {}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730144602319,
+        "modifiedTime": 1730144846451,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "geXjHKAjo2Sz9UXJ",
+      "_key": "!items.effects!dmgEnspelledWeap.geXjHKAjo2Sz9UXJ"
+    },
+    {
+      "type": "enchantment",
+      "name": "5th Level Enspelled Weapon",
+      "img": "systems/dnd5e/icons/spell-tiers/spell4.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Enspelled {}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730144602319,
+        "modifiedTime": 1730145057908,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "VciOoFMPNryMTen3",
+      "_key": "!items.effects!dmgEnspelledWeap.VciOoFMPNryMTen3"
+    },
+    {
+      "type": "enchantment",
+      "name": "6th Level Enspelled Weapon",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Enspelled {}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730144602319,
+        "modifiedTime": 1730144899166,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "rkyWAG07le568We5",
+      "_key": "!items.effects!dmgEnspelledWeap.rkyWAG07le568We5"
+    },
+    {
+      "type": "enchantment",
+      "name": "7th Level Enspelled Weapon",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Enspelled {}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730144602319,
+        "modifiedTime": 1730144909550,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "qRUKGNlIiQRdsuov",
+      "_key": "!items.effects!dmgEnspelledWeap.qRUKGNlIiQRdsuov"
+    },
+    {
+      "type": "enchantment",
+      "name": "8th Level Enspelled Weapon",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Enspelled {}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnspelledWeap caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730144602319,
+        "modifiedTime": 1730144978951,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "UxoiwERG1utIrVD5",
+      "_key": "!items.effects!dmgEnspelledWeap.UxoiwERG1utIrVD5"
+    }
+  ],
+  "folder": "kie870i5kr7yuxO8",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "pMhjRG3IufYVFNAz",
+          "8c3xvYdZJO3rHC45",
+          "YrZqPZj4QuKEhycT",
+          "7trhDxAAI7D3MGf5",
+          "eFZVVEl8bjQdU8ip",
+          "c9wxLOG8pe1KZPtJ",
+          "eBL8LVWHzKrD6Akr",
+          "XQcxrqa83k11tycD",
+          "TVB46dAUr3wJPYGy"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1731355461889,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 7800000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgEnspelledWeap"
+}

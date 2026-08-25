@@ -1,0 +1,174 @@
+{
+  "name": "Artisan",
+  "system": {
+    "description": {
+      "value": "<p><strong>Ability Scores:</strong> Strength, Dexterity, Intelligence</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000]{Crafter}</p><p><strong>Skill Proficiencies:</strong> Investigation and Persuasion</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of</em> <em>Artisan’s Tools</em> (see chapter 6)</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Artisan’s Tools (same as above), 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 32 GP; or (B) 50 GP</p><p>You began mopping floors and scrubbing counters in an artisan’s workshop for a few coppers per day as soon as you were strong enough to carry a bucket. When you were old enough to apprentice, you learned to create basic crafts of your own, as well as how to sweet-talk the occasional demanding customer. Your trade has also given you a keen eye for detail.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "gr0uYcbQr89O7mN6",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "tool",
+        "count": null,
+        "key": "art",
+        "requiresProficiency": false,
+        "_id": "KbIeratTBV3yN9KE",
+        "group": "gr0uYcbQr89O7mN6",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000",
+        "requiresProficiency": false,
+        "_id": "TuJ6hGX75w4wyDex",
+        "group": "gr0uYcbQr89O7mN6",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav",
+        "requiresProficiency": false,
+        "_id": "b8fVSI3udVMlZgHR",
+        "group": "gr0uYcbQr89O7mN6",
+        "sort": 400000
+      }
+    ],
+    "identifier": "artisan",
+    "advancement": [
+      {
+        "_id": "sB8CeTRZcjZReVFW",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:inv",
+            "skills:per"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Background Proficiencies",
+        "hint": "Your background grants you proficiency in Investigation and Persuasion. It also grants you proficiency in one kind of Artisan's Tools."
+      },
+      {
+        "_id": "yepxK82qt9QhQB7F",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Background Feat",
+        "hint": "Your background grants you the Crafter feat."
+      },
+      {
+        "_id": "gP0ydAl6jcUpDlBI",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "wis",
+            "cha"
+          ],
+          "points": 3,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "Background Ability Score Improvement",
+        "hint": "Your background allows you to increase your Strength, Dexterity, and Intelligence scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+      },
+      {
+        "_id": "56kbaxXJOHLN7UZS",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Choose Languages",
+        "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+      }
+    ],
+    "wealth": "50"
+  },
+  "_id": "phbbgArtisan0000",
+  "type": "background",
+  "img": "modules/dnd-players-handbook/assets/icons/backgrounds/artisan.webp",
+  "effects": [],
+  "folder": "ysJSs3cbEBOMC1zV",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425890108,
+    "modifiedTime": 1760154094589,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbbgArtisan0000"
+}

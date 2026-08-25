@@ -1,0 +1,196 @@
+{
+  "name": "Tavern Brawler",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Enhanced Unarmed Strike.</strong> When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d4 plus your Strength modifier instead of the normal damage of an Unarmed Strike.</p><p><strong>Damage Rerolls.</strong> Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.</p><p><strong>Improvised Weaponry.</strong> You have proficiency with improvised weapons.</p><p><strong>Push.</strong> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn<strong>.</strong></p><section class=\"secret\" id=\"secret-XllUmSpInybNueav\"><p><strong>Foundry Note</strong></p><p>The proficiency is automatically granted by this feature.</p><p>The <strong>Enhanced Unarmed Strike</strong> activity includes the damage change.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "aO76iIZ67GrBQ3bG": {
+        "type": "attack",
+        "name": "Enhanced Unarmed Strike",
+        "_id": "aO76iIZ67GrBQ3bG",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "unarmed"
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "1d4r1 + @abilities.str.mod"
+              },
+              "number": 1,
+              "denomination": 4,
+              "bonus": "@abilities.str.mod",
+              "types": [
+                "bludgeoning"
+              ]
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "tavern-brawler"
+  },
+  "_id": "phbftTavernBrawl",
+  "type": "feat",
+  "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp",
+  "effects": [
+    {
+      "name": "Tavern Brawler",
+      "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp",
+      "_id": "mgi62SkDMKDd0wFf",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.tavernBrawlerFeat",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725565517305,
+        "modifiedTime": 1726346943336,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbftTavernBrawl.mgi62SkDMKDd0wFf"
+    }
+  ],
+  "folder": "d5jrO8A6QpjEV9rn",
+  "sort": 100782,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425895386,
+    "modifiedTime": 1740696414932,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftTavernBrawl"
+}

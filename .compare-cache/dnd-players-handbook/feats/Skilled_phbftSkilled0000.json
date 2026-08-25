@@ -1,0 +1,87 @@
+{
+  "name": "Skilled",
+  "system": {
+    "description": {
+      "value": "<p>You gain proficiency in any combination of three skills or tools of your choice.</p><p><strong>Repeatable.</strong> You can take this feat more than once.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "prerequisites": {
+      "level": null,
+      "repeatable": true
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "skilled",
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "d7pNpBEsULuYwKBL",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "skills:*",
+                "tool:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Skilled",
+        "hint": "You gain proficiency in any combination of three skills or tools of your choice.",
+        "value": {}
+      }
+    ]
+  },
+  "_id": "phbftSkilled0000",
+  "type": "feat",
+  "img": "icons/commodities/treasure/medal-ribbon-blue.webp",
+  "effects": [],
+  "folder": "d5jrO8A6QpjEV9rn",
+  "sort": 101563,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425895130,
+    "modifiedTime": 1760436222881,
+    "lastModifiedBy": "cbzvF3vII809QdRN",
+    "exportSource": null
+  },
+  "_key": "!items!phbftSkilled0000"
+}

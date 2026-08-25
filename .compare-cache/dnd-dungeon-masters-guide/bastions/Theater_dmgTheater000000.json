@@ -1,0 +1,146 @@
+{
+  "_id": "dmgTheater000000",
+  "name": "Theater",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-03.webp",
+  "system": {
+    "activities": {
+      "JN3QkLI3kF2k1lNP": {
+        "type": "check",
+        "name": "Performance Check",
+        "_id": "JN3QkLI3kF2k1lNP",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "check": {
+          "associated": [
+            "prf"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          },
+          "ability": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 9 Bastion Facility</em></p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Vast</p><p><strong>Hirelings: </strong>4</p><p><strong>Order: </strong>Empower</p><p>The Theater contains a stage, a backstage area where props and sets are kept, and a seating area for a small audience.</p><p><em><strong>Empower: Theatrical Event.</strong></em> When you issue the Empower order to this facility, its hirelings begin work on a theatrical production or concert. Rehearsals and other preparations take 14 days, followed by at least 7 days of performances. The performances can continue indefinitely until a new production gets underway.</p><p>You or another character can contribute to a production in the following ways:</p><p><strong>Composer/Writer. </strong>A character can compose music or write a script for a concert or production that hasn’t started rehearsals yet. This effort takes 14 days.</p><p><strong>Conductor/Director.</strong> A character who remains in the Bastion for the entirety of the production can serve as the concert’s conductor or the production’s director.</p><p><strong>Performer.</strong> A character who remains in the Bastion for the entirety of the rehearsal period can be a star performer in one or more of the performances; one of the Theater’s hirelings can serve as an understudy for additional performances.</p><p>At the end of a rehearsal period, each character who contributed to the concert or production can make a DC 15 Charisma (Performance) check. If more of these checks succeed than fail, you and any other character who contributed to the concert or production each gain a Theater die, a d6. This die changes to a d8 when you reach level 13 and a d10 when you reach level 17. At any point after the rehearsals end, a character can expend their Theater die to roll it and add the number rolled to one D20 Test they make, immediately after rolling the d20. If a character hasn’t expended their Theater die before gaining another, their first die is lost.</p>",
+      "chat": ""
+    },
+    "identifier": "theater",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 4
+    },
+    "level": 9,
+    "order": "empower",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "vast",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "theater"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731091009668,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgTheater000000"
+}

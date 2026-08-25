@@ -1,0 +1,133 @@
+{
+  "_id": "mmPortent0000000",
+  "name": "Portent",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "uGaJoaDIgntkFbDg": {
+        "type": "utility",
+        "_id": "uGaJoaDIgntkFbDg",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "count": "",
+            "special": "or an ally"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": true,
+          "visible": true,
+          "name": "Roll d20",
+          "formula": "1d20"
+        },
+        "name": "Roll d20",
+        "img": "systems/dnd5e/icons/svg/dice/d20.svg",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "recharge",
+          "formula": "4",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Trigger:</em> The [[lookup @name lowercase]] [[lookup @target.affects.special activity=uGaJoaDIgntkFbDg]] it can see makes a D20 Test. <em>Response:</em> The [[lookup @name lowercase]] rolls [[/r 1d20]] and chooses whether to use that roll in place of the d20 rolled for the D20 Test.</p>",
+      "chat": ""
+    },
+    "identifier": "portent",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737515542020,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 17000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmPortent0000000"
+}

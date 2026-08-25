@@ -1,0 +1,315 @@
+{
+  "_id": "mmStickyShield00",
+  "name": "Sticky Shield",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "A8a55LxaAvNmIUnj": {
+        "type": "save",
+        "_id": "A8a55LxaAvNmIUnj",
+        "sort": 100000,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "A creature misses the kuo-toa with a melee attack roll using a weapon."
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "7dDnUIkH52PMHRsg",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "the triggering creature"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "11"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "7dDnUIkH52PMHRsg"
+        ]
+      },
+      "Vh7RsHzWFN7kxssC": {
+        "type": "check",
+        "_id": "Vh7RsHzWFN7kxssC",
+        "sort": 300000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "the triggering creature"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "check": {
+          "associated": [
+            "ath"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "11"
+          },
+          "ability": ""
+        },
+        "name": "Free Weapon Check",
+        "img": "",
+        "appliedEffects": []
+      },
+      "PcsjAWfsVwLLsymP": {
+        "type": "check",
+        "name": "Escape Check",
+        "sort": 200000,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "check": {
+          "associated": [
+            "acr",
+            "ath"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "@skills.ath.passive"
+          },
+          "ability": ""
+        },
+        "_id": "PcsjAWfsVwLLsymP"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Trigger:</em> A creature misses the [[lookup @name lowercase]] with a melee attack roll using a weapon. <em>Response—Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=A8a55LxaAvNmIUnj]], the triggering creature. <em>Failure:</em> The attack’s weapon sticks to the [[lookup @name lowercase]]’s shield. If the target doesn’t let go of the weapon, the target has the &amp;Reference[Grappled apply=false] condition while the weapon is stuck (escape DC [[lookup @skills.ath.passive]]). While stuck, the weapon can’t be used. The target can take an action to make a [[/check ath dc=@skills.ath.passive format=long]], freeing the weapon on a success.</p>",
+      "chat": ""
+    },
+    "identifier": "sticky-shield",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "effects": [
+    {
+      "name": "Grappled",
+      "img": "systems/dnd5e/icons/svg/statuses/grappled.svg",
+      "origin": "Item.mmStickyShield00",
+      "_id": "7dDnUIkH52PMHRsg",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>If the target doesn’t let go of the weapon, the target has the &amp;Reference[Grappled apply=false] condition while the weapon is stuck (escape DC [[/check ability=str skill=ath format=long]], see source item for DC)</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "grappled"
+      ],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": [],
+          "enableCondition": ""
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1736122525647,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmStickyShield00.7dDnUIkH52PMHRsg"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1736122600021,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 22900000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmStickyShield00"
+}

@@ -1,0 +1,160 @@
+{
+    "id": "dnd-monster-manual",
+    "title": "Dungeons & Dragons Monster Manual",
+    "description": "Populate your worlds and adventures with the hundreds of monsters provided, and let their stories, illustrations, and easy-to-use stat blocks fuel your D&D® adventures for years to come. Encounter a monstrous menagerie of familiar favorites like dragons, giants, and mind flayers, plus a host of new monsters like the arch-hag, the blob of annihilation, and the vampire nightbringer.",
+    "authors": [
+        {
+            "name": "Andrew Clayton",
+            "discord": "Atropos",
+            "url": "https://foundryvtt.com"
+        },
+        {
+            "name": "Kim Mantas",
+            "discord": "fyorl",
+            "url": "https://foundryvtt.com"
+        },
+        {
+            "name": "Jeff Hitchcock"
+        },
+        {
+            "name": "Clayton Thomson"
+        },
+        {
+            "name": "Matt Haentschke"
+        },
+        {
+            "name": "Matt Ryan",
+            "discord": "mattexdee",
+            "url": "https://foundryvtt.com"
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "url": "modules/dnd-monster-manual/assets/journal-art/cover.webp",
+            "loop": false,
+            "flags": {}
+        }
+    ],
+    "version": "1.3.0",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "esmodules": [
+        "scripts/dnd-monster-manual.mjs"
+    ],
+    "styles": [
+        "styles/dnd-monster-manual.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "5.1.8"
+                }
+            }
+        ]
+    },
+    "packs": [
+        {
+            "name": "content",
+            "label": "Monster Manual",
+            "path": "packs/content",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "display": "table-of-contents"
+                }
+            }
+        },
+        {
+            "name": "actors",
+            "label": "Actors",
+            "path": "packs/actors",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "types": [
+                        "npc"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "features",
+            "label": "Features",
+            "path": "packs/features",
+            "type": "Item",
+            "ownership": {
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "types": [
+                        "feat",
+                        "weapon"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "tables",
+            "label": "Roll Tables",
+            "path": "packs/tables",
+            "type": "RollTable",
+            "ownership": {
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Monster Manual",
+            "color": "#1e72cc",
+            "sorting": "m",
+            "packs": [
+                "content",
+                "features",
+                "actors",
+                "tables"
+            ]
+        }
+    ],
+    "url": "https://foundryvtt.com/packages/dnd-monster-manual",
+    "manifest": "",
+    "protected": false,
+    "changelog": "https://github.com/foundryvtt/foundryvtt-premium-content/discussions?discussions_q=label%3Adnd-monster-manual",
+    "flags": {
+        "hotReload": false,
+        "tokenRingSubjectMappings": {
+            "modules/dnd-monster-manual/assets/tokens/": "modules/dnd-monster-manual/assets/subjects/"
+        },
+        "dnd5e": {
+            "sourceBooks": {
+                "MM 2024": "SOURCE.BOOK.MM2024"
+            }
+        }
+    }
+}

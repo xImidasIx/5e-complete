@@ -1,0 +1,75 @@
+{
+  "_id": "dmgGuildhall0000",
+  "name": "Guildhall",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-01.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 17 Bastion Facility</em></p><p><strong>Prerequisite: </strong>Expertise in a skill</p><p><strong>Space: </strong>Vast</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Recruit</p><p>A Guildhall comes with a guild, for which you are the guild master. Choose the type of guild from the options in the Sample Guilds table, or work with your DM to create a new guild. The facility is a meeting room where members of your guild can discuss important matters in your presence.</p><p>Your guild has roughly fifty members made up of skilled folk who live and work outside your Bastion, usually in nearby settlements.</p><p><em><strong>Recruit: Guild Assignment.</strong></em> Each time you issue the Recruit order to this facility, you commission the facility’s hireling to recruit guild members to perform a special assignment. Each guild in the Sample Guilds table specifies the nature of that assignment. With your DM’s permission and help, you can create new assignments for guild members to complete.</p><table><caption>Sample Guilds</caption><thead><tr><th style=\"min-width:75px\"><p>Guild</p></th><th style=\"min-width:75px\"><p>Symbol</p></th><th><p>Assignment</p></th></tr></thead><tbody><tr><td><p>Adventurers’ Guild</p></td><td><p>Lit torch</p></td><td><p>You send adventurers to track down a Beast that has a Challenge Rating of 2 or lower and is known to lair within 50 miles of your Bastion. The adventurers slay or capture the creature (your choice) in [[/r 1d6 + 1 # Days to complete]] days. If the creature is slain and your Bastion has a Trophy Room, you can add a trophy taken from the creature to that facility. If the creature is captured and your Bastion has a Menagerie, you can add the creature to that facility, provided the facility has space to house it.</p></td></tr><tr><td><p>Bakers’ Guild</p></td><td><p>Pastry</p></td><td><p>You assign bakers to create baked goods for a prestigious event that occurs within the next 7 days. You can receive payment in coin ([[/award 500GP]]) or in the form of a favor owed to you by the event’s host, the details of which are left to you and the DM.</p></td></tr><tr><td><p>Brewers’ Guild</p></td><td><p>Foaming mug</p></td><td><p>You assign brewers to deliver fifty 40-gallon barrels of ale (worth 10 GP each) to your <span>Bastion</span> in 7 days.</p></td></tr><tr><td><p>Masons’ Guild</p></td><td><p>Stone mask</p></td><td><p>You assign masons to add a defensive wall to your Bastion at no cost. Alternatively, you can have the masons perform this work for another character’s Bastion, provided their Bastion is within 1 mile of yours. Each 5-foot square of defensive wall takes 1 day to build instead of 10 (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgBastions00000.JournalEntryPage.g54ZbPuk3pmRzRpS]{Bastion Map}).</p></td></tr><tr><td><p>Shipbuilders’ Guild</p></td><td><p>Crossed oars</p></td><td><p>You assign shipbuilders to build one of the vehicles in the Airborne and Waterborne Vehicles table of the <em>Player’s Handbook</em>. You pay the full cost of the vehicle, and the work takes 1 day per 1,000 GP of the vehicle’s cost (a Rowboat can be made in 1 day).</p></td></tr><tr><td><p>Thieves’ Guild</p></td><td><p>White key</p></td><td><p>You assign thieves to infiltrate a location within 50 miles of your Bastion and steal a nonmagical object from it. The object can be no bigger than 5 feet in any dimension and is delivered to your Bastion in [[/r 1d6 + 1 # Days to deliver]] days. The DM may decide this activity leaves you at risk of retaliation from law enforcement or the victim.</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "guildhall",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 17,
+    "order": "recruit",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "vast",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "guildhall"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgGuildhall0000"
+}

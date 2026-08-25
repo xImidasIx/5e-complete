@@ -1,0 +1,87 @@
+{
+  "name": "Fey-Touched",
+  "system": {
+    "description": {
+      "value": "<p>Your exposure to the Feywild’s magic grants you the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Fey Magic.</strong> Choose one level 1 @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.dWVioXxEGjcPsI9Y]{spell} from the Divination or Enchantment school of magic. You always have that spell and the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step} spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can’t cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat.</p><section class=\"secret\" id=\"secret-O8kxBQYKdt4eFJIV\"><p><strong>Foundry Note</strong></p><p>The spells will have to be manually edited after being added to your sheet to configure the spellcasting ability and add the free use.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "fey-touched",
+    "advancement": [
+      {
+        "_id": "x36qKTBboIcZEhce",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con"
+          ],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbftFeyTouched0",
+  "type": "feat",
+  "img": "icons/magic/nature/beam-hand-leaves-green.webp",
+  "effects": [],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 2800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425894199,
+    "modifiedTime": 1740697753162,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftFeyTouched0"
+}

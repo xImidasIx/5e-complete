@@ -1,0 +1,132 @@
+{
+  "name": "War Caster",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p><p><strong>Concentration.</strong> You have Advantage on Constitution saving throws that you make to maintain Concentration.</p><p><strong>Reactive Spell.</strong> When a creature provokes an Opportunity Attack from you by leaving your reach, you can take a Reaction to cast a spell at the creature rather than making an Opportunity Attack. The spell must have a casting time of one action and must target only that creature.</p><p><strong>Somatic Components.</strong> You can perform the Somatic components of spells even when you have weapons or a Shield in one or both hands.</p><section class=\"secret\" id=\"secret-jGAKlXdMPlzHFjTa\"><p><strong>Foundry Note</strong></p><p>This feat will automate the advantage on Concentration checks.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "Spellcasting or Pact Magic Feature",
+    "activities": {},
+    "enchant": {},
+    "identifier": "war-caster",
+    "advancement": [
+      {
+        "_id": "M4tUc6HEv2m5AFYw",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con"
+          ],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbftWarCaster00",
+  "type": "feat",
+  "img": "icons/magic/control/buff-flight-wings-runes-red-yellow.webp",
+  "effects": [
+    {
+      "name": "War Caster",
+      "img": "icons/magic/control/buff-flight-wings-runes-red-yellow.webp",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbftWarCaster00",
+      "_id": "gKKDiaGFwszZNCHr",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.concentration.roll.mode",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.2",
+        "createdTime": 1735311234479,
+        "modifiedTime": 1735311249863,
+        "lastModifiedBy": "9WJhm6SgDkYE0UmP",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbftWarCaster00.gKKDiaGFwszZNCHr"
+    }
+  ],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 106250,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425895512,
+    "modifiedTime": 1740697777682,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftWarCaster00"
+}

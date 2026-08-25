@@ -1,0 +1,977 @@
+{
+  "_id": "dmgScrollOfTitan",
+  "name": "Scroll of Titan Summoning",
+  "type": "consumable",
+  "folder": "StCYZZaUbkrW50KU",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/scroll-of-protection.webp",
+  "system": {
+    "activities": {
+      "pjWxAZntXy8miNiG": {
+        "type": "summon",
+        "_id": "pjWxAZntXy8miNiG",
+        "sort": 100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "The titan is Hostile toward all other creatures and disappears when it drops to 0 Hit Points."
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "mi",
+          "special": "",
+          "value": "1"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "space",
+            "special": "unoccupied space"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "akCfCrSNOeG9oRTm",
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcEmpyrean00",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "q2TLnsnrzIIKv21R",
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcBlobofAnni",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "TTY56sUYM3lb3NtU",
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcColossus00",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "Ne7hNqPGGMuXuT0s",
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcElementalC",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "AKLs9YsYjXZvM6I2",
+            "uuid": "Compendium.dnd5e.actors24.Actor.mmKraken00000000",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "sZPwLHAfML3N7WvT",
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.KCvt4FdOVJbuZ3T0",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgnpcAnimalLord"
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": "Summon Titan",
+        "img": "systems/dnd5e/icons/svg/monster.svg",
+        "appliedEffects": []
+      },
+      "UZCsU13G2e0iAZfS": {
+        "type": "enchant",
+        "name": "Scroll of Titan Summoning",
+        "_id": "UZCsU13G2e0iAZfS",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "2kCzJvG3VhSaBFZf",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "pjWxAZntXy8miNiG"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "L35beXNJk2pc4GnD",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "pjWxAZntXy8miNiG"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "3JOwtqPsvRPi6PSK",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "pjWxAZntXy8miNiG"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "iakdfvlMhgG8Afft",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "pjWxAZntXy8miNiG"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "y1gRHXCI0kNe6aJw",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "pjWxAZntXy8miNiG"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "iGenMHTf7Uuy0sQ1",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "pjWxAZntXy8miNiG"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "Pj5GerbF88kGSx3A",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "pjWxAZntXy8miNiG"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "2kCzJvG3VhSaBFZf",
+          "L35beXNJk2pc4GnD",
+          "3JOwtqPsvRPi6PSK",
+          "iakdfvlMhgG8Afft",
+          "y1gRHXCI0kNe6aJw",
+          "iGenMHTf7Uuy0sQ1",
+          "Pj5GerbF88kGSx3A"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgsupBasicScrol]{Scroll}, Legendary</em></p><p>When you take a Magic action to read this scroll, a particular titan named in the scroll appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself. The DM picks a suitable titan or determines it randomly by rolling on the table below (see the <em>Monster Manual</em> for the creature’s stat block).</p><p>The titan is Hostile toward all other creatures and <span class=\"no-break\">disappears</span> when it drops to 0 Hit Points. If the titan is summoned into a space that isn’t large enough to contain it, the summoning fails, and the scroll <span class=\"no-break\">is wasted</span>.</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.tables.RollTable.dmgScrollOfTitan rollable caption=false]</p><p>@Embed[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "scroll-of-titan-summoning",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "scroll",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "Scroll of Titan Summoning: Animal Lord",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "_id": "2kCzJvG3VhSaBFZf",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Scroll of Titan Summoning: Animal Lord",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgScrollOfTitan caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 2,
+          "value": "200000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd-dungeon-masters-guide/assets/icons/items/scroll-of-protection.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730930041415,
+        "modifiedTime": 1730931186429,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgScrollOfTitan.2kCzJvG3VhSaBFZf"
+    },
+    {
+      "type": "enchantment",
+      "name": "Scroll of Titan Summoning: Blob of Annihilation",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Scroll of Titan Summoning: Blob of Annihilation",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgScrollOfTitan caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 2,
+          "value": "200000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd-dungeon-masters-guide/assets/icons/items/scroll-of-protection.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730930606081,
+        "modifiedTime": 1730931212776,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "L35beXNJk2pc4GnD",
+      "_key": "!items.effects!dmgScrollOfTitan.L35beXNJk2pc4GnD"
+    },
+    {
+      "type": "enchantment",
+      "name": "Scroll of Titan Summoning: Colossus",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Scroll of Titan Summoning: Colossus",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgScrollOfTitan caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 2,
+          "value": "200000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd-dungeon-masters-guide/assets/icons/items/scroll-of-protection.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730930609228,
+        "modifiedTime": 1730931210649,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "3JOwtqPsvRPi6PSK",
+      "_key": "!items.effects!dmgScrollOfTitan.3JOwtqPsvRPi6PSK"
+    },
+    {
+      "type": "enchantment",
+      "name": "Scroll of Titan Summoning: Elemental Cataclysm",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Scroll of Titan Summoning: Elemental Cataclysm",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgScrollOfTitan caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 2,
+          "value": "200000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd-dungeon-masters-guide/assets/icons/items/scroll-of-protection.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730930611808,
+        "modifiedTime": 1730931208070,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "iakdfvlMhgG8Afft",
+      "_key": "!items.effects!dmgScrollOfTitan.iakdfvlMhgG8Afft"
+    },
+    {
+      "type": "enchantment",
+      "name": "Scroll of Titan Summoning: Empyrean",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Scroll of Titan Summoning: Empyrean",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgScrollOfTitan caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 2,
+          "value": "200000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd-dungeon-masters-guide/assets/icons/items/scroll-of-protection.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730930613806,
+        "modifiedTime": 1730931204991,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "y1gRHXCI0kNe6aJw",
+      "_key": "!items.effects!dmgScrollOfTitan.y1gRHXCI0kNe6aJw"
+    },
+    {
+      "type": "enchantment",
+      "name": "Scroll of Titan Summoning: Kraken",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Scroll of Titan Summoning: Kraken",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgScrollOfTitan caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 2,
+          "value": "200000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd-dungeon-masters-guide/assets/icons/items/scroll-of-protection.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730930616284,
+        "modifiedTime": 1730931202701,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "iGenMHTf7Uuy0sQ1",
+      "_key": "!items.effects!dmgScrollOfTitan.iGenMHTf7Uuy0sQ1"
+    },
+    {
+      "type": "enchantment",
+      "name": "Scroll of Titan Summoning: Tarrasque",
+      "img": "systems/dnd5e/icons/spell-tiers/spell5.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Scroll of Titan Summoning: Tarrasque",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "{}<p>@Embed[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgScrollOfTitan caption=false]</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 2,
+          "value": "200000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd-dungeon-masters-guide/assets/icons/items/scroll-of-protection.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1730930618775,
+        "modifiedTime": 1730931200372,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_id": "Pj5GerbF88kGSx3A",
+      "_key": "!items.effects!dmgScrollOfTitan.Pj5GerbF88kGSx3A"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "pjWxAZntXy8miNiG"
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.8",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1757702289140,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgScrollOfTitan"
+}

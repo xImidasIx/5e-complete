@@ -1,0 +1,777 @@
+{
+  "_id": "phbwlkWarlock000",
+  "name": "Warlock",
+  "type": "class",
+  "folder": "gG4h5ERlpEXbmxIJ",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/warlock.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>An Occultist Empowered by Otherworldly Pacts</p></blockquote><h3>Core Warlock Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Charisma</p></td></tr><tr><th scope=\"row\"><p>Hit Point Die</p></th><td><p>D8 per Warlock level</p></td></tr><tr><th scope=\"row\"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and Charisma</p></td></tr><tr><th scope=\"row\"><p>Skill Proficiencies</p></th><td><p><em>Choose 2: </em>Arcana, Deception, History, Intimidation, Investigation, Nature, or Religion</p></td></tr><tr><th scope=\"row\"><p>Weapon Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p>Armor Training</p></th><td><p>Light armor</p></td></tr><tr><th scope=\"row\"><p>Starting Equipment</p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]{Sickle}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{orb}), @UUID[Compendium.dnd-players-handbook.equipment.Item.phiPN9UzkXk3i5xh]{Book} (occult lore), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagScholarsPac]{Scholar’s Pack}, and [[/award 15GP]]; or (B) [[/award 100GP]]</p></td></tr></tbody></table><p>Warlocks quest for knowledge that lies hidden in the fabric of the multiverse. They often begin their search for magical power by delving into tomes of forbidden lore, dabbling in invocations meant to attract the power of extraplanar beings, or seeking places of power where the influence of these beings can be felt. In no time, each Warlock is drawn into a binding pact with a powerful patron. Drawing on the ancient knowledge of beings such as angels, archfey, demons, devils, hags, and alien entities of the Far Realm, Warlocks piece together arcane secrets to bolster their own power.</p><p>Warlocks view their patrons as resources, as means to the end of achieving magical power. Some Warlocks respect, revere, or even love their patrons; some serve their patrons grudgingly; and some seek to undermine their patrons even as they wield the power their patrons have given them.</p><p>Once a pact is made, a Warlock’s thirst for knowledge and power can’t be slaked with mere study. Most Warlocks spend their days pursuing greater power and deeper knowledge, which typically means some kind of adventure.</p><h2>Becoming a Warlock …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Warlock Traits table.</li><li>Gain the Warlock’s level 1 features, which are listed in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Warlock Features table}.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.</li><li>Gain the Warlock’s level 1 features, which are listed in the Warlock Features table. See the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing rules} to determine your available spell slots.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "HNL3GVldnPCsg4BR",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm",
+        "requiresProficiency": false,
+        "_id": "E16bWj9PWbA3ZDHF",
+        "group": "HNL3GVldnPCsg4BR",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000",
+        "requiresProficiency": false,
+        "_id": "c2w1NtOevecavhT1",
+        "group": "HNL3GVldnPCsg4BR",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000",
+        "requiresProficiency": false,
+        "_id": "cbnBTbycZMQuhcSY",
+        "group": "HNL3GVldnPCsg4BR",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000",
+        "requiresProficiency": false,
+        "_id": "O8EoDIxQhPCa9Y1L",
+        "group": "HNL3GVldnPCsg4BR",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000",
+        "requiresProficiency": false,
+        "_id": "azIjGwebr4IUGOUW",
+        "group": "HNL3GVldnPCsg4BR",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagScholarsPac",
+        "requiresProficiency": false,
+        "_id": "QtlLMEGt8LF296xx",
+        "group": "HNL3GVldnPCsg4BR",
+        "sort": 800000
+      }
+    ],
+    "identifier": "warlock",
+    "levels": 1,
+    "hitDice": "d8",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "viu0ntZhrve35HNy",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "yjm7B73po6OV5DPi",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbwlkEldritchIn",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbwlkPactMagic0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "Class Features"
+      },
+      {
+        "_id": "IUkGspfJYbVXFLjw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbwlkMagicalCun",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "Class Features"
+      },
+      {
+        "_id": "sDYsem2WwWHtRGj9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbwlkContactPat",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Class Features"
+      },
+      {
+        "_id": "T6SDpQI1L8qivGUw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbwlkMysticArca",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "Class Features"
+      },
+      {
+        "_id": "E698BngQ7tgxYG9T",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbwlkEldritchMa",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "Class Features"
+      },
+      {
+        "_id": "bwCLOdauuzoHofil",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "",
+        "hint": "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+      },
+      {
+        "_id": "mRSh9oUVjLU33e7p",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "",
+        "hint": "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+      },
+      {
+        "_id": "mhZh3LfLMa15tXee",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "",
+        "hint": "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+      },
+      {
+        "_id": "FOf5CkGnSs0OlppY",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "",
+        "hint": "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+      },
+      {
+        "_id": "HucmTSEzIq7OeJr7",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "invocations-known",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 1
+            },
+            "2": {
+              "value": 3
+            },
+            "5": {
+              "value": 5
+            },
+            "7": {
+              "value": 6
+            },
+            "9": {
+              "value": 7
+            },
+            "12": {
+              "value": 8
+            },
+            "15": {
+              "value": 9
+            },
+            "18": {
+              "value": 10
+            }
+          }
+        },
+        "value": {},
+        "title": "Eldritch Invocations Known",
+        "hint": ""
+      },
+      {
+        "_id": "dZ29O2QGbIsj25Vg",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 2
+            },
+            "4": {
+              "value": 3
+            },
+            "10": {
+              "value": 4
+            }
+          }
+        },
+        "value": {},
+        "title": "Cantrips Known",
+        "hint": ""
+      },
+      {
+        "_id": "KTLPtUpPuGbXWiap",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "level": 3,
+        "title": "",
+        "hint": "You gain a Warlock subclass of your choice. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass’s features that are of your Warlock level or lower."
+      },
+      {
+        "_id": "v3lym1uxhRr5SHcH",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "max-prepared",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 2
+            },
+            "2": {
+              "value": 3
+            },
+            "3": {
+              "value": 4
+            },
+            "4": {
+              "value": 5
+            },
+            "5": {
+              "value": 6
+            },
+            "6": {
+              "value": 7
+            },
+            "7": {
+              "value": 8
+            },
+            "8": {
+              "value": 9
+            },
+            "9": {
+              "value": 10
+            },
+            "11": {
+              "value": 11
+            },
+            "13": {
+              "value": 12
+            },
+            "15": {
+              "value": 13
+            },
+            "17": {
+              "value": 14
+            },
+            "19": {
+              "value": 15
+            }
+          }
+        },
+        "value": {},
+        "title": "Max Pact Magic Spells",
+        "hint": ""
+      },
+      {
+        "_id": "xMtpuEuf5g6C8cqA",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": true
+            },
+            "2": {
+              "count": 2,
+              "replacement": true
+            },
+            "3": {
+              "count": null,
+              "replacement": true
+            },
+            "4": {
+              "count": null,
+              "replacement": true
+            },
+            "5": {
+              "count": 2,
+              "replacement": true
+            },
+            "6": {
+              "count": null,
+              "replacement": true
+            },
+            "7": {
+              "count": 1,
+              "replacement": true
+            },
+            "8": {
+              "count": null,
+              "replacement": true
+            },
+            "9": {
+              "count": 1,
+              "replacement": true
+            },
+            "10": {
+              "count": null,
+              "replacement": true
+            },
+            "11": {
+              "count": null,
+              "replacement": true
+            },
+            "12": {
+              "count": 1,
+              "replacement": true
+            },
+            "13": {
+              "count": null,
+              "replacement": true
+            },
+            "14": {
+              "count": null,
+              "replacement": true
+            },
+            "15": {
+              "count": 1,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": null,
+              "replacement": true
+            },
+            "18": {
+              "count": 1,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvAgonizingB"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvArmorofSha"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvAscendantS"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvDevilsSigh"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvDevouringB"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvEldritchMi"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvEldritchSm"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvEldritchSp"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvFiendishVi"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvGazeofTwoM"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheD"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvGiftoftheP"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvInvestment"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvLessonsoft"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvLifedrinke"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvMaskofMany"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvMasterofMy"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvMistyVisio"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvOnewithSha"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvOtherworld"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvPactChain0"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvRepellingB"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvThirstingB"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvVisionsOfD"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvWhispersOf"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbinvWitchSight"
+            }
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "eldritchInvocation",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Eldritch Invocations",
+        "hint": "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons."
+      },
+      {
+        "_id": "pNAJJ0MCkjHO2ZK1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplContactOth"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Contact Patron",
+        "hint": "In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the Contact Other Plane spell prepared."
+      },
+      {
+        "_id": "W9auMtMHTf0KV1Xw",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:wis",
+            "saves:cha"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Saving Throw Proficiencies",
+        "hint": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "9LblGv17rkWDNni2",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:arc",
+                "skills:dec",
+                "skills:his",
+                "skills:itm",
+                "skills:inv",
+                "skills:nat",
+                "skills:rel"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Skill Proficiencies",
+        "hint": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "4XUbrDNUSRAH6TqT",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Weapon Proficiencies",
+        "hint": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "yB5RTWToMnl2sB6c",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Armor Training",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "title": "Epic Boon",
+        "_id": "29Ufd0MpG7PBckVs",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 2,
+          "recommendation": "Compendium.dnd-players-handbook.feats.Item.phbBoonofFate000",
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "pact",
+      "ability": "cha",
+      "preparation": {
+        "formula": "@scale.warlock.max-prepared"
+      }
+    },
+    "wealth": "100",
+    "primaryAbility": {
+      "value": [
+        "cha"
+      ],
+      "all": true
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.3",
+    "createdTime": 1724425985120,
+    "modifiedTime": 1756311140955,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbwlkWarlock000"
+}

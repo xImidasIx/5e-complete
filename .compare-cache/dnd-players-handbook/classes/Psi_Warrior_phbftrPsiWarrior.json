@@ -1,0 +1,224 @@
+{
+  "_id": "phbftrPsiWarrior",
+  "name": "Psi Warrior",
+  "type": "subclass",
+  "folder": "FCphxnvdYmavFNkr",
+  "img": "modules/dnd-players-handbook/assets/icons/classes/psi-warrior.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Augment Physical Might with Psionic Power</p></blockquote><p>Psi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "identifier": "psi-warrior",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "1uBHnM7yyltYiGYr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrPsionicPow",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "WS2baKDHOKdTHvn4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrTelekineti",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "ifmHcVXF9ZqyVhXa",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrGuardedMin",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "DNwHuSG5CFe5o94z",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrBulwarkOfF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "nAg9H5fvgytySqaf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.classes.Item.phbftrMasterTele",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "vMuB8NtPfuK9vXOf",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "die",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 4,
+              "faces": 6,
+              "modifiers": []
+            },
+            "5": {
+              "number": 6,
+              "faces": 8,
+              "modifiers": []
+            },
+            "9": {
+              "number": 8,
+              "faces": 8,
+              "modifiers": []
+            },
+            "11": {
+              "number": 8,
+              "faces": 10,
+              "modifiers": []
+            },
+            "13": {
+              "number": 10,
+              "faces": 10,
+              "modifiers": []
+            },
+            "17": {
+              "number": 12,
+              "faces": 12,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "Psionic Energy Die",
+        "hint": ""
+      },
+      {
+        "_id": "yKvNmgxz4gELiJvU",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int"
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "lr"
+            }
+          }
+        },
+        "value": {},
+        "level": 18,
+        "title": "Telekinetic Master",
+        "hint": ""
+      },
+      {
+        "_id": "ZcYeA3tYEs1kJDXQ",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:psychic"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 10,
+        "title": "Guarded Mind",
+        "hint": "You have Resistance to Psychic damage."
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425972700,
+    "modifiedTime": 1726844217209,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbftrPsiWarrior"
+}

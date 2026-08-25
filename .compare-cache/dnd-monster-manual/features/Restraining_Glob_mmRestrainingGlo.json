@@ -1,0 +1,205 @@
+{
+  "_id": "mmRestrainingGlo",
+  "name": "Restraining Glob",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "P1YLDUEKG7baOYir": {
+        "type": "save",
+        "_id": "P1YLDUEKG7baOYir",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "On Hit: Target pulled 60 ft toward creature."
+        },
+        "duration": {
+          "units": "turn",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "Dtzd0hd114z3Iv0x",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "600"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "",
+            "size": "",
+            "count": "",
+            "width": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "one Large or smaller creature"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 3,
+              "denomination": "6",
+              "bonus": "@abilities.str.mod",
+              "types": [
+                "acid"
+              ]
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "23"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "Dtzd0hd114z3Iv0x"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\">The [[lookup @name lowercase]] lobs a slimy glob at [[lookup @target.affects.special activity=P1YLDUEKG7baOYir]] it can see within [[lookup @range.value activity=P1YLDUEKG7baOYir]] feet of itself. <em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=P1YLDUEKG7baOYir]], the targeted [[lookup @target.affects.type activity=P1YLDUEKG7baOYir]]. <em>Failure:</em> [[/damage average]] damage. The glob rolls the target 60-feet straight toward the [[lookup @name lowercase]], and the target has the &amp;Reference[Restrained apply=false] condition until the end of its next turn, when the glob harmlessly dissolves. <em>Success:</em> [[lookup @damage.onSave capitalize activity=P1YLDUEKG7baOYir]] damage only.</p>",
+      "chat": ""
+    },
+    "identifier": "restraining-glob",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/creatures/slimes/slime-face-skull-green.webp",
+  "effects": [
+    {
+      "name": "Glob: Restrained",
+      "img": "systems/dnd5e/icons/svg/statuses/restrained.svg",
+      "origin": "Item.mmRestrainingGlo",
+      "_id": "Dtzd0hd114z3Iv0x",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition until the end of its next turn.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1735935571825,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmRestrainingGlo.Dtzd0hd114z3Iv0x"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1736550895224,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 19400000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmRestrainingGlo"
+}

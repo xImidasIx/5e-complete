@@ -1,0 +1,368 @@
+{
+  "_id": "dmgBookOfExalted",
+  "name": "Book of Exalted Deeds",
+  "type": "equipment",
+  "folder": "U4xmShLy19Ry54zl",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/book-of-exalted-deeds.webp",
+  "system": {
+    "activities": {
+      "aTTPb3cUulj8PyJm": {
+        "type": "utility",
+        "_id": "aTTPb3cUulj8PyJm",
+        "sort": 0,
+        "activation": {
+          "type": "hour",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "80"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "object",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": "80"
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Spend Hours Reading",
+        "img": "",
+        "appliedEffects": []
+      },
+      "Af6i1srjXGNdzkGK": {
+        "type": "utility",
+        "name": "Activate Halo",
+        "_id": "Af6i1srjXGNdzkGK",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "xVePaG6sfu3n4Ueq"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "xVePaG6sfu3n4Ueq"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Wondrous Item, Artifact (Requires Attunement)</em></p><blockquote><p>The definitive treatise on all that is good in the multiverse, the <em>Book of Exalted Deeds</em> figures prominently in many religions. Rather than being a scripture devoted to a particular faith, the book’s authors filled the pages with their own visions of true virtue, providing guidance for defeating evil.</p><p>The <em>Book of Exalted Deeds</em> rarely lingers in one place. As soon as the book is read, it vanishes to some other corner of the multiverse where its moral guidance can bring hope to an endangered world. Although attempts have been made to copy the work, efforts to do so fail to capture its magical nature or translate the benefits it offers to those pure of heart and firm of purpose.</p></blockquote><p>A heavy clasp, wrought to look like angel wings, keeps the book’s contents secure. Only a creature that is attuned to the book can release the clasp that holds it shut. Once the book is opened, the attuned creature must spend 80 hours reading and studying the book to digest its contents and gain its benefits.</p><p>Other creatures that peruse the book’s open pages can read the text but glean no deeper meaning and reap no benefits. A Fiend, an Undead, or a servant of a god from the Lower Planes that tries to read from the book takes [[/damage 24d6 type=radiant]] damage. This damage ignores Resistance and Immunity, and it can’t be reduced or avoided by any means. A creature reduced to 0 Hit Points by this damage disappears in a flash and is destroyed, leaving its possessions behind. The book then vanishes, and the creature’s Attunement to it ends.</p><p>Benefits granted by the <em>Book of Exalted Deeds</em> last only as long as you strive to do good. If you fail to perform at least one act of kindness or generosity within the span of 10 days, or if you willingly perform an evil act, you lose all the benefits granted by the book.</p><details><summary><strong>Celestial Calm.</strong></summary><p>While attuned to the book, you have Immunity to the Charmed and Frightened conditions and Resistance to Psychic damage. These benefits become permanent after you spend the requisite amount of time reading and studying the book.</p></details><details><summary><strong>Divine Wisdom.</strong></summary><p>After you spend the requisite amount of time reading and studying the book, your Wisdom increases by 2, to a maximum of 24. You can’t gain this benefit from the book more than once.</p></details><details><summary><strong>Enlightened Magic.</strong></summary><p>After you spend the requisite amount of time reading and studying the book, any spell slot you expend to cast a spell counts as a spell slot of one level higher.</p></details><details><summary><strong>Halo.</strong></summary><p>After you spend the requisite amount of time reading and studying the book, you gain a protective halo. This halo sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. You can dismiss or manifest the halo as a Bonus Action. While present, the halo gives you Advantage on Charisma (Persuasion) checks. In addition, Fiends and Undead within the halo’s Bright Light make attack rolls against you with Disadvantage.</p></details><details><summary><strong>Random Properties.</strong></summary><p>The <em>Book of Exalted Deeds</em> has the following random properties (see “Artifacts” in this chapter):</p><ul><li>2 minor beneficial properties</li><li>2 major beneficial properties</li></ul></details><details><summary><strong>Destroying the Book.</strong></summary><p>The <em>Book of Exalted Deeds</em> can’t be destroyed. However, drowning the book in the River Styx removes all writing and imagery from its pages and renders the book powerless for [[/r 1d100#Years]] years.</p></details>",
+      "chat": ""
+    },
+    "identifier": "book-of-exalted-deeds",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "Celestial Calm",
+      "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+      "_id": "ycth6OnXxefcT9Pp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "charmed",
+          "priority": null
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "frightened",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "psychic",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<div><p>While attuned to the book, you have Immunity to the Charmed and Frightened conditions and Resistance to Psychic damage. These benefits become permanent after you spend the requisite amount of time reading and studying the book.</p></div>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.4",
+        "createdTime": 1728661234529,
+        "modifiedTime": 1728661586808,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgBookOfExalted.ycth6OnXxefcT9Pp"
+    },
+    {
+      "name": "Divine Wisdom",
+      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+      "_id": "nfZZC6eTEVuS4Cje",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.wis.value",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<div><p>After you spend the requisite amount of time reading and studying the book, your Wisdom increases by 2, to a maximum of 24. You can’t gain this benefit from the book more than once.</p></div>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.4",
+        "createdTime": 1728661433802,
+        "modifiedTime": 1728677442866,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgBookOfExalted.nfZZC6eTEVuS4Cje"
+    },
+    {
+      "name": "Halo",
+      "img": "icons/magic/holy/saint-glass-portrait-halo.webp",
+      "origin": "Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBookOfExalted",
+      "transfer": false,
+      "_id": "xVePaG6sfu3n4Ueq",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>This halo sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. You can dismiss or manifest the halo as a Bonus Action. While present, the halo gives you Advantage on Charisma (Persuasion) checks. In addition, Fiends and Undead within the halo’s Bright Light make attack rolls against you with Disadvantage.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "marked"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.4",
+        "createdTime": 1728676940444,
+        "modifiedTime": 1728677419434,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgBookOfExalted.xVePaG6sfu3n4Ueq"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1730835480795,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 3500000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgBookOfExalted"
+}

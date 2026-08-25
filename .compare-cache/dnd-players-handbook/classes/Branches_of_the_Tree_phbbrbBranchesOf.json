@@ -1,0 +1,201 @@
+{
+  "_id": "phbbrbBranchesOf",
+  "name": "Branches of the Tree",
+  "type": "feat",
+  "img": "icons/magic/nature/root-vine-wood-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Whenever a creature you can see starts its turn within 30 feet of you while your Rage is active, you can take a Reaction to summon spectral branches of the World Tree around it. The target must succeed on a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus) or be teleported to an unoccupied space you can see within 5 feet of yourself or in the nearest unoccupied space you can see. After the target teleports, you can reduce its Speed to 0 until the end of the current turn.</p><section id=\"secret-iHFpYS3WUCeaQIVP\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be applied to the target and will reduce their Speed.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "Path of the World Tree",
+    "activities": {
+      "jQ1yQ7jICDFobGVg": {
+        "type": "save",
+        "name": "",
+        "_id": "jQ1yQ7jICDFobGVg",
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "Whenever a creature you can see starts its turn within 30 feet of you while your Raging"
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "H7DsaT2pjapfbA4d"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "damage": {
+          "parts": [],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": "str",
+          "dc": {
+            "calculation": "str",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": [
+          "H7DsaT2pjapfbA4d"
+        ]
+      }
+    },
+    "enchant": {},
+    "identifier": "branches-of-the-tree"
+  },
+  "effects": [
+    {
+      "name": "Branches of the Tree",
+      "img": "icons/magic/nature/root-vine-wood-blue.webp",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbbrbBranchesOf",
+      "transfer": false,
+      "_id": "H7DsaT2pjapfbA4d",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 5,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.burrow",
+          "mode": 5,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.climb",
+          "mode": 5,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 5,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 5,
+          "value": "0",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>A creature moved by Branches of the Tree's Speed can be reduced to until the end of its current turn.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.4",
+        "createdTime": 1724441245162,
+        "modifiedTime": 1740579252669,
+        "lastModifiedBy": "zA1HDbCLa7iONUCI",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbbrbBranchesOf.H7DsaT2pjapfbA4d"
+    }
+  ],
+  "folder": "Zd7YGO9cOq0vvRbw",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425956681,
+    "modifiedTime": 1726075571773,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbbrbBranchesOf"
+}

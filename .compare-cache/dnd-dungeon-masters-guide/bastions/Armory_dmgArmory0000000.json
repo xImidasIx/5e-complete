@@ -1,0 +1,75 @@
+{
+  "_id": "dmgArmory0000000",
+  "name": "Armory",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-01.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 5 Bastion Facility</em></p><p><strong>Prerequisite:</strong> None</p><p><strong>Space:</strong> Roomy</p><p><strong>Hirelings:</strong> 1</p><p><strong>Order:</strong> Trade</p><p>An Armory contains mannequins for displaying armor, hooks for holding Shields, racks for storing weapons, and chests for holding ammunition.</p><p><em><strong>Trade: Stock Armory.</strong></em> When you issue the Trade order to this facility, you commission the facility’s hireling to stock the Armory with armor, Shields, weapons, and ammunition. This equipment costs you 100 GP plus an extra 100 GP for each Bastion Defender in your Bastion. If your Bastion has a Smithy, the total cost is halved.</p><p>While your Armory is stocked, your Bastion Defenders are harder to kill. When any event causes you to roll dice to determine if your Bastion loses one or more of its defenders (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgBastions00000.JournalEntryPage.KiujX8sthhH791vM]{Bastion Events}), roll [[/r 1d8]] in place of each d6 you would normally roll. When the event is over, the equipment in your Armory is expended regardless of how many Bastion Defenders you have or how many you lost, leaving your Armory depleted until you issue another Trade order to the facility and pay the cost to restock it.</p>",
+      "chat": ""
+    },
+    "identifier": "armory",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 5,
+    "order": "trade",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "armory"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgArmory0000000"
+}

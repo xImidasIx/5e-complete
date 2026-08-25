@@ -1,0 +1,755 @@
+{
+  "_id": "dmgDemonomiconOf",
+  "name": "Demonomicon of Iggwilv",
+  "type": "equipment",
+  "folder": "U4xmShLy19Ry54zl",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/demonnomicon-of-iggwilv.webp",
+  "system": {
+    "activities": {
+      "keeaY45qF2vd36fs": {
+        "type": "save",
+        "name": "Containment",
+        "_id": "keeaY45qF2vd36fs",
+        "sort": -100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "The Fiend makes the saving throw with Disadvantage. Deduct one item use on successful containment."
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "any",
+          "special": "within sight"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": "visible Fiend trapped within a Magic Circle"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": "cha",
+          "dc": {
+            "calculation": "",
+            "formula": "20"
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "L5DWXiXWL2L8lzF3": {
+        "type": "cast",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "7"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "3",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "The Fiend has Disadvantage on its saving throw"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "cylinder",
+            "size": "10",
+            "height": "20"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": "Chosen creature type must be Fiend"
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "9",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMagicCircl"
+        },
+        "name": "Ensnarement: Magic Circle",
+        "_id": "L5DWXiXWL2L8lzF3",
+        "img": ""
+      },
+      "JKbgCsGc9mFPZ08f": {
+        "type": "cast",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "5"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "5",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "The Fiend has Disadvantage on its saving throw"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "cylinder",
+            "size": "10",
+            "height": "20"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": "Chosen creature type must be Fiend"
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "9",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplPlanarBind"
+        },
+        "name": "Ensnarement: Planar Binding",
+        "_id": "JKbgCsGc9mFPZ08f",
+        "img": ""
+      },
+      "iroZCkPJNOF5YqlL": {
+        "type": "cast",
+        "_id": "iroZCkPJNOF5YqlL",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": "3",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMagicCircl"
+        },
+        "name": "",
+        "img": ""
+      },
+      "56b3wWYPhMy4wpo9": {
+        "type": "cast",
+        "_id": "56b3wWYPhMy4wpo9",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": "6",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMagicJar00"
+        },
+        "name": "",
+        "img": ""
+      },
+      "8UIcaAzOZZy6uc3L": {
+        "type": "cast",
+        "_id": "8UIcaAzOZZy6uc3L",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": "6",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplPlanarAlly"
+        },
+        "name": "",
+        "img": ""
+      },
+      "qwSKCEnsaVKI4ipd": {
+        "type": "cast",
+        "_id": "qwSKCEnsaVKI4ipd",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": "5",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplPlanarBind"
+        },
+        "name": "",
+        "img": ""
+      },
+      "n1le5ZToO0HmgeHp": {
+        "type": "cast",
+        "_id": "n1le5ZToO0HmgeHp",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "To the Abyss only"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": "7",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplPlaneShift"
+        },
+        "name": "Plane Shift (Abyss)",
+        "img": ""
+      },
+      "IxNOlGR4C4yX61Q2": {
+        "type": "cast",
+        "_id": "IxNOlGR4C4yX61Q2",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": "6",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien"
+        },
+        "name": "",
+        "img": ""
+      },
+      "m92e1mS30jt6g6dD": {
+        "type": "cast",
+        "_id": "m92e1mS30jt6g6dD",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": "1",
+          "properties": [],
+          "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplTashasHide"
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d8"
+        }
+      ],
+      "max": "8"
+    },
+    "description": {
+      "value": "<div><p><em>Wondrous Item, Artifact (Requires Attunement)</em></p></div><blockquote><p>This treatise, composed by Iggwilv the archmage, documents the Abyss’s layers and inhabitants and is widely regarded as the most thorough and blasphemous tome of demonology in the multiverse. The tome recounts both the oldest and most current profanities of the Abyss and demons. Demons have attempted to censor the text, and while sections have been ripped from the book’s spine, the general chapters remain, ever revealing demonic secrets. Caged behind lines of script roils a secret piece of the Abyss itself, which keeps the book up-to-date, no matter how many pages are removed, and it longs to be more than mere reference material.</p></blockquote><p><strong>Abyssal Lore.</strong> You can reference the <em>Demonomicon</em> whenever you make an Intelligence check to discern information about demons or a Wisdom (Survival) check related to the Abyss. When you do so, you gain Advantage on the check.</p><p><strong>Fiendish Scourging.</strong> While carrying the book, when you make a damage roll for a spell you cast against a Fiend, you use the maximum possible result instead of rolling.</p><details><summary><strong>Containment.</strong></summary><p>The first ten pages of the <em>Demonomicon</em> are blank. As a Magic action while holding the book, you can target a Fiend that you can see that is trapped within the area of a <em>Magic Circle</em> spell. The Fiend must succeed on a DC 20 Charisma saving throw with Disadvantage or become trapped within one of the <em>Demonomicon</em> ’s blank pages, which fills with writing detailing the trapped creature’s widely known name and depravities. Once used, this action can’t be used again until the next dawn.</p><p>When you finish a Long Rest, if you and the <em>Demonomicon</em> are on the same plane of existence, one trapped creature within the book can attempt to possess you. You make a [[/save ability=cha dc=20 format=long]]. On a failed save, you are possessed by the creature, which controls you like a puppet. As a Magic action, the possessing creature can release you and appear in the closest unoccupied space to you. On a successful save, the Fiend can’t try to possess you again for 7 days (but another Fiend trapped in the book can certainly try).</p><p>When the tome is discovered, it has [[/r 1d4#Fiends]]{1d4 Fiends} occupying its pages—typically an assortment of demons.</p></details><details><summary><strong>Ensnarement.</strong></summary><p>While carrying the book, whenever you cast <em>Magic Circle</em> naming only Fiends or cast <em>Planar Binding</em> targeting a Fiend, the spell is cast at level 9, regardless of what level spell slot you used, if any. Additionally, the Fiend has Disadvantage on its saving throw against the spell.</p></details><details><summary><strong>Random Properties.</strong></summary><p>The Artifact has the following random properties (see “Artifacts” in this chapter):</p><ul><li>2 minor beneficial properties</li><li>1 minor detrimental property</li><li>1 major detrimental property</li></ul></details><details><summary><strong>Spells.</strong></summary><p>The book has 8 charges and regains 1d8 expended charges daily at dawn. While holding the book, you can take a Magic action to cast one of the spells (save DC 20) on the following table. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><td>Spell</td><td>Charge Cost</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicCircl]{Magic Circle}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicJar00]{Magic Jar}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlanarAlly]{Planar Ally}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlanarBind]{Planar Binding}</em></td><td>2</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlaneShift]{Plane Shift} (to the Abyss only)</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien]{Summon Fiend}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTashasHide]{Tasha’s Hideous Laughter}</em></td><td>0</td></tr></tbody></table></details><details><summary><strong>Destroying the Demonomicon.</strong></summary><p>To destroy the book, six different demon lords must each tear out a sixth of the book’s pages. If this occurs, the pages reappear after 24 hours. Before all those hours pass, anyone who opens the book’s remaining binding is transported to a nascent layer of the Abyss that lies hidden within the book. At the heart of this deadly, semisentient domain lies a long-lost Artifact, <em>Fraz-Urb’luu’s Staff</em> . If the staff is dragged from the pocket plane, the tome is reduced to a mundane and out-of-date copy of the <em>Tome of Zyx</em>, the work that served as the foundation of the <em>Demonomicon of Iggwilv</em>. The <em>Tome of Zyx</em> can be destroyed like any ordinary book. Once the staff emerges, the demon lord Fraz-Urb’luu knows instantly.</p></details>",
+      "chat": ""
+    },
+    "identifier": "demonomicon-of-iggwilv",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "cover": null,
+    "crewed": false,
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1730837227618,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 10700000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgDemonomiconOf"
+}

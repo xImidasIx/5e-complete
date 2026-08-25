@@ -1,0 +1,266 @@
+{
+  "name": "Swift Quiver",
+  "system": {
+    "description": {
+      "value": "<p>When you cast the spell and as a Bonus Action until it ends, you can make two attacks with a weapon that fires Arrows or Bolts, such as a Longbow or a Light Crossbow. The spell magically creates the ammunition needed for each attack. Each Arrow or Bolt created by the spell deals damage like a nonmagical piece of ammunition of its kind and disintegrates immediately after it hits or misses.</p><section id=\"secret-XYv43C243UyopCSq\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The default <strong>Cast</strong> activity simply consumes a spell slot with no other effects.</p><p>The optional <strong>Cast and Enchant</strong> activity is configured to also apply an enchantment to a given weapon which removes its ammunition consumption.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "bonus",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "level": 5,
+    "school": "trs",
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "materials": {
+      "value": "a Quiver worth 1+ GP",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {
+      "DE7WqJFIWGteZ8xU": {
+        "type": "utility",
+        "name": "Cast",
+        "_id": "DE7WqJFIWGteZ8xU",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "rhO5r8mRL2H9bP7q": {
+        "type": "enchant",
+        "name": "Cast and Enchant",
+        "_id": "rhO5r8mRL2H9bP7q",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "RyHllknqWcYSlQ5Z",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {},
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [
+            "simpleR",
+            "martialR"
+          ],
+          "properties": [
+            "amm"
+          ],
+          "type": "weapon"
+        },
+        "img": "",
+        "appliedEffects": [
+          "RyHllknqWcYSlQ5Z"
+        ]
+      }
+    },
+    "identifier": "swift-quiver"
+  },
+  "_id": "phbsplSwiftQuive",
+  "type": "spell",
+  "img": "icons/skills/ranged/arrows-triple-yellow-red.webp",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "Endless Ammunition",
+      "img": "icons/skills/ranged/arrows-triple-yellow-red.webp",
+      "disabled": false,
+      "_id": "RyHllknqWcYSlQ5Z",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "-amm",
+          "priority": null
+        },
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Swift {}",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.1",
+        "createdTime": 1726505574965,
+        "modifiedTime": 1726506774965,
+        "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbsplSwiftQuive.RyHllknqWcYSlQ5Z"
+    }
+  ],
+  "folder": "beZ8MTpWY2cMEUlp",
+  "sort": 112500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1724425974299,
+    "modifiedTime": 1726506583958,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbsplSwiftQuive"
+}

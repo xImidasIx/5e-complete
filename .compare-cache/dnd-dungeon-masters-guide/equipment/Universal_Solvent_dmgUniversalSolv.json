@@ -1,0 +1,226 @@
+{
+  "_id": "dmgUniversalSolv",
+  "name": "Universal Solvent",
+  "type": "consumable",
+  "folder": "guHYjt0gjPLU2wCs",
+  "img": "modules/dnd-dungeon-masters-guide/assets/icons/items/universal-solvent.webp",
+  "system": {
+    "activities": {
+      "zLSDeTP2AoZlrhAj": {
+        "type": "utility",
+        "name": "Determine Ounces",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-(1d6 + 1)",
+              "target": "",
+              "scaling": {}
+            },
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": "1"
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "zLSDeTP2AoZlrhAj"
+      },
+      "29Jn4qIeO3YkUZhG": {
+        "type": "utility",
+        "name": "Apply Solvent",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "@item.uses.value"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false,
+          "value": "@scaling"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "@scaling",
+            "type": "square",
+            "size": "1"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "space",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "29Jn4qIeO3YkUZhG"
+      }
+    },
+    "uses": {
+      "spent": 7,
+      "recovery": [],
+      "max": "7",
+      "autoDestroy": true
+    },
+    "description": {
+      "value": "<p><em>Wondrous Item, Legendary</em></p><p>This tube holds milky liquid with a strong alcohol smell. When found, a tube contains 1d6 + 1 ounces.</p><p>You can take a Utilize action to pour 1 or more ounces of solvent from the tube onto a surface within reach. Each ounce instantly dissolves up to 1 square foot of adhesive it touches, including @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSovereignGlue]{Sovereign Glue}.</p><section class=\"secret\" id=\"secret-cCr2F0ctb7qvQ3x8\"><p><strong>Foundry Note</strong></p><p>This item includes 7 limited uses. The <strong>Determine Ounces</strong> activity can be used to determine the number of ounces equivalent to 1d6 + 1.</p><p>The <strong>Apply Solvent</strong> activity allows you to select the number of ounces you're applying.</p></section>",
+      "chat": ""
+    },
+    "identifier": "universal-solvent",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.3",
+    "createdTime": 1727883376108,
+    "modifiedTime": 1757095368599,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgUniversalSolv"
+}

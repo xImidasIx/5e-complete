@@ -1,0 +1,304 @@
+{
+  "_id": "dmgTrainingArea0",
+  "name": "Training Area",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-03.webp",
+  "system": {
+    "activities": {
+      "ZWmd0kTp4Qf1JJXd": {
+        "type": "utility",
+        "name": "Trained",
+        "_id": "ZWmd0kTp4Qf1JJXd",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "vm5sP9BvWTpNSzq6"
+          },
+          {
+            "_id": "8LOiciVz81eZo34v"
+          },
+          {
+            "_id": "v8DrjiFf7lRTNj5l"
+          },
+          {
+            "_id": "X1NBL9TCDBKPbn0c"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 9 Bastion Facility</em></p><p><strong>Prerequisite:</strong> None</p><p><strong>Space:</strong> Vast</p><p><strong>Hirelings:</strong> 4</p><p><strong>Order: </strong>Empower</p><p>A Bastion can have more than one Training Area. A Training Area might be an open courtyard, a gymnasium, a music or dance hall, or a cleverly built gauntlet of traps and hazards. It might contain inanimate targets (for weapon practice), padded mats, and other equipment. One of the facility’s hirelings is an expert trainer; the others serve as training partners.</p><p>When a Training Area becomes part of your Bastion, choose one trainer from the Expert Trainers table. On each Bastion turn, you can replace that trainer with another one from the table.</p><table><thead><tr><th>Trainer Type</th><th>Empower Effect</th></tr></thead><tbody><tr><td>Battle Expert</td><td>When you take damage from an attack made with an Unarmed Strike or a weapon, you can take a Reaction to reduce this damage by [[/healing 1d4]]{1d4}.</td></tr><tr><td>Skills Expert</td><td>You gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Performance, Sleight of Hand, or Stealth.</td></tr><tr><td>Unarmed Combat Expert</td><td>When you hit with your Unarmed Strike and deal damage, the attack deals an extra [[/damage 1d4 type=bludgeoning]] damage.</td></tr><tr><td>Weapon Expert</td><td>Choose a kind of Simple or Martial weapon, such as Spear or Longbow. If you aren’t proficient with the weapon, you gain proficiency with it. If you already have proficiency with the weapon, you can use its mastery property.</td></tr></tbody></table><p><em><strong>Empower: Training.</strong></em> When you issue the Empower order to this facility, the facility’s hirelings conduct training exercises for the next 7 days. Any character who trains here for at least 8 hours on each of those days gains a benefit at the end of the training period. The benefit depends on which trainer is present in the facility, as noted in the Expert Trainers table. The benefit lasts for 7 days.</p>",
+      "chat": ""
+    },
+    "identifier": "training-area",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 4
+    },
+    "level": 9,
+    "order": "empower",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "vast",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "trainingArea"
+    },
+    "craft": null
+  },
+  "effects": [
+    {
+      "name": "Battle Expert",
+      "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-03.webp",
+      "origin": "Item.dmgTrainingArea0",
+      "transfer": true,
+      "_id": "vm5sP9BvWTpNSzq6",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": 10080,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>When you take damage from an attack made with an Unarmed Strike or a weapon, you can take a Reaction to reduce this damage by [[/heal 1d4]].</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgTrainingArea0.vm5sP9BvWTpNSzq6"
+    },
+    {
+      "name": "Skills Expert",
+      "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-03.webp",
+      "origin": "Item.dmgTrainingArea0",
+      "transfer": false,
+      "_id": "8LOiciVz81eZo34v",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 10080,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>You gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Performance, Sleight of Hand, or Stealth.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgTrainingArea0.8LOiciVz81eZo34v"
+    },
+    {
+      "name": "Unarmed Combat Expert",
+      "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-03.webp",
+      "origin": "Item.dmgTrainingArea0",
+      "transfer": false,
+      "_id": "v8DrjiFf7lRTNj5l",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 10080,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>When you hit with your Unarmed Strike and deal damage, the attack deals an extra [[/damage 1d4 type=bludgeoning]] damage.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgTrainingArea0.v8DrjiFf7lRTNj5l"
+    },
+    {
+      "name": "Weapon Expert",
+      "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-03.webp",
+      "origin": "Item.dmgTrainingArea0",
+      "transfer": false,
+      "_id": "X1NBL9TCDBKPbn0c",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 10080,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Choose a kind of Simple or Martial weapon, such as Spear or Longbow. If you aren’t proficient with the weapon, you gain proficiency with it. If you already have proficiency with the weapon, you can use its mastery property.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!dmgTrainingArea0.X1NBL9TCDBKPbn0c"
+    }
+  ],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731338173925,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgTrainingArea0"
+}

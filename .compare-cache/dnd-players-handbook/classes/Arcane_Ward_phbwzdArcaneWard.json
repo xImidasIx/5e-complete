@@ -1,0 +1,369 @@
+{
+  "_id": "phbwzdArcaneWard",
+  "name": "Arcane Ward",
+  "type": "feat",
+  "folder": "Yxtyuf6PvbrATAek",
+  "img": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can weave magic around yourself for protection. When you cast an Abjuration spell with a spell slot, you can simultaneously use a strand of the spell’s magic to create a magical ward on yourself that lasts until you finish a Long Rest. The ward has a Hit Point maximum equal to twice your Wizard level plus your Intelligence modifier. Whenever you take damage, the ward takes the damage instead, and if you have any Resistances or Vulnerabilities, apply them before reducing the ward’s Hit Points. If the damage reduces the ward to 0 Hit Points, you take any remaining damage. While the ward has 0 Hit Points, it can’t absorb damage, but its magic remains.</p><p>Whenever you cast an Abjuration spell with a spell slot, the ward regains a number of Hit Points equal to twice the level of the spell slot. Alternatively, as a Bonus Action, you can expend a spell slot, and the ward regains a number of Hit Points equal to twice the level of the spell slot expended.</p><p>Once you create the ward, you can’t create it again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-ri6EwokQGNpRCXyI\"><p><strong>Foundry Note</strong></p><p>Track the HP of the Ward with the number of uses on this item.</p><p>The <strong>Create Ward</strong> activity has 1 use per Long Rest and updates the Arcane Ward to have full uses (\"HP\").</p><p>The <strong>Damage Ward</strong> activity will reduce the Ward's uses (\"HP\") by the amount of damage given.</p><p>The <strong>Restore Ward HP After Casting Spell</strong> activity can be used after you use an Abjuration spell. Set the scale value to the spell slot level you used to restore the correct number of uses (\"HP\").</p><p>The <strong>Expend Spell Slot for Ward</strong> activity allows you to choose a spell slot level, expends it, and restores the correct number of uses (\"HP\").</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "(2 * @classes.wizard.levels) + @abilities.int.mod",
+      "spent": 11,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "loseAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [
+      "mgc"
+    ],
+    "requirements": "",
+    "activities": {
+      "Hha69hPMTYWhDE4A": {
+        "type": "utility",
+        "name": "Create Ward",
+        "_id": "Hha69hPMTYWhDE4A",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you cast an Abjuration spell with a spell slot"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1"
+            },
+            {
+              "type": "itemUses",
+              "value": "-@item.uses.max",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/activity/save.svg",
+        "appliedEffects": []
+      },
+      "jiueqesjid1T7uCk": {
+        "type": "utility",
+        "name": "Damage Ward",
+        "_id": "jiueqesjid1T7uCk",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "@item.uses.value"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/activity/damage.svg",
+        "appliedEffects": []
+      },
+      "bzJ9CvhHEhMJMBH5": {
+        "type": "utility",
+        "name": "Restore Ward HP After Casting Spell",
+        "_id": "bzJ9CvhHEhMJMBH5",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": "When you cast an Abjuration spell with a spell slot"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "9"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-2",
+              "target": "",
+              "scaling": {
+                "mode": "amount",
+                "formula": "-2"
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/activity/heal.svg",
+        "appliedEffects": []
+      },
+      "gfUOIb6wmIKrXloQ": {
+        "type": "utility",
+        "name": "Expend Spell Slot for Ward",
+        "_id": "gfUOIb6wmIKrXloQ",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "9"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            },
+            {
+              "type": "itemUses",
+              "value": "-2",
+              "target": "",
+              "scaling": {
+                "mode": "amount",
+                "formula": "-2"
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/activity/heal.svg",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "arcane-ward"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1724425985216,
+    "modifiedTime": 1755811297266,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbwzdArcaneWard"
+}

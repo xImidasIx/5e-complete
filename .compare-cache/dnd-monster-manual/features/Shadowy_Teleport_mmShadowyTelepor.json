@@ -1,0 +1,183 @@
+{
+  "_id": "mmShadowyTelepor",
+  "name": "Shadowy Teleport",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "OkgNdhDVAMk4wyEa": {
+        "type": "utility",
+        "_id": "OkgNdhDVAMk4wyEa",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "RyZ6FJMrHcReQwbx"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "",
+            "type": "",
+            "size": "",
+            "width": "",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Expend Use",
+        "img": "systems/dnd5e/icons/svg/monster.svg",
+        "appliedEffects": [
+          "RyZ6FJMrHcReQwbx"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\">The [[lookup @name lowercase]] has the &amp;Reference[Invisible apply=false] condition for [[lookup @duration.value activity=OkgNdhDVAMk4wyEa]] [[lookup @duration.units activity=OkgNdhDVAMk4wyEa]], and it teleports up to [[lookup @range.value activity=OkgNdhDVAMk4wyEa]] feet to an unoccupied space it can see. The condition ends early immediately after it deals damage.</p>",
+      "chat": ""
+    },
+    "identifier": "shadowy-teleport",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/control/debuff-energy-hold-pink.webp",
+  "effects": [
+    {
+      "name": "Invisible",
+      "img": "systems/dnd5e/icons/svg/statuses/invisible.svg",
+      "origin": "Item.mmShadowyTelepor",
+      "_id": "RyZ6FJMrHcReQwbx",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": 0,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target has the &amp;Reference[Invisible apply=false] condition for 1 minute,</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "invisible"
+      ],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1736114453069,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmShadowyTelepor.RyZ6FJMrHcReQwbx"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1737914217226,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 19600000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmShadowyTelepor"
+}

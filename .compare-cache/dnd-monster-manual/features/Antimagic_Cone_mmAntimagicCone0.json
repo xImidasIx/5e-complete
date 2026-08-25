@@ -1,0 +1,120 @@
+{
+  "_id": "mmAntimagicCone0",
+  "name": "Antimagic Cone",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "7vRTku30dhIyBf68": {
+        "type": "utility",
+        "_id": "7vRTku30dhIyBf68",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "round",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "cone",
+            "size": "150",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>The [[lookup @name lowercase]]'s central eye emits an antimagic wave in a [[lookup @target.template.size activity=7vRTku30dhIyBf68]]-[[lookup @target.template.units activity=7vRTku30dhIyBf68]] [[lookup @target.template.type capitalize activity=7vRTku30dhIyBf68]]. Until the start of the beholder’s next turn, that area acts as an <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAntimagicF]</em> spell, and that area works against the [[lookup @name lowercase]]'s own Eye Rays.</p>",
+      "chat": ""
+    },
+    "identifier": "antimagic-cone",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/light/beams-explosion-blue.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1734555512698,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmAntimagicCone0"
+}

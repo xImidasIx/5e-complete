@@ -1,0 +1,275 @@
+{
+    "id": "dnd-players-handbook",
+    "title": "Dungeons & Dragons Player's Handbook",
+    "description": "Embark on an epic adventure 10 years in the making. This new and improved Player's Handbook® is the ultimate guide for fifth edition D&D players. Play your way with optimized rules for character creation and advancement, exploration, combat, equipment, spells, and much more. Create fantastic heroes from an expanded selection of character origins, classes, and subclasses, revised and balanced for maximum fun.",
+    "authors": [
+        {
+            "name": "Andrew Clayton",
+            "discord": "Atropos",
+            "url": "https://foundryvtt.com"
+        },
+        {
+            "name": "Kim Mantas",
+            "discord": "fyorl",
+            "url": "https://foundryvtt.com"
+        },
+        {
+            "name": "Jeff Hitchcock"
+        },
+        {
+            "name": "Matt Haentschke"
+        },
+        {
+            "name": "Matt Ryan",
+            "discord": "mattexdee",
+            "url": "https://foundryvtt.com"
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "url": "modules/dnd-players-handbook/assets/journal-art/phb-2024-cover.webp",
+            "loop": false,
+            "flags": {}
+        }
+    ],
+    "version": "2.1.0",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "esmodules": [
+        "scripts/dnd-players-handbook.mjs"
+    ],
+    "styles": [
+        "styles/dnd-players-handbook.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "5.1.0"
+                }
+            }
+        ]
+    },
+    "packs": [
+        {
+            "name": "content",
+            "label": "Player's Handbook",
+            "path": "packs/content",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "display": "table-of-contents"
+                }
+            }
+        },
+        {
+            "name": "classes",
+            "label": "Character Classes",
+            "path": "packs/classes",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "types": [
+                        "class",
+                        "subclass",
+                        "feat"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "origins",
+            "label": "Character Origins",
+            "path": "packs/origins",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "types": [
+                        "race",
+                        "background",
+                        "feat"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "feats",
+            "label": "Feats",
+            "path": "packs/feats",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "types": [
+                        "feat"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "spells",
+            "label": "Spells",
+            "path": "packs/spells",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "sorting": "m",
+                    "types": [
+                        "spell"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "equipment",
+            "label": "Equipment",
+            "path": "packs/equipment",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "types": [
+                        "weapon",
+                        "equipment",
+                        "consumable",
+                        "tool",
+                        "loot",
+                        "feat",
+                        "container"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "tables",
+            "label": "Roll Tables",
+            "path": "packs/tables",
+            "type": "RollTable",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e"
+        },
+        {
+            "name": "actors",
+            "label": "Actors",
+            "path": "packs/actors",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {
+                "dnd5e": {
+                    "sorting": "m"
+                }
+            }
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Player's Handbook",
+            "color": "#1e72cc",
+            "sorting": "m",
+            "packs": [
+                "content",
+                "classes",
+                "origins",
+                "feats",
+                "spells",
+                "tables",
+                "actors",
+                "equipment"
+            ]
+        }
+    ],
+    "url": "https://foundryvtt.com/packages/dnd-players-handbook",
+    "manifest": "",
+    "protected": false,
+    "changelog": "https://github.com/foundryvtt/foundryvtt-premium-content/discussions?discussions_q=label%3Adnd-players-handbook",
+    "flags": {
+        "hotReload": false,
+        "tokenRingSubjectMappings": {
+            "modules/dnd-players-handbook/assets/tokens/": "modules/dnd-players-handbook/assets/subjects/"
+        },
+        "dnd5e": {
+            "sourceBooks": {
+                "PHB 2024": "SOURCE.BOOK.PHB2024"
+            },
+            "spellLists": [
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.8yD9Jgp404hfZ9ie",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.5HnIk6HsrSxkvkz5",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.VfZ5mH2ZuyFq82Ga",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.sSzagq8GvYXpfmfs",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsLife000000",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsLight00000",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsTrickery00",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsLandArid00",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsLandPolar0",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsLandTemper",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsLandTropic",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsMoon000000",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsSea0000000",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsDevotion00",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsGlory00000",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsAncients00",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsVengeance0",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsFeyWandere",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsGloomStalk",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsPsionic000",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsClockwork0",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsDraconic00",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsArchfey000",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsCelestial0",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsFiend00000",
+                "Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.spellsGreatOldOn"
+            ]
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+  "_id": "phbftrEldritchSt",
+  "name": "Eldritch Strike",
+  "type": "feat",
+  "folder": "DFNpZerX0xRdg8PN",
+  "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You learn how to make your weapon strikes undercut a creature's ability to withstand your spells. When you hit a creature with an attack using a weapon, that creature has Disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</p><section id=\"secret-jvKDjaltxCLtjiax\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking but does not automate the Disadvantage.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 10
+    },
+    "properties": [],
+    "requirements": "Eldritch Knight",
+    "activities": {},
+    "enchant": {},
+    "identifier": "eldritch-strike"
+  },
+  "effects": [
+    {
+      "name": "Struck",
+      "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
+      "_id": "iB6bLenNNGu4VNuQ",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1724694115801,
+        "modifiedTime": 1726859259252,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbftrEldritchSt.iB6bLenNNGu4VNuQ"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425971488,
+    "modifiedTime": 1726238839107,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbftrEldritchSt"
+}

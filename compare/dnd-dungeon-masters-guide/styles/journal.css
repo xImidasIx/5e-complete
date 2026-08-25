@@ -1,0 +1,20 @@
+.dmg {
+  .journal-entry-content {
+    border-image: var(--dmg-border-image);
+  }
+
+  /* pad bottom of journal pages to show page bottom decoration */
+  & .journal-entry-pages {
+    margin-bottom:2rem;
+  }
+
+  /*
+   * Journal Header/Chapter styling to match book
+   */
+  & .journal-header .title {
+    --input-text-color: var(--dmg-chapter-color);
+    &:not(:hover) {
+      background: transparent;
+    }
+  }
+}

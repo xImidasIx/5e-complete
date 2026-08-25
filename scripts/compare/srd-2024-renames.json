@@ -1,0 +1,103 @@
+{
+  "_comment": "Name changes from the 2014 SRD 5.1 to the 2024 SRD 5.2.1, sourced from WotC's 'Converting to SRD 5.2.1' guide (compare/converting-to-srd-5.2.1.pdf). Used by check-2024-renames.js to flag pack entries that still use the pre-2024 name. rulesTerms and omittedMonsters are informational only (rulesTerms aren't document/item names in the packs; omittedMonsters lists stat blocks WotC dropped entirely, with the recommended replacement).",
+  "spells": [
+    { "old": "Feeblemind", "new": "Befuddlement" },
+    { "old": "Branding Smite", "new": "Shining Smite" }
+  ],
+  "classFeatures": [
+    { "old": "Ki", "new": "Monk's Focus" },
+    { "old": "Deflect Missiles", "new": "Deflect Attacks" },
+    { "old": "Ki-Empowered Strikes", "new": "Empowered Strikes" },
+    { "old": "Stillness of Mind", "new": "Self-Restoration" },
+    { "old": "Purity of Body", "new": "Self-Restoration" },
+    { "old": "Diamond Soul", "new": "Disciplined Survivor" },
+    { "old": "Perfect Body", "new": "Perfect Focus" },
+    { "old": "Divine Smite", "new": "Paladin's Smite" },
+    { "old": "Improved Divine Smite", "new": "Radiant Strikes" },
+    { "old": "Oath Spells", "new": "Oath of Devotion Spells" },
+    { "old": "Fiend Expanded Spells", "new": "Fiend Spells" },
+    { "old": "Additional Magical Secrets", "new": "Magical Discoveries" },
+    { "old": "Circle Spells", "new": "Circle of the Land Spells" }
+  ],
+  "subclasses": [
+    { "old": "Way of the Open Hand", "new": "Warrior of the Open Hand" },
+    { "old": "Draconic Bloodline", "new": "Draconic Sorcery" },
+    { "old": "The Fiend", "new": "Fiend Patron" },
+    { "old": "School of Evocation", "new": "Evoker" }
+  ],
+  "armor": [
+    { "old": "Padded", "new": "Padded Armor" },
+    { "old": "Leather", "new": "Leather Armor" },
+    { "old": "Studded Leather", "new": "Studded Leather Armor" },
+    { "old": "Hide", "new": "Hide Armor" },
+    { "old": "Half Plate", "new": "Half Plate Armor" },
+    { "old": "Splint", "new": "Splint Armor" },
+    { "old": "Plate", "new": "Plate Armor" }
+  ],
+  "magicItems": [
+    { "old": "Arrow of Slaying", "new": "Ammunition of Slaying" },
+    { "old": "Orb of Dragonkind", "new": "Dragon Orb" },
+    { "old": "Iron Bands of Binding", "new": "Iron Bands" },
+    { "old": "Deck of Many Things", "new": "Mysterious Deck" }
+  ],
+  "poisons": [
+    { "old": "Drow Poison", "new": "Spider's Sting" }
+  ],
+  "traps": [
+    { "old": "Fire-Breathing Statue", "new": "Fire-Casting Statue" },
+    { "old": "Poison Darts", "new": "Poisoned Darts" },
+    { "old": "Poison Needle", "new": "Poisoned Needle" },
+    { "old": "Rolling Sphere", "new": "Rolling Stone" }
+  ],
+  "monsters": [
+    { "old": "Flying Sword", "new": "Animated Flying Sword" },
+    { "old": "Rug of Smothering", "new": "Animated Rug of Smothering" },
+    { "old": "Azer", "new": "Azer Sentinel" },
+    { "old": "Bugbear", "new": "Bugbear Warrior" },
+    { "old": "Centaur", "new": "Centaur Trooper" },
+    { "old": "Cult Fanatic", "new": "Cultist Fanatic" },
+    { "old": "Gnoll", "new": "Gnoll Warrior" },
+    { "old": "Goblin", "new": "Goblin Warrior" },
+    { "old": "Half-Red Dragon Veteran", "new": "Half-Dragon" },
+    { "old": "Hobgoblin", "new": "Hobgoblin Warrior" },
+    { "old": "Kobold", "new": "Kobold Warrior" },
+    { "old": "Merfolk", "new": "Merfolk Skirmisher" },
+    { "old": "Minotaur", "new": "Minotaur of Baphomet" },
+    { "old": "Acolyte", "new": "Priest Acolyte" },
+    { "old": "Sahuagin", "new": "Sahuagin Warrior" },
+    { "old": "Gynosphinx", "new": "Sphinx of Lore" },
+    { "old": "Androsphinx", "new": "Sphinx of Valor" },
+    { "old": "Thug", "new": "Tough" },
+    { "old": "Tribal Warrior", "new": "Warrior Infantry" },
+    { "old": "Veteran", "new": "Warrior Veteran" },
+    { "old": "Giant Sea Horse", "new": "Giant Seahorse" },
+    { "old": "Giant Poisonous Snake", "new": "Giant Venomous Snake" },
+    { "old": "Quipper", "new": "Piranha" },
+    { "old": "Sea Horse", "new": "Seahorse" },
+    { "old": "Swarm of Quippers", "new": "Swarm of Piranhas" },
+    { "old": "Swarm of Poisonous Snakes", "new": "Swarm of Venomous Snakes" },
+    { "old": "Poisonous Snake", "new": "Venomous Snake" }
+  ],
+  "omittedMonsters": [
+    { "old": "Duergar", "new": "Spy" },
+    { "old": "Elf, Drow", "new": "Priest Acolyte" },
+    { "old": "Gnome, Deep", "new": "Scout", "note": "Svirfneblin" },
+    { "old": "Lizardfolk", "new": "Scout" },
+    { "old": "Orc", "new": "Tough" }
+  ],
+  "rulesTerms": [
+    { "old": "Walking Speed", "new": "Speed" },
+    { "old": "Use an Object", "new": "Utilize" },
+    { "old": "armor proficiency", "new": "Armor Training" },
+    { "old": "Interacting with Objects", "new": "Breaking Objects" },
+    { "old": "Water", "new": "Dehydration", "note": "condition/rule name only, not the adventuring-gear item" },
+    { "old": "inspiration", "new": "Heroic Inspiration" },
+    { "old": "Hit Dice", "new": "Hit Point Dice" },
+    { "old": "Food", "new": "Malnutrition", "note": "condition/rule name only, not the adventuring-gear item" },
+    { "old": "Spellcasting Services", "new": "Spellcasting" },
+    { "old": "Forced March", "new": "Extended Travel" },
+    { "old": "diseases", "new": "Magical Contagions" },
+    { "old": "madness rules", "new": "Fear and Mental Stress" },
+    { "old": "Sample Traps", "new": "Example Traps" }
+  ]
+}

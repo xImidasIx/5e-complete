@@ -1,0 +1,90 @@
+{
+  "name": "Sharpshooter",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Dexterity score by 1, to a maximum of 20.</p><p><strong>Bypass Cover.</strong> Your ranged attacks with weapons ignore Half Cover and Three-Quarters Cover.</p><p><strong>Firing in Melee.</strong> Being within 5 feet of an enemy doesn’t impose Disadvantage on your attack rolls with Ranged weapons.</p><p><strong>Long Shots.</strong> Attacking at long range doesn’t impose Disadvantage on your attack rolls with Ranged weapons.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "Dexterity 13+",
+    "activities": {},
+    "enchant": {},
+    "identifier": "sharpshooter",
+    "advancement": [
+      {
+        "_id": "cK7frT5Y3QP0tkf8",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 1,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbftSharpshoote",
+  "type": "feat",
+  "img": "icons/skills/targeting/target-strike-gray.webp",
+  "effects": [],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425895025,
+    "modifiedTime": 1740697865688,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftSharpshoote"
+}

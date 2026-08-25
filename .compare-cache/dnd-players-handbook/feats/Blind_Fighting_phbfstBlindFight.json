@@ -1,0 +1,102 @@
+{
+  "name": "Blind Fighting",
+  "system": {
+    "description": {
+      "value": "<p><em>(Prerequisite: Fighting Style Feature)</em></p><p>You have Blindsight with a range of 10 feet.</p><section id=\"secret-eG5EudF8gmfHBBul\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that grants the Blindsight.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [
+        "fighting-style"
+      ]
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "blind-fighting"
+  },
+  "_id": "phbfstBlindFight",
+  "type": "feat",
+  "img": "icons/creatures/eyes/human-single-brown.webp",
+  "effects": [
+    {
+      "name": "Blind Fighting",
+      "img": "icons/creatures/eyes/human-single-brown.webp",
+      "_id": "TpieD3nmNeoTdhTj",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.blindsight",
+          "mode": 4,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725466736515,
+        "modifiedTime": 1725466770866,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbfstBlindFight.TpieD3nmNeoTdhTj"
+    }
+  ],
+  "folder": "O942K0m1gZMIIoMB",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425893416,
+    "modifiedTime": 1760123552704,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbfstBlindFight"
+}

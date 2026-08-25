@@ -1,0 +1,243 @@
+{
+  "_id": "mmAbsorbBody0000",
+  "name": "Absorb Body",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "YqWqaRXxaKFCH6P8": {
+        "type": "save",
+        "_id": "YqWqaRXxaKFCH6P8",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Z9dVR5kgA8vzELCo",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "Medium or Small"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "str",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "Z9dVR5kgA8vzELCo"
+        ]
+      },
+      "KXQbdk3TH6uZex2L": {
+        "type": "heal",
+        "_id": "KXQbdk3TH6uZex2L",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "the target dies while grafted"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": "10"
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=YqWqaRXxaKFCH6P8]], one [[lookup @target.affects.special activity=YqWqaRXxaKFCH6P8]] [[lookup @target.affects.type activity=YqWqaRXxaKFCH6P8]] the [[lookup @name lowercase]] can see within 5 feet.</p><p><em>Failure:</em> The target is pulled into the [[lookup @name lowercase]]'s space and becomes grafted to its body. The [[lookup @name lowercase]] can have only one target grafted at a time.</p><p>While grafted, the target has the &amp;Reference[Restrained apply=false] condition and Disadvantage on Constitution saving throws. When the [[lookup @name lowercase]] moves, the grafted target moves with it. If [[lookup @activation.condition activity=KXQbdk3TH6uZex2L]], its body is destroyed, and the [[lookup @name lowercase]] regains [[lookup @healing.formula activity=KXQbdk3TH6uZex2L]] Hit Points.</p><p>The grafted target or a creature within 5 feet of the [[lookup @name lowercase]] can take an action to make a [[/check ability=str skill=ath dc=@abilities.str.dc format=long]]. On a successful check, the target is no longer grafted and moves to an unoccupied space within 5 feet of the [[lookup @name lowercase]].</p>",
+      "chat": ""
+    },
+    "identifier": "absorb-body",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+  "effects": [
+    {
+      "name": "Grafted: Con Saves and Restrained",
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmAbsorbBody0000",
+      "transfer": false,
+      "_id": "Z9dVR5kgA8vzELCo",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>While grafted, the target has the &amp;Reference[Restrained apply=false] condition and Disadvantage on Constitution saving throws.</p><p>The grafted target or a creature within 5 feet of the grafter can take an action to make a [[/check ability=str skill=ath format=long]] (see source item for DC). On a successful check, the target is no longer grafted and moves to an unoccupied space within 5 feet of the grafter.</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": 1734461531077,
+        "modifiedTime": 1734462563485,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmAbsorbBody0000.Z9dVR5kgA8vzELCo"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1734471712792,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmAbsorbBody0000"
+}

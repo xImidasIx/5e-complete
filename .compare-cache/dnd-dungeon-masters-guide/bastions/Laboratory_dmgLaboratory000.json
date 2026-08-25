@@ -1,0 +1,75 @@
+{
+  "_id": "dmgLaboratory000",
+  "name": "Laboratory",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-04.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 9 Bastion Facility</em></p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Craft</p><p>A Laboratory contains storage space for alchemical supplies and workspaces for crafting various concoctions.</p><p><em><strong>Craft Options.</strong></em> When you issue the Craft order to this facility, choose one of the following options:</p><p><strong>Craft: Alchemist’s Supplies.</strong> The facility’s hireling crafts anything that can be made with @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulAlchemists]{Alchemist's Supplies}, using the rules in the <em>Player’s Handbook</em> and @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgTreasure00000.JournalEntryPage.8b89AU6dQR6bti27]{chapter 7} of this book.</p><p><strong>Craft: Poison.</strong> You commission the facility’s hireling to craft a vial containing one application of a poison. The poison must be one of the following: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBurntOthurFum]{Burnt Othur Fumes}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEssenceOfEthe]{Essence of Ether}, or @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgTorpor0000000]{Torpor}. This work takes 7 days, and you must pay half the poison’s cost. See @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.UfAEdm3LbTzvQHC5]{Poison} for descriptions and costs of poisons.</p>",
+      "chat": ""
+    },
+    "identifier": "laboratory",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "laboratory"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgLaboratory000"
+}

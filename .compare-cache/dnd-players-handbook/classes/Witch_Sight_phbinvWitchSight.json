@@ -1,0 +1,102 @@
+{
+  "_id": "phbinvWitchSight",
+  "name": "Witch Sight",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<blockquote><p>Prerequisite: Level 15+ Warlock</p></blockquote><p>You have Truesight with a range of 30 feet.</p><section id=\"secret-yUE0N1X1QX3kZHcx\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically grants you Truesight.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "rules": "2024"
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": 15
+    },
+    "properties": [],
+    "requirements": "",
+    "identifier": "witch-sight"
+  },
+  "effects": [
+    {
+      "name": "Truesight (30 ft)",
+      "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+      "_id": "CkC8PmrUFz70FTwS",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.truesight",
+          "mode": 4,
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.1",
+        "createdTime": 1725219537678,
+        "modifiedTime": 1755705623628,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbinvWitchSight.CkC8PmrUFz70FTwS"
+    }
+  ],
+  "folder": "BjeMHiqnKNWkWhox",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1725210778780,
+    "modifiedTime": 1726678246613,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbinvWitchSight"
+}

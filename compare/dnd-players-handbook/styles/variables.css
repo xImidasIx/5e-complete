@@ -1,0 +1,69 @@
+/* ---------------------------------------- */
+/*  Project Variables                       */
+/* ---------------------------------------- */
+.table-of-contents[data-compendium-id="dnd-players-handbook.content"],
+.theme-light .phb:not(.themed),
+.theme-light.phb {
+    /* ---------------------------------------- */
+    /*  Colors                                  */
+    /* ---------------------------------------- */
+    --narrative-border: #fff;
+    --notable-background: #ebdbcd;
+    --table-color-odd: #dce9ee;
+    --table-color-even: #f2f7f9;
+    --table-border-color: #EDEAE8;
+    --table-header-color: #fdfdfd;
+    --phb-red: #5a0507;
+    --phb-border-image: url(../assets/ui/page-background.webp) 40 40 40 10 fill / 5% 3% 2% 1% / 0 round;
+    --phb-saturated-gold: color(srgb 0.900816 0.74032 0.420752);
+    --phb-social-highlight: #eddbb9;
+    --phb-social-background: rgb(241, 234, 215);
+
+    /* ---------------------------------------- */
+    /*  Core/System Variable Overrides          */
+    /* ---------------------------------------- */
+
+    --color-text-emphatic: var(--phb-red);
+    --dnd5e-journal-content-background: none;
+
+    /* Tables */
+    --dnd5e-color-table-row-even: var(--table-color-even);
+    --dnd5e-color-table-row-odd: var(--table-color-odd);
+    --dnd5e-color-table-header-1: var(--table-header-color);
+    --dnd5e-color-table-header-2: var(--dnd5e-color-table-header-1);
+
+    tbody tr:hover {
+      --dnd5e-color-table-row-even: var(--notable-background);
+      --dnd5e-color-table-row-odd: var(--notable-background);
+    }
+
+    /* System Blocks */
+    .notable, .advice, .quest, .narrative, figcaption {
+      --color-text-emphatic: var(--color-text-dark-primary);
+    }
+
+    .notable {
+      --dnd5e-block-background: var(--notable-background);
+    }
+
+    .advice, .quest {
+      --dnd5e-block-background: url(/systems/dnd5e/ui/parchment.jpg);
+    }
+
+    .narrative {
+      --dnd5e-block-background: #d5dbd4;
+    }
+
+    /* Core Applications */
+    .journal-sidebar .toc {
+      /* Used to border the active page(s) in the "pages list" */
+      --color-warm-2: var(--notable-background);
+    }
+}
+
+.theme-dark .phb:not(.themed),
+.theme-dark.phb {
+  --phb-social-highlight: var(--dnd5e-color-blue-gray-1);
+  --phb-social-background: var(--dnd5e-color-dark-gray);
+  --color-text-emphatic: var(--dnd5e-color-gold);
+}

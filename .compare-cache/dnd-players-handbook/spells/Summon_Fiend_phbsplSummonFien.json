@@ -1,0 +1,188 @@
+{
+  "name": "Summon Fiend",
+  "system": {
+    "description": {
+      "value": "<p>You call forth a fiendish spirit. It manifests in an unoccupied space that you can see within range and uses the <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFiendishSp]{Fiendish Spirit}</strong> stat block. When you cast the spell, choose Demon, Devil, or Yugoloth. The creature resembles a Fiend of the chosen type, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the &amp;Reference[Dodge] action and uses its movement to avoid danger.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Use the spell slot’s level for the spell’s level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.</p><table><caption>Fiendish Spirit</caption><tbody><tr><td><strong>AC</strong></td><td>12 + the spell’s level</td></tr><tr><td><strong>HP</strong></td><td>50 (Demon only) or 40 (Devil only) or 60 (Yugoloth only) + 15 for each spell level above 6</td></tr><tr><td><strong>Speed</strong></td><td>40 ft.; Climb 40 ft. (Demon only); Fly 60 ft. (Devil only)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "1",
+        "type": "space",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "90"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "level": 6,
+    "school": "con",
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "materials": {
+      "value": "a bloody vial worth 600+ GP",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {
+      "zf0AcitLNX2zkKe5": {
+        "type": "summon",
+        "_id": "zf0AcitLNX2zkKe5",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "bonuses": {
+          "ac": "@item.level",
+          "hd": "",
+          "hp": "15 * (@item.level - 6)",
+          "attackDamage": "@item.level",
+          "saveDamage": "@item.level",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "Demon",
+            "_id": "9E57PDnG1jRqKjz1",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbfisDemonSpiri",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "Devil",
+            "_id": "rTV0iwBIDwgQsEJ3",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbfisDevilSpiri",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "Yugoloth",
+            "_id": "CFSYUVekKoutB5pM",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbfisYugolothSp",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "identifier": "summon-fiend"
+  },
+  "_id": "phbsplSummonFien",
+  "type": "spell",
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "effects": [],
+  "folder": "8WmlLARx1Df3Ii9v",
+  "sort": 101563,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.1",
+    "createdTime": 1724425973940,
+    "modifiedTime": 1726775612959,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbsplSummonFien"
+}

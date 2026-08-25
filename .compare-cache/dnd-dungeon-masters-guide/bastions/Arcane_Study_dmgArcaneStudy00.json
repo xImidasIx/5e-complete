@@ -1,0 +1,75 @@
+{
+  "_id": "dmgArcaneStudy00",
+  "name": "Arcane Study",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-04.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 5 Bastion Facility</em></p><p><strong>Prerequisite:</strong> Ability to use an Arcane Focus or tool as a Spellcasting Focus</p><p><strong>Space:</strong> Roomy</p><p><strong>Hirelings:</strong> 1</p><p><strong>Order:</strong> Craft</p><p>An Arcane Study is a place of quiet research that contains one or more desks and bookshelves.</p><p><em><strong>Arcane Study Charm.</strong></em> After spending a Long Rest in your Bastion, you gain a magical Charm (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.U9qU1oUFTPAK7g50]{Supernatural Gifts}) that lasts for 7 days or until you use it. The Charm allows you to cast <em>Identify</em> without expending a spell slot or using Material components. You can’t gain this Charm again while you still have it.</p><p><em><strong>Craft Options.</strong></em> When you issue the Craft order to this facility, choose one of the following options:</p><p><strong>Craft: Arcane Focus. </strong>You commission the facility’s hireling to craft an Arcane Focus. The work takes 7 days and costs no money. The Arcane Focus remains in your Bastion until you claim it.</p><p><strong>Craft: Book. </strong>You commission the facility’s hireling to craft a blank book. The work takes 7 days and costs you 10 GP. The book remains in your Bastion until you claim it.</p><p><strong>Craft: Magic Item (Arcana).</strong> If you are level 9+, you can commission the facility’s hireling to craft a Common or an Uncommon magic item chosen by you from the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz#arcana-tables]{Arcana tables}. The facility has the tool required to craft the item, and the hireling has proficiency with that tool as well as proficiency in the Arcana skill. See @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.CmKJpbyrDuVrAkIs]{Crafting Magic Items} for the time and money that must be spent to craft the item. If the item allows its user to cast any spells from it, you must craft the item yourself (the facility’s hireling can assist), and you must have all those spells prepared every day you spend crafting the item.</p>",
+      "chat": ""
+    },
+    "identifier": "arcane-study",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 5,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "arcaneStudy"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1730985601999,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgArcaneStudy00"
+}

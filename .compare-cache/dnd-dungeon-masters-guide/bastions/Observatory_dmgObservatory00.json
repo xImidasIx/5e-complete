@@ -1,0 +1,75 @@
+{
+  "_id": "dmgObservatory00",
+  "name": "Observatory",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-04.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 13 Bastion Facility</em></p><p><strong>Prerequisite: </strong>Ability to use a Spellcasting Focus</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Empower</p><p>Situated atop your Bastion, your Observatory contains a telescope aimed at the night sky.</p><p><em><strong>Observatory Charm.</strong></em> You can use your Observatory to peer into the far corners of Wildspace and the Astral Plane. After spending a Long Rest in your Observatory, you gain a magical Charm (see @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.U9qU1oUFTPAK7g50]{Supernatural Gifts}) that lasts for 7 days or until you use it. The Charm allows you to cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContactOth]{Contact Other Plane} without expending a spell slot. You can’t gain this Charm again while you still have it.</p><p><em><strong>Empower: Eldritch Discovery.</strong></em> When you issue the Empower order to this facility, you enable yourself or the facility’s hireling to explore the eldritch mysteries of the stars for 7 consecutive nights. At the end of that time, roll a die ([[/r 1d2]]). If the number rolled is even, nothing is gained. If the number rolled is odd, an unknown power bestows one of the following Charms on you or another creature of your choice that is on the same plane of existence as you: @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCharmOfDarkvi]{Charm of Darkvision}, @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCharmOfHerois]{Charm of Heroism}, or @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgCharmOfVitali]{Charm of Vitality}.</p>",
+      "chat": ""
+    },
+    "identifier": "observatory",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 13,
+    "order": "empower",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "observatory"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731091090153,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgObservatory00"
+}

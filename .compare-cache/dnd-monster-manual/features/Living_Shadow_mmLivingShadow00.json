@@ -1,0 +1,176 @@
+{
+  "_id": "mmLivingShadow00",
+  "name": "Living Shadow",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"feature\">While in Dim Light or Darkness, the [[lookup @name lowercase]] has Resistance to damage that isn’t Force, Psychic, or Radiant.</p><section class=\"secret\" id=\"secret-mDlPy4LM9OwpRBJk\"><p><strong>Foundry Note</strong></p><p>This feature provides an Active Effect to manage <strong>Damage Resistances</strong> in the character sheet's Effects tab. The resistances outlined will need to be manually enabled/disabled.</p></section>",
+      "chat": ""
+    },
+    "identifier": "living-shadow",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": ""
+  },
+  "folder": "L9Zgr8qAPc3ngKhb",
+  "img": "icons/magic/light/orb-shadow-blue.webp",
+  "effects": [
+    {
+      "name": "Living Shadow",
+      "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
+      "origin": "Compendium.dnd-monster-manual.features.Item.mmLivingShadow00",
+      "_id": "cZy1xQV7LOtPpQzc",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "acid",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "thunder",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": 0,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>While in Dim Light or Darkness, the creature has Resistance to damage that isn’t Force, Psychic, or Radiant.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dnd-monster-manual.actors.Actor.mmJuvenileShadow.Item.mmLivingShadow00.ActiveEffect.boNhrUtzyo91oCNw",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "createdTime": 1760297761591,
+        "modifiedTime": 1760297811044,
+        "lastModifiedBy": "g3b1uG8OzU4jXKtW"
+      },
+      "_key": "!items.effects!mmLivingShadow00.cZy1xQV7LOtPpQzc"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.0",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1736361412065,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 8200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmLivingShadow00"
+}

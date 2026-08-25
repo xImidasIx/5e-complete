@@ -1,0 +1,54 @@
+{
+  "_id": "phbclcWarSpells0",
+  "name": "War Domain Spells",
+  "type": "feat",
+  "img": "icons/magic/control/buff-flight-wings-runes-red-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the War Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>War Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Guiding Bolt}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo]{Magic Weapon}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFa]{Shield of Faith}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW]{Spiritual Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCrusadersM]{Crusader's Mantle}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritGuar]{Spirit Guardians}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireShield]{Fire Shield}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold Monster}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS]{Steel Wind Strike}</td></tr></tbody></table><section class=\"secret\" id=\"secret-Qu99GvyNrwjfGfHE\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "War Domain",
+    "activities": {},
+    "enchant": {},
+    "identifier": "war-domain-spells"
+  },
+  "effects": [],
+  "folder": "jCEOVokBRWBPXprX",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425966586,
+    "modifiedTime": 1726455939970,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbclcWarSpells0"
+}

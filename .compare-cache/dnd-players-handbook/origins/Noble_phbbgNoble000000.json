@@ -1,0 +1,178 @@
+{
+  "name": "Noble",
+  "system": {
+    "description": {
+      "value": "<p><strong>Ability Scores:</strong> Strength, Intelligence, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Skilled}</p><p><strong>Skill Proficiencies:</strong> History and Persuasion</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind of</em> <em>Gaming Set</em> (see @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapter 6})</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) Gaming Set (same as above), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, 29 GP; or (B) 50 GP</p><p>You were raised in a castle, surrounded by wealth, power, and privilege. Your family of minor aristocrats ensured that you received a first-class education, some of which you appreciated and some of which you resented. Your time in the castle, especially the many hours you spent observing your family at court, also taught you a great deal about leadership.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 3
+    },
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "gjcpiNXtL4IYPkWH",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "tool",
+        "count": null,
+        "key": "game",
+        "requiresProficiency": false,
+        "_id": "UpZBhHRxZ3NDvDHx",
+        "group": "gjcpiNXtL4IYPkWH",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine",
+        "requiresProficiency": false,
+        "_id": "WytdUYJD5YQP1Ktg",
+        "group": "gjcpiNXtL4IYPkWH",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000",
+        "requiresProficiency": false,
+        "_id": "aZyem9kXaSdJ50eM",
+        "group": "gjcpiNXtL4IYPkWH",
+        "sort": 400000
+      }
+    ],
+    "identifier": "noble",
+    "advancement": [
+      {
+        "_id": "dDN9riz0oic0lmUE",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "dex",
+            "con",
+            "wis"
+          ],
+          "points": 3,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "Background Ability Score Improvement",
+        "hint": "Your background allows you to increase your Strength, Intelligence, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+      },
+      {
+        "_id": "CXbbKtPLueZdycXQ",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:his",
+            "skills:per"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:game:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Background Proficiencies",
+        "hint": "Your background grants you proficiency in History and Persuasion. It also grants you proficiency with one kind of Gaming Set."
+      },
+      {
+        "_id": "vCe6YNpwh45sK0wR",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Background Feat",
+        "hint": "Your background grants you the Skilled feat."
+      },
+      {
+        "_id": "pLGiyOjTP7nwuwTl",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Choose Languages",
+        "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+      }
+    ],
+    "wealth": "50"
+  },
+  "_id": "phbbgNoble000000",
+  "type": "background",
+  "img": "modules/dnd-players-handbook/assets/icons/backgrounds/noble.webp",
+  "effects": [],
+  "folder": "ysJSs3cbEBOMC1zV",
+  "sort": 100196,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425890460,
+    "modifiedTime": 1760154022386,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbbgNoble000000"
+}

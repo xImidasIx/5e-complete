@@ -1,0 +1,59 @@
+{
+  "_id": "phbscrTamedSurge",
+  "name": "Tamed Surge",
+  "type": "feat",
+  "folder": "nMe7B0yCgOGewxFO",
+  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Immediately after you cast a Sorcerer spell with a spell slot, you can create an effect of your choice from the @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{Wild Magic Surge} table instead of rolling on that table. You can choose any effect in the table except for the final row, and if the chosen effect involves a roll, you must make it.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 18
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "tamed-surge"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425984173,
+    "modifiedTime": 1726075585445,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbscrTamedSurge"
+}

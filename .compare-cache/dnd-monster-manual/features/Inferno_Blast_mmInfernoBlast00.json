@@ -1,0 +1,281 @@
+{
+  "_id": "mmInfernoBlast00",
+  "name": "Inferno Blast",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "activities": {
+      "ta7GjruJh1oJ4cz3": {
+        "type": "save",
+        "_id": "ta7GjruJh1oJ4cz3",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "1iIWiccK8q8PaDMM",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "120"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "sphere",
+            "size": "30",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 10,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "fire"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "18"
+          }
+        },
+        "name": "Save",
+        "img": "",
+        "appliedEffects": [
+          "1iIWiccK8q8PaDMM"
+        ]
+      },
+      "cuIDOQ2o3dMRhqzd": {
+        "type": "damage",
+        "_id": "cuIDOQ2o3dMRhqzd",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "fire"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "name": "Fire Damage",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "recharge",
+          "formula": "5",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=ta7GjruJh1oJ4cz3]], each [[lookup @target.affects.type activity=ta7GjruJh1oJ4cz3]] in a [[lookup @target.template.size activity=ta7GjruJh1oJ4cz3]]-[[lookup @target.template.units activity=ta7GjruJh1oJ4cz3]]-radius [[lookup @target.template.type capitalize activity=ta7GjruJh1oJ4cz3]] centered on a point the [[lookup @name lowercase]] can see within [[lookup @range.value activity=ta7GjruJh1oJ4cz3]] [[lookup @range.units activity=ta7GjruJh1oJ4cz3]].</p><p class=\"feature\"><em>Failure:</em> [[/damage average activity=ta7GjruJh1oJ4cz3]] damage, and the target starts burning, taking [[/damage average activity=cuIDOQ2o3dMRhqzd]] damage at the start of each of its turns instead of the normal burning damage. The target gains 1 &amp;Reference[Exhaustion apply=false] level whenever it takes this burning damage.</p><p class=\"feature\"><em>Success:</em> Half damage only.</p><section class=\"secret\" id=\"secret-PjhZrkaxWk4OeGEf\"><p><strong>Foundry Note</strong></p><p>This feature provides an Active Effect that will modify the targeted object. Due to the fact that effect can be applied multiple times, the effect needs to be dragged from this item's Effect tab onto the target item's sheet each time the target gains a level of exhaustion after the initial level is applied.</p></section>",
+      "chat": ""
+    },
+    "identifier": "inferno-blast",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "folder": "4T18pEvubPMQLzvD",
+  "img": "icons/magic/fire/flame-burning-earth-yellow.webp",
+  "effects": [
+    {
+      "name": "Exhaustion",
+      "img": "systems/dnd5e/icons/svg/statuses/exhaustion.svg",
+      "origin": "Item.mmInfernoBlast00",
+      "_id": "1iIWiccK8q8PaDMM",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The target gains 1 &amp;Reference[Exhaustion apply=false] level whenever it takes this burning damage.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "exhaustion"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.2.0",
+        "createdTime": null,
+        "modifiedTime": 1736067632463,
+        "lastModifiedBy": "1cIN1wXbfsmG13Hh",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mmInfernoBlast00.1iIWiccK8q8PaDMM"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1733432292956,
+    "modifiedTime": 1738098344498,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 13000000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmInfernoBlast00"
+}

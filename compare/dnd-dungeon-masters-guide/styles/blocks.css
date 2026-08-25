@@ -1,0 +1,236 @@
+figure.content-embed.dmg,
+.dmg {
+  img {
+    border: none;
+    box-shadow: none;
+  }
+
+  h2 {
+    border-bottom: 2px solid var(--phb-saturated-gold);
+    border-image: linear-gradient(
+    to right,
+    var(--phb-saturated-gold),
+    transparent 90%
+    );
+    border-image-slice: 0 0 1 0;
+  }
+
+  h4:not(.statblock-title) {
+    border: none;
+  }
+
+  table:not(.statblock table) {
+    border: none;
+    /* With a safe fallback, let tables stretch
+     * to fill available space. Lets tables fit
+     * around floated elements more easily.
+     */
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: stretch;
+
+    caption {
+      text-align: left;
+    }
+
+
+    /* Match header cell hor. padding
+     * to better left align cell text
+     */
+    td, th {
+      padding-inline-start: 1rem;
+    }
+
+    thead {
+      text-align: left;
+      border: none;
+
+      tr {
+        color: var(--table-header-text-color);
+      }
+    }
+
+    tbody tr:hover {
+      background-color: var(--table-color-hover);
+    }
+  }
+
+  /* UTILITY */
+
+  & ul.columns-two {
+    columns: 2;
+  }
+
+  & .scroll-x {
+    overflow-x: scroll;
+  }
+
+  & .hide-secrets .content-embed .secret {
+    display: none;
+  }
+
+  & .content-embed .hide-in-embed {
+    display: none;
+  }
+
+  /* Notable/Advice Block Headings */
+  .notable, .advice, .quest, .narrative, figcaption {
+    /* Reduce top/bottom margin since these headers are smaller */
+    --dnd5e-journal-h3-size: var(--dnd5e-journal-h4-size);
+    --color-text-emphatic: var(--color-text-primary);
+    h3, h4 { margin-block: 0 }
+  }
+
+  /* SOCIAL EXAMPLES */
+  & .social-example {
+    background: var(--dmg-social-gradient);
+    padding: 10px 30px;
+
+    & .highlighted {
+      background-color: var(--dmg-highlight-color);
+      position: relative;
+
+      & span.footnote {
+        position: absolute;
+        left: -29px;
+        top: 20%;
+        background: var(--dmg-bubble-bg);
+        color: #fff;
+        border: none;
+        border-radius: 100%;
+        z-index: 1;
+        width: var(--font-size-20);
+        aspect-ratio: 1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    & .dm-entry {
+      color: var(--dmg-brown);
+      font-weight: bold;
+    }
+
+    & .player-entry {
+      color: var(--dmg-saturated-teal);
+      font-weight: bold;
+    }
+
+    & .highlighted::after {
+      position: absolute;
+      left: -3px;
+      top: 0px;
+      height: 100%;
+      background: var(--dmg-saturated-teal);
+      content: "";
+      width: 2px;
+      display: block;
+    }
+
+  }
+
+  & .social-callouts {
+    flex-shrink:1.1;
+  }
+
+  /* Callouts */
+  & .callout-border {
+    position: relative;
+    border-image-slice: 100;
+    border-image-width: 60px 60px 60px 60px;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+    border-image-source: url(../assets/ui/callout-border.webp);
+    border-style: solid;
+    padding: 30px 30px 20px;
+    margin-bottom: 20px;
+    background: var(--dmg-callout-bg);
+
+    & span.footnote {
+      position: absolute;
+      left: -5px;
+      top: -8px;
+      background: var(--dmg-bubble-bg);
+      color: #fff;
+      border: none;
+      border-radius: 100%;
+      z-index: 1;
+      width: var(--font-size-20);
+      aspect-ratio: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+}
+
+
+.content-embed .hide-in-embed,
+.chat-card .hide-in-embed,
+#tooltip .hide-in-embed {
+  display: none;
+}
+/* @Embed formatting for the following:
+ *  - Within .dmg elements
+ *  - With .dmg class
+ *  - From DMG compendiums
+ */
+.dmg figure.content-embed,
+figure.content-embed.dmg,
+figure.content-embed[data-uuid^="Compendium.dnd-dungeon-masters-guide"] {
+  margin: 0.5em 0;
+
+  & .roll-table-embed {
+    /* Numerical ranges in the first column of roll tables
+             are best displayed without line breaks.
+             Centering follows wotc styling. */
+    & thead tr th:first-child,
+    & tbody tr td:first-child {
+      white-space: nowrap;
+      text-align: center;
+      padding-inline-start: 1rem;
+    }
+  }
+
+  /* 'caption-top' is useful for embedding extended item text within
+            another item, such as RollTables. Tweak stock formatting to look
+            more like the surrounding parent text. */
+  &.caption-top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+
+    & p + p {
+      margin-top: 0;
+    }
+
+    /* Removing padding from descriptions since
+             item sheets are usually smaller */
+    & figcaption {
+      padding: initial;
+      margin-top: 0;
+      text-align: left;
+
+      & .embed-caption {
+        text-align: left;
+        font-style: inherit;
+      }
+    }
+
+    /* RollTable embeds place their HTML description within the caption.
+             Inherit weight from parent container and style the citation
+             to look like the others */
+    & .roll-table-embed + figcaption {
+      font-weight: inherit;
+
+      & cite {
+        display: block;
+        font-weight: bold;
+        margin-top: 0.5em;
+      }
+    }
+  }
+}

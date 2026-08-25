@@ -1,0 +1,104 @@
+{
+  "_id": "phbsptHalflingNi",
+  "name": "Halfling Nimbleness",
+  "type": "feat",
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>You can move through the space of any creature that is a size larger than you, but you can’t stop in the same space.</p>",
+      "chat": ""
+    },
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Halfling",
+    "identifier": "halfling-nimbleness",
+    "advancement": []
+  },
+  "effects": [
+    {
+      "name": "Halfling Nimbleness",
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "origin": "Compendium.dnd-players-handbook.origins.Item.phbsptHalflingNi",
+      "_id": "GQdaDsAEio14WFfG",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.halflingNimbleness",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.1",
+        "createdTime": 1755803668222,
+        "modifiedTime": 1755803681438,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B"
+      },
+      "_key": "!items.effects!phbsptHalflingNi.GQdaDsAEio14WFfG"
+    }
+  ],
+  "folder": "zVLJosGQ7viZqH14",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1725733277871,
+    "modifiedTime": 1755803666115,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbsptHalflingNi"
+}

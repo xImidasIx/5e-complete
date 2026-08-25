@@ -1,0 +1,174 @@
+{
+  "_id": "phbrgeSpellThief",
+  "name": "Spell Thief",
+  "type": "feat",
+  "folder": "JWrHBfC3SxUB5k4L",
+  "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</p><p>Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can take a Reaction to force the creature to make an Intelligence saving throw. The DC equals your spell save DC. On a failed save, you negate the spell’s effect against you, and you steal the knowledge of the spell if it is at least level 1 and of a level you can cast (it doesn’t need to be a Wizard spell). For the next 8 hours, you have the spell prepared. The creature can’t cast it until the 8 hours have passed.</p><p>Once you steal a spell with this feature, you can’t use this feature again until you finish a Long Rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 17
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "7I3f9ys0j2gdTnMs": {
+        "type": "save",
+        "name": "Spell Thief",
+        "_id": "7I3f9ys0j2gdTnMs",
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "Immediately after a creature casts a spell that targets you or includes you in its area of effect"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "srTPApnqiiSmPf8g"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "damage": {
+          "parts": [],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": "int",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "systems/dnd5e/icons/svg/statuses/grappled.svg",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "spell-thief"
+  },
+  "effects": [
+    {
+      "name": "Stolen Spell",
+      "img": "systems/dnd5e/icons/svg/statuses/grappled.svg",
+      "origin": "Compendium.dnd-players-handbook.classes.Item.phbrgeSpellThief",
+      "transfer": false,
+      "_id": "srTPApnqiiSmPf8g",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 28800,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>This creature has had a spell stolen from it and cannot cast it for 8 hours.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725029287445,
+        "modifiedTime": 1725029330109,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbrgeSpellThief.srTPApnqiiSmPf8g"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425982039,
+    "modifiedTime": 1726075583173,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgeSpellThief"
+}

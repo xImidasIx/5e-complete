@@ -1,0 +1,165 @@
+{
+  "_id": "mmAnimateBoulder",
+  "name": "Animate Boulders",
+  "type": "feat",
+  "img": "icons/magic/earth/construct-stone-long-arms.webp",
+  "system": {
+    "activities": {
+      "lydBv987ChZ7itoS": {
+        "type": "summon",
+        "_id": "lydBv987ChZ7itoS",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "2",
+            "type": "object",
+            "special": "one or two boulders it can see"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "2",
+            "name": "",
+            "_id": "gT9gMFx1SRcMf56k",
+            "uuid": "Compendium.dnd-monster-manual.actors.Actor.mmAnimatedBoulde",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "identifier": "",
+          "mode": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "day",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>The [[lookup @name lowercase]] animates [[lookup @target.affects.special activity=lydBv987ChZ7itoS]] it can see within [[lookup @range.value activity=lydBv987ChZ7itoS]] feet of itself. Each boulder uses the @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGalebDuhr00000] stat block, except it has Intelligence and Charisma scores of 1 and lacks this action. The boulder takes its turn immediately after the [[lookup @name lowercase]] on the same Initiative count, and it obeys the [[lookup @name lowercase]]. A boulder remains animate for [[lookup @duration.value activity=lydBv987ChZ7itoS]] minute or until it or the [[lookup @name lowercase]] dies.</p>",
+      "chat": ""
+    },
+    "identifier": "animate-boulders",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "4T18pEvubPMQLzvD",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.2.2",
+    "createdTime": 1738012634547,
+    "modifiedTime": 1738013275272,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmAnimateBoulder"
+}

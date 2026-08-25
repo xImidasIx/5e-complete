@@ -1,0 +1,159 @@
+{
+  "_id": "phbdrdCircleForm",
+  "name": "Circle Forms",
+  "type": "feat",
+  "folder": "Kif3DrTmPnMK5Nct",
+  "img": "icons/magic/nature/moon-crescent.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can channel lunar magic when you assume a Wild Shape form, granting you the benefits below.</p><p><strong>Challenge Rating.</strong> The maximum Challenge Rating for the form equals your Druid level divided by 3 (round down, currently [[(floor(@classes.druid.levels / 3))]]).</p><p><strong>Armor Class.</strong> Until you leave the form, your AC equals 13 plus your Wisdom modifier if that total is higher than the Beast's AC.</p><p><strong>Temporary Hit Points.</strong> You gain a number of Temporary Hit Points equal to three times your Druid level.</p><section class=\"secret\" id=\"secret-mYCNakmKwUlKSQaF\"><p><strong>Foundry Note</strong></p><p>This feature can be used instead of Wild Shape and includes the expanded options and AC/Temporary Hit Point changes.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "Circle of Moon",
+    "activities": {
+      "PEEVPEasGs8fZ4aW": {
+        "type": "transform",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd-players-handbook.classes.Item.phbdrdWildShape0"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "(floor(@classes.druid.levels / 2))"
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "cr": "floor(@classes.druid.levels / 3)",
+            "name": "Circle Form Options",
+            "_id": "1bmphNX1PGLZiPM5",
+            "uuid": "",
+            "sizes": [],
+            "types": [
+              "beast"
+            ],
+            "movement": [],
+            "level": {
+              "min": 8,
+              "max": null
+            }
+          },
+          {
+            "cr": "floor(@classes.druid.levels / 3)",
+            "name": "Circle Form Options",
+            "_id": "Xp3B0ApzX9yLM3re",
+            "uuid": "",
+            "sizes": [],
+            "types": [
+              "beast"
+            ],
+            "movement": [
+              "fly"
+            ],
+            "level": {
+              "min": null,
+              "max": 7
+            }
+          }
+        ],
+        "settings": null,
+        "transform": {
+          "customize": false,
+          "mode": "cr",
+          "identifier": "druid",
+          "preset": "wildshape"
+        },
+        "name": "",
+        "_id": "PEEVPEasGs8fZ4aW",
+        "img": ""
+      }
+    },
+    "enchant": {},
+    "identifier": "circle-forms"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425967114,
+    "modifiedTime": 1760157785145,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbdrdCircleForm"
+}

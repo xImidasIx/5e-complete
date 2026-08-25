@@ -1,0 +1,115 @@
+{
+  "_id": "phbinvLessonsoft",
+  "name": "Lessons of the First Ones",
+  "type": "feat",
+  "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{Origin feat} of your choice.</p><p><strong>Repeatable. </strong>You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": 2,
+      "repeatable": true
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "lessons-of-the-first-ones",
+    "advancement": [
+      {
+        "type": "ItemChoice",
+        "_id": "ysQ48LtppKVlaYwB",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftAlert000000"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftHealer00000"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftLucky000000"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftMusician000"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftSavageAttac"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftTavernBrawl"
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftTough000000"
+            }
+          ],
+          "restriction": {
+            "list": [],
+            "type": "feat",
+            "subtype": "origin"
+          },
+          "spell": null,
+          "type": "feat"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Choose Origin Feat",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "BjeMHiqnKNWkWhox",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": 1724425975900,
+    "modifiedTime": 1755703207592,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbinvLessonsoft"
+}

@@ -1,0 +1,247 @@
+{
+  "_id": "phbrgrExceptiona",
+  "name": "Exceptional Training",
+  "type": "feat",
+  "folder": "hgxCFiq4twdW6SXc",
+  "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Dodge], or &amp;Reference[Help] action using its Bonus Action.</p><p>In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p><section class=\"secret\" id=\"secret-dFb0uteASfxCBh4m\"><p><strong>Foundry Note</strong></p><p>The <strong>Train Companion</strong> enchantment activity is designed to be applied to your Companion's \"Beast's Strike\" item and adds the option of Force damage to that Action's damage roll configuration.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 7
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "activities": {
+      "me8v2ec00BryjJyK": {
+        "type": "utility",
+        "name": "Command Companion",
+        "_id": "me8v2ec00BryjJyK",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "Primal Companion"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "XUK2CSbRYnpEgB5J": {
+        "type": "enchant",
+        "name": "Train Companion",
+        "_id": "XUK2CSbRYnpEgB5J",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "As needed to add Force damage option"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "BuWM5zc7jpVE4oQy"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "Primal Companion's Attack features"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "self": false,
+          "identifier": "ranger"
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "exceptional-training"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "Exceptionally Trained",
+      "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+      "disabled": true,
+      "_id": "BuWM5zc7jpVE4oQy",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "force",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "icons/creatures/claws/claw-talons-glowing-purple.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Whenever the Companion hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.0",
+        "createdTime": 1755093534108,
+        "modifiedTime": 1755093753288,
+        "lastModifiedBy": "xREoBzi7Iao0TR7B"
+      },
+      "_key": "!items.effects!phbrgrExceptiona.BuWM5zc7jpVE4oQy"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.0",
+    "createdTime": 1724425982526,
+    "modifiedTime": 1755096272272,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbrgrExceptiona"
+}

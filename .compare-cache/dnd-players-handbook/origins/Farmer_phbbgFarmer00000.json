@@ -1,0 +1,198 @@
+{
+  "name": "Farmer",
+  "system": {
+    "description": {
+      "value": "<p><strong>Ability Scores:</strong> Strength, Constitution, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftTough000000]{Tough}</p><p><strong>Skill Proficiencies:</strong> Animal Handling and Nature</p><p><strong>Tool Proficiency:</strong> Carpenter’s Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]{Sickle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCarpenters]{Carpenter’s Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Healer’s Kit}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotIron0000]{Iron Pot}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler's Clothes}, 30 GP; or (B) 50 GP</p><p>You grew up close to the land. Years tending animals and cultivating the earth rewarded you with patience and good health. You have a keen appreciation for nature’s bounty alongside a healthy respect for nature’s wrath.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "TNHMxaGovu69ZlXO",
+        "group": "",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000",
+        "requiresProficiency": false,
+        "_id": "WtB4dqK7lmgDdkos",
+        "group": "TNHMxaGovu69ZlXO",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbtulCarpenters",
+        "requiresProficiency": false,
+        "_id": "Xm2fL6sOD6LmJKTe",
+        "group": "TNHMxaGovu69ZlXO",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0",
+        "requiresProficiency": false,
+        "_id": "TVpmfrBKEQQ2pwpL",
+        "group": "TNHMxaGovu69ZlXO",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagPotIron0000",
+        "requiresProficiency": false,
+        "_id": "Entzi1HFNXfBnLTo",
+        "group": "TNHMxaGovu69ZlXO",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000",
+        "requiresProficiency": false,
+        "_id": "inYuyNTuj4mhcay8",
+        "group": "TNHMxaGovu69ZlXO",
+        "sort": 800000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav",
+        "requiresProficiency": false,
+        "_id": "JSIVSV8iTw6YeUVP",
+        "group": "TNHMxaGovu69ZlXO",
+        "sort": 900000
+      }
+    ],
+    "identifier": "farmer",
+    "advancement": [
+      {
+        "_id": "YMZ2gm3MPCDybzaU",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "dex",
+            "int",
+            "cha"
+          ],
+          "points": 3
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "Background Ability Score Improvement",
+        "hint": "Your background allows you to increase your Strength, Constitution, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+      },
+      {
+        "_id": "iNdPe4J54ObUq4w6",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:art:carpenter",
+            "skills:ani",
+            "skills:nat"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Background Proficiencies",
+        "hint": "Your background grants you proficiency in Animal Handling and Nature. It also grants you proficiency with Carpenter's Tools."
+      },
+      {
+        "_id": "khsLl8BCDlFMmhDL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd-players-handbook.feats.Item.phbftTough000000"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Background Feat",
+        "hint": "Your background grants you the Tough feat."
+      },
+      {
+        "_id": "pLGiyOjTP7nwuwTl",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Choose Languages",
+        "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+      }
+    ],
+    "wealth": "50"
+  },
+  "_id": "phbbgFarmer00000",
+  "type": "background",
+  "img": "modules/dnd-players-handbook/assets/icons/backgrounds/farmer.webp",
+  "effects": [],
+  "folder": "ysJSs3cbEBOMC1zV",
+  "sort": 106250,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425890302,
+    "modifiedTime": 1760123243536,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbbgFarmer00000"
+}

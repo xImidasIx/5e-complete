@@ -1,0 +1,59 @@
+{
+  "_id": "phbscrTidesOfCha",
+  "name": "Tides of Chaos",
+  "type": "feat",
+  "folder": "nMe7B0yCgOGewxFO",
+  "img": "icons/magic/water/wave-water-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can manipulate chaos itself to give yourself Advantage on one D20 Test before you roll the d20. Once you do so, you must cast a Sorcerer spell with a spell slot or finish a Long Rest before you can use this feature again.</p><p>If you do cast a Sorcerer spell with a spell slot before you finish a Long Rest, you automatically roll on the @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{Wild Magic Surge} table.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "tides-of-chaos"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425984230,
+    "modifiedTime": 1726075585488,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbscrTidesOfCha"
+}

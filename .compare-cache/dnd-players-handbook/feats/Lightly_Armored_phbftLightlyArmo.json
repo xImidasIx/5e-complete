@@ -1,0 +1,139 @@
+{
+  "name": "Lightly Armored",
+  "system": {
+    "description": {
+      "value": "<p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Armor Training.</strong> You gain training with Light armor and Shields.</p><section class=\"secret\" id=\"secret-NpiwUDsdtqRVqwYX\"><p><strong>Foundry Note</strong></p><p>This feature automatically provides training with Light armor and Shields.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "lightly-armored",
+    "advancement": [
+      {
+        "_id": "dfgg2NF8ZQfNodZK",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ]
+  },
+  "_id": "phbftLightlyArmo",
+  "type": "feat",
+  "img": "icons/equipment/chest/breastplate-layered-leather-stitched.webp",
+  "effects": [
+    {
+      "name": "Lightly Armored",
+      "img": "icons/equipment/chest/breastplate-layered-leather-stitched.webp",
+      "_id": "aufDS1jZLhk4gr5v",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.armorProf.value",
+          "mode": 2,
+          "value": "lgt",
+          "priority": null
+        },
+        {
+          "key": "system.traits.armorProf.value",
+          "mode": 2,
+          "value": "shl",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": "Compendium.dnd-players-handbook.feats.Item.phbftLightlyArmo",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.hCs5Fz3BSQjzpB8E.ActiveEffect.GPZfTyqsYaNTAMNm",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1725553578117,
+        "modifiedTime": 1725553695557,
+        "lastModifiedBy": "rL0ykqNFC97PcTW6",
+        "exportSource": null
+      },
+      "_key": "!items.effects!phbftLightlyArmo.aufDS1jZLhk4gr5v"
+    }
+  ],
+  "folder": "tzwFgcTAGcVUmune",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.5",
+    "createdTime": 1724425894451,
+    "modifiedTime": 1740697807836,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbftLightlyArmo"
+}

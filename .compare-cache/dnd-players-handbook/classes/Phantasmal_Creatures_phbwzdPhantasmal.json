@@ -1,0 +1,305 @@
+{
+  "_id": "phbwzdPhantasmal",
+  "name": "Phantasmal Creatures",
+  "type": "feat",
+  "folder": "CMSIGY6SH6aPuLJ7",
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas]{Summon Beast} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0]{Summon Fey} spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature’s Hit Points. Once you cast either spell without a spell slot, you must finish a Long Rest before you can cast the spell in that way again.</p><section id=\"secret-ukMltDlAucTigpPa\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Summon Illusionary Beast</strong> and <strong>Fey</strong> activities can be used for a free cast at the spell's base level and automatically halves the summons HP.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "summon",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "override": false,
+          "concentration": true,
+          "value": "1"
+        },
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "90"
+        },
+        "target": {
+          "prompt": false,
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "space",
+            "special": ""
+          },
+          "override": false
+        },
+        "bonuses": {
+          "ac": "2",
+          "hd": "",
+          "hp": "- (@summon.attributes.hp.value / 2)",
+          "attackDamage": "2",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "saves": false,
+          "proficiency": true
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "FE1KtPxRIxrOdfBA",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbbesBestialAir",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "OPzY4gnuE8U6zh9l",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbbesBestialLan",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "IMj89MUZZ5nVQgW1",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbbesBestialWat",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "identifier": "",
+          "mode": "",
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "effects": [],
+        "name": "Summon Illusionary Beast",
+        "img": "",
+        "appliedEffects": []
+      },
+      "gh6HOJguk3DzhE8N": {
+        "type": "summon",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "override": false,
+          "concentration": true,
+          "value": "1"
+        },
+        "range": {
+          "override": false,
+          "value": "90",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "prompt": false,
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "space",
+            "special": ""
+          },
+          "override": false
+        },
+        "bonuses": {
+          "ac": "3",
+          "hd": "",
+          "hp": "- (@summon.attributes.hp.value / 2)",
+          "attackDamage": "3",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "saves": false,
+          "proficiency": true
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "S3TF2m9JrnJpCaGK",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbelsTricksyFey",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "kTs3HIivM2KBHQJw",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbelsFumingFeyS",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "pl4rU2ejkLTBwGWn",
+            "uuid": "Compendium.dnd-players-handbook.actors.Actor.phbelsMirthfulFe",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "identifier": "",
+          "mode": "",
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "effects": [],
+        "name": "Summon Illusionary Fey",
+        "_id": "gh6HOJguk3DzhE8N",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "enchant": {},
+    "identifier": "phantasmal-creatures"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425985584,
+    "modifiedTime": 1726346462082,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!phbwzdPhantasmal"
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "dmgWorkshop00000",
+  "name": "Workshop",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-02.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 5 Bastion Facility</em></p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>3</p><p><strong>Order: </strong>Craft</p><p>This Workshop is a creative space where useful items can be crafted.</p><p><em><strong>Artisan's Tools.</strong></em> The Workshop comes equipped with six different kinds of Artisan's Tools, chosen from the following list:</p><ul style=\"columns:2\"><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCarpenters]{Carpenter's Tools}</li><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPaintersSu]{Painter's Supplies}</li><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCobblersTo]{Cobbler's Tools}</li><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulPottersToo]{Potter's Tools}</li><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulGlassblowe]{Glassblower's Tools}</li><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulTinkersToo]{Tinker's Tools}</li><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulJewelersTo]{Jeweler's Tools}</li><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWeaversToo]{Weaver's Tools}</li><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulLeatherwor]{Leatherworker's Tools}</li><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulWoodcarver]{Woodcarver's Tools}</li><li>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulMasonsTool]{Mason's Tools}</li></ul><p><em><strong>Craft Options.</strong></em> When you issue the Craft order to this facility, choose one of the following options:</p><p><strong>Craft: Adventuring Gear.</strong> The facility's hirelings craft anything that can be made with the tools you chose when you added the Workshop to your Bastion (see above), using the rules in the <em>Player's Handbook</em>.</p><p>@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.CmKJpbyrDuVrAkIs]{Crafting Magic Items}</p><p><strong>Craft: Magic Item (Implement).</strong> If you are level 9+, you can commission the facility's hirelings to craft a Common or an Uncommon magic item chosen by you from the @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz#implements-tables]{Implements tables}. The facility has the tool required to craft the item, and the hirelings have proficiency with that tool as well as proficiency in the Arcana skill. See @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgMagicItems000.JournalEntryPage.CmKJpbyrDuVrAkIs]{Crafting Magic Items} for the time and money that must be spent to craft the item. If the item allows its user to cast any spells from it, you must craft the item yourself (the facility's hirelings can assist), and you must have all those spells prepared every day you spend crafting the item.</p><p><em><strong>Source of Inspiration.</strong></em> After spending an entire Short Rest in your Workshop, you gain Heroic Inspiration. You can't gain this benefit again until you finish a Long Rest.</p><p><em><strong>Enlarging the Facility.</strong></em> You can enlarge your Workshop to a Vast facility by spending 2,000 GP. If you do so, the Workshop gains two additional hirelings and three additional Artisan's Tools (chosen from the list above).</p>",
+      "chat": ""
+    },
+    "identifier": "workshop",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 3
+    },
+    "level": 5,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "workshop"
+    },
+    "enlargeable": true
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731338061894,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgWorkshop00000"
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "dmgScriptorium00",
+  "name": "Scriptorium",
+  "type": "facility",
+  "img": "modules/dnd-dungeon-masters-guide/assets/journal-art/bastion-grows-over-time-01.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Level 9 Bastion Facility</em></p><p><strong>Prerequisite: </strong>None</p><p><strong>Space: </strong>Roomy</p><p><strong>Hirelings: </strong>1</p><p><strong>Order: </strong>Craft</p><p>A Scriptorium contains desks and writing supplies.</p><p><em><strong>Craft Options.</strong></em> When you issue the Craft order to this facility, choose one of the following options:</p><p><strong>Craft: Book Replica.</strong> You commission the facility’s hireling to make a copy of a nonmagical Book. Doing so requires a blank book. The work takes 7 days.</p><p><strong>Craft: Spell Scroll.</strong> You commission the facility’s hireling to scribe a @UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSpellScroll00]{Spell Scroll} containing one Cleric or Wizard spell of level 3 or lower. The facility has the necessary Calligrapher’s Supplies, and the hireling meets all the prerequisites needed to scribe the scroll. The @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCraftingEquip]{Crafting Equipment} section in the <em>Player’s Handbook</em> specifies the time needed to scribe the scroll and the cost of the scroll, which you must pay.</p><p><strong>Craft: Paperwork.</strong> You commission the facility’s hireling to create up to fifty copies of a broadsheet, a pamphlet, or another loose-leaf paper product. The work takes 7 days and costs you 1 GP per copy. At no additional cost in time or money, the facility’s hireling can distribute the paperwork to one or more locations within 50 miles of your Bastion.</p>",
+      "chat": ""
+    },
+    "identifier": "scriptorium",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "craft": null,
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "scriptorium"
+    }
+  },
+  "effects": [],
+  "folder": "62CcQzoXwAoHhopU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1730985601999,
+    "modifiedTime": 1731091043874,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dmgScriptorium00"
+}

@@ -1,0 +1,295 @@
+{
+  "name": "Shapechange",
+  "system": {
+    "description": {
+      "value": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can’t be a Construct or an Undead.</p><p>When you cast the spell, you gain a number of Temporary Hit Points equal to the Hit Points of the first form into which you shape-shift. These Temporary Hit Points vanish if any remain when the spell ends.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you’re in it.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "level": 9,
+    "school": "trs",
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "materials": {
+      "value": "a jade circlet worth 1,500+ GP",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {
+      "4wdOr9lSUcfNLbuQ": {
+        "type": "transform",
+        "_id": "4wdOr9lSUcfNLbuQ",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "cr": "max(@details.level, @details.cr)",
+            "name": "",
+            "_id": "lEOG9YHpwTngHf8F",
+            "uuid": "",
+            "sizes": [],
+            "types": [
+              "aberration",
+              "beast",
+              "celestial",
+              "dragon",
+              "elemental",
+              "fey",
+              "fiend",
+              "giant",
+              "humanoid",
+              "monstrosity",
+              "ooze",
+              "plant"
+            ],
+            "movement": [],
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "settings": {
+          "effects": [
+            "origin",
+            "otherOrigin",
+            "spell"
+          ],
+          "keep": [
+            "mental",
+            "saves",
+            "skills",
+            "languages",
+            "spells",
+            "type",
+            "hp"
+          ],
+          "tempFormula": "@source.attributes.hp.max",
+          "preset": "polymorph",
+          "merge": [],
+          "other": [],
+          "spellLists": [],
+          "transformTokens": true,
+          "minimumAC": ""
+        },
+        "transform": {
+          "customize": true,
+          "mode": "cr",
+          "preset": "polymorph"
+        },
+        "name": "Initial Transformation",
+        "img": ""
+      },
+      "pD5inzm9XHzRpi2z": {
+        "type": "transform",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "cr": "max(@details.level, @details.cr)",
+            "name": "",
+            "_id": "lEOG9YHpwTngHf8F",
+            "uuid": "",
+            "sizes": [],
+            "types": [
+              "aberration",
+              "beast",
+              "celestial",
+              "dragon",
+              "elemental",
+              "fey",
+              "fiend",
+              "giant",
+              "humanoid",
+              "monstrosity",
+              "ooze",
+              "plant"
+            ],
+            "movement": [],
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "settings": {
+          "effects": [
+            "origin",
+            "otherOrigin",
+            "spell"
+          ],
+          "keep": [
+            "mental",
+            "saves",
+            "skills",
+            "languages",
+            "spells",
+            "type",
+            "hp"
+          ],
+          "tempFormula": "",
+          "preset": "polymorph",
+          "merge": [],
+          "other": [],
+          "spellLists": [],
+          "transformTokens": true,
+          "minimumAC": ""
+        },
+        "transform": {
+          "customize": true,
+          "mode": "cr",
+          "preset": "polymorph"
+        },
+        "name": "Follow Up Transformations",
+        "_id": "pD5inzm9XHzRpi2z",
+        "img": ""
+      }
+    },
+    "identifier": "shapechange"
+  },
+  "_id": "phbsplShapechang",
+  "type": "spell",
+  "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
+  "effects": [],
+  "folder": "iG0Zia8jh6uK39TB",
+  "sort": 100391,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.9",
+    "createdTime": 1724425970292,
+    "modifiedTime": 1760362857214,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!phbsplShapechang"
+}
